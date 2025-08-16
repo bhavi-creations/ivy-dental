@@ -61,10 +61,10 @@
             <span class="ul-sidebar-footer-title">Follow us</span>
 
             <div class="ul-sidebar-footer-social">
-                <a href="#"><i class="flaticon-facebook"></i></a>
-                <a href="#"><i class="flaticon-twitter"></i></a>
-                <a href="#"><i class="flaticon-instagram"></i></a>
-                <a href="#"><i class="flaticon-youtube"></i></a>
+            <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
+            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
+            <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
+            <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
             </div>
         </div>
     </div>

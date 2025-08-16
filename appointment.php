@@ -70,9 +70,19 @@
                             <label for="ul-appointment-treatment">Select Treatment</label>
                             <select name="treatment" id="ul-appointment-treatment">
                                 <option value="none" data-placeholder="true">Select Treatment</option>
-                                <option value="treatment 1">treatment 1</option>
-                                <option value="treatment 2">treatment 2</option>
-                                <option value="treatment 3">treatment 3</option>
+                                <option value="treatment 1">Root canal</option>
+                                <option value="treatment 2">Teeth Filling</option>
+                                <option value="treatment 3">Clear Aligners</option>
+                                <option value="treatment 4">Dental braces</option>
+                                <option value="treatment 5">Dentures</option>
+                                <option value="treatment 6">Teeth Whitening</option>
+                                <option value="treatment 7">Dental Implants</option>
+                                <option value="treatment 8">Teeth Scaling</option>
+                                <option value="treatment 9">Smile Makeover</option>
+                                <option value="treatment 10">Crowns & Bridges</option>
+                                <option value="treatment 11">Tooth Extraction</option>
+                                <option value="treatment 12">Full Mouth Restoration</option>
+                                
                             </select>
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                         </div>

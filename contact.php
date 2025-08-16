@@ -25,23 +25,25 @@
                     <div class="col">
                         <div class="ul-inner-contact-info">
                             <div class="icon"><i class="flaticon-pin"></i></div>
-                            <p class="descr">House #5, Street Number #98, brasilia- 70000-000, Brazil.</p>
+                            <p class="descr"> 461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                         </div>
                     </div>
                     <!-- single contact info -->
                     <div class="col">
                         <div class="ul-inner-contact-info">
                             <div class="icon"><i class="flaticon-envelope"></i></div>
-                            <p class="descr"><a href="mailto:info@exmple.com">info@exmple.com</a></p>
-                            <p class="descr"><a href="mailto:info@exmple.com">info@exmple.com</a></p>
+                            <p class="descr"><a href="mailto:dr.chiranjeevi@gmail.com">dr.chiranjeevi@gmail.com
+
+</a></p>
+                            <!-- <p class="descr"><a href="mailto:info@exmple.com">info@exmple.com</a></p> -->
                         </div>
                     </div>
                     <!-- single contact info -->
                     <div class="col">
                         <div class="ul-inner-contact-info">
                             <div class="icon"><i class="flaticon-call"></i></div>
-                            <p class="descr"><a href="tel:20866601112">+208-666-01112</a></p>
-                            <p class="descr"><a href="tel:+380961381877">+380961381877</a></p>
+                            <p class="descr"><a href="tel:20866601112">+91 77606 05222</a></p>
+                            <!-- <p class="descr"><a href="tel:+380961381877">+380961381877</a></p> -->
                         </div>
                     </div>
                 </div>
@@ -52,10 +54,10 @@
                         <!-- map -->
                         <div class="col align-self-stretch">
                             <div class="ul-inner-contact-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29215.11377000486!2d90.38128259111322!3d23.75132948384595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bcd681372b%3A0x5c2b8755e4327004!2sBashundhara%20City%20Shopping%20Complex!5e0!3m2!1sen!2sbd!4v1748523907106!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2804374828547!2d77.56038699999999!3d13.081405000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23985b52329b%3A0x104b64edd0d7e160!2sIVORY%20DENTAL%20-%20Vidyaranyapura%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1755346453191!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
-
+                       
                         <!-- contact form -->
                         <div class="col">
                             <div class="ul-inner-contact-form-wrapper">
@@ -77,7 +79,7 @@
                                         </div>
                                         <div class="col-sm-12 col-12">
                                             <div class="form-group">
-                                                <label for="ul-contact-subject" class="form-label">Subject</label>
+                                                <label for="ul-contact-subject" class="form-label">Number</label>
                                                 <input type="text" name="ul-contact-subject" id="ul-contact-subject" placeholder="Subject">
                                             </div>
                                         </div>

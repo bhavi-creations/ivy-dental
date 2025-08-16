@@ -110,7 +110,7 @@
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
                             <img src="assets/img/about-2-img-1.jpg" alt="Image">
-                            <span class="txt"><span class="number">12+</span> Y E A R S E X P E R I E N C E</span>
+                            <span class="txt"><span class="number">21+</span> Y E A R S E X P E R I E N C E</span>
                         </div>
                         <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
                     </div>
@@ -303,10 +303,10 @@
                 </div>
 
                 <div class=" index_service_button">
-                <a href="services-2.php" class="ul-btn flex-shrink-0 d-inline-block ">View More <i class="flaticon-arrow-up-right"></i></a>
-                
+                    <a href="services-2.php" class="ul-btn flex-shrink-0 d-inline-block ">View More <i class="flaticon-arrow-up-right"></i></a>
+
                 </div>
-          
+
             </div>
 
         </div>
@@ -335,7 +335,7 @@
                 <!-- txt -->
                 <div class="col">
                     <div class="ul-why-choose-us-txt">
-                    <span class="ul-section-sub-title  choose_us ul-2-section-sub-title"  id="choose_us">Why Choose Us</span>
+                        <span class="ul-section-sub-title  choose_us ul-2-section-sub-title" id="choose_us">Why Choose Us</span>
                         <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Why Choose Us</span> -->
                         <h2 class="ul-section-title text-white">Where Compassion Meets Excellence in Dental Care</h2>
                         <p class="ul-why-choose-us-descr">At Ivory Dental, Vidyaranyapura, we are committed to delivering top-quality dental care with compassion, innovation, and integrity — putting your smile and comfort first.</p>
@@ -394,20 +394,20 @@
                 <!-- single team member -->
                 <div class="col">
                     <div class="ul-team-member">
-                        <div class="ul-team-member-img">
+                        <div class="">
                             <img src="assets/img/home/chiranjeevi.png" alt="Member Image">
                         </div>
                         <div class="ul-team-member-txt">
                             <span class="ul-team-member-name"><a href="team-details.php">Dr. Chiranjeevi Reddy</a></span>
                             <span class="ul-team-member-role">Prosthodontist and Implantologist</span>
-                            <div class="ul-team-member-socials">
+                            <!--  <div class="ul-team-member-socials">
 
 
-                                <!-- <a href="#"><i class="flaticon-facebook"></i></a>
+                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a> -->
-                            </div>
+                                <a href="#"><i class="flaticon-twitter"></i></a> 
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -421,12 +421,12 @@
                         <div class="ul-team-member-txt">
                             <span class="ul-team-member-name"><a href="team-details.php">Dr (Prof)Divya Reddy. BDS.MDS</a></span>
                             <span class="ul-team-member-role">Paediatric Dentist</span>
-                            <div class="ul-team-member-socials">
+                            <!-- <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
                                 <a href="#"><i class="flaticon-twitter"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -440,12 +440,12 @@
                         <div class="ul-team-member-txt">
                             <span class="ul-team-member-name"><a href="team-details.php">Dr Sridevi.BDS</a></span>
                             <span class="ul-team-member-role">Resident Senior Dentist</span>
-                            <div class="ul-team-member-socials">
+                            <!-- <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
                                 <a href="#"><i class="flaticon-twitter"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -469,8 +469,8 @@
                     <div class="ul-2-feedbacks-heading">
                         <div>
                             <span class="ul-section-sub-title ul-2-section-sub-title">Patient Stories </span>
-                            <h2 class="ul-section-title">Doctor’s Note:</h2>
-                            <p class="ul-section-descr">“At Ivory Dental, our patients are at the center of everything we do. Every smile we restore, every treatment we provide, and every patient we comfort inspires us to keep raising the standard of dental care. Seeing our patients leave with brighter smiles and renewed confidence is the greatest reward for our team.”</p>
+                            <h2 class="ul-section-title" id="doc_note">Doctor’s Note:</h2>
+                            <p class="ul-section-descr" id="doc_note">“At Ivy Dental, our patients are at the center of everything we do. Every smile we restore, every treatment we provide, and every patient we comfort inspires us to keep raising the standard of dental care. Seeing our patients leave with brighter smiles and renewed confidence is the greatest reward for our team.”</p>
                         </div>
 
                         <div class="ul-2-feedbacks-slider-nav ul-feedbacks-slider-nav ul-slider-nav mt-0" id="ul-2-feedbacks-slider-nav">
@@ -488,16 +488,15 @@
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
-                                    <p class="ul-2-feedback-txt">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et
-                                        massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula</p>
+                                    <p class="ul-2-feedback-txt">Ivy Dental made my treatment painless and stress-free. The doctors are caring, and the clinic is very clean</p>
                                     <div class="ul-2-feedback-reviewer">
                                         <div class="ul-2-feedback-reviewer-img">
                                             <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
                                         </div>
 
                                         <div class="ul-2-feedback-reviewer-info">
-                                            <h3 class="ul-2-feedback-reviewer-name">Kathryn Murphy</h3>
-                                            <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4>
+                                            <h3 class="ul-2-feedback-reviewer-name">reddy</h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
                                         </div>
                                     </div>
                                 </div>
@@ -507,16 +506,15 @@
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
-                                    <p class="ul-2-feedback-txt">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et
-                                        massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula</p>
+                                    <p class="ul-2-feedback-txt">Got my dental implants here—excellent service, modern technology, and a friendly team. Highly satisfied!</p>
                                     <div class="ul-2-feedback-reviewer">
                                         <div class="ul-2-feedback-reviewer-img">
                                             <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
                                         </div>
 
                                         <div class="ul-2-feedback-reviewer-info">
-                                            <h3 class="ul-2-feedback-reviewer-name">Kathryn Murphy</h3>
-                                            <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4>
+                                            <h3 class="ul-2-feedback-reviewer-name">sri devi </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
                                         </div>
                                     </div>
                                 </div>
@@ -540,10 +538,10 @@
 
 
     <!-- CTA SECTION START -->
-    <section class="ul-2-cta ul-section-spacing pb-0">
+    <!-- <section class="ul-2-cta ul-section-spacing pb-0">
         <div class="ul-2-container">
             <div class="row row-cols-md-3 row-cols-2 row-cols-xxs-1 justify-content-center ul-2-cta-row g-3 g-lg-4">
-                <!-- single cta card -->
+                
                 <div class="col">
                     <div class="ul-2-cta-card ul-2-cta-card-1">
                         <span class="ul-2-cta-card-title">Contact Us </span>
@@ -560,7 +558,7 @@
                     </div>
                 </div>
 
-                <!-- single cta card -->
+             
                 <div class="col">
                     <div class="ul-2-cta-card ul-2-cta-card-2">
                         <span class="ul-2-cta-card-title text-center text-white">Schedule Hours</span>
@@ -600,7 +598,7 @@
                     </div>
                 </div>
 
-                <!-- single cta card -->
+               
                 <div class="col">
                     <div class="ul-2-cta-card ul-2-cta-card-3">
                         <span class="ul-2-cta-card-title text-white">Find Doctors</span>
@@ -620,7 +618,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- CTA SECTION END -->
 
 
@@ -727,16 +725,25 @@
                                 <div class="col">
                                     <div class="form-group">
                                         <select name="Doctor" id="ul-appointment-doctor">
-                                            <option value="none" data-placeholder="true">Select Doctor</option>
-                                            <option value="Doctor 1">Doctor 1</option>
-                                            <option value="Doctor 2">Doctor 2</option>
-                                            <option value="Doctor 3">Doctor 3</option>
+                                            <option value="none" data-placeholder="true">Select Treatment</option>
+                                            <option value="treatment 1">Root canal</option>
+                                            <option value="treatment 2">Teeth Filling</option>
+                                            <option value="treatment 3">Clear Aligners</option>
+                                            <option value="treatment 4">Dental braces</option>
+                                            <option value="treatment 5">Dentures</option>
+                                            <option value="treatment 6">Teeth Whitening</option>
+                                            <option value="treatment 7">Dental Implants</option>
+                                            <option value="treatment 8">Teeth Scaling</option>
+                                            <option value="treatment 9">Smile Makeover</option>
+                                            <option value="treatment 10">Crowns & Bridges</option>
+                                            <option value="treatment 11">Tooth Extraction</option>
+                                            <option value="treatment 12">Full Mouth Restoration</option>
                                         </select>
                                         <div id="ul-appointment-doctor-select-wrapper" class="position-relative"></div>
                                     </div>
                                 </div>
 
-                                <div class="col">
+                                <!-- <div class="col">
                                     <div class="form-group select-wrapper">
                                         <select name="treatment" id="ul-appointment-treatment">
                                             <option value="none" data-placeholder="true">Select Treatment</option>
@@ -746,20 +753,20 @@
                                         </select>
                                         <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                                     </div>
-                                </div>
+                                </div> -->
 
-                                <div class="col-12">
+                                <!-- <div class="col-12">
                                     <div class="form-group">
                                         <label for="terms-agreement" class="ul-checkbox-wrapper">
                                             <input type="checkbox" name="agreement" id="terms-agreement" hidden>
                                             <span class="ul-checkbox"><i class="flaticon-check-1"></i></span>
-                                            <span class="ul-checkbox-txt">I agree terms and conditions</span>
+                                            <span class="ul-checkbox-txt">I agree terms and conditions</span> 
                                         </label>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group text-center">
                                         <button type="submit" class="ul-btn">Appointment Now <i class="flaticon-arrow-up-right"></i></button>
                                     </div>
                                 </div>
@@ -770,10 +777,10 @@
 
                 <!-- contact info -->
                 <div class="col-md-5">
-                    <div class=" ">
+                    
 
-                        <img src="assets/img/appoitment.jpg" class="img-fluid" alt="">
-                    </div>
+                        <img src="assets/img/home/appointment _animated_1.png" class="img-fluid" alt="">
+                    
                 </div>
             </div>
         </div>
