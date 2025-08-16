@@ -37,25 +37,17 @@
                 <div class="col">
                     <div class="ul-2-about-txt">
                         <span class="ul-2-about-sub-title ul-section-sub-title ul-2-section-sub-title">About us</span>
-                        <h2 class="ul-section-title">Committed to Your Care Every Step of the Way</h2>
-                        <p class="ul-2-about-descr">With a team of world-class doctors, experienced nurses, and dedicated healthcare professionals, we are committed to delivering compassionate, high-quality medical care to every patient.</p>
+                        <h2 class="ul-section-title">Committed to Your Smile, Every Step of the Way</h2>
+                        <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p>
                         <ul class="ul-2-about-list">
-                            <li><i class="flaticon-right-arrow"></i> Highly Qualified Specialists</li>
-                            <li><i class="flaticon-right-arrow"></i> Advanced Medical Equipment</li>
-                            <li><i class="flaticon-right-arrow"></i> Safe, Comfortable Environment</li>
-                            <li><i class="flaticon-right-arrow"></i> 24/7 Emergency Services</li>
-                            <li><i class="flaticon-right-arrow"></i> Patient-Centered Approach</li>
-                            <li><i class="flaticon-right-arrow"></i> Affordable, Transparent Pricing</li>
+                            <li><i class="flaticon-right-arrow"></i>Highly Skilled Dental Specialists</li>
+                            <li><i class="flaticon-right-arrow"></i>Cutting-Edge Dental Technology</li>
+                            <li><i class="flaticon-right-arrow"></i> Hygienic, Comfortable Environment</li>
+                            <li><i class="flaticon-right-arrow"></i> Convenient Clinic Hours</li>
+                            <li><i class="flaticon-right-arrow"></i> Patient-Centered, Gentle Care</li>
+                            <li><i class="flaticon-right-arrow"></i> Affordable & Transparent Treatment Plans</li>
                         </ul>
-                        <div class="ul-2-about-author">
-                            <div class="ul-2-about-author-info">
-                                <div class="ul-2-about-author-img">
-                                    <img src="assets/img/about-2-author.jpg" alt="author">
-                                </div>
-                                <span class="ul-2-about-author-role">CEO, Founder Of CarePoint</span>
-                            </div>
-                            <img src="assets/img/signature.png" alt="author signature" class="signature">
-                        </div>
+
                         <a href="about.php" class="ul-btn">More About <i class="flaticon-arrow-up-right"></i></a>
                     </div>
                 </div>

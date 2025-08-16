@@ -1467,7 +1467,6 @@ button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: clamp(21px, 2.26vw, 43px);
   position: relative;
 }
 @media screen and (max-width: 575px) {
@@ -2508,7 +2507,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: clamp(12px, 1.05vw, 20px) 0 clamp(7px, 0.63vw, 12px);
+  padding: clamp(12px, 1.05vw, 10px) 0 clamp(2px, 0.63vw, 2px);
   border: solid rgba(206, 207, 208, 0.08);
   border-width: 1px 0;
 }

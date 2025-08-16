@@ -29,7 +29,7 @@
         <div class="ul-sidebar-header">
             <div class="ul-sidebar-header-logo">
                 <a href="index.php">
-                    <img src="assets/img/logo.svg" alt="logo" class="logo">
+                    <img src="assets/img/ivy logo.png" alt="logo" class="logo">
                 </a>
             </div>
             <!-- sidebar closer -->
@@ -133,7 +133,7 @@
                 <!-- header bottom left -->
                 <!-- <div class="col-2"> -->
                 <div class="ul-2-header-bottom-logo-container">
-                    <a href="index.php"><img src="assets/img/logo-white-2.svg" alt="logo"></a>
+                    <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
                 </div>
                 <!-- </div> -->
 
