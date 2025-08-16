@@ -270,11 +270,11 @@
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="ul-team-member-img">
-                            <img src="assets/img/team-member-1.jpg" alt="Member Image">
+                            <img src="assets/img/home/chiranjeevi.png" alt="Member Image">
                         </div>
                         <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr. Sohel Islam</a></span>
-                            <span class="ul-team-member-role">Chief Pathologist</span>
+                            <span class="ul-team-member-name"><a href="team-details.php">Dr. Chiranjeevi Reddy</a></span>
+                            <span class="ul-team-member-role">Prosthodontist and Implantologist</span>
                             <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
@@ -288,12 +288,12 @@
                 <!-- single team member -->
                 <div class="col">
                     <div class="ul-team-member">
-                        <div class="ul-team-member-img">
-                            <img src="assets/img/team-member-2.jpg" alt="Member Image">
+                        <div class="">
+                            <img src="assets/img/home/divya_reddy.png" alt="Member Image">
                         </div>
                         <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr. Tanvir Alam</a></span>
-                            <span class="ul-team-member-role">Consultant Pathologist</span>
+                            <span class="ul-team-member-name"><a href="team-details.php">Dr (Prof)Divya Reddy. BDS.MDS</a></span>
+                            <span class="ul-team-member-role">Paediatric Dentist</span>
                             <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
@@ -307,12 +307,12 @@
                 <!-- single team member -->
                 <div class="col">
                     <div class="ul-team-member">
-                        <div class="ul-team-member-img">
-                            <img src="assets/img/team-member-3.jpg" alt="Member Image">
+                        <div class="">
+                            <img src="assets/img/home/sridevi.png" alt="Member Image">
                         </div>
                         <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr. Nafisa Rahman</a></span>
-                            <span class="ul-team-member-role">Family Physician</span>
+                            <span class="ul-team-member-name"><a href="team-details.php">Dr Sridevi.BDS</a></span>
+                            <span class="ul-team-member-role">Resident Senior Dentist</span>
                             <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
@@ -409,7 +409,7 @@
     <!-- FEEDBACK SECTION END -->
 
 
- 
+
 
 
     <!-- CTA SECTION START -->
@@ -443,7 +443,7 @@
                                 <span class="time">10.00 PM - 08.00 PM</span>
                             </div>
 
-                            
+
                             <div class="ul-2-cta-card-hour">
                                 <span class="day">Tuesday</span>
                                 <span class="time">10.00 PM - 08.00 PM</span>
@@ -644,14 +644,14 @@
                 <!-- contact info -->
                 <div class="col-md-5">
                     <div class=" ">
-                        
+
                         <img src="assets/img/appoitment.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
-       
+
     </section>
     <!-- APPOINTMENT SECTION END -->
 </main>

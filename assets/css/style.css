@@ -344,8 +344,8 @@ button {
   letter-spacing: 0.5px;
 }
 .ul-btn:hover {
-  background-color: var(--ul-primary);
-  color: var(--ul-c3);
+  background-color:#1c482d;
+  color: #1c482d;
 }
 
 .ul-section-heading {
@@ -1027,9 +1027,10 @@ button {
   background-color: var(--ul-primary);
 }
 .ul-header-top {
+  background-color:#1c482d;
   color: var(--white);
   position: relative;
-  padding: clamp(9px, 0.63vw, 12px) 0;
+  padding: clamp(17.5px, 0.63vw, 12px) 0;
 }
 @media screen and (max-width: 575px) {
   .ul-header-top {
@@ -1209,7 +1210,9 @@ button {
   font-weight: 600;
 }
 .ul-header-nav a, .ul-header-nav a:not([href]):not([class]) {
-  color: var(--ul-primary);
+  color: #1c482d;
+  font-weight: bold;
+
 }
 .ul-header-nav a:hover, .ul-header-nav a:not([href]):not([class]):hover {
   color: var(--ul-secondary);
@@ -1439,9 +1442,9 @@ button {
 }
 
 .ul-2-header-container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  /* margin: auto; */
   max-width: calc(clamp(1150px, 84.39vw, 1606px) + 30px);
 }
 .ul-2-header-top::before {
@@ -1458,14 +1461,14 @@ button {
 .ul-2-header-bottom .ul-header-bottom-content {
   border-radius: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: #1c482d;
   gap: 0;
 }
 .ul-2-header-bottom-logo-container {
-  background-color: var(--ul-secondary);
+  background-color: #fffdee;
   align-self: stretch;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -1476,12 +1479,12 @@ button {
   }
 }
 .ul-2-header-bottom-logo-container img {
-  max-width: clamp(135px, 9.2vw, 175px);
+  max-width: clamp(165px, 9.2vw, 175px);
 }
 .ul-2-header-bottom-logo-container::before {
   content: "";
   position: absolute;
-  background-color: var(--ul-secondary);
+  background-color: #fffdee;
   width: 540%;
   height: 100%;
   right: calc(100% - 1px);
@@ -1491,8 +1494,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--white);
-  padding: clamp(14px, 1.16vw, 22px) clamp(16px, 1.68vw, 32px);
+  background-color: #fffdee;
+  padding: clamp(20px, 1.16vw, 22px) clamp(16px, 1.68vw, 32px);
   flex-grow: 1;
 }
 @media screen and (max-width: 575px) {
@@ -1521,8 +1524,8 @@ button {
   border: none;
 }
 .ul-2-header-bottom-right button:hover {
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  background-color: #fffdee;
+  color: #1c482d;
 }
 @media screen and (max-width: 575px) {
   .ul-2-header-bottom-right button:hover {
@@ -3598,7 +3601,7 @@ button {
 }
 
 .ul-ticker {
-  background-color: var(--ul-c3);
+  background-color: #f1ffb6a1;
   padding: clamp(18px, 1.52vw, 29px) 0;
 }
 .ul-ticker .splide__slide {
@@ -3657,7 +3660,7 @@ button {
 }
 .ul-team-member:hover::before {
   top: 0;
-  background-color: var(--ul-secondary);
+  background-color: #f1ffb6a1;
 }
 .ul-team-member:hover .ul-team-member-name a {
   color: var(--white);
@@ -5254,3 +5257,32 @@ button {
   background-color: var(--ul-secondary);
   color: var(--white);
 }/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+.header_need_space{
+  padding-right: 0px;
+}
+
+.header_need_space_2{
+  padding-left: 0px;
+
+}
+
+
+#header_btn_bg{
+  background-color: white;
+  color: #1c482d;
+  font-weight: bold;
+}
+
+
+
+#header_btn_bg:hover {
+  background-color:#1c482d;
+  color: #fffdee;
+}
