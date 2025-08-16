@@ -104,7 +104,7 @@
                     <!-- header top right -->
                     <div class="col-xxl col-5 d-none d-lg-block">
                         <div class="ul-header-top-infos justify-content-center">
-                            <span class="ul-header-top-info">Welcome Mediket hospital and doctors appoinment services</span>
+                            <span class="ul-header-top-info">Welcome To IVORY DENTAL - Vidyaranyapura, Bangalore</span>
                         </div>
                     </div>
 
@@ -185,7 +185,7 @@
                 <!-- header bottom right -->
                 <!-- <div class="col-2"> -->
                 <div class="ul-2-header-bottom-right">
-                    <button class="ul-header-search-opener"><i class="flaticon-search"></i></button>
+                    
                     <button class="ul-header-sidebar-opener d-inline-flex"><i class="flaticon-menu"></i></button>
                 </div>
                 <!-- </div> -->

@@ -8,16 +8,7 @@
                         <a href="index.php" class="logo-wrapper"><img src="assets/img/logo-white.svg" alt="logo"></a>
                         <p class="ul-footer-about-txt">It is a long established fact that a reader will be distracted the road readable content of a page when looking at layout. </p>
 
-                        <div class="ul-2-footer-payment-methods-wrapper">
-                            <span class="title">Payment Parners:</span>
-                            <div class="ul-footer-bottom-payment-methods justify-content-start">
-                                <img src="assets/img/payment-method-1.png" alt="Payment Method Logo">
-                                <img src="assets/img/payment-method-2.png" alt="Payment Method Logo">
-                                <img src="assets/img/payment-method-3.png" alt="Payment Method Logo">
-                                <img src="assets/img/payment-method-4.png" alt="Payment Method Logo">
-                                <img src="assets/img/payment-method-5.png" alt="Payment Method Logo">
-                            </div>
-                        </div>
+                         
                     </div>
 
                     <div class="ul-footer-widget">
@@ -35,12 +26,7 @@
                         <h3 class="ul-footer-widget-title">Join The Newsletter</h3>
                         <p class="ul-2-footer-newsletter-widget-descr">Want to be notified about our services. Just sign up and we'll send you a notification by email.</p>
 
-                        <form action="#" class="ul-footer-nwsltr-form">
-                            <div class="top">
-                                <input type="email" name="email" id="nwsltr-email" placeholder="Your Email Address" class="ul-nwsltr-input">
-                                <button type="submit">SUBSCRIBE <i class="flaticon-arrow-up-right"></i></button>
-                            </div>
-                        </form>
+                        
                     </div>
                 </div>
             </div>
