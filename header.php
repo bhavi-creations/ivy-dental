@@ -71,27 +71,16 @@
     <!-- SIDEBAR SECTION END -->
 
 
-    <!-- SEARCH MODAL SECTION START -->
-    <div class="ul-search-form-wrapper flex-grow-1 flex-shrink-0">
-        <button class="ul-search-closer"><i class="flaticon-close"></i></button>
-
-        <form action="#" class="ul-search-form">
-            <div class="ul-search-form-right">
-                <input type="search" name="search" id="ul-search" placeholder="Search Here">
-                <button type="submit"><span class="icon"><i class="flaticon-search"></i></span></button>
-            </div>
-        </form>
-    </div>
-    <!-- SEARCH MODAL SECTION END -->
+   
 
 
     <!-- HEADER SECTION START -->
     <header class="ul-header ul-2-header">
         <div class="row">
-            <div class="col-2  header_need_space" >
-                <div class="ul-2-header-bottom-logo-container">
+            <div class="col-2 ul-2-header-bottom-logo-container  header_need_space" >
+                 
                     <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
-                </div>
+                 
             </div>
             <div class="col-10 header_need_space_2">
                 <div class="ul-header-top ul-2-header-top">

@@ -5,12 +5,12 @@
         <!-- BREADCRUMBS SECTION START -->
         <section class="ul-breadcrumb">
             <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title">Service Details</h1>
+                <h1 class="ul-breadcrumb-title">Dental braces</h1>
 
                 <ul class="ul-breadcrumb-nav">
                     <li><a href="index.php">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li>Service Details</li>
+                    <li>Dental braces</li>
                 </ul>
             </div>
         </section>

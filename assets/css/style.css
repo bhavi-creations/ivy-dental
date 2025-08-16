@@ -335,8 +335,8 @@ button {
   display: flex;
   align-items: center;
   gap: clamp(7px, 0.53vw, 10px);
-  background-color: var(--ul-c3);
-  color: var(--ul-primary);
+  color: #fffdee;
+  background-color: #3d7553;
   padding: clamp(8px, 0.84vw, 16px) clamp(20px, 1.68vw, 32px);
   border-radius: 4px;
   font-weight: 600;
@@ -344,7 +344,7 @@ button {
   letter-spacing: 0.5px;
 }
 .ul-btn:hover {
-  background-color:#1c482d;
+  background-color:#fffdee ;
   color: #1c482d;
 }
 
@@ -366,7 +366,7 @@ button {
   flex-shrink: 0;
 }
 .ul-section-sub-title {
-  color: var(--ul-secondary);
+  color:#1c482d;
   border: 1px solid var(--ul-secondary);
   display: inline-flex;
   align-items: center;
@@ -381,7 +381,7 @@ button {
 .ul-section-sub-title::after, .ul-section-sub-title::before {
   content: "";
   display: inline-block;
-  background-color: var(--ul-secondary);
+  background-color:#3d7553;
   clip-path: polygon(92.305% 10.683%, 92.305% 10.683%, 88.796% 7.021%, 84.935% 4.125%, 80.804% 1.996%, 76.486% 0.631%, 72.062% 0.031%, 67.614% 0.195%, 63.226% 1.123%, 58.978% 2.814%, 54.953% 5.267%, 51.234% 8.483%, 51.234% 8.483%, 51.013% 8.672%, 50.776% 8.82%, 50.524% 8.925%, 50.264% 8.988%, 50% 9.01%, 49.736% 8.988%, 49.476% 8.925%, 49.224% 8.82%, 48.987% 8.672%, 48.767% 8.483%, 48.767% 8.483%, 45.047% 5.269%, 41.022% 2.819%, 36.774% 1.132%, 32.386% 0.209%, 27.938% 0.049%, 23.514% 0.651%, 19.196% 2.016%, 15.065% 4.143%, 11.204% 7.033%, 7.696% 10.683%, 7.696% 10.683%, 4.789% 14.885%, 2.575% 19.447%, 1.047% 24.277%, 0.197% 29.281%, 0.018% 34.365%, 0.503% 39.434%, 1.643% 44.396%, 3.433% 49.155%, 5.864% 53.62%, 8.929% 57.694%, 43.299% 96.839%, 43.299% 96.839%, 44.473% 97.977%, 45.758% 98.862%, 47.126% 99.494%, 48.549% 99.873%, 50% 100%, 51.451% 99.873%, 52.874% 99.494%, 54.242% 98.862%, 55.527% 97.977%, 56.702% 96.839%, 91.071% 57.694%, 91.071% 57.694%, 94.136% 53.62%, 96.567% 49.155%, 98.357% 44.396%, 99.497% 39.434%, 99.982% 34.365%, 99.803% 29.281%, 98.954% 24.277%, 97.425% 19.447%, 95.212% 14.885%, 92.305% 10.683%);
   width: clamp(17px, 1.05vw, 20px);
   aspect-ratio: 20/18;
@@ -1214,9 +1214,9 @@ button {
   font-weight: bold;
 
 }
-.ul-header-nav a:hover, .ul-header-nav a:not([href]):not([class]):hover {
+/* .ul-header-nav a:hover, .ul-header-nav a:not([href]):not([class]):hover {
   color: var(--ul-secondary);
-}
+} */
 @media screen and (max-width: 991px) {
   .ul-header-nav > *.active > a {
     color: var(--black) !important;
@@ -1779,7 +1779,7 @@ button {
   }
 }
 .ul-2-banner {
-  background-color: var(--ul-primary);
+  background-color: #1c482d;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1828,7 +1828,7 @@ button {
   inset: -30px;
   left: 0;
   right: 155px;
-  background: linear-gradient(90deg, #213C84 0%, #041C33 100%);
+  /* background: linear-gradient(90deg, #213C84 0%, #041C33 100%); */
   opacity: 0.4;
   clip-path: polygon(25.978% 100%, 25.978% 100%, 26.681% 88.144%, 25.049% 77.376%, 21.698% 67.444%, 17.247% 58.093%, 12.31% 49.07%, 7.506% 40.121%, 3.451% 30.993%, 0.762% 21.433%, 0.056% 11.186%, 1.949% 0%, 100% 0%, 100% 100%, 25.978% 100%);
   z-index: -1;
@@ -1867,11 +1867,12 @@ button {
 }
 .ul-2-banner .ul-btn {
   display: inline-flex;
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  background-color: #fffdee;
+  color:#1c482d;
+  font-weight: bolder;
 }
 .ul-2-banner .ul-btn:hover {
-  background-color: var(--ul-c3);
+  background-color: #fffdee;
   color: var(--ul-primary);
 }
 .ul-2-banner-vectors > * {
@@ -1924,7 +1925,7 @@ button {
   position: absolute;
   width: clamp(29px, 1.68vw, 32px);
   height: 110%;
-  background: linear-gradient(180deg, #FFFFFF 0%, #0D6DFD 80.8%);
+  background: linear-gradient(180deg, #fffdee 0%, #1c482d 80.8%);
   opacity: 0.12;
   border-radius: 100px 100px 0px 0px;
   transform: matrix(1, 0, 0, -1, 0, 0) translateX(-50%);
@@ -2108,8 +2109,8 @@ button {
   top: 0;
   height: 100%;
   text-align: center;
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  background-color:#3d7553;
+  color:#fffdee;
   writing-mode: vertical-rl;
   transform: scale(-1);
   border-radius: 0 16px 16px 0;
@@ -2166,8 +2167,8 @@ button {
   font-family: var(--font-lato);
 }
 .ul-2-about-list li i {
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  color: #fffdee;
+  background-color: #3d7553;
   font-size: clamp(10px, 0.63vw, 12px);
   width: clamp(21px, 1.26vw, 24px);
   aspect-ratio: 1/1;
@@ -3601,7 +3602,7 @@ button {
 }
 
 .ul-ticker {
-  background-color: #f1ffb6a1;
+  background-color: #fffdee;
   padding: clamp(18px, 1.52vw, 29px) 0;
 }
 .ul-ticker .splide__slide {
@@ -3612,7 +3613,7 @@ button {
   margin-bottom: 0;
   font-family: var(--font-lato);
   font-weight: 800;
-  color: var(--ul-black);
+  color: #1c482d;
   font-size: clamp(22px, 2.1vw, 40px);
   letter-spacing: 0.5px;
   position: relative;
@@ -3721,7 +3722,7 @@ button {
 }
 
 .ul-why-choose-us {
-  background: linear-gradient(90deg, #041C33 0%, #213C84 100%);
+  background: linear-gradient(90deg, #1c482d 0%, #1c482d 90%);
   counter-reset: section;
   color: var(--white);
   position: relative;
@@ -3827,7 +3828,7 @@ button {
   justify-content: center;
   align-items: center;
   background: var(--white);
-  color: var(--ul-secondary);
+  color: #1c482d;
   border: 4px solid var(--ul-gray);
   border-radius: 28.5px;
   font-size: clamp(17px, 1.05vw, 20px);
@@ -3849,11 +3850,15 @@ button {
 .ul-why-choose-us .ul-btn {
   display: inline-flex;
   background: transparent;
-  border: 1px solid var(--ul-secondary);
+  border: 1px solid #fffdee;
   color: var(--white);
+  font-weight: bold;
 }
 .ul-why-choose-us .ul-btn:hover {
-  background-color: var(--ul-secondary);
+  background-color: #fffdee;
+  color: #1c482d;
+  font-weight: bold;
+
 }
 .ul-why-choose-us-vectors > * {
   position: absolute;
@@ -5275,14 +5280,45 @@ button {
 
 
 #header_btn_bg{
-  background-color: white;
-  color: #1c482d;
+  color: white;
+  background-color: #1c482d;
   font-weight: bold;
 }
 
 
 
 #header_btn_bg:hover {
-  background-color:#1c482d;
+  color:#fffdee;
+  background-color: #3d7553;
+}
+
+
+#choose_us{
   color: #fffdee;
+}
+
+
+
+
+
+
+
+
+
+.choose_us::after, .choose_us::before {
+  content: "";
+  display: inline-block;
+  background-color:#fffdee;
+  clip-path: polygon(92.305% 10.683%, 92.305% 10.683%, 88.796% 7.021%, 84.935% 4.125%, 80.804% 1.996%, 76.486% 0.631%, 72.062% 0.031%, 67.614% 0.195%, 63.226% 1.123%, 58.978% 2.814%, 54.953% 5.267%, 51.234% 8.483%, 51.234% 8.483%, 51.013% 8.672%, 50.776% 8.82%, 50.524% 8.925%, 50.264% 8.988%, 50% 9.01%, 49.736% 8.988%, 49.476% 8.925%, 49.224% 8.82%, 48.987% 8.672%, 48.767% 8.483%, 48.767% 8.483%, 45.047% 5.269%, 41.022% 2.819%, 36.774% 1.132%, 32.386% 0.209%, 27.938% 0.049%, 23.514% 0.651%, 19.196% 2.016%, 15.065% 4.143%, 11.204% 7.033%, 7.696% 10.683%, 7.696% 10.683%, 4.789% 14.885%, 2.575% 19.447%, 1.047% 24.277%, 0.197% 29.281%, 0.018% 34.365%, 0.503% 39.434%, 1.643% 44.396%, 3.433% 49.155%, 5.864% 53.62%, 8.929% 57.694%, 43.299% 96.839%, 43.299% 96.839%, 44.473% 97.977%, 45.758% 98.862%, 47.126% 99.494%, 48.549% 99.873%, 50% 100%, 51.451% 99.873%, 52.874% 99.494%, 54.242% 98.862%, 55.527% 97.977%, 56.702% 96.839%, 91.071% 57.694%, 91.071% 57.694%, 94.136% 53.62%, 96.567% 49.155%, 98.357% 44.396%, 99.497% 39.434%, 99.982% 34.365%, 99.803% 29.281%, 98.954% 24.277%, 97.425% 19.447%, 95.212% 14.885%, 92.305% 10.683%);
+  width: clamp(17px, 1.05vw, 20px);
+  aspect-ratio: 20/18;
+}
+
+
+.index_service_section{
+  padding: 10px !important;
+}
+
+.index_service_button{
+margin-bottom: 50px !important;
 }
