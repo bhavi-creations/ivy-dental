@@ -215,172 +215,155 @@
         <!-- BREADCRUMBS SECTION START -->
         <section class="ul-breadcrumb">
             <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title">Case Study Details</h1>
+                <h1 class="ul-breadcrumb-title">Service Details</h1>
 
                 <ul class="ul-breadcrumb-nav">
                     <li><a href="index.html">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li>Case Study Details</li>
+                    <li>Service Details</li>
                 </ul>
             </div>
         </section>
         <!-- BREADCRUMBS SECTION END -->
 
-
-        <!-- CASE STUDY DETAILS SECTION START -->
-        <section class="ul-section-spacing ul-case-study-details">
+        <!-- SERVICE DETAILS SECTION START -->
+        <section class="ul-service-details ul-section-spacing">
             <div class="ul-container">
-                <!-- top -->
-                <div class="ul-case-study-details-heading">
-                    <div class="ul-case-study-details-heading-img">
-                        <img src="assets/img/case-study-details-heading-img.jpg" alt="Image">
-                    </div>
-                    <div class="ul-case-study-details-heading-txt">
-                        <span class="ul-case-study-details-info"><i class="flaticon-pin"></i> Niagara Falls, Banff National Park</span>
-                        <span class="ul-case-study-details-info"><i class="flaticon-calendar"></i> 11 March 2025</span>
-                        <h2 class="ul-case-study-details-title">Hospital Blood Donation Drive Campaign</h2>
-                        <p class="ul-case-study-details-descr">To increase community participation in voluntary blood donation, ensuring a consistent and safe blood supply for emergency care, surgeries, and critical patients.</p>
-                        <div class="ul-case-study-details-share">
-                            <span class="title">Share:</span>
-                            <div class="ul-case-study-details-share-links">
-                                <a href="#"><i class="flaticon-facebook"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a>
-                                <a href="#"><i class="flaticon-youtube"></i></a>
-                                <a href="#"><i class="flaticon-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
+                <div class="row g-xl-5 g-4">
                     <div class="col-lg-8 col-md-7">
-                        <div class="ul-case-study-details-txt ul-service-details-txt">
-                            <h3>Goals:</h3>
-                            <ul>
-                                <li>Collect at least 500+ units of blood within the campaign duration</li>
-                                <li>Educate the public on the importance of regular blood donation</li>
-                                <li>Register at least 300 new voluntary donors for the hospital database</li>
-                                <li>Strengthen community trust and engagement</li>
-                            </ul>
+                        <div>
+                            <div class="ul-service-details-img">
+                                <img src="assets/img/service-details-img.jpg" alt="Image">
+                            </div>
+                            <div class="ul-service-details-txt">
+                                <h2 class="ul-service-details-title">Tooth filling </h2>
+                                <p class="ul-service-details-descr">Tooth filling is a simple and effective procedure to repair cavities or minor tooth damage. The decayed portion of the tooth is removed and replaced with a durable filling material that restores its natural shape and function. It prevents further decay, strengthens the tooth, and helps you maintain a healthy smile.</p>
+                                <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
+                                <div class="ul-service-details-inner-block inner-block-1">
 
-                            <div class="ul-case-study-details-txt-block">
-                                <div class="txt">
-                                    <h3>Timeline:</h3>
-                                    <ul>
-                                        <li>Duration: 1 week (can be extended or repeated quarterly)</li>
-                                        <li>Proposed Date: July 8-14, 2025]</li>
-                                        <li>Daily Hours: 9:00 AM - 5:00 PM</li>
-                                    </ul>
 
-                                    <h3> Location(s):</h3>
-                                    <ul>
-                                        <li>Main hospital lobby or conference hall</li>
-                                        <li>Partner colleges, corporate offices, and local community centers</li>
-                                        <li>Mobile donation units (if available)</li>
-                                    </ul>
+
+                                    <div class="ul-service-details-inner-block">
+                                        <h3 class="ul-service-details-inner-title">Key Features:</h3>
+                                        <ul>
+                                            <li><span class="title">Cavity treatment :</span> <span class="value">Repairs decayed areas.</span></li>
+                                            <li><span class="title">Durable fillings :</span> <span class="value">Materials like composite, silver, or ceramic.</span></li>
+                                            <li><span class="title">Pain-free procedure :</span> <span class="value">Quick and comfortable.</span></li>
+                                            <li><span class="title">Prevents tooth damage :</span> <span class="value">Stops decay from spreading.</span></li>
+                                            
+                                            <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
+                                        </ul>
+                                    </div>
+
+
+
+
+                                    <!-- <div>
+                                        <h3 class="ul-service-details-inner-title">What We Offer:</h3>
+                                        <ul>
+                                            <li>One-on-one virtual sessions with certified counselors</li>
+                                            <li>Stress and anxiety management techniques</li>
+                                            <li>Sleep improvement & energy-boosting strategies</li>
+                                            <li>Personalized nutrition and wellness plans</li>
+                                            <li>Habit-building for a healthier, more balanced life</li>
+                                            <li>Confidential, judgment-free care</li>
+                                        </ul>
+                                    </div> -->
+
+                                    <div class="ul-service-details-inner-block-img">
+                                        <img src="assets/img/service-details-inner.jpg" alt="Image">
+                                    </div>
                                 </div>
-                                <div class="ul-case-study-details-txt-block-video-cover">
-                                    <img src="assets/img/case-study-details-video-cover.jpg" alt="video cover">
-                                    <a href="https://www.youtube.com/watch?v=example" data-fslightbox="case-study-video">
-                                        <i class="flaticon-play-button"></i>
-                                    </a>
+
+                                <!-- <div class="ul-service-details-inner-block">
+                                    <h3 class="ul-service-details-inner-title">Key Features:</h3>
+                                    <ul>
+                                        <li><span class="title">Stress Reduction Coaching:</span> <span class="value">Learn to manage pressure burnout, and daily anxiety with proven techniques</span></li>
+                                        <li><span class="title">Personalized Nutrition & Wellness Plans:</span> <span class="value">Build healthier routines that support productivity and rest.</span></li>
+                                        <li><span class="title">Lifestyle Planning:</span> <span class="value">Create sustainable habits for nutrition, exercise, and sleep.</span></li>
+                                        <li><span class="title">One-on-One Counseling:</span> <span class="value">Talk to licensed professionals in a private, secure online setting.</span></li>
+                                        <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li>
+                                    </ul>
+                                </div> -->
+
+                                <div class="ul-service-details-inner-block">
+                                    <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
+                                    <p>Ignoring cavities can lead to severe pain, infection, or even tooth loss. A dental filling not only stops decay but also restores the tooth’s normal function and appearance, ensuring long-term oral health and a confident smil</p>
+                                    <div class="ul-accordion ul-service-details-faq">
+                                       <!--  <div class="ul-single-accordion-item">
+                                            <div class="ul-single-accordion-item__header">
+                                                <div class="left">
+                                                    <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
+                                                </div>
+                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
+                                            </div>
+
+                                            <div class="ul-single-accordion-item__body">
+                                                <p>Untreated tooth infections can spread, cause severe pain, and even lead to tooth loss or health complications. Root canal treatment not only saves your tooth but also protects your overall oral health, allowing you to eat, speak, and smile confidently without discomfort.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="ul-single-accordion-item open">
+                                            <div class="ul-single-accordion-item__header">
+                                                <div class="left">
+                                                    <h3 class="ul-single-accordion-item__title">Why Join Us as a Volunteer?</h3>
+                                                </div>
+                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
+                                            </div>
+
+                                            <div class="ul-single-accordion-item__body">
+                                                <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="ul-single-accordion-item">
+                                            <div class="ul-single-accordion-item__header">
+                                                <div class="left">
+                                                    <h3 class="ul-single-accordion-item__title">Be Part of a Community</h3>
+                                                </div>
+                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
+                                            </div>
+
+                                            <div class="ul-single-accordion-item__body">
+                                                <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
+                                            </div>
+                                        </div> -->
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="ul-case-study-details-txt-block-2">
-                                <div>
-                                    <h3>Team & Roles:</h3>
-
-                                    <ul>
-                                        <li>Medical Officers - screening, supervision</li>
-                                        <li>Nurses & Phlebotomists - safe collection</li>
-                                        <li>Admin Staff - Registration & coordination</li>
-                                        <li>Volunteers - Donor support, refreshments, follow-up</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h3>Target Audience:</h3>
-
-                                    <ul>
-                                        <li>Hospital staff and families</li>
-                                        <li>University students</li>
-                                        <li>Local residents</li>
-                                        <li>Corporate employees (through partnerships)</li>
-                                    </ul>
-                                </div>
-
-                                <div class="ul-case-study-details-txt-block-img">
-                                    <img src="assets/img/case-study-details-inner.jpg" alt="image">
-                                </div>
-
-                                <div>
-                                    <h3>Promotion Channels:</h3>
-                                    <ul>
-                                        <li>Hospital website banner & blog post</li>
-                                        <li>Email newsletters to patients & partners</li>
-                                        <li>Email newsletters to patients & partners</li>
-                                        <li>Posters inside hospital and community boards</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h3>Success Metrics:</h3>
-                                    <ul>
-                                        <li>Number of first-time donors</li>
-                                        <li>Increase in voluntary donor registrations</li>
-                                        <li>Social media reach and engagement metrics</li>
-                                        <li>Press/media coverage (if applicable)</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <h3>Venue Direction:</h3>
-                            <p>Follow the signs from Ridgeway Valley to Alpine Base Camp. Clear markers and staff guides will assist you all the way to the event location</p>
-
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.8380273371417!2d90.4229417761797!3d23.788781487300124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7bdc620b4b3%3A0x79962f7164b3b694!2sWest%20Wind%20Point%2C%20Bir%20Uttam%20Rafiqul%20Islam%20Ave%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1748777020609!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
-                    <!-- sidebar -->
                     <div class="col-lg-4 col-md-5">
-                        <div class="ul-case-study-details-sidebar">
-                            <!-- sidebar widget -->
+                        <div class="ul-service-details-sidebar">
                             <div class="ul-service-details-sidebar-widget">
-                                <ul class="ul-service-details-sidebar-widget-list">
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Date</span><span>:</span><span class="value">January 10, 2025</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Venue</span><span>:</span><span class="value">Melbourne, Australia</span></li>
+                                <span class="ul-service-details-sidebar-widget-title">Our Services</span>
+                                <ul class="ul-service-details-sidebar-links">
+                                    <li><a href="service-details.html" class="active">General Health Consultation <i class="flaticon-arrow-up-right"></i></a></li>
+                                    <li><a href="service-details.html">Chronic Disease Management <i class="flaticon-arrow-up-right"></i></a></li>
+                                    <li><a href="service-details.html">Online Video Consultation <i class="flaticon-arrow-up-right"></i></a></li>
+                                    <li><a href="service-details.html">Preventive Health Checkups <i class="flaticon-arrow-up-right"></i></a></li>
+                                    <li><a href="service-details.html">Women's & Men's Health <i class="flaticon-arrow-up-right"></i></a></li>
+                                    <li><a href="service-details.html">Family Health Services <i class="flaticon-arrow-up-right"></i></a></li>
                                 </ul>
                             </div>
 
-                            <!-- sidebar widget -->
-                            <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Project Details</span>
-                                <ul class="ul-service-details-sidebar-widget-list">
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Start Date </span><span>:</span><span class="value">January 10, 2025</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Event Venue </span><span>:</span><span class="value">Melbourne, Australia</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Organizer</span><span>:</span><span class="value">Patel, Emily</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Category</span><span>:</span><span class="value">Adventure Ride</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Phone</span><span>:</span><span class="value"><a href="tel:123456789"> +1 (1234)- 567-800</a></span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">Location</span><span>:</span><span class="value">New York City</span></li>
-                                    <li class="ul-case-study-details-sidebar-info"><span class="key">E-mail</span><span>:</span><span class="value"><a href="mailto:info@gmail.com">info@gmail.com</a></span></li>
-                                </ul>
-                            </div>
-
-                            <!-- sidebar widget -->
-                            <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Social Icon</span>
-                                <ul class="ul-case-study-details-sidebar-socials">
-                                    <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-                                    <li><a href="#"><i class="flaticon-instagram"></i></a></li>
-                                    <li><a href="#"><i class="flaticon-youtube"></i></a></li>
-                                    <li><a href="#"><i class="flaticon-facebook"></i></a></li>
-                                </ul>
+                            <!-- call to action card -->
+                            <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
+                                <span class="ul-service-details-sidebar-widget-title">Need more info?</span>
+                                <div class="ul-service-details-sidebar-cta-content">
+                                    <p class="contact-info">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
+                                    <span class="contact-info number"><a href="tel:+1890123456">+91 7760605222</a></span>
+                                    <p class="contact-info"><a href="mailto:support@example.com">support@example.com</a></p>
+                                    <a href="contact.html" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- CASE STUDY DETAILS SECTION END -->
+        <!-- SERVICE DETAILS SECTION END -->
     </main>
 
     <!-- FOOTER SECTION START -->
@@ -435,7 +418,9 @@
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 align-items-center gy-4">
                     <div class="col order-1">
                         <p class="copyright-txt">&copy; <span class="colored">Meditics</span>
-                            <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>. All Rights Reserved.
                         </p>
                     </div>
 
@@ -473,7 +458,6 @@
     <script src="assets/vendor/animate-wow/wow.min.js"></script>
     <script src="assets/vendor/fslightbox/fslightbox.js"></script>
     <script src="assets/vendor/slim-select/slimselect.min.js"></script>
-    <script src="assets/vendor/masonary/masonry.pkgd.min.js"></script>
 
 
     <!-- custom JS -->
