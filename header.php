@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meditics</title>
+    <title>IVY Dental</title>
 
     <!-- libraries CSS -->
     <link rel="stylesheet" href="assets/icon/flaticon_err.css">
@@ -16,6 +16,10 @@
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
 </head>
 
 <body>
@@ -61,29 +65,29 @@
             <span class="ul-sidebar-footer-title">Follow us</span>
 
             <div class="ul-sidebar-footer-social">
-            <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
-            <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
-            <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+                <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
+                <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
+                <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
+                <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
             </div>
         </div>
     </div>
     <!-- SIDEBAR SECTION END -->
 
 
-   
+
 
 
     <!-- HEADER SECTION START -->
     <header class="ul-header ul-2-header">
-        <div class="row">
-            <div class="col-2 ul-2-header-bottom-logo-container  header_need_space" >
-                 
-                    <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
-                 
+        <div class="row just_adjust">
+            <div class="col-8 col-lg-2 ul-2-header-bottom-logo-container  header_need_space">
+
+                <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
+
             </div>
-            <div class="col-10 header_need_space_2">
-                <div class="ul-header-top ul-2-header-top">
+            <div class=" col-2  col-lg-10 header_need_space_2">
+                <div class="ul-header-top ul-2-header-top toppest">
                     <div class="ul-2-header-container">
                         <div class="row row-cols-xxl-3 align-items-center gy-2">
                             <div class="col-xxl col-lg-3 col-sm-5 col-6 col-xxs-12 ps-5">
@@ -100,13 +104,13 @@
                             <!-- header top right -->
                             <div class="col-xxl col-5 d-none d-lg-block">
                                 <div class="ul-header-top-infos justify-content-center">
-                                    <span class="ul-header-top-info">  IVORY DENTAL - Vidyaranyapura, Bangalore</span>
+                                    <span class="ul-header-top-info"> IVORY DENTAL - Vidyaranyapura, Bangalore</span>
                                 </div>
                             </div>
 
                             <div class="col-xxl col-lg-3 col-sm-7 col-6 d-xxs-none">
                                 <div class="ul-header-top-infos justify-content-end">
-                                     
+
                                     <span class="ul-header-top-info">
                                         <i class="flaticon-call"></i>
                                         <span class="txt">
@@ -137,39 +141,27 @@
 
                                         <a href="index.php">Home</a>
                                         <a href="about.php">About</a>
-                                        <div class="has-sub-menu">
+                                        <a href="services.php">Services </a>
+                                        <!-- <div class="has-sub-menu">
                                             <a role="button">Services</a>
 
                                             <div class="ul-header-submenu">
                                                 <ul>
-                                                    <li><a href="services.php">Services</a></li>
-                                                    <li><a href="services-2.php">Services Layout 2</a></li>
-                                                    <li><a href="service-details.php">Service Details</a></li>
+                                                    
+                                                    <li><a href="services.php">Services </a></li>
+                                                    
                                                 </ul>
                                             </div>
-                                        </div>
-                                        <div class="has-sub-menu">
-                                            <a role="button">Pages</a>
-
-                                            <div class="ul-header-submenu">
-                                                <ul>
-                                                    <li><a href="case-studies.php">Case Studies</a></li>
-                                                    <li><a href="case-study-details.php">Case Study Details</a></li>
-                                                    <li><a href="team.php">Team</a></li>
-                                                    <li><a href="team-details.php">Team Member Details</a></li>
-                                                    <li><a href="testimonials.php">Testimonials</a></li>
-                                                    <li><a href="appointment.php">Appoinment</a></li>
-                                                    <li><a href="404.php">404</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <a href="blog.php">Blogs</a>
+                                        </div> -->
+                                        <a href="gallery.php">Gallery</a>
+                                        <a href="testimonials.php">Testimonials</a>
+                                        <a href="#">Blogs</a>
 
                                         <a href="contact.php">Contact</a>
                                     </nav>
                                 </div>
                             </div>
-                            <a href="appointment.php"  id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
+                            <a href="appointment.php" id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
                         </div>
                         <!-- </div> -->
 

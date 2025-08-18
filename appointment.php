@@ -88,15 +88,8 @@
                         </div>
                     </div>
 
-                    <div class="col-12">
-                        <div class="form-group">
-                            <label for="terms-agreement" class="ul-checkbox-wrapper">
-                                <input type="checkbox" name="agreement" id="terms-agreement" hidden>
-                                <span class="ul-checkbox"><i class="flaticon-check"></i></span>
-                                <span class="ul-checkbox-txt">I agree terms and conditions</span>
-                            </label>
-                        </div>
-                    </div>
+                    
+                   
 
                     <div class="col-12">
                         <div class="form-group">

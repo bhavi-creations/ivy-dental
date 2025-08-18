@@ -409,7 +409,7 @@ button {
   text-align: center;
   position: relative;
   z-index: 1;
-  background: var(--ul-gradient);
+  background: #edb2acba;
   color: var(--white);
   overflow: hidden;
 }
@@ -455,7 +455,7 @@ button {
   color: rgba(255, 255, 255, 0.7);
 }
 .ul-breadcrumb-nav a:hover {
-  color: var(--ul-secondary);
+  color:#1c482d;
 }
 .ul-breadcrumb .separator {
   display: inline-flex;
@@ -1024,7 +1024,7 @@ button {
   position: relative;
   top: 0;
   z-index: 99;
-  background-color: var(--ul-primary);
+  background-color:#1c482d;
 }
 .ul-header-top {
   background-color:#1c482d;
@@ -1173,6 +1173,17 @@ button {
   display: flex;
   gap: clamp(24px, 2.52vw, 48px);
 }
+
+@media (min-width: 992px) and (max-width: 1299px)
+ {
+  .ul-header-nav {
+  display: flex;
+  gap: clamp(15px, 2.52vw, 15px) !important;
+}
+}
+
+
+
 @media screen and (max-width: 991px) {
   .ul-header-nav {
     flex-direction: column;
@@ -1474,7 +1485,7 @@ button {
 }
 @media screen and (max-width: 575px) {
   .ul-2-header-bottom-logo-container {
-    padding: 20px 0;
+    /* padding: 20px 0; */
     padding-right: clamp(21px, 2.26vw, 43px);
   }
 }
@@ -1814,7 +1825,7 @@ button {
   justify-content: flex-end;
   padding-top: clamp(69px, 3.78vw, 72px);
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 @media screen and (max-width: 991px) {
   .ul-2-banner-imgs {
@@ -1858,6 +1869,8 @@ button {
   font-size: clamp(28px, 3.78vw, 72px);
   letter-spacing: 0.5px;
   margin-bottom: clamp(9px, 0.95vw, 18px);
+  position: relative;
+  z-index: 10 !important;
 }
 .ul-2-banner-descr {
   font-size: clamp(13px, 0.84vw, 16px);
@@ -2282,7 +2295,7 @@ button {
   border-radius: 4px;
   width: clamp(69px, 3.78vw, 72px);
   aspect-ratio: 1/1;
-  padding: 8px;
+  padding: 3px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2800,8 +2813,8 @@ button {
   opacity: 100%;
 }
 .ul-feedbacks-slider .swiper-slide-active .ul-feedback-reviewer {
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  background-color:  #fffdee;
+  color: #1c482d;
 }
 .ul-feedbacks-slider-nav {
   gap: clamp(20px, 1.26vw, 24px);
@@ -2822,8 +2835,9 @@ button {
   color: var(--ul-primary);
 }
 
+
 .ul-feedback {
-  background-color: var(--white);
+  background-color:#edb2acba;
   border-radius: 16px;
   padding: clamp(20px, 2.1vw, 40px) clamp(15px, 1.84vw, 35px);
   text-align: center;
@@ -2879,7 +2893,7 @@ button {
 .ul-feedback-txt {
   margin-bottom: 0;
   font-size: clamp(15px, 0.95vw, 18px);
-  color: var(--ul-gray2);
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -2972,7 +2986,7 @@ button {
 .ul-2-feedback-reviewer-img {
   width: clamp(55px, 3.05vw, 58px);
   border-radius: 50%;
-  border: 2px solid var(--ul-secondary);
+  border: 2px solid #edb3ac;
   flex-shrink: 0;
 }
 .ul-2-feedback-reviewer-img img {
@@ -2997,7 +3011,7 @@ button {
 }
 
 .ul-appointment {
-  background: var(--ul-gray);
+  background: #fffdee;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -3368,6 +3382,7 @@ button {
 }
 .ul-footer-about .logo-wrapper {
   margin-bottom: clamp(8px, 0.68vw, 13px);
+  
 }
 .ul-footer-about-txt {
   font-size: clamp(13px, 0.84vw, 16px);
@@ -3470,7 +3485,7 @@ button {
   position: relative;
 }
 .ul-footer-widget-links a:hover {
-  color: var(--ul-secondary);
+  color: #eb8f85;
 }
 .ul-footer-contact-widget {
   max-width: clamp(176px, 14.5vw, 276px);
@@ -3539,9 +3554,7 @@ button {
   color: rgba(255, 255, 255, 0.9);
   font-size: clamp(13px, 0.84vw, 16px);
 }
-.ul-footer-bottom a:hover {
-  color: var(--ul-secondary);
-}
+ 
 .ul-footer-bottom-links {
   display: flex;
   justify-content: flex-end;
@@ -3963,9 +3976,10 @@ button {
 }
 
 .ul-inner-service-2 {
-  background-color: var(--ul-gray);
+  background-color: #edb2acba;
   border-radius: clamp(12px, 0.84vw, 16px);
   overflow: hidden;
+  color: white;
 }
 .ul-inner-service-2:hover .ul-btn {
   grid-template-columns: 1fr max-content;
@@ -3977,7 +3991,7 @@ button {
 .ul-inner-service-2-img img {
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 419/256;
+  /* aspect-ratio: 419/256; */
 }
 .ul-inner-service-2-btn-wrapper {
   position: absolute;
@@ -4016,6 +4030,7 @@ button {
 }
 .ul-inner-service-2-txt .ul-service-title {
   margin-bottom: clamp(10px, 0.84vw, 16px);
+  
 }
 .ul-inner-service-2-txt .ul-service-descr {
   margin-bottom: 0;
@@ -4041,7 +4056,7 @@ button {
   font-size: clamp(25px, 2.1vw, 40px);
   line-height: 120%;
   letter-spacing: 0.5px;
-  color: var(--ul-primary);
+  color: #1c482d;
   margin-bottom: clamp(10px, 0.79vw, 15px);
 }
 .ul-service-details-descr, .ul-service-details-txt p {
@@ -4089,7 +4104,7 @@ button {
   font-size: clamp(18px, 1.26vw, 24px);
   line-height: 133%;
   letter-spacing: 0.5px;
-  color: var(--ul-primary);
+  color: #1c482d;
   margin-bottom: clamp(14px, 1.26vw, 24px);
   margin-top: clamp(16px, 1.68vw, 32px);
 }
@@ -4117,8 +4132,8 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--ul-secondary);
-  color: var(--white);
+  background-color: #3d7553;
+  color:#fffdee;
   width: clamp(20px, 1.26vw, 24px);
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -4162,7 +4177,7 @@ button {
   color: var(--ul-primary);
 }
 .ul-service-details-sidebar-widget {
-  background-color: var(--ul-gray);
+  background-color: #fffdee;
   padding: clamp(16px, 1.68vw, 32px);
   border-radius: 16px;
   margin-bottom: clamp(16px, 1.68vw, 32px);
@@ -4202,10 +4217,10 @@ button {
 .ul-service-details-sidebar-links a:hover, .ul-service-details-sidebar-links a.active {
   color: var(--white);
   padding: clamp(7px, 0.63vw, 12px) clamp(10px, 0.84vw, 16px);
-  background-color: var(--ul-secondary);
+  background-color: #3d7553;
 }
 .ul-service-details-sidebar-cta {
-  background: linear-gradient(131.07deg, #041C33 11.67%, #0D6DFD 130.74%);
+  background: linear-gradient(131.07deg, #e7ad9a 11.67%, #fffdee 130.74%);
   position: relative;
   z-index: 1;
 }
@@ -4213,7 +4228,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(../img/service-sidebar-cta-bg.jpg) no-repeat center center/cover;
+  /* background: url(../img/service-sidebar-cta-bg.jpg) no-repeat center center/cover; */
   opacity: 0.08;
   z-index: -1;
   border-radius: 16px;
@@ -4232,7 +4247,7 @@ button {
   color: var(--white);
 }
 .ul-service-details-sidebar-cta .contact-info a:hover {
-  color: var(--ul-secondary);
+  color: #3d7553;
 }
 .ul-service-details-sidebar-cta .contact-info.number {
   display: block;
@@ -4273,7 +4288,7 @@ button {
 
 .ul-team-details-top {
   padding: 0 clamp(15px, 5.94vw, 113px) clamp(24px, 2.52vw, 48px);
-  border-bottom: 1px solid rgba(206, 207, 208, 0.48);
+  /* border-bottom: 1px solid rgba(206, 207, 208, 0.48); */
 }
 @media screen and (max-width: 479px) {
   .ul-team-details-top {
@@ -4295,7 +4310,7 @@ button {
   font-size: clamp(24px, 2.52vw, 48px);
   line-height: 117%;
   letter-spacing: 0.5px;
-  color: var(--ul-primary);
+  color: #1c482d;
   margin-bottom: clamp(4px, 0.32vw, 6px);
 }
 .ul-team-details-position {
@@ -4303,7 +4318,7 @@ button {
   font-weight: 500;
   font-size: clamp(17px, 1.05vw, 20px);
   line-height: 140%;
-  color: var(--ul-secondary);
+  color: #1c482d;
   display: block;
   margin-bottom: clamp(14px, 1.26vw, 24px);
 }
@@ -4338,7 +4353,7 @@ button {
 }
 .ul-team-details-info-icon {
   font-size: clamp(26px, 1.52vw, 29px);
-  color: var(--ul-secondary);
+  color: #edb3ac;
 }
 .ul-team-details-info-txt .title {
   font-family: var(--font-lato);
@@ -4682,7 +4697,7 @@ button {
   align-items: center;
   width: clamp(65px, 4.2vw, 80px);
   aspect-ratio: 1/1;
-  background: var(--ul-secondary);
+  background: rgb(61, 117, 83);
   color: var(--white);
   border-radius: 999px;
   font-size: clamp(22px, 1.42vw, 27px);
@@ -4727,7 +4742,7 @@ button {
   }
 }
 .ul-inner-contact-form-wrapper {
-  background-color: var(--ul-primary);
+  background-color: #edb2acba;
   padding: clamp(24px, 2.94vw, 56px) clamp(15px, 2.94vw, 56px);
   border-radius: 0 clamp(12px, 0.84vw, 16px) clamp(12px, 0.84vw, 16px) 0;
 }
@@ -4776,7 +4791,7 @@ button {
 }
 .ul-inner-contact-form .ul-btn {
   width: 100%;
-  background-color: var(--ul-secondary);
+  background-color: #3d7553;
   color: var(--white);
   justify-content: center;
 }
@@ -5323,10 +5338,12 @@ button {
 
 .index_service_section{
   padding: 10px !important;
+   
 }
 
 .index_service_button{
 margin-bottom: 50px !important;
+margin-top: 50px;
 }
 
 .ul-team-member-name a, .ul-team-member-role{
@@ -5347,3 +5364,44 @@ margin-bottom: 50px !important;
 
 
  
+#ul_service_title a{
+  color: white !important;
+  
+}
+
+#ul_service_title  {
+  color: white !important;
+  
+}
+
+
+
+
+
+.just_adjust{
+  margin-right:  0px;
+}
+
+
+
+@media (max-width: 991px) {
+  
+  
+  .toppest{
+    display: none;
+  }
+  .ul-2-header-bottom-center{
+    display: none;
+
+  }
+
+  .ul-2-header-bottom .ul-header-bottom-content{
+    justify-content: end;
+  }
+
+  .header_need_space_2{
+  margin-top: 50px;
+  margin-left: 50px !important;
+}
+}
+

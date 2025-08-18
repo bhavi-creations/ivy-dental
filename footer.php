@@ -5,29 +5,56 @@
             <div class="ul-footer-top ul-section-spacing">
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about ul-2-footer-about">
-                        <a href="index.php" class="logo-wrapper"><img src="assets/img/logo-white.svg" alt="logo"></a>
-                        <p class="ul-footer-about-txt">It is a long established fact that a reader will be distracted the road readable content of a page when looking at layout. </p>
-
-
+                        <a href="index.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo"></a>
+                        <p class="ul-footer-about-txt">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
+                        <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 7760605222</p>
+                        <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 9740805222</p>
                     </div>
+
+                    <div class="ul-footer-widget">
+                        <h3 class="ul-footer-widget-title">Helpful Link</h3>
+
+                        <div class="ul-footer-widget-links">
+                            <a href="index.php">Home</a>
+                            <a href="about.php">About</a>
+                            <a href="services.php">Services</a>
+                            <a href="testimonials.php">Testimonials</a>
+                            <a href="gallery.php">Gallery</a>
+                            <a href="#">Blogs</a>
+                            <a href="contact.php">Contact</a>
+
+                        </div>
+                    </div>
+                    <div class="ul-footer-widget">
+                        <h3 class="ul-footer-widget-title">Quick Links</h3>
+
+                        <div class="ul-footer-widget-links">
+                            <a href="rootcanal.php" class="active">Root canal </a>
+                            <a href="teethfilling.php">Teeth Filling </a>
+                            <a href="clearaligners.php">Clear Aligners </a>
+                            <a href="dental_braces.php">Dental braces </a>
+                            <a href="dentures.php">Dentures </a>
+                            <a href="teeth_whitening.php">Teeth Whitening </a>
+                            
+                        </div>
+                    </div>
+
 
                     <div class="ul-footer-widget">
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="service-details.php">General Health Check-Ups</a>
-                            <a href="service-details.php">Stress & Lifestyle Counseling</a>
-                            <a href="service-details.php">Vaccinations & Immunizations</a>
-                            <a href="service-details.php">Referral to Specialists</a>
+                            <a href="dental_implants.php">Dental Implants </a>
+                            <a href="teeth_scaling.php">Teeth Scaling </a>
+                            <a href="smile_makeover.php">Smile Makeover </a>
+                            <a href="crowns_bridges.php">Crowns & Bridges </a>
+                            <a href="tooth_extraction.php">Tooth Extraction </a>
+                            <a href="full_mouth_restoration.php">Full Mouth Restoration </a>
                         </div>
                     </div>
 
-                    <div class="ul-footer-widget ul-2-footer-newsletter-widget">
-                        <h3 class="ul-footer-widget-title">Join The Newsletter</h3>
-                        <p class="ul-2-footer-newsletter-widget-descr">Want to be notified about our services. Just sign up and we'll send you a notification by email.</p>
 
 
-                    </div>
                 </div>
             </div>
 
@@ -35,11 +62,13 @@
             <div class="ul-footer-bottom">
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 align-items-center gy-4">
                     <div class="col order-1">
-                        <p class="copyright-txt">&copy; <span class="colored">Bhavi creations Pvt Ltd</span>
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>. All Rights Reserved.
-                        </p>
+                        <div class="ul-footer-bottom-links">
+                            <a href="terms.php">Terms & conditions</a>
+                            <a href="privacy.php">Privacy & Policy</a>
+
+
+
+                        </div>
                     </div>
 
                     <div class="col-lg col-md-12  order-3 order-lg-2">
@@ -53,10 +82,13 @@
 
                     <!-- links -->
                     <div class="col order-2 order-lg-3">
-                        <div class="ul-footer-bottom-links">
-                            <a href="#">Terms & conditions</a>
-                            <a href="#">Privacy & Policy</a>
-                        </div>
+                        
+
+                        <p class="copyright-txt">&copy; <span class="colored">Bhavi creations Pvt Ltd</span>
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>. All Rights Reserved.
+                        </p>
                     </div>
                 </div>
             </div>
