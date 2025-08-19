@@ -22,7 +22,7 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service-details-img.jpg" alt="Image">
+                            <img src="assets/img/service/teeth_filling.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
                             <h2 class="ul-service-details-title">Tooth filling </h2>
@@ -60,7 +60,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/service-details-inner.jpg" alt="Image">
+                                    <img src="assets/img/home/teeth filling.png" alt="Image">
                                 </div>
                             </div>
 

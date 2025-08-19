@@ -11,9 +11,13 @@
                 <!-- banner txt -->
                 <div class="col-lg-6">
                     <div class="ul-2-banner-txt">
-                        <span class="ul-2-banner-sub-title ul-section-sub-title ul-2-section-sub-title">SMILE BRIGHTER, LIVE HEALTHIER</span>
+                        <span class="ul-2-banner-sub-title ul-section-sub-title ul-2-section-sub-title">ORAL HEALTH TO OVERALL HEALTH</span>
                         <h1 class="ul-2-banner-title">Your Trusted Partner in Complete Dental Care.</h1>
-                        <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p>
+                        <p class="ul-2-banner-descr ">Our Dental Hospital places your smile at the heart of everything we do.
+                            With advanced technology and gentle care, we deliver complete dental solutions.
+                            From preventive check-ups to cosmetic and restorative treatments, we cover it all.
+                            Our expert team ensures safe, comfortable, and long-lasting results every time.</p>
+                        <!-- <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p> -->
                         <a href="about.php" class="ul-btn">Discover More <i class="flaticon-arrow-up-right"></i></a>
                     </div>
                 </div>
@@ -21,8 +25,15 @@
                 <!-- banner image -->
                 <div class="col-xl-6 col-lg-5">
                     <div class="ul-2-banner-imgs">
-                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1">
-                        <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2">
+                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1 d-none d-lg-block">
+                        <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
+
+                        <video autoplay muted loop playsinline controls class="video_section">
+                            <source src="./assets/img/reels_ivy.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+
                     </div>
                 </div>
             </div>
@@ -40,7 +51,10 @@
         <!-- banner socials -->
         <div class="ul-2-banner-socials ul-banner-socials">
             <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
+            <a href="#"><i class="bi bi-quora"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+
             <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
             <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
 
@@ -110,7 +124,7 @@
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
                             <img src="assets/img/about-2-img-1.jpg" alt="Image">
-                            <span class="txt"><span class="number">21+</span> Y E A R S E X P E R I E N C E</span>
+                            <span class="txt"><span class="number">24+</span> Y E A R S E X P E R I E N C E</span>
                         </div>
                         <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
                     </div>
@@ -120,7 +134,7 @@
                 <div class="col">
                     <div class="ul-2-about-txt">
                         <span class="ul-2-about-sub-title ul-section-sub-title ul-2-section-sub-title">About us</span>
-                        <h2 class="ul-section-title">Committed to Your Smile, Every Step of the Way</h2>
+                        <h2 class="ul-section-title">Committed to Your Oral Health</h2>
                         <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p>
                         <ul class="ul-2-about-list">
                             <li><i class="flaticon-right-arrow"></i>Highly Skilled Dental Specialists</li>
@@ -155,106 +169,298 @@
                 </div>
             </div>
 
-            <!-- services card -->
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-2 row-cols-xxs-1 g-0 gy-4 justify-content-center">
-                <!-- single service -->
-                <div class="col index_service_section">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/root canal.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <div class="ul-service-icon">
-                                        <img src="assets/img/root-canal-icon.png" alt="">
+
+
+
+
+            <div class="team-content-wrapper">
+                <div class="team-content-wrapper">
+
+                    <div class="custom-slide-container swiper">
+                        <div class="custom-slide-content   ">
+                            <div class="custom-card-wrapper swiper-wrapper py-5">
+
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/root canal.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/root-canal-icon.png" alt="">
+                                                </div>
+
+                                                <a href="rootcanal.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="rootcanal.php">Root canal</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Relieve pain and save your natural tooth with advanced root
+                                                canal treatment</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/teeth filling.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/tooth-filling-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="teethfilling.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="teethfilling.php">Teeth Filling</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Restore your tooth’s strength and function with safe and
+                                                lasting dental fillings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/clear aligners.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/invisiline aliners.png" alt="">
+
+                                                </div>
+
+                                                <a href="clearaligners.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="clearaligners.php">Clear Aligners</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Straighten your teeth discreetly with advanced clear
+                                                aligners.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/Dental braces.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/braces-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="dental_braces.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_braces.php"> Dental braces</a>
+                                            </h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Achieve a perfect smile with advanced dental braces</p>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <a href="rootcanal.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="rootcanal.php">Root canal</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Relieve pain and save your natural tooth with advanced root
-                                canal treatment</p>
-                        </div>
-                    </div>
-                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/dentures.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/denture-icon.png" alt="">
 
-                <!-- single service -->
-                <div class="col index_service_section">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/teeth filling.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/tooth-filling-icon.png" alt="">
+                                                </div>
 
+                                                <a href="dentures.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures.php">Dentures</a>
+                                            </h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Restore your smile and confidence with natural-looking
+                                                dentures.</p>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <a href="teethfilling.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="teethfilling.php">Teeth Filling</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Restore your tooth’s strength and function with safe and
-                                lasting dental fillings.</p>
-                        </div>
-                    </div>
-                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/teeth whitning.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/teeth whitning-icon.png" alt="">
 
+                                                </div>
 
-                <!-- single service -->
-                <div class="col index_service_section">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/clear aligners.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/invisiline aliners.png" alt="">
-
+                                                <a href="teeth_whitening.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_whitening.php">Teeth Whitening</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Brighten your smile with safe and effective teeth whitening.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <a href="clearaligners.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="clearaligners.php">Clear Aligners</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Straighten your teeth discreetly with advanced clear
-                                aligners.</p>
-                        </div>
-                    </div>
-                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/dental implants.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/dental-implant-icon.png" alt="">
 
+                                                </div>
 
-                <!-- single service -->
-                <div class="col  index_service_section">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/Dental braces.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/braces-icon.png" alt="">
+                                                <a href="dental_implants.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_implants.php">Dental Implants</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Replace missing teeth with strong, permanent dental
+                                                implants.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/teeth scaling.jpg" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/teeth scaling-icon.png" alt="">
 
+                                                </div>
+
+                                                <a href="teeth_scaling.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_scaling.php">Teeth Scaling</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Keep your gums healthy with professional teeth scaling and
+                                                cleaning.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/smile makeover.jpg" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/smile-make over-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="smile_makeover.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="smile_makeover.php">Smile Makeover</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Transform your smile with a customized smile makeover.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/crown-bridg.jpg" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/crown-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="crowns_bridges.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="crowns_bridges.php">Crowns & Bridges</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Restore damaged or missing teeth with durable crowns and bridges.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/tooth extration.jpg" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/tooth-extraction-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="tooth_extraction.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="tooth_extraction.php">Tooth Extraction</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Safe and gentle tooth extraction for a healthier smile.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom-card custom_card_bg_three swiper-slide">
+                                    <div class="ul-inner-service-2">
+                                        <div class="ul-inner-service-2-img">
+                                            <img src="assets/img/service/full_mouth_restoration.png" alt="Service Image">
+                                            <div class="ul-inner-service-2-btn-wrapper">
+                                                <div class="ul-service-icon">
+                                                    <img src="assets/img/Full mouth restoration-icon.png" alt="">
+
+                                                </div>
+
+                                                <a href="full_mouth_restoration.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="ul-inner-service-2-txt">
+                                            <h3 class="ul-service-title" id="ul_service_title"><a href="full_mouth_restoration.php">Full Mouth Restoration</a></h3>
+                                            <p class="ul-service-descr" id="ul_service_title">Rebuild your smile and oral health with full mouth restoration.</p>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <a href="dental_braces.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+
+
+
+
+
+
+
+
+
+
                             </div>
                         </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_braces.php"> Dental braces</a>
-                            </h3>
-                            <p class="ul-service-descr" id="ul_service_title">Achieve a perfect smile with advanced dental braces</p>
-                        </div>
+
+
+
+
+
+
+
+
+
+
                     </div>
                 </div>
-
-
-
             </div>
+
 
             <div class=" index_service_button text-center pb-3">
                 <a href="services.php" class="ul-btn flex-shrink-0 d-inline-block ">View More <i class="flaticon-arrow-up-right"></i></a>
@@ -347,10 +553,10 @@
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
-                            <img src="assets/img/home/chiranjeevi.png" alt="Member Image">
+                            <img src="assets/img/service/chiranjeevi.png" alt="Member Image">
                         </div>
-                        <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr. Chiranjeevi Reddy</a></span>
+                        <div class="ul-team-member-txt mt-2">
+                            <span class="ul-team-member-name"> <a href="about.php">Dr. (Prof)Chiranjeevi Reddy BDS.MDS</a></span>
                             <span class="ul-team-member-role">Prosthodontist and Implantologist</span>
                             <!--  <div class="ul-team-member-socials">
 
@@ -368,10 +574,10 @@
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
-                            <img src="assets/img/home/divya_reddy.png" alt="Member Image">
+                            <img src="assets/img/service/divya.png" alt="Member Image">
                         </div>
-                        <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr (Prof)Divya Reddy. BDS.MDS</a></span>
+                        <div class="ul-team-member-txt mt-2">
+                            <span class="ul-team-member-name"><a href="about.php">Dr (Prof)Divya Reddy. BDS.MDS</a></span>
                             <span class="ul-team-member-role">Paediatric Dentist</span>
                             <!-- <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
@@ -387,10 +593,10 @@
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
-                            <img src="assets/img/home/sridevi.png" alt="Member Image">
+                            <img src="assets/img/service/sridevi.png" alt="Member Image">
                         </div>
-                        <div class="ul-team-member-txt">
-                            <span class="ul-team-member-name"><a href="team-details.php">Dr Sridevi.BDS</a></span>
+                        <div class="ul-team-member-txt mt-2">
+                            <span class="ul-team-member-name"><a href="about.php">Dr (Prof)Sridevi BDS.MDS</a></span>
                             <span class="ul-team-member-role">Resident Senior Dentist</span>
                             <!-- <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
@@ -420,7 +626,7 @@
                 <div class="col-lg col-md-5">
                     <div class="ul-2-feedbacks-heading">
                         <div>
-                            <span class="ul-section-sub-title ul-2-section-sub-title">Patient Stories </span>
+                            <span class="ul-section-sub-title ul-2-section-sub-title" id="patient_section">Patient Stories </span>
                             <h2 class="ul-section-title" id="doc_note">Doctor’s Note:</h2>
                             <p class="ul-section-descr" id="doc_note">“At Ivy Dental, our patients are at the center of everything we do. Every smile we restore, every treatment we provide, and every patient we comfort inspires us to keep raising the standard of dental care. Seeing our patients leave with brighter smiles and renewed confidence is the greatest reward for our team.”</p>
                         </div>
@@ -440,14 +646,14 @@
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
-                                    <p class="ul-2-feedback-txt">Ivy Dental made my treatment painless and stress-free. The doctors are caring, and the clinic is very clean</p>
+                                    <p class="ul-2-feedback-txt">It was great experience. Procedure was neatly done by Dr Chiranjeevi and team. Treatment and follow up was taken care diligently. Thank you.</p>
                                     <div class="ul-2-feedback-reviewer">
                                         <div class="ul-2-feedback-reviewer-img">
                                             <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
                                         </div>
 
                                         <div class="ul-2-feedback-reviewer-info">
-                                            <h3 class="ul-2-feedback-reviewer-name">Reddy</h3>
+                                            <h3 class="ul-2-feedback-reviewer-name">Shailaja.R gowda</h3>
                                             <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
                                         </div>
                                     </div>
@@ -458,14 +664,148 @@
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
-                                    <p class="ul-2-feedback-txt">Got my dental implants here—excellent service, modern technology, and a friendly team. Highly satisfied!</p>
+                                    <p class="ul-2-feedback-txt">Successfull implant done , doctor explained the whole process and overall a great experience. Thank you Doctor and all service staff.</p>
                                     <div class="ul-2-feedback-reviewer">
                                         <div class="ul-2-feedback-reviewer-img">
                                             <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
                                         </div>
 
                                         <div class="ul-2-feedback-reviewer-info">
-                                            <h3 class="ul-2-feedback-reviewer-name">Sri Devi </h3>
+                                            <h3 class="ul-2-feedback-reviewer-name">Vasu R </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">Had a really good experience at Ivory Dental.
+                                        Dr.Chiranjeevi and his staff were welcoming and very much professional in their work.
+                                        Completely happy about the dental work they did.</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Saiesh Arun kumar</h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">I had root canal done at Ivory, all the doctors are extremely supportive and very good treatment. My pain is reduced significantly. Thank you</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Johnson Bellary </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">Thank you Dr. Chiranjivi and team I had very good experience for my root canal treatment. The entire team is awesome, took care of me well everytime I Visited.</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Balakrishna.S </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">Amazing doctor, strongly recommend Dr Reddy. Treats wonderfully. Had a great experience with ivory dental.</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Somesh </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">Very professional and experienced doctor. Treatments and recommendations are specific and personalized.
+                                        Courteous Staff.</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Anuragg </h3>
+                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="ul-2-feedback">
+                                    <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
+                                    <p class="ul-2-feedback-txt">Dr. Reddy was very responsive while attending me and didn't waste any time on unnecessary tests or treatments.</p>
+                                    <div class="ul-2-feedback-reviewer">
+                                        <div class="ul-2-feedback-reviewer-img">
+                                            <img src="assets/img/reviewer-1.jpg" alt="Reviewer Image">
+                                        </div>
+
+                                        <div class="ul-2-feedback-reviewer-info">
+                                            <h3 class="ul-2-feedback-reviewer-name">Piyush Vinayaraj </h3>
                                             <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
                                         </div>
                                     </div>
@@ -493,7 +833,7 @@
 
 
     <!-- BLOG SECTION START -->
-    <section class="ul-2-blogs ul-section-spacing">
+    <!-- <section class="ul-2-blogs ul-section-spacing">
         <div class="ul-2-container">
 
             <div class="ul-section-heading">
@@ -501,7 +841,7 @@
                     <span class="ul-section-sub-title ul-2-section-sub-title">LATES BLOG</span>
                     <h2 class="ul-section-title">Latest Tips for a Healthy Dental</h2>
                 </div>
-                <!-- <a href="blogs.php" class="ul-btn flex-shrink-0">VIEW ALL BLOG <i class="flaticon-arrow-up-right"></i></a> -->
+
             </div>
 
 
@@ -521,7 +861,7 @@
                                     <span>11 March 2025</span>
                                 </div>
                                 <h3 class="ul-2-blog-title"><a href="#">Blogs will presented here</a></h3>
-                                <!-- <a href="blog-details.php" class="ul-2-blog-btn">Read More <i class="flaticon-arrow-up-right"></i></a> -->
+
                             </div>
                         </div>
                     </div>
@@ -541,7 +881,6 @@
                                 </div>
                                 <h3 class="ul-2-blog-title"><a href="#">Blogs will presented here</a></h3>
 
-                                <!-- <a href="blog-details.php" class="ul-2-blog-btn">Read More <i class="flaticon-arrow-up-right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -552,7 +891,173 @@
         <div class="ul-2-blogs-vectors">
             <img src="assets/img/blogs-2-vector.svg" alt="vector" class="vector-1">
         </div>
+    </section> -->
+    <!-- <section class="blog_section ">
+        <div class="container">
+            <div class="section-title text-center">
+
+                <h2 class="ask_heading mb-5">Blogs & articles </h2>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <?php
+                include './db.connection/db_connection.php';
+
+                // Fetch latest 3 blogs with video
+                $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    echo "<div class='row'>"; // Start row for card layout
+
+                    while ($row = $result->fetch_assoc()) {
+                        $blog_id = $row['id'];
+                        $title = $row['title'];
+                        $main_content = $row['main_content'];
+                        $main_image = $row['main_image'];
+                        $video = $row['video'];
+
+                        echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
+                        echo "<div class='card h-100'>"; // Start card
+
+                        // Display the blog title
+                        echo "<div class='card-body'>";
+
+
+                        // Display video if available
+                        if (!empty($video)) {
+                            $video_path = "./admin/uploads/videos/{$video}";
+                            echo "<video class='main-video img-fluid' controls>
+                    <source src='{$video_path}' type='video/mp4'>
+                    Your browser does not support the video tag.
+                  </video>";
+                        }
+                        // If no video, display main image
+                        elseif (!empty($main_image)) {
+                            $main_image_path = "./admin/uploads/photos/{$main_image}";
+                            echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                        }
+                        echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
+                        // Display a short portion of the blog content
+                        echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
+
+                        // Link to full blog post
+                        echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+
+                        echo "</div>"; // End card body
+                        echo "</div>"; // End card
+                        echo "</div>"; // End column
+                    }
+
+                    echo "</div>"; // End row
+                } else {
+                    echo "No blog posts found.";
+                }
+
+                $conn->close();
+                ?>
+
+
+
+                <div class="mt-5 d-none d-md-block">
+                    <a href="blogs.php" style="text-decoration: none;">
+                        <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
+                                class="fa-solid fa-arrow-right mt-1"></i></p>
+                    </a>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center mt-4">
+                    <a href="blogs.php" style="text-decoration: none;">
+                        <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section> -->
+
+
+    <section class="ul-2-blogs ul-section-spacing">
+        <div class="ul-2-container">
+
+            <div class="ul-section-heading">
+                <div class="left">
+                    <span class="ul-section-sub-title ul-2-section-sub-title">LATEST BLOG</span>
+                    <h2 class="ul-section-title">Latest Tips for a Healthy Dental</h2>
+                </div>
+            </div>
+
+            <div class="ul-2-blog-grid">
+                <div class="row row-cols-sm-2 row-cols-1 g-lg-4 g-3">
+                    <?php
+                    include './db.connection/db_connection.php';
+
+                    // Fetch latest 2 blogs
+                    $sql = "SELECT id, title, main_content, main_image, video, created_at 
+        FROM blogs ORDER BY created_at DESC LIMIT 2";
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            $blog_id = $row['id'];
+                            $title = $row['title'];
+                            $main_content = $row['main_content'];
+                            $main_image = $row['main_image'];
+                            $created_at = date("d M Y", strtotime($row['created_at']));
+
+                            echo "<div class='col'>
+                <div class='ul-2-blog'>
+                    <div class='ul-2-blog-img'>";
+
+                            // Always show image (ignore video)
+                            if (!empty($main_image)) {
+                                $main_image_path = "./admin/uploads/photos/{$main_image}";
+                                echo "<img src='{$main_image_path}' alt='Blog Image'>";
+                            } else {
+                                echo "<img src='assets/img/default_blog.jpg' alt='Blog Image'>";
+                            }
+
+                            echo "        
+                           
+                    </div>
+                    <div class='ul-2-blog-txt'>
+                        <div class='ul-2-blog-infos'>
+                            <span>By Admin</span>
+                            <span>{$created_at}</span>
+                        </div>
+                        <h3 class='ul-2-blog-title'>
+                            <a href='fullblog.php?id={$blog_id}'>" . htmlspecialchars($title) . "</a>
+                        </h3>
+                    </div>
+                </div>
+              </div>";
+                        }
+                    } else {
+                        echo "<p>No blog posts found.</p>";
+                    }
+
+                    $conn->close();
+                    ?>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="ul-2-blogs-vectors">
+            <img src="assets/img/blogs-2-vector.svg" alt="vector" class="vector-1">
+        </div>
     </section>
+
+
+
+
+
+
     <!-- BLOG SECTION END -->
 
 
@@ -572,8 +1077,8 @@
                 <div class="col-md-7">
                     <div class="ul-2-appointment-form-wrapper">
                         <!-- heading -->
-                        <span class="ul-section-sub-title ul-2-section-sub-title">Appointment</span>
-                        <h2 class="ul-section-title">Apply for Appointment</h2>
+                        <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Appointment</span> -->
+                        <h2 class="ul-section-title index_appointment ">Apply for Appointment</h2>
 
                         <form action="#" class="ul-appointment-form">
                             <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
@@ -669,6 +1174,40 @@
 
 
 
+<script>
+    var swiper = new Swiper(".custom-slide-content", {
+        slidesPerView: 4,
+        spaceBetween: 25,
+        loop: true,
+        centerslide: 'true',
+        fade: 'true',
+        grabCursor: 'true',
+        pagination: {
+            el: ".custom-swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+        },
+        autoplay: {
+            delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+            disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+        },
+        navigation: {
+            nextEl: ".swiper-button-next.custom-swiper-navBtn",
+            prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+        },
 
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            950: {
+                slidesPerView: 3,
+            },
+        },
+    });
+</script>
 
 <?php include('footer.php'); ?>

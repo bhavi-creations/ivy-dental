@@ -95,15 +95,9 @@
 
 
                  <div class="col-md-7 col-sm-6">
-                    <!-- single case-study -->
-                    <div class="ul-case-study">
-                        <div class="ul-case-study-img">
-                            <img src="assets/img/g8.jpeg" alt="Case Study Image">
-                        </div>
-                        
-                    </div>
+        
 
-                    <!-- single case-study -->
+                 
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
                             <img src="assets/img/g10.jpeg" alt="Case Study Image">

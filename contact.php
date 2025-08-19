@@ -32,9 +32,7 @@
                     <div class="col">
                         <div class="ul-inner-contact-info">
                             <div class="icon"><i class="flaticon-envelope"></i></div>
-                            <p class="descr"><a href="mailto:dr.chiranjeevi@gmail.com">dr.chiranjeevi@gmail.com
-
-</a></p>
+                            <p class="descr"><a href="mailto:dr.chiranjeevi@gmail.com">dr.chiranjeevi@gmail.com</a></p>
                             <!-- <p class="descr"><a href="mailto:info@exmple.com">info@exmple.com</a></p> -->
                         </div>
                     </div>

@@ -35,7 +35,7 @@
                             <a href="dental_braces.php">Dental braces </a>
                             <a href="dentures.php">Dentures </a>
                             <a href="teeth_whitening.php">Teeth Whitening </a>
-                            
+
                         </div>
                     </div>
 
@@ -77,12 +77,15 @@
                             <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
                             <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
                             <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+                            <a href="#"><i class="bi bi-quora"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-pinterest"></i></a>
                         </div>
                     </div>
 
                     <!-- links -->
                     <div class="col order-2 order-lg-3">
-                        
+
 
                         <p class="copyright-txt">&copy; <span class="colored">Bhavi creations Pvt Ltd</span>
                             <script>

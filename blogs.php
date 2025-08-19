@@ -1,258 +1,114 @@
+<?php
+include './db.connection/db_connection.php'; // Include your database connection file
+
+// Retrieve service filter from GET request
+$service = isset($_GET['service']) ? $_GET['service'] : '';
+
+// Prepare SQL query with optional service filter
+$sql = "SELECT id, title, main_content, main_image, created_at FROM blogs";
+if (!empty($service)) {
+    $sql .= " WHERE service = ?";
+}
+$sql .= " ORDER BY created_at DESC";
+
+// Initialize statement
+$stmt = $conn->prepare($sql);
+
+// Bind parameters if service is set
+if (!empty($service)) {
+    $stmt->bind_param("s", $service);
+}
+
+// Execute the statement
+$stmt->execute();
+
+// Get the result
+$result = $stmt->get_result();
+?>
+
+
+
+
+
 <?php include('header.php'); ?>
- 
 
-    <main>
-        <!-- BREADCRUMBS SECTION START -->
-        <section class="ul-breadcrumb">
-            <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title">Our Blog</h1>
+<main>
+    <!-- BREADCRUMBS SECTION START -->
+    <section class="ul-breadcrumb">
+        <div class="ul-2-container">
+            <h1 class="ul-breadcrumb-title">Our Blog</h1>
 
-                <ul class="ul-breadcrumb-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li>Our Blog</li>
-                </ul>
+            <ul class="ul-breadcrumb-nav">
+                <li><a href="index.php">Home</a></li>
+                <li class="separator"><i class="flaticon-right-arrow"></i></li>
+                <li>Our Blog</li>
+            </ul>
+        </div>
+    </section>
+    <!-- BREADCRUMBS SECTION END -->
+
+    <!-- FILTER BUTTONS -->
+    <div class="container">
+        <div class="filter_buttons redirect_section mt-4">
+            <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
+            <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
+            <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
+            <a href="blogs.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a>
+            <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
+            <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
+            <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
+            <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
+            <a href="blogs.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
+            <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
+            <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
+            <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
+            <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
+            <a href="blogs.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
+        </div>
+    </div>
+
+    <!-- BLOG SECTION START -->
+    <!-- BLOG SECTION START -->
+    <section class="ul-blogs ul-section-spacing">
+        <div class="ul-container">
+            <div class="row ul-bs-row row-cols-1 row-cols-sm-2 row-cols-lg-3 ul-blogs-row">
+                <?php
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $image_path = !empty($row['main_image']) ? "admin/uploads/photos/{$row['main_image']}" : "default_image.png";
+
+                        echo "
+                    <div class='col mb-4'>
+                        <div class='ul-blog'>
+                            <div class='ul-blog-img'>
+                                <a href='fullblog.php?id={$row['id']}'>
+                                    <img src='{$image_path}' alt='Blog Image'>
+                                </a>
+                            </div>
+                            <div class='ul-blog-txt'>
+                                <a href='fullblog.php?id={$row['id']}' class='ul-blog-title'>" . htmlspecialchars($row['title']) . "</a>
+                                <div class='ul-blog-infos'>
+                                    <div class='ul-blog-info'>
+                                        <span class='icon'><i class='flaticon-calendar'></i></span>
+                                        <span class='text'>" . date("d M Y", strtotime($row['created_at'])) . "</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <a href='fullblog.php?id={$row['id']}' class='ul-blog-btn'>Read More <i class='flaticon-up-right-arrow'></i></a>
+                        </div>
+                    </div>";
+                    }
+                } else {
+                    echo "<p>No blog posts found.</p>";
+                }
+                ?>
             </div>
-        </section>
-        <!-- BREADCRUMBS SECTION END -->
+        </div>
+    </section>
+    <!-- BLOG SECTION END -->
 
-
-        <!-- BLOG SECTION START -->
-        <section class="ul-blogs ul-section-spacing">
-            <div class="ul-container">
-                <!-- blogs -->
-                <div class="row ul-bs-row row-cols-md-3 row-cols-2 row-cols-xxs-1 ul-blogs-row">
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-2.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">The Medical Minute Quick Tips for Better Living</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-1.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">Healthy Habits for Busy Professionals</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-3.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">Ask the Doctor Real Answers, Real Care</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-2.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">What to Expect During Your First Hospital Visit</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-1.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">Behind the Scenes: A Day in the Life of a Nurse </a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-3.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">The Importance of Annual Health Screenings</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-2.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">What Is Preventive Care and Why It Matters</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-1.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">How We Keep Our Hospital Safe and Sterile</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- single blog -->
-                    <div class="col">
-                        <div class="ul-blog">
-                            <div class="ul-blog-img">
-                                <img src="assets/img/blog-3.jpg" alt="Blog Image">
-                            </div>
-                            <div class="ul-blog-txt">
-                                <a href="blog-details.php" class="ul-blog-title">Nutrition and Healing What to Eat After Surgery</a>
-                                <div class="ul-blog-infos">
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-calendar"></i></span>
-                                        <span class="text">11 March 2025</span>
-                                    </div>
-                                    <!-- single info -->
-                                    <div class="ul-blog-info">
-                                        <span class="icon"><i class="flaticon-envelope"></i></span>
-                                        <span class="text">Event</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="blog-details.php" class="ul-blog-btn">Read More <i class="flaticon-up-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                 
-            </div>
-        </section>
-        <!-- BLOG SECTION END -->
-    </main>
+    <!-- BLOG SECTION END -->
+</main>
 
 <?php include('footer.php'); ?>
- 

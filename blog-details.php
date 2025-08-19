@@ -29,26 +29,11 @@
                                 </div>
                                 <div class="ul-inner-blog-txt">
                                     <div class="ul-blog-infos">
-                                        <!-- single info -->
-                                        <div class="ul-blog-info">
-                                            <span class="icon"><i class="flaticon-envelope"></i></span>
-                                            <span class="text">By Admin</span>
-                                        </div>
-                                        <!-- single info -->
-                                        <div class="ul-blog-info">
-                                            <span class="icon"><i class="flaticon-calendar"></i></span>
-                                            <span class="text">04 Min Read</span>
-                                        </div>
-                                        <!-- single info -->
-                                        <div class="ul-blog-info">
-                                            <span class="icon"><i class="flaticon-envelope"></i></span>
-                                            <span class="text">0 Comments</span>
-                                        </div>
+                                    
                                     </div>
                                     <h3 class="ul-inner-blog-title">Healthy Habits for Busy Professionals</h3>
                                     <div class="ul-service-details-txt ul-blog-details-txt">
                                         <p>Staying healthy can be a challenge when you're constantly on the go — juggling meetings, deadlines, and family responsibilities. But good health doesn't have to wait for free time. Here are some practical, doctor-recommended habits that busy professionals can adopt to stay healthy and energized:</p>
-                                        <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote>
 
 
                                         <h3>01. Prioritize Balanced, Quick Meals</h3>
@@ -74,10 +59,10 @@
                                         <h3>06. Schedule Health Checkups</h3>
                                         <p>Try mindfulness apps, deep breathing, or short meditation sessions. Even five minutes can make a difference in your mental well-being.</p>
 
-                                        <div class="ul-blog-details-inner-img">
+                                        <!-- <div class="ul-blog-details-inner-img">
                                             <img src="assets/img/blog-2.jpg" alt="image">
                                             <img src="assets/img/blog-3.jpg" alt="image">
-                                        </div>
+                                        </div> -->
                                         <div>
                                             <h3>Final Tip:</h3>
                                             <p>Start small. You don't need a perfect routine — just consistent, mindful choices. A healthier you is a more productive, happier you.</p>
@@ -87,110 +72,8 @@
                             </div>
 
                             <!-- actions -->
-                            <div class="ul-blog-details-actions">
-                                <!-- tags -->
-                                <div class="tags-wrapper">
-                                    <h4 class="actions-title">Tags: </h4>
-                                    <div class="ul-blog-sidebar-tags tags">
-                                        <a href="#">Reseller</a>
-                                        <a href="#">Hosting</a>
-                                        <a href="#">WP Hosting</a>
-                                    </div>
-                                </div>
+                          
 
-                                <!-- share -->
-                                <div class="shares-wrapper">
-                                    <div class="share-options">
-                                        <a href="#"><i class="flaticon-facebook"></i></a>
-                                        <a href="#"><i class="flaticon-twitter"></i></a>
-                                        <a href="#"><i class="flaticon-youtube"></i></a>
-                                        <a href="#"><i class="flaticon-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="ul-blog-details-bottom">
-                                <!-- reviews -->
-                                <div class="ul-blog-details-reviews">
-                                    <h3 class="ul-service-details-inner-title text-black">02 Comments</h3>
-
-                                    <!-- single review -->
-                                    <div class="ul-blog-details-review">
-                                        <!-- reviewer image -->
-                                        <div class="ul-blog-details-review-reviewer-img">
-                                            <img src="assets/img/team-member-2.jpg" alt="Reviewer Image">
-                                        </div>
-
-                                        <div class="ul-blog-details-review-txt">
-                                            <div class="header">
-                                                <div class="left">
-                                                    <span class="review-date">March 20, 2023 at 2:37 pm</span>
-                                                    <h4 class="reviewer-name">Leslie Alexander</h4>
-                                                </div>
-
-                                                <div class="right"><button class="ul-blog-details-review-reply-btn">Reply</button></div>
-                                            </div>
-
-                                            <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- single review -->
-                                    <div class="ul-blog-details-review">
-                                        <!-- reviewer image -->
-                                        <div class="ul-blog-details-review-reviewer-img">
-                                            <img src="assets/img/team-member-1.jpg" alt="Reviewer Image">
-                                        </div>
-
-                                        <div class="ul-blog-details-review-txt">
-                                            <div class="header">
-                                                <div class="left">
-                                                    <span class="review-date">March 20, 2023 at 2:37 pm</span>
-                                                    <h4 class="reviewer-name">Ralph Edwards</h4>
-                                                </div>
-
-                                                <div class="right">
-                                                    <button class="ul-blog-details-review-reply-btn">Reply</button>
-                                                </div>
-                                            </div>
-
-                                            <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummys</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- review form -->
-                                <div class="ul-blog-details-review-form-wrapper">
-                                    <h3 class="ul-service-details-inner-title text-black">Leave a Comment</h3>
-                                    <div class="ul-blog-details-comment-form-wrapper">
-                                        <form action="#" class="ul-inner-contact-form ul-blog-details-comment-form">
-                                            <div class="row row-cols-2 row-cols-xxs-1 ul-bs-row">
-                                                <div class="col">
-                                                    <div class="form-group">
-                                                        <label for="ul-blog-comment-name">Your Name</label>
-                                                        <input type="text" name="name" id="ul-blog-comment-name" placeholder="Your Name">
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="form-group">
-                                                        <label for="ul-blog-comment-email">Email Address</label>
-                                                        <input type="email" name="email" id="ul-blog-comment-email" placeholder="Email Address">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="form-group">
-                                                        <label for="ul-blog-comment-msg">Your Message</label>
-                                                        <textarea name="message" id="ul-blog-comment-msg" placeholder="Type your message"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <button class="ul-btn ul-btn--2"><span>SEND MESSAGE</span> <i class="flaticon-arrow-up-right"></i></button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -265,15 +148,7 @@
                             </div>
 
                             <!-- single widget / contact -->
-                            <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
-                                <span class="ul-service-details-sidebar-widget-title">Have Additional Questions?</span>
-                                <div class="ul-service-details-sidebar-cta-content">
-                                    <p class="contact-info">3rd Avenue, 83 Manhattan, London, UK</p>
-                                    <span class="contact-info number"><a href="tel:+1890123456">+1890 123 456</a></span>
-                                    <p class="contact-info"><a href="mailto:support@example.com">support@example.com</a></p>
-                                    <a href="contact.php" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

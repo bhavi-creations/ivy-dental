@@ -27,7 +27,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/root canal.jpg" alt="Service Image">
+                            <img src="assets/img/service/root canal.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/root-canal-icon.png" alt="">
@@ -40,7 +40,7 @@
                         <div class="ul-inner-service-2-txt">
                             <h3 class="ul-service-title" id="ul_service_title"><a href="rootcanal.php">Root canal</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Relieve pain and save your natural tooth with advanced root
-                                canal treatment</p>
+                                canal treatment </p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/teeth filling.jpg" alt="Service Image">
+                            <img src="assets/img/service/teeth filling.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/tooth-filling-icon.png" alt="">
@@ -68,11 +68,67 @@
                     </div>
                 </div>
 
+
+
+
+
+
+
                 <!-- single service -->
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/clear aligners.jpg" alt="Service Image">
+                            <img src="assets/img/service/dental implants.png" alt="Service Image">
+                            <div class="ul-inner-service-2-btn-wrapper">
+                                <div class="ul-service-icon">
+                                    <img src="assets/img/dental-implant-icon.png" alt="">
+
+                                </div>
+
+                                <a href="dental_implants.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="ul-inner-service-2-txt">
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_implants.php">Dental Implants</a></h3>
+                            <p class="ul-service-descr" id="ul_service_title">Replace missing teeth with strong, permanent dental
+                                implants.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- single service -->
+                <div class="col ">
+                    <div class="ul-inner-service-2">
+                        <div class="ul-inner-service-2-img">
+                            <img src="assets/img/service/teeth scaling.png" alt="Service Image">
+                            <div class="ul-inner-service-2-btn-wrapper">
+                                <div class="ul-service-icon">
+                                    <img src="assets/img/teeth scaling-icon.png" alt="">
+
+                                </div>
+
+                                <a href="teeth_scaling.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="ul-inner-service-2-txt">
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_scaling.php">Teeth Scaling</a></h3>
+                            <p class="ul-service-descr" id="ul_service_title">Keep your gums healthy with professional teeth scaling and
+                                cleaning.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- single service -->
+                <div class="col ">
+                    <div class="ul-inner-service-2">
+                        <div class="ul-inner-service-2-img">
+                            <img src="assets/img/service/clear aligners.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/invisiline aliners.png" alt="">
@@ -95,7 +151,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/Dental braces.jpg" alt="Service Image">
+                            <img src="assets/img/service/Dental braces.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/braces-icon.png" alt="">
@@ -114,35 +170,37 @@
                     </div>
                 </div>
 
+
+
                 <!-- single service -->
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/dentures.jpg" alt="Service Image">
+                            <img src="assets/img/service/smile makeover.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
-                                    <img src="assets/img/denture-icon.png" alt="">
+                                    <img src="assets/img/smile-make over-icon.png" alt="">
 
                                 </div>
 
-                                <a href="dentures.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="smile_makeover.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures.php">Dentures</a>
-                            </h3>
-                            <p class="ul-service-descr" id="ul_service_title">Restore your smile and confidence with natural-looking
-                                dentures.</p>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="smile_makeover.php">Smile Makeover</a></h3>
+                            <p class="ul-service-descr" id="ul_service_title">Transform your smile with a customized smile makeover.</p>
                         </div>
                     </div>
                 </div>
+
+
 
                 <!-- single service -->
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/teeth whitning.jpg" alt="Service Image">
+                            <img src="assets/img//service/teeth whitning.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/teeth whitning-icon.png" alt="">
@@ -163,52 +221,18 @@
 
 
 
-                <!-- single service -->
-                <div class="col ">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/dental implants.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/dental-implant-icon.png" alt="">
-
-                                </div>
-
-                                <a href="dental_implants.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_implants.php">Dental Implants</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Replace missing teeth with strong, permanent dental
-                                implants.</p>
-                        </div>
-                    </div>
-                </div>
 
 
-                <!-- single service -->
-                <div class="col ">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/teeth scaling.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/teeth scaling-icon.png" alt="">
 
-                                </div>
 
-                                <a href="teeth_scaling.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_scaling.php">Teeth Scaling</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Keep your gums healthy with professional teeth scaling and
-                                cleaning.</p>
-                        </div>
-                    </div>
-                </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -220,35 +244,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/smile makeover.jpg" alt="Service Image">
-                            <div class="ul-inner-service-2-btn-wrapper">
-                                <div class="ul-service-icon">
-                                    <img src="assets/img/smile-make over-icon.png" alt="">
-
-                                </div>
-
-                                <a href="smile_makeover.php" class="ul-inner-service-2-btn ul-btn"><span>Read
-                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="smile_makeover.php">Smile Makeover</a></h3>
-                            <p class="ul-service-descr" id="ul_service_title">Transform your smile with a customized smile makeover.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-                <!-- single service -->
-                <div class="col ">
-                    <div class="ul-inner-service-2">
-                        <div class="ul-inner-service-2-img">
-                            <img src="assets/img/crown-bridg.jpg" alt="Service Image">
+                            <img src="assets/img/service/crown-bridg.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/crown-icon.png" alt="">
@@ -279,7 +275,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/tooth extration.jpg" alt="Service Image">
+                            <img src="assets/img/service/tooth extration.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/tooth-extraction-icon.png" alt="">
@@ -301,7 +297,7 @@
                 <div class="col ">
                     <div class="ul-inner-service-2">
                         <div class="ul-inner-service-2-img">
-                            <img src="assets/img/full mouth restrotion.jpg" alt="Service Image">
+                            <img src="assets/img/service/full_mouth_restoration.png" alt="Service Image">
                             <div class="ul-inner-service-2-btn-wrapper">
                                 <div class="ul-service-icon">
                                     <img src="assets/img/Full mouth restoration-icon.png" alt="">
@@ -319,6 +315,30 @@
                     </div>
                 </div>
 
+                <!-- single service -->
+                <div class="col ">
+                    <div class="ul-inner-service-2">
+                        <div class="ul-inner-service-2-img">
+                            <img src="assets/img/service/dentures.png" alt="Service Image">
+                            <div class="ul-inner-service-2-btn-wrapper">
+                                <div class="ul-service-icon">
+                                    <img src="assets/img/denture-icon.png" alt="">
+
+                                </div>
+
+                                <a href="dentures.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                        More</span> <i class="flaticon-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="ul-inner-service-2-txt">
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures.php">Dentures</a>
+                            </h3>
+                            <p class="ul-service-descr" id="ul_service_title">Restore your smile and confidence with natural-looking
+                                dentures.</p>
+                        </div>
+                    </div>
+                </div>
+
 
 
 
@@ -329,5 +349,8 @@
 
 
 </main>
+
+
+
 
 <?php include('footer.php'); ?>

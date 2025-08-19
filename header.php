@@ -19,6 +19,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <!-- boostrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- image slider  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
 </head>
 
@@ -65,10 +71,16 @@
             <span class="ul-sidebar-footer-title">Follow us</span>
 
             <div class="ul-sidebar-footer-social">
+
+
                 <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-                <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
+
                 <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
                 <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+
+                <a href="#"><i class="bi bi-quora"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
     </div>
@@ -155,7 +167,7 @@
                                         </div> -->
                                         <a href="gallery.php">Gallery</a>
                                         <a href="testimonials.php">Testimonials</a>
-                                        <a href="#">Blogs</a>
+                                        <a href="blogs.php">Blogs</a>
 
                                         <a href="contact.php">Contact</a>
                                     </nav>
@@ -179,4 +191,18 @@
 
 
     </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let maxLength = 50; // set fixed number of characters
+            let descriptions = document.querySelectorAll(".ul-service-descr");
+
+            descriptions.forEach(function(desc) {
+                let text = desc.textContent.trim();
+                if (text.length > maxLength) {
+                    desc.textContent = text.substring(0, maxLength) + "...";
+                }
+            });
+        });
+    </script>
     <!-- HEADER SECTION END -->

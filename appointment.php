@@ -21,7 +21,7 @@
     <!-- APPOINTMENT SECTION START -->
     <section class="ul-inner-appointment ul-section-spacing">
         <div class="ul-inner-appointment-container">
-            <h2 class="ul-inner-appointment-title">Apply For Appointment</h2>
+            <h2 class="ul-inner-appointment-title appointment_section">Apply For Appointment</h2>
             <form action="#" class="ul-appointment-form">
                 <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
                     <div class="col">
