@@ -4,11 +4,11 @@ $host = 'localhost';
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $user = "root";
     $pass = "";
-    $db = "ivydental";
+    $db = "ivydentals";
 } else {
     $user = "bhavicreations";
     $pass = "d8Az75YlgmyBnVM";
-    $db = "bhavicreations";
+    $db = "ivydental";
 }
 
 
