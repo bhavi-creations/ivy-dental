@@ -109,7 +109,7 @@
 
 
 
-    <a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
+    <a href="https://api.whatsapp.com/send?phone=917760605222" style="color: #fff;" class="whatsapp-link"
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
