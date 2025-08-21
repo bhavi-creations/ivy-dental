@@ -50,12 +50,17 @@
                         <!-- <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p> -->
                         <a href="about.php" class="ul-btn">Discover More <i class="flaticon-arrow-up-right"></i></a>
                     </div>
+
+
+
+
+
                 </div>
 
                 <!-- banner image -->
                 <div class="col-md-6 ">
                     <div class="ul-2-banner-imgs indes_secong_section">
-                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1 d-none d-md-block">
+                        <img src="assets/img/banner-2-img-11.jpg" alt="Image" class="img-1 d-none d-md-block">
                         <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
 
 
@@ -64,9 +69,9 @@
                 </div>
             </div>
 
-   
+
         </div>
-        
+
 
         <!-- banner vectors -->
         <div class="ul-2-banner-vectors  ">

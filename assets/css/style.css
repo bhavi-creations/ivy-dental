@@ -6455,8 +6455,19 @@ button {
   }
 }
 
-
+@media (max-width:992px){
 .indes_secong_section{
   display: flex;
   justify-content: start;
 }
+}
+
+@media (min-width:992px) and (max-width:1600px){
+  .indes_secong_section{
+    display: flex;
+    justify-content: center
+    
+    
+    ;
+  }
+  }
