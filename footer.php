@@ -101,7 +101,18 @@
             <img src="assets/img/footer-2-vector.svg" alt="vector" class="vector-1">
         </div>
     </footer>
+
+
     <!-- FOOTER SECTION END -->
+
+
+
+
+
+    <a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- libraries JS -->
     <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
