@@ -64,7 +64,7 @@
                             <div id="ul-appointment-doctor-select-wrapper" class="position-relative"></div>
                         </div>
                     </div> -->
-                    <div class="col-sm-12 col-12 col">
+                    <!-- <div class="col-sm-12 col-12 col">
                         <div class="form-group select-wrapper">
                             <label for="ul-appointment-treatment">Select Treatment</label>
                             <select name="treatment" id="ul-appointment-treatment">
@@ -84,9 +84,9 @@
 
                             </select>
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
-                        </div>
+                        </div> -->
 
-                        <!-- <div class="col">
+                        <div class="col">
                         <div class="form-group select-wrapper">
                             <label for="ul-appointment-treatment">Select Treatment</label>
                             <select name="treatment" id="ul-appointment-treatment">
@@ -107,7 +107,7 @@
                             </select>
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                         </div>
-                    </div> -->
+                    </div> 
 
 
 
