@@ -82,7 +82,7 @@
 
                 <a href="#"><i class="bi bi-quora"></i></a>
                 <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-pinterest"></i></a>
+                <a href="https://pin.it/5Vy53ZenZ"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
     </div>

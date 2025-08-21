@@ -7,24 +7,18 @@
 
 
 
-    <!-- <section>
-        <video autoplay muted loop playsinline controls class="video_section">
-            <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section> -->
 
 
 
-    <section autoplay muted loop class="only_first">
-        <video autoplay muted loop playsinline controls class="video_section">
+    <section autoplay muted loop controls class="only_first">
+        <video id="myVideo" width="100%" height="auto" autoplay muted loop>
             <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
     </section>
 
-    <!-- <script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             const video = document.getElementById('myVideo');
             const unmuteButton = document.getElementById('unmuteButton');
@@ -36,7 +30,8 @@
                 unmuteButton.style.display = 'none'; // Hide the unmute button
             });
         });
-    </script> -->
+    </script>
+
 
 
     <!-- BANNER SECTION START -->
@@ -44,7 +39,7 @@
         <div class="ul-2-banner-container">
             <div class="row align-items-end">
                 <!-- banner txt -->
-                <div class="col-lg-6">
+                <div class=" col-md-6 ">
                     <div class="ul-2-banner-txt">
                         <span class="ul-2-banner-sub-title ul-section-sub-title ul-2-section-sub-title">ORAL HEALTH TO OVERALL HEALTH</span>
                         <h1 class="ul-2-banner-title">Your Trusted Partner in Complete Dental Care.</h1>
@@ -58,9 +53,9 @@
                 </div>
 
                 <!-- banner image -->
-                <div class="col-xl-6 col-lg-5 ">
-                    <div class="ul-2-banner-imgs d-flex justify-content-center">
-                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1">
+                <div class="col-md-6 ">
+                    <div class="ul-2-banner-imgs indes_secong_section">
+                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1 d-none d-md-block">
                         <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
 
 
@@ -68,10 +63,13 @@
                     </div>
                 </div>
             </div>
+
+   
         </div>
+        
 
         <!-- banner vectors -->
-        <div class="ul-2-banner-vectors">
+        <div class="ul-2-banner-vectors  ">
             <img src="assets/img/banner-2-vector-1.svg" alt="vector" class="vector-1">
             <img src="assets/img/banner-2-vector-2.svg" alt="vector" class="vector-2">
             <img src="assets/img/banner-2-vector-3.svg" alt="vector" class="vector-3">
@@ -80,11 +78,11 @@
         </div>
 
         <!-- banner socials -->
-        <div class="ul-2-banner-socials ul-banner-socials">
+        <div class="ul-2-banner-socials ul-banner-socials index_page_socialmedia">
             <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
             <a href="#"><i class="bi bi-quora"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="https://pin.it/5Vy53ZenZ "><i class="bi bi-pinterest"></i></a>
 
             <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
             <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>

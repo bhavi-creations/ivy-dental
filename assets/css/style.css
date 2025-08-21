@@ -6425,9 +6425,38 @@ button {
 
 .video_section {
   width: 100%;
-  height: 150vh;
- 
+  height: 100vh;
+
   object-fit: cover;
-  
+
   display: block;
+}
+
+.ul-2-banner-vectors {
+  display: flex;
+  flex-direction: column;
+  /* stack images vertically */
+  align-items: center;
+  /* center them horizontally */
+  gap: 10px;
+  /* spacing between images */
+}
+
+.ul-2-banner-vectors img {
+  max-width: 150px;
+  /* adjust size if needed */
+  height: auto;
+}
+
+@media (max-width:768px) {
+  
+  .index_page_socialmedia{
+    display: none !important;
+  }
+}
+
+
+.indes_secong_section{
+  display: flex;
+  justify-content: start;
 }

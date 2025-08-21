@@ -259,7 +259,7 @@
                     <!-- txt -->
                     <div class="col">
                         <div class="ul-team-details-txt">
-                            <h2 class="ul-team-details-name"> Dr. (Prof) Sridevi.BDS</h2>
+                            <h2 class="ul-team-details-name"> Dr. Sridevi</h2>
                             <span class="ul-team-details-position">Resident Senior Dentist</span>
                             <p class="ul-team-details-descr">Dr Sridevi graduated from AECS Maaruti dental college Bangalore in 2003</p>
 

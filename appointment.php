@@ -52,7 +52,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="form-group">
                             <label for="ul-appointment-doctor">Select Doctor</label>
                             <select name="Doctor" id="ul-appointment-doctor">
@@ -63,9 +63,30 @@
                             </select>
                             <div id="ul-appointment-doctor-select-wrapper" class="position-relative"></div>
                         </div>
-                    </div>
+                    </div> -->
+                    <div class="col-sm-12 col-12 col">
+                        <div class="form-group select-wrapper">
+                            <label for="ul-appointment-treatment">Select Treatment</label>
+                            <select name="treatment" id="ul-appointment-treatment">
+                                <option value="none" data-placeholder="true">Select Treatment</option>
+                                <option value="treatment 1">Root canal</option>
+                                <option value="treatment 2">Teeth Filling</option>
+                                <option value="treatment 3">Clear Aligners</option>
+                                <option value="treatment 4">Dental braces</option>
+                                <option value="treatment 5">Dentures</option>
+                                <option value="treatment 6">Teeth Whitening</option>
+                                <option value="treatment 7">Dental Implants</option>
+                                <option value="treatment 8">Teeth Scaling</option>
+                                <option value="treatment 9">Smile Makeover</option>
+                                <option value="treatment 10">Crowns & Bridges</option>
+                                <option value="treatment 11">Tooth Extraction</option>
+                                <option value="treatment 12">Full Mouth Restoration</option>
 
-                    <div class="col">
+                            </select>
+                            <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
+                        </div>
+
+                        <!-- <div class="col">
                         <div class="form-group select-wrapper">
                             <label for="ul-appointment-treatment">Select Treatment</label>
                             <select name="treatment" id="ul-appointment-treatment">
@@ -86,17 +107,17 @@
                             </select>
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    
-                   
 
-                    <div class="col-12">
-                        <div class="form-group">
-                            <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
+
+
+                        <div class="col-12">
+                            <div class="form-group">
+                                <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
+                            </div>
                         </div>
                     </div>
-                </div>
             </form>
         </div>
     </section>
