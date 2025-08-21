@@ -20,7 +20,7 @@
                             <a href="services.php">Services</a>
                             <a href="testimonials.php">Testimonials</a>
                             <a href="gallery.php">Gallery</a>
-                            <a href="#">Blogs</a>
+                            <a href="blogs.php">Blogs</a>
                             <a href="contact.php">Contact</a>
 
                         </div>
