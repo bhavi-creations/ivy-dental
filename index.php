@@ -4,6 +4,41 @@
 
 
 <main>
+
+
+
+    <!-- <section>
+        <video autoplay muted loop playsinline controls class="video_section">
+            <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section> -->
+
+
+
+    <section autoplay muted loop class="only_first">
+        <video autoplay muted loop playsinline controls class="video_section">
+            <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </section>
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const video = document.getElementById('myVideo');
+            const unmuteButton = document.getElementById('unmuteButton');
+
+            // Function to unmute and play the video
+            unmuteButton.addEventListener('click', () => {
+                video.muted = false; // Unmute the video
+                video.play(); // Play the video
+                unmuteButton.style.display = 'none'; // Hide the unmute button
+            });
+        });
+    </script> -->
+
+
     <!-- BANNER SECTION START -->
     <section class="ul-2-banner">
         <div class="ul-2-banner-container">
@@ -23,15 +58,11 @@
                 </div>
 
                 <!-- banner image -->
-                <div class="col-xl-6 col-lg-5">
-                    <div class="ul-2-banner-imgs">
-                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1 d-none d-lg-block">
+                <div class="col-xl-6 col-lg-5 ">
+                    <div class="ul-2-banner-imgs d-flex justify-content-center">
+                        <img src="assets/img/banner-2-img-1.png" alt="Image" class="img-1">
                         <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
 
-                        <video autoplay muted loop playsinline controls class="video_section">
-                            <source src="./assets/img/reels_ivy.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
 
 
                     </div>
@@ -596,7 +627,7 @@
                             <img src="assets/img/service/sridevi.png" alt="Member Image">
                         </div>
                         <div class="ul-team-member-txt mt-2">
-                            <span class="ul-team-member-name"><a href="about.php">Dr (Prof)Sridevi BDS.MDS</a></span>
+                            <span class="ul-team-member-name"><a href="about.php">Dr .Sridevi </a></span>
                             <span class="ul-team-member-role">Resident Senior Dentist</span>
                             <!-- <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
