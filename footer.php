@@ -74,12 +74,12 @@
                     <div class="col-lg col-md-12  order-3 order-lg-2">
                         <div class="ul-footer-socials justify-content-center mt-0">
                             <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-                            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a>
-                            <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                            <a href="https://pin.it/5Vy53ZenZ " target="_blank"><i class="bi bi-pinterest"></i></a>
-
+                            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
                             <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
                             <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+                            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"><i class="bi bi-quora"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://pin.it/5Vy53ZenZ"><i class="bi bi-pinterest"></i></a>
                         </div>
                     </div>
 
