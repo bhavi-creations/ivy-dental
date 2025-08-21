@@ -80,7 +80,7 @@
                 <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
                 <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
 
-                <a href="#"><i class="bi bi-quora"></i></a>
+                <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"><i class="bi bi-quora"></i></a>
                 <a href="#"><i class="bi bi-linkedin"></i></a>
                 <a href="https://pin.it/5Vy53ZenZ"><i class="bi bi-pinterest"></i></a>
             </div>

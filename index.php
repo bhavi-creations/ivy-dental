@@ -85,7 +85,7 @@
         <!-- banner socials -->
         <div class="ul-2-banner-socials ul-banner-socials index_page_socialmedia">
             <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-            <a href="#"><i class="bi bi-quora"></i></a>
+            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"><i class="bi bi-quora"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
             <a href="https://pin.it/5Vy53ZenZ "><i class="bi bi-pinterest"></i></a>
 
