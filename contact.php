@@ -61,30 +61,30 @@
                             <div class="ul-inner-contact-form-wrapper">
                                 <h3 class="ul-inner-contact-form-title">Lets talk...</h3>
 
-                                <form action="#" class="ul-inner-contact-form">
+                                <form class="ul-inner-contact-form" action="contactform.php" method="post" role="form" class="php-email-form">
                                     <div class="row g-lg-4 g-3 row-cols-sm-2">
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label for="ul-contact-name" class="form-label">Your Name *</label>
-                                                <input type="text" name="ul-contact-name" id="ul-contact-name" placeholder="Full Name">
+                                                <input type="text" name="name" id="ul-contact-name" placeholder="Full Name">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label for="ul-contact-email" class="form-label">Your Email *</label>
-                                                <input type="email" name="ul-contact-email" id="ul-contact-email" placeholder="Email Address">
+                                                <input type="email" name="email" id="ul-contact-email" placeholder="Email Address">
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-12">
                                             <div class="form-group">
                                                 <label for="ul-contact-subject" class="form-label">Number</label>
-                                                <input type="text" name="ul-contact-subject" id="ul-contact-subject" placeholder="Subject">
+                                                <input type="text" name="number" id="ul-contact-subject" placeholder="Number">
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-12">
                                             <div class="form-group">
                                                 <label for="ul-contact-message" class="form-label">Message</label>
-                                                <textarea name="ul-contact-message" id="ul-contact-message" placeholder="Messages"></textarea>
+                                                <textarea name="message" id="ul-contact-message" placeholder="Messages"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-12">

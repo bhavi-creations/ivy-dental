@@ -1,4 +1,5 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -11,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $contactname = $_POST['name'] ?? '';
     $contactemail = $_POST['email'] ?? '';
-    $contactsubject = $_POST['subject'] ?? '';
+    // $contactsubject = $_POST['subject'] ?? '';
     $contactnumber = $_POST['number'] ?? '';
 
     $contactmessage = $_POST['message'] ?? '';
@@ -24,14 +25,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'leeladentalcare123@gmail.com'; // Your Gmail email address
-        $mail->Password = 'mwbyhrnygdsaovea'; // Your Gmail password
+        $mail->Username = 'manimalladi05@gmail.com'; // Your Gmail email address
+        $mail->Password = 'nzwwnnjwmwndcseh'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-         $mail->setFrom('leeladentalcare123@gmail.com', 'LEELA DENTAL CARE '); // Your Gmail email and name
-        $mail->addAddress('leeladentalcare123@gmail.com', 'LEELA DENTAL CARE'); // Recipient's email and name
+        $mail->setFrom('manimalladi05@gmail.com', ' Ivy Dental Hospital'); // Your Gmail email and name
+        $mail->addAddress('manimalladi05@gmail.com', ' Ivy Dental Hospital'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -41,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
             <p><strong>Email:</strong> $contactemail</p>
-           <p><strong>Subject:</strong> $contactsubject</p>
-            <p><strong>Phone:</strong> $contactnumber</p>
+            <p><strong>Number:</strong> $contactnumber</p>
+           
             <p><strong>Message:</strong>$contactmessage</p>
         ";
 
@@ -55,4 +56,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // If accessed directly without POST data
     echo 'Access Denied';
 }
-?>

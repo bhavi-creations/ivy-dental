@@ -22,7 +22,8 @@
     <section class="ul-inner-appointment ul-section-spacing">
         <div class="ul-inner-appointment-container">
             <h2 class="ul-inner-appointment-title appointment_section">Apply For Appointment</h2>
-            <form action="#" class="ul-appointment-form">
+            <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
+                data-aos-delay="100">
                 <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
                     <div class="col">
                         <div class="form-group">
@@ -86,38 +87,38 @@
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                         </div> -->
 
-                        <div class="col">
+                    <div class="col">
                         <div class="form-group select-wrapper">
                             <label for="ul-appointment-treatment">Select Treatment</label>
                             <select name="treatment" id="ul-appointment-treatment">
                                 <option value="none" data-placeholder="true">Select Treatment</option>
-                                <option value="treatment 1">Root canal</option>
-                                <option value="treatment 2">Teeth Filling</option>
-                                <option value="treatment 3">Clear Aligners</option>
-                                <option value="treatment 4">Dental braces</option>
-                                <option value="treatment 5">Dentures</option>
-                                <option value="treatment 6">Teeth Whitening</option>
-                                <option value="treatment 7">Dental Implants</option>
-                                <option value="treatment 8">Teeth Scaling</option>
-                                <option value="treatment 9">Smile Makeover</option>
-                                <option value="treatment 10">Crowns & Bridges</option>
-                                <option value="treatment 11">Tooth Extraction</option>
-                                <option value="treatment 12">Full Mouth Restoration</option>
-                                
+                                <option value="Root canal">Root canal</option>
+                                <option value="Teeth Filling">Teeth Filling</option>
+                                <option value="Clear Aligners">Clear Aligners</option>
+                                <option value="Dental braces">Dental braces</option>
+                                <option value="Dentures">Dentures</option>
+                                <option value="Teeth Whitening">Teeth Whitening</option>
+                                <option value="Dental Implants">Dental Implants</option>
+                                <option value="Teeth Scaling ">Teeth Scaling</option>
+                                <option value="Smile Makeover">Smile Makeover</option>
+                                <option value="Crowns & Bridges">Crowns & Bridges</option>
+                                <option value="Tooth Extraction">Tooth Extraction</option>
+                                <option value="Full Mouth Restoration">Full Mouth Restoration</option>
+
                             </select>
                             <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
                         </div>
-                    </div> 
+                    </div>
 
 
 
 
-                        <div class="col-12">
-                            <div class="form-group">
-                                <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
-                            </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
                         </div>
                     </div>
+                </div>
             </form>
         </div>
     </section>
