@@ -131,7 +131,7 @@
                     <!-- img -->
                     <div class="col">
                         <div class="ul-team-details-img">
-                            <img src="assets/img/0.jpg" alt="team member">
+                            <img src="assets/img/00.png" alt="team member">
                         </div>
                     </div>
 
@@ -236,7 +236,7 @@
                     <!-- img -->
                     <div class="col">
                         <div class="ul-team-details-img">
-                            <img src="assets/img/1.jpg" alt="team member">
+                            <img src="assets/img/11.png" alt="team member">
                         </div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                     <!-- img -->
                     <div class="col">
                         <div class="ul-team-details-img">
-                            <img src="assets/img/2.jpg" alt="team member">
+                            <img src="assets/img/22.png" alt="team member">
                         </div>
                     </div>
 
