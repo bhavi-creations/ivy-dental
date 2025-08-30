@@ -28,6 +28,73 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
+    <meta name="title" content=" Top-Rated Dental Clinic in Bangalore | Ivy Dental">
+
+    <meta name="description" content="Ivy Dental offers a complete range of dental services in Bangalore, from routine check-ups to advanced treatments like dental implants and smile makeovers. Our experienced dentists provide personalized care to ensure a healthy and beautiful smile. Book your appointment today!" />
+    <link rel="canonical" href="https://www.ivydentalbangalore.com/"   />
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Dentist",
+            "name": "Ivy Dental Bangalore",
+            "url": "https://www.ivydentalbangalore.com/",
+            "description": "Ivy Dental Bangalore is the best dental hospital in Bangalore offering advanced treatments including root canals, dental implants, braces, clear aligners, and smile makeovers. If you're searching for the best dental hospital near me or the best dentist in Vidyaranyapura, visit Ivy Dental for expert care.",
+            "keywords": "best dental hospital in Bangalore, best dental hospital near me, best dentist in Vidyaranyapura",
+            "image": "https://www.ivydentalbangalore.com/assets/og-image.jpg",
+            "priceRange": "₹₹",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "461, HMT Layout 3rd Block, Vidyaranyapura",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka",
+                "postalCode": "560097",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 13.0700,
+                "longitude": 77.5600
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "09:30",
+                "closes": "20:00"
+            }],
+            "telephone": "‪+91-7760605222‬",
+            "alternateName": "‪+91-9740805222‬",
+            "medicalSpecialty": "Dentistry",
+            "areaServed": "Bengaluru, Vidyaranyapura",
+            "sameAs": [
+                "https://www.facebook.com/ivydentalbangalore",
+                "https://www.instagram.com/ivydentalbangalore"
+            ]
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Ivy Dental Bangalore",
+            "url": "https://www.ivydentalbangalore.com/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.ivydentalbangalore.com/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
 </head>
 
 <body>

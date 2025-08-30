@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+# Block any private directories (uncomment if applicable)
+# Disallow: /private/
+# Disallow: /tmp/
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.ivydentalbangalore.com/sitemap.xml 
