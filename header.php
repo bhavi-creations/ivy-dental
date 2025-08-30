@@ -35,6 +35,50 @@
 
 
 
+    <meta name="keywords" content="  Best Dental Clinic in Bangalore
+Best Dental Hospital in Bangalore
+Best Dental Clinic in Vidyaranyapura
+Best Dentist in Vidyaranyapura
+Best Dentist in Bangalore
+Dental Implants in Bangalore
+Best Braces Treatment in Bangalore
+Best Dental Braces in Bangalore
+Painless Root Canal Treatment in Bangalore
+Painless Wisdom Tooth Removal in Bangalore
+Best Root Canal Treatment in Bangalore
+Affordable Dental Treatments in Bangalore
+Cosmetic Dentistry in Bangalore
+Orthodontic Services in Bangalore
+Teeth Whitening in Bangalore
+Emergency Dental Care in Bangalore
+Full Mouth Rehabilitation in Bangalore
+Smile Makeover in Bangalore
+Advanced Dental Care in Bangalore
+Crowns and Bridges in Bangalore
+Gum Disease Treatment in Bangalore
+Tooth Extraction in Bangalore
+Clear Aligners in Bangalore
+Invisible Braces in Bangalore
+Teeth Cleaning Services in Bangalore
+Preventive Dental Care in Bangalore
+Dental Veneers in Bangalore
+Dental Implants in Vidyaranyapura
+Root Canal Treatment in Vidyaranyapura
+Braces & Aligners in Vidyaranyapura
+Teeth Whitening near Vidyaranyapura
+Best Dental Doctor in Vidyaranyapura
+Orthodontic Treatment in Vidyaranyapura
+Painless Wisdom Tooth Removal Vidyaranyapura
+Pediatric Dentist in Vidyaranyapura
+Best Dental Clinic near me in Bangalore
+Dental Implants near me Bangalore
+Root Canal Treatment near me Bangalore
+Braces near me in Bangalore
+Best Dentist near me Vidyaranyapura
+Teeth Whitening near me Bangalore">
+
+
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
