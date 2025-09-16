@@ -192,7 +192,7 @@ Teeth Whitening near me Bangalore">
                 <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
 
                 <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"><i class="bi bi-quora"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/108682925/admin/dashboard/"><i class="bi bi-linkedin"></i></a>
                 <a href="https://pin.it/5Vy53ZenZ"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
