@@ -51,7 +51,7 @@ if ($blog_id > 0) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivy-Dental</title>
+    <title>Vision-Dental</title>
 
     <!-- libraries CSS -->
     <!-- <link rel="stylesheet" href="assets/icon/flaticon_digicom.css"> -->
@@ -182,7 +182,7 @@ if ($blog_id > 0) {
                             $redirect_link = !empty($blog['logo_link']) ? htmlspecialchars($blog['logo_link']) : '#';
                             ?>
 
-                            <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 100px ;"></a>
+                            <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
                             <!-- Title -->
@@ -350,7 +350,7 @@ if ($blog_id > 0) {
 
                     <div class="col-lg-2 col-md-2 blogs_side_branding  ">
 
-                        <img src="./assets/img/service/1.png" alt="" class="img-fluid">
+                        <img src="./assets/img/service_side_image1.png" alt="" class="img-fluid">
 
 
 
@@ -770,7 +770,7 @@ if ($blog_id > 0) {
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Ivy Dental Hospital :</strong> $reply
+                                                        <strong>Vision Dental Hospital :</strong> $reply
                                                     </div>";
                                                     }
 
@@ -892,7 +892,7 @@ if ($blog_id > 0) {
                     <div class="col-lg-2 col-md-2">
 
 
-                        <img src="./assets/img/service/12.png" alt="" class="img-fluid">
+                        <img src="./assets/img/service_side_image2.jpg" alt="" class="img-fluid">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
@@ -900,7 +900,7 @@ if ($blog_id > 0) {
 
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Ivy
+                                Vision
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
@@ -1314,7 +1314,7 @@ if ($blog_id > 0) {
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Ivy Dental Hospital :</strong> $reply
+                                                        <strong>Vision Dental Hospital :</strong> $reply
                                                     </div>";
                                                     }
 
@@ -1422,52 +1422,71 @@ if ($blog_id > 0) {
 
                     </div>
 
-                    <div class="col-md-6 blogs_side_branding d-flex flex-column align-items-center justify-content-center text-center" style="min-height:100%;">
+                    <div class=" col-md-6 blogs_side_branding ">
 
-                        <!-- Image -->
-                        <img src="./assets/img/service/s1.png" alt="Clear Aligners" class="img-fluid mb-3" >
+                        <img src="./assets/img/service/1." alt="" class="img-fluid">
 
-                        <!-- Card -->
-                        <div class="card aligner-card"
-                            style="display:flex; justify-content:center; align-items:center; flex-direction:column; 
-           padding:12px; border-radius:12px; 
-           background:linear-gradient(135deg, #f1f5ff, #ffffff); 
-           box-shadow:0 4px 12px rgba(0,0,0,0.1); 
-           text-align:center; max-width:320px;">
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Clear Aligners
-                            </p>
 
-                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
-                                Starting at <span style="color:#e63946;">₹9,999</span>
-                            </p>
+
+
+
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+
+                                <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
+                                    Contact Us
+                                </h3> -->
+
+                                <p style="font-size:18px; margin:5px 0; color:#444;">
+                                    Clear Aligners
+                                </p>
+
+                                <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                                    Starting at <span style="color:#e63946;">₹9,999</span>
+                                </p>
+
+                                <!-- <strong>
+                                    <a href="tel:+919290019948"
+                                        style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
+                                        📞 Call Now: +91 9290019948
+                                    </a>
+                                </strong> -->
                         </div>
+
+
+
+
+
+
+
+
+
                     </div>
+                    <div class=" col-md-6  blogs_side_branding">
 
-                    <div class="col-md-6 blogs_side_branding d-flex flex-column align-items-center justify-content-center text-center" style="min-height:100%;">
 
-                        <!-- Image -->
-                        <img src="./assets/img/service/s2.png" alt="Ivy" class="img-fluid mb-3">
+                        <img src="./assets/img/small_device_image3.png" alt="" class="img-fluid">
 
-                        <!-- Card -->
-                        <div class="card aligner-card"
-                            style="display:flex; justify-content:center; align-items:center; flex-direction:column; 
-           padding:12px; border-radius:12px; 
-           background:linear-gradient(135deg, #f1f5ff, #ffffff); 
-           box-shadow:0 4px 12px rgba(0,0,0,0.1); 
-           text-align:center; max-width:320px;">
+
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+
+
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                            Ivy
+                                Vision
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Dental <span style="color:#e63946;">Hospital</span>
                             </p>
-                        </div>
-                    </div>
 
+
+                        </div>
+
+
+
+
+                    </div>
             </div>
             </div>
             </div>
