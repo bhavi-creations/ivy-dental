@@ -42,6 +42,22 @@
     </li>
 
 
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+            <i class="fas fa-fw fa-blog"></i>
+            <span>Comment</span>
+        </a>
+        <div id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Comment</h6>
+                <a class="collapse-item" href="all_commetns.php"> <i class="fas fa-fw fa-blog"></i>Comment</a>
+                <!-- <a class="collapse-item" href="allBlog.php"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a> -->
+            </div>
+        </div>
+    </li>
+
+
     <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePDFMenu" aria-expanded="true" aria-controls="collapsePDFMenu">
             <i class="fas fa-fw fa-file-pdf"></i>
