@@ -81,12 +81,12 @@ $result = $stmt->get_result();
                     <div class='col mb-4'>
                         <div class='ul-blog'>
                             <div class='ul-blog-img'>
-                                <a href='fullblog.php?id={$row['id']}'>
+                                <a href='service_detsils.php?id={$row['id']}'>
                                     <img src='{$image_path}' alt='Blog Image'>
                                 </a>
                             </div>
                             <div class='ul-blog-txt'>
-                                <a href='fullblog.php?id={$row['id']}' class='ul-blog-title'>" . htmlspecialchars($row['title']) . "</a>
+                                <a href='service_detsils.php?id={$row['id']}' class='ul-blog-title'>" . htmlspecialchars($row['title']) . "</a>
                                 <div class='ul-blog-infos'>
                                     <div class='ul-blog-info'>
                                         <span class='icon'><i class='flaticon-calendar'></i></span>
@@ -95,7 +95,7 @@ $result = $stmt->get_result();
                                     
                                 </div>
                             </div>
-                            <a href='fullblog.php?id={$row['id']}' class='ul-blog-btn'>Read More <i class='flaticon-up-right-arrow'></i></a>
+                            <a href='service_detsils.php?id={$row['id']}' class='ul-blog-btn'>Read More <i class='flaticon-up-right-arrow'></i></a>
                         </div>
                     </div>";
                     }
