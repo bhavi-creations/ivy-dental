@@ -51,7 +51,7 @@ if ($blog_id > 0) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision-Dental</title>
+    <title>Ivy-Dental</title>
 
     <!-- libraries CSS -->
     <!-- <link rel="stylesheet" href="assets/icon/flaticon_digicom.css"> -->
@@ -350,7 +350,7 @@ if ($blog_id > 0) {
 
                     <div class="col-lg-2 col-md-2 blogs_side_branding  ">
 
-                        <img src="./assets/img/service_side_image1.png" alt="" class="img-fluid">
+                        <img src="./assets/img/home/l1.png" alt="" class="img-fluid">
 
 
 
@@ -770,7 +770,7 @@ if ($blog_id > 0) {
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Vision Dental Hospital :</strong> $reply
+                                                        <strong>Ivy Dental Hospital :</strong> $reply
                                                     </div>";
                                                     }
 
@@ -892,7 +892,7 @@ if ($blog_id > 0) {
                     <div class="col-lg-2 col-md-2">
 
 
-                        <img src="./assets/img/service_side_image2.jpg" alt="" class="img-fluid">
+                        <img src="./assets/img/home/l2.png" alt="" class="img-fluid">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
@@ -900,7 +900,7 @@ if ($blog_id > 0) {
 
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Vision
+                                Ivy
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
@@ -1126,9 +1126,9 @@ if ($blog_id > 0) {
                                         transition: background 0.3s ease;
                                     }
 
-                                    .show-comment-btn:hover {
+                                    /* .show-comment-btn:hover {
                                         background: #0056b3;
-                                    }
+                                    } */
 
                                     .comment-box {
                                         /* background: red; */
@@ -1314,7 +1314,7 @@ if ($blog_id > 0) {
                                                         $reply = htmlspecialchars(trim($reply));
                                                         echo "
                                                     <div class='p-2 mb-1 bg-light border rounded'>
-                                                        <strong>Vision Dental Hospital :</strong> $reply
+                                                        <strong>Ivy Dental Hospital :</strong> $reply
                                                     </div>";
                                                     }
 
@@ -1424,7 +1424,7 @@ if ($blog_id > 0) {
 
                     <div class=" col-md-6 blogs_side_branding ">
 
-                        <img src="./assets/img/service/1." alt="" class="img-fluid">
+                        <img src="./assets/img/home/s1.png" alt="" class="img-fluid">
 
 
 
@@ -1465,7 +1465,7 @@ if ($blog_id > 0) {
                     <div class=" col-md-6  blogs_side_branding">
 
 
-                        <img src="./assets/img/small_device_image3.png" alt="" class="img-fluid">
+                        <img src="./assets/img/home/s2.png" alt="" class="img-fluid">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
@@ -1473,7 +1473,7 @@ if ($blog_id > 0) {
 
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Vision
+                                Ivy
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">

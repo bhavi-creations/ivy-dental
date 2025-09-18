@@ -4855,7 +4855,8 @@ button {
 }
 
 .ul-service-details-sidebar-widget {
-  background-color: #fffdee;
+  background-color: #3d7553 !important;
+  /* background-color: #fffdee; */
   padding: clamp(16px, 1.68vw, 32px);
   border-radius: 16px;
   margin-bottom: clamp(16px, 1.68vw, 32px);
@@ -6782,7 +6783,7 @@ button {
 
 /* Hover effect */
 .blog-item:hover {
-  background: #007bff;
+  /* background: #007bff; */
   /* Blue highlight */
   transform: translateX(5px);
   /* animate slide */
@@ -6790,7 +6791,7 @@ button {
 }
 
 .blog-item:hover .blog-title {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .blog-item:hover .blog-thumb {
@@ -6813,6 +6814,7 @@ button {
 .latest_blog_section {
   font-weight: 700 !important;
   font-family: "poppins", sans-serif;
+  color: white !important;
 }
 
 
@@ -6902,7 +6904,7 @@ button {
 
 
 
-< !-- Styling -->.show-comment-btn {
+.show-comment-btn {
   background: #007bff;
   color: white;
   padding: 10px 18px;
@@ -6913,9 +6915,9 @@ button {
   transition: background 0.3s ease;
 }
 
-.show-comment-btn:hover {
+/* .show-comment-btn:hover {
   background: #0056b3;
-}
+} */
 
 .comment-box {
   /* background: red; */
