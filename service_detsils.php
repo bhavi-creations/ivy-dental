@@ -363,9 +363,9 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                                                        <p style="font-size:18px; margin:10px 0; color:green;  padding:10px 15px; border-radius:6px; display:inline-block; transition:all 0.3s ease; cursor:pointer; margin-top: 10px;">
-                                                            Aligners
-                                                        </p>
+                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                                 Aligners
+                            </p>
 
                             <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Starting at <span style="color:#e63946;">₹9,999</span>
@@ -410,24 +410,14 @@ if ($blog_id > 0) {
 
 
                                 <!-- Main Content -->
-                                <!-- <?php if (!empty($blog['main_content'])): ?>
-                                    <div class="ul-service-details-descr">
+                                <?php if (!empty($blog['main_content'])): ?>
+                                    <div class="ul-service-details-descr" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
                                         ?>
                                     </div>
-                                <?php endif; ?> -->
-
-                                <?php if (!empty($blog['main_content'])): ?>
-                                <div class="ul-service-details-descr" style="font-size:18px; ">
-                                    <?php
-                                    // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
-                                    echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
-                                    ?>
-                                </div>
-                            <?php endif; ?>
-
+                                <?php endif; ?>
 
 
 
@@ -486,15 +476,14 @@ if ($blog_id > 0) {
 
 
                                 <!-- Full Content -->
-                               <?php if (!empty($blog['full_content'])): ?>
-    <div class="ul-service-details-full-content mt-3" style="font-size:18px;  color:#333;">
-        <?php
-        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
-        echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
-        ?>
-    </div>
-<?php endif; ?>
-
+                                <?php if (!empty($blog['full_content'])): ?>
+                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;">
+                                        <?php
+                                        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
+                                        echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
+                                        ?>
+                                    </div>
+                                <?php endif; ?>
 
 
 
@@ -1028,7 +1017,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3 " style="font-size: 18px;">
+                                    <div class="ul-service-details-full-content mt-3" style="font-size: 18px;">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -1449,9 +1438,9 @@ if ($blog_id > 0) {
                                     Contact Us
                                 </h3> -->
 
- <p style="font-size:18px; margin:10px 0; color:green;  padding:10px 15px; border-radius:6px; display:inline-block; transition:all 0.3s ease; cursor:pointer; margin-top: 10px;">
-                                                            Aligners
-                                                        </p>
+                                <p style="font-size:18px; margin:5px 0; color:#444;">
+                                     Aligners
+                                </p>
 
                                 <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                     Starting at <span style="color:#e63946;">₹9,999</span>
@@ -1482,8 +1471,7 @@ if ($blog_id > 0) {
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-
-                                                    <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
