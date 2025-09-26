@@ -1449,8 +1449,9 @@ if ($blog_id > 0) {
                                     Contact Us
                                 </h3> -->
 
-       <p class="hover-popup">Aligners</p>
-
+ <p style="font-size:18px; margin:10px 0; color:green;  padding:10px 15px; border-radius:6px; display:inline-block; transition:all 0.3s ease; cursor:pointer; margin-top: 10px;">
+                                                            Aligners
+                                                        </p>
 
                                 <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                     Starting at <span style="color:#e63946;">₹9,999</span>
