@@ -363,8 +363,8 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
-                                 Aligners
+                            <p class="logo-link">
+                                Aligners
                             </p>
 
                             <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
@@ -897,8 +897,18 @@ if ($blog_id > 0) {
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-                            <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <!-- <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a> -->
 
+
+
+
+
+
+                            <a href="https://ivydentalbangalore.com/" class="shake-link">
+                                <img src="./assets/img/ivy logo.png"
+                                    alt="Vision Dental"
+                                    class="img-fluid shake-img" style="width: 100px ; height: 100px;">
+                            </a>
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Ivy
@@ -1434,19 +1444,19 @@ if ($blog_id > 0) {
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-                                <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
+                            <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
                                     Contact Us
                                 </h3> -->
 
-                                <p style="font-size:18px; margin:5px 0; color:#444;">
-                                     Aligners
-                                </p>
+                            <p class="logo-link">
+                                Aligners
+                            </p>
 
-                                <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                            <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                     Starting at <span style="color:#e63946;">₹9,999</span>
                                 </p> -->
 
-                                <!-- <strong>
+                            <!-- <strong>
                                     <a href="tel:+919290019948"
                                         style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
                                         📞 Call Now: +91 9290019948
@@ -1471,9 +1481,16 @@ if ($blog_id > 0) {
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-                            <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <!-- <a href="https://ivydentalbangalore.com/"> <img src="./assets/img/ivy logo.png" alt="" class="img-fluid" style="width: 200px ;"></a> -->
 
 
+
+
+                            <a href="https://ivydentalbangalore.com/" class="shake-link">
+                                <img src="./assets/img/ivy logo.png"
+                                    alt="Vision Dental"
+                                    class="img-fluid shake-img" style="width: 100px ; height: 100px;">
+                            </a>
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Ivy
                             </p>
