@@ -2,7 +2,9 @@
 // Database connection
 include './db.connection/db_connection.php';
 
+// =====================
 // 1️⃣ Fetch ALL blogs (latest first)
+// =====================
 $sql = "SELECT id, title, service, main_content, full_content, main_image, video
         FROM blogs ORDER BY created_at DESC";
 $result = $conn->query($sql);
@@ -17,7 +19,7 @@ if ($result && $result->num_rows > 0) {
 // Count total blogs
 $total_blogs = count($blogs);
 
-// Split equally (left/right sidebar)
+// Split equally (left/right sidebar if needed)
 $left_count = ceil($total_blogs / 2);
 $right_count = $total_blogs - $left_count;
 
@@ -28,12 +30,17 @@ function get_words($text, $limit)
     return implode(" ", array_slice($words, 0, $limit));
 }
 
+// =====================
 // 2️⃣ Fetch single blog for service_details.php
+// =====================
 $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 $blog = null;
 if ($blog_id > 0) {
-    $stmt = $conn->prepare("SELECT id, title, service, main_content, full_content, main_image, video
+    $stmt = $conn->prepare("SELECT id, title, service, main_content, full_content, main_image, video,
+                                   section1_content, section1_image,
+                                   section2_content, section2_image,
+                                   section3_content, section3_image
                             FROM blogs WHERE id = ?");
     $stmt->bind_param("i", $blog_id);
     $stmt->execute();
@@ -41,6 +48,39 @@ if ($blog_id > 0) {
     $blog = $result->fetch_assoc();
     $stmt->close();
 }
+
+// =====================
+// 3️⃣ Uploads directory
+// =====================
+$uploadsDir = __DIR__ . "/uploads/blogs/";
+
+// =====================
+// 4️⃣ Optional: Display Section Images (responsive for mobile)
+// =====================
+function displaySectionImage($imagePath, $alt = 'Section Image')
+{
+    if (!empty($imagePath) && file_exists($imagePath)) {
+        echo '<div style="
+            display:flex; 
+            justify-content:center; 
+            align-items:center; 
+            width:100%; 
+            max-width:500px; 
+            height:auto; 
+            margin:auto; 
+            overflow:hidden; 
+            border:1px solid #ddd; 
+            border-radius:8px;">
+            <img src="' . htmlspecialchars($imagePath) . '" alt="' . htmlspecialchars($alt) . '" 
+                 style="width:100%; height:auto; object-fit:cover;">
+        </div>';
+    }
+}
+
+// Example usage:
+// displaySectionImage($uploadsDir . $blog['section1_image'], 'Section 1 Image');
+// displaySectionImage($uploadsDir . $blog['section2_image'], 'Section 2 Image');
+// displaySectionImage($uploadsDir . $blog['section3_image'], 'Section 3 Image');
 ?>
 
 
@@ -1032,7 +1072,7 @@ if ($blog_id > 0) {
                     </div>
 
 
-                    <div class="col-lg-2 col-md-2 col-12" >
+                    <div class="col-lg-2 col-md-2 col-12">
 
 
                         <img src="./assets/img/home/l2.png" alt="" class="img-fluid">
@@ -1250,6 +1290,13 @@ if ($blog_id > 0) {
                                 <?php endif; ?>
 
 
+
+
+
+
+
+
+
                                 <!-- option images   -->
 
                                 <?php if (!empty($blog['section1_content'])): ?>
@@ -1261,16 +1308,16 @@ if ($blog_id > 0) {
 
 
 
-                                <?php if (!empty($blog['section1_image'])): ?>
-                                    <div class="div" style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section1_image']); ?>"
+                                <?php
+                                $section1_image_path = './admin/uploads/photos/' . $blog['section1_image'];
+
+                                if (!empty($blog['section1_image']) && file_exists($section1_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section1_image_path); ?>"
                                             alt="Section 1 Image"
-                                            class="img-fluid rounded shadow-sm w-100"
-                                            style="width:400px; height: 400px; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
-
 
 
 
@@ -1283,20 +1330,16 @@ if ($blog_id > 0) {
                                     </div>
                                 <?php endif; ?>
 
+                                <?php
+                                $section2_image_path = './admin/uploads/photos/' . $blog['section2_image'];
 
-
-
-
-                                <?php if (!empty($blog['section2_image'])): ?>
-                                    <div class="d-flex justify-content-center align-items-center mb-3"
-                                        style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section2_image']); ?>"
+                                if (!empty($blog['section2_image']) && file_exists($section2_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section2_image_path); ?>"
                                             alt="Section 2 Image"
-                                            style="width: 100%; height: auto; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
-
 
 
 
@@ -1306,21 +1349,16 @@ if ($blog_id > 0) {
                                     </div>
                                 <?php endif; ?>
 
+                                <?php
+                                $section3_image_path = './admin/uploads/photos/' . $blog['section3_image'];
 
-
-
-
-                                <?php if (!empty($blog['section3_image'])): ?>
-                                    <div class="d-flex justify-content-center align-items-center mb-3"
-                                        style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section3_image']); ?>"
+                                if (!empty($blog['section3_image']) && file_exists($section3_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section3_image_path); ?>"
                                             alt="Section 3 Image"
-                                            style="width: 100%; height: auto; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
-
-
 
 
 
