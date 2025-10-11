@@ -104,6 +104,143 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+
+
+    <style>
+        .comment-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .comment-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .comment-box input,
+        .comment-box textarea,
+        .comment-box button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .comment-box button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .comment-list {
+            margin-top: 20px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .comment-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .comment-item:last-child {
+            border-bottom: none;
+        }
+
+        .comment-item strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .comment-item p {
+            margin: 0;
+        }
+    </style>
+
+
+
+    <!-- Styling -->
+    <style>
+        .show-comment-btn {
+            background: #007bff;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: background 0.3s ease;
+        }
+
+        /* .show-comment-btn:hover {
+                                        background: #0056b3;
+                                    } */
+
+        .comment-box {
+            /* background: red; */
+            background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        .comment-box h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .comment-box input,
+        .comment-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .comment-box button {
+            background: #28a745;
+            color: white;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .comment-box button:hover {
+            background: #1e7e34;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -680,139 +817,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
 
-                                <style>
-                                    .comment-overlay {
-                                        position: fixed;
-                                        top: 0;
-                                        left: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        background: rgba(0, 0, 0, 0.5);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        z-index: 999;
-                                    }
-
-                                    .comment-box {
-                                        background: #fff;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        width: 90%;
-                                        max-width: 500px;
-                                        position: relative;
-                                    }
-
-                                    .close-btn {
-                                        position: absolute;
-                                        top: 10px;
-                                        right: 15px;
-                                        font-size: 24px;
-                                        cursor: pointer;
-                                        color: #333;
-                                    }
-
-                                    .comment-box input,
-                                    .comment-box textarea,
-                                    .comment-box button {
-                                        width: 100%;
-                                        margin-bottom: 10px;
-                                        padding: 10px;
-                                        border-radius: 5px;
-                                        border: 1px solid #ccc;
-                                    }
-
-                                    .comment-box button {
-                                        background-color: #007bff;
-                                        color: #fff;
-                                        border: none;
-                                        cursor: pointer;
-                                    }
-
-                                    .comment-list {
-                                        margin-top: 20px;
-                                        padding: 10px;
-                                        background: #f9f9f9;
-                                        border-radius: 8px;
-                                    }
-
-                                    .comment-item {
-                                        padding: 10px;
-                                        border-bottom: 1px solid #ddd;
-                                    }
-
-                                    .comment-item:last-child {
-                                        border-bottom: none;
-                                    }
-
-                                    .comment-item strong {
-                                        display: block;
-                                        margin-bottom: 5px;
-                                    }
-
-                                    .comment-item p {
-                                        margin: 0;
-                                    }
-                                </style>
-
-
-
-                                <!-- Styling -->
-                                <style>
-                                    .show-comment-btn {
-                                        background: #007bff;
-                                        color: white;
-                                        padding: 10px 18px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-bottom: 10px;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    .show-comment-btn:hover {
-                                        background: #0056b3;
-                                    }
-
-                                    .comment-box {
-                                        /* background: red; */
-                                        background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-                                        max-width: 600px;
-                                    }
-
-                                    .comment-box h3 {
-                                        margin-bottom: 15px;
-                                        color: #333;
-                                    }
-
-                                    .comment-box input,
-                                    .comment-box textarea {
-                                        width: 100%;
-                                        padding: 10px;
-                                        margin-bottom: 12px;
-                                        border: 1px solid #ddd;
-                                        border-radius: 5px;
-                                    }
-
-                                    .comment-box button {
-                                        background: #28a745;
-                                        color: white;
-                                        padding: 10px 16px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    .comment-box button:hover {
-                                        background: #1e7e34;
-                                    }
-                                </style>
-
-
+                           
 
 
 
@@ -853,12 +858,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_1()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_1" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_1()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -1022,8 +1027,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_1() {
+                                        var overlay = document.getElementById("comment-overlay_1");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {
@@ -1539,12 +1544,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_2()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_2" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_2()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -1708,8 +1713,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_2() {
+                                        var overlay = document.getElementById("comment-overlay_2");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {
@@ -1984,137 +1989,6 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
 
-                                <style>
-                                    .comment-overlay {
-                                        position: fixed;
-                                        top: 0;
-                                        left: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        background: rgba(0, 0, 0, 0.5);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        z-index: 999;
-                                    }
-
-                                    .comment-box {
-                                        background: #fff;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        width: 90%;
-                                        max-width: 500px;
-                                        position: relative;
-                                    }
-
-                                    .close-btn {
-                                        position: absolute;
-                                        top: 10px;
-                                        right: 15px;
-                                        font-size: 24px;
-                                        cursor: pointer;
-                                        color: #333;
-                                    }
-
-                                    .comment-box input,
-                                    .comment-box textarea,
-                                    .comment-box button {
-                                        width: 100%;
-                                        margin-bottom: 10px;
-                                        padding: 10px;
-                                        border-radius: 5px;
-                                        border: 1px solid #ccc;
-                                    }
-
-                                    .comment-box button {
-                                        background-color: #007bff;
-                                        color: #fff;
-                                        border: none;
-                                        cursor: pointer;
-                                    }
-
-                                    .comment-list {
-                                        margin-top: 20px;
-                                        padding: 10px;
-                                        background: #f9f9f9;
-                                        border-radius: 8px;
-                                    }
-
-                                    .comment-item {
-                                        padding: 10px;
-                                        border-bottom: 1px solid #ddd;
-                                    }
-
-                                    .comment-item:last-child {
-                                        border-bottom: none;
-                                    }
-
-                                    .comment-item strong {
-                                        display: block;
-                                        margin-bottom: 5px;
-                                    }
-
-                                    .comment-item p {
-                                        margin: 0;
-                                    }
-                                </style>
-
-
-
-                                <!-- Styling -->
-                                <style>
-                                    .show-comment-btn {
-                                        background: #007bff;
-                                        color: white;
-                                        padding: 10px 18px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-bottom: 10px;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    /* .show-comment-btn:hover {
-                                        background: #0056b3;
-                                    } */
-
-                                    .comment-box {
-                                        /* background: red; */
-                                        background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-                                        max-width: 600px;
-                                    }
-
-                                    .comment-box h3 {
-                                        margin-bottom: 15px;
-                                        color: #333;
-                                    }
-
-                                    .comment-box input,
-                                    .comment-box textarea {
-                                        width: 100%;
-                                        padding: 10px;
-                                        margin-bottom: 12px;
-                                        border: 1px solid #ddd;
-                                        border-radius: 5px;
-                                    }
-
-                                    .comment-box button {
-                                        background: #28a745;
-                                        color: white;
-                                        padding: 10px 16px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    .comment-box button:hover {
-                                        background: #1e7e34;
-                                    }
-                                </style>
 
 
 
@@ -2157,12 +2031,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_3()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_3" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_3()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -2321,8 +2195,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_3() {
+                                        var overlay = document.getElementById("comment-overlay_3");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {

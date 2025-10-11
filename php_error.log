@@ -8,3 +8,18 @@ Stack trace:
 #0 C:\xampp\htdocs\ivy-dental\save_comment.php(14): mysqli->__construct('localhost', 'ivydentalbangal...', Object(SensitiveParameterValue), 'ivydentalbangal...')
 #1 {main}
   thrown in C:\xampp\htdocs\ivy-dental\save_comment.php on line 14
+[11-Oct-2025 08:17:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ivydentalbangalore'@'localhost' (using password: YES) in C:\xampp\htdocs\ivy-dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ivy-dental\save_comment.php(14): mysqli->__construct('localhost', 'ivydentalbangal...', Object(SensitiveParameterValue), 'ivydentalbangal...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ivy-dental\save_comment.php on line 14
+[11-Oct-2025 08:35:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ivydentalbangalore'@'localhost' (using password: YES) in C:\xampp\htdocs\ivy-dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ivy-dental\save_comment.php(14): mysqli->__construct('localhost', 'ivydentalbangal...', Object(SensitiveParameterValue), 'ivydentalbangal...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ivy-dental\save_comment.php on line 14
+[11-Oct-2025 08:41:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ivydentalbangalore'@'localhost' (using password: YES) in C:\xampp\htdocs\ivy-dental\save_comment.php:18
+Stack trace:
+#0 C:\xampp\htdocs\ivy-dental\save_comment.php(18): mysqli->__construct('localhost', 'ivydentalbangal...', Object(SensitiveParameterValue), 'ivydentalbangal...')
+#1 {main}
+  thrown in C:\xampp\htdocs\ivy-dental\save_comment.php on line 18
