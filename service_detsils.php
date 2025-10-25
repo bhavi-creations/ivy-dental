@@ -105,7 +105,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 
 
 
@@ -245,7 +245,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 <body>
     <div class="preloader" id="preloader">
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
+        <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;"></a>
     </div>
 
     <!-- SIDEBAR SECTION START -->
@@ -817,7 +818,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
 
-                           
+
 
 
 
