@@ -1078,7 +1078,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                     </div>
 
 
-                
+
 
 
 
@@ -1817,9 +1817,11 @@ style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; 
         </section>
 
 
+
+
         <section class="ul-service-details  second_section_blogs d-none  d-md-block     d-lg-none">
             <div class="container-fluid">
-                <d class="row g-xl-5 g-4 mx-3">
+                <div class="row g-xl-5 g-4 mx-3">
 
 
                     <div class=" col-md-12 ">
@@ -2257,50 +2259,32 @@ style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; 
 
                     </div>
 
-                    <div class=" col-md-6 blogs_side_branding ">
+                    <div class="col-md-6 blogs_side_branding d-flex justify-content-center align-items-center flex-column">
 
-                        <img src="./assets/img/home/s1.png" alt="" class="img-fluid">
+                        <!-- Centered Image -->
+                        <img src="./assets/img/home/s1.png" alt="Aligners" class="img-fluid mb-3"
+                            style="max-width:250px; display:block; margin:auto;">
 
+                        <!-- Card Section -->
+                        <div class="card aligner-card"
+                            style="display:flex; justify-content:center; align-items:center; flex-direction:column; 
+                padding:8px 5px 5px 0px; border-radius:12px; 
+                background:linear-gradient(135deg, #f1f5ff, #ffffff); 
+                box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center; width:80%;">
 
-
-
-
-
-                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
-
-                            <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
-                                    Contact Us
-                                </h3> -->
-
-                            <p class="logo-link">
+                            <p class="logo-link" style="margin:0; font-size:18px; font-weight:600; color:#333;">
                                 Aligners
                             </p>
-
-                            <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
-                                    Starting at <span style="color:#e63946;">₹9,999</span>
-                                </p> -->
-
-                            <!-- <strong>
-                                    <a href="tel:+919290019948"
-                                        style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
-                                        📞 Call Now: +91 9290019948
-                                    </a>
-                                </strong> -->
                         </div>
 
-
-
-
-
-
-
-
-
                     </div>
+
                     <div class=" col-md-6  blogs_side_branding">
 
 
-                        <img src="./assets/img/home/s2.png" alt="" class="img-fluid">
+                        <!-- <img src="./assets/img/home/s2.png" alt="" class="img-fluid"> -->
+                        <img src="./assets/img/home/s2.png" alt="Aligners" class="img-fluid mb-3"
+                            style="max-width:250px; display:block; margin:auto;">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
@@ -2313,7 +2297,7 @@ style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; 
                             <a href="https://ivydentalbangalore.com/" class="shake-link">
                                 <img src="./assets/img/ivy logo.png"
                                     alt="Vision Dental"
-                                    class="img-fluid shake-img" style="width: 100px ; height: 100px;">
+                                    class="img-fluid shake-img" style="width: 100px ; height: 80px;">
                             </a>
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Ivy
@@ -2330,10 +2314,23 @@ style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; 
 
 
                     </div>
-            </div>
-            </div>
-            </div>
+
+
+
+
+
+
+
+
+
+                
+                </div>
+
+
         </section>
+
+
+
 
     </main>
 
