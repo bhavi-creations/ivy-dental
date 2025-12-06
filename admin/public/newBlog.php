@@ -1,3 +1,10 @@
+<?php
+include '../../db.connection/db_connection.php'; // DB connection
+
+// Fetch all services from services table
+$services_result = $conn->query("SELECT id, service_name FROM services ORDER BY service_name ASC");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,7 +73,7 @@
                                         <!-- Select Service -->
                                         <div class="filter-section mb-3">
                                             <label class="form-label text-primary">Select Service:</label>
-                                            <select name="service" class="form-control" required>
+                                            <!-- <select name="service" class="form-control" required>
                                                 <option value="">Select a Service</option>
                                                 <option value="Root Canal">Root Canal</option>
                                                 <option value="Wisdom Tooth Removal">Wisdom Tooth Removal</option>
@@ -83,6 +90,19 @@
                                                 <option value="Dentures">Dentures</option>
                                                 <option value="Fluoride Application & Dental Sealant">Fluoride Application & Dental Sealant</option>
                                                 <option value="Full Mouth Rehabilitation Treatment">Full Mouth Rehabilitation Treatment</option>
+                                            </select> -->
+
+
+                                            <select id="service" name="service" class="form-control" required>
+                                                <option value="">Select a Service</option>
+                                                <?php if ($services_result->num_rows > 0): ?>
+                                                    <?php while ($service = $services_result->fetch_assoc()): ?>
+                                                        <!-- Use service_name as value instead of id -->
+                                                        <option value="<?= htmlspecialchars($service['service_name']) ?>">
+                                                            <?= htmlspecialchars($service['service_name']) ?>
+                                                        </option>
+                                                    <?php endwhile; ?>
+                                                <?php endif; ?>
                                             </select>
                                         </div>
 

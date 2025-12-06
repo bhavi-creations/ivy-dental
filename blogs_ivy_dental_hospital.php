@@ -1,34 +1,29 @@
 <?php
-include './db.connection/db_connection.php'; // Include your database connection file
+include './db.connection/db_connection.php';
 
-// Retrieve service filter from GET request
+// ------------------------
+// FETCH SERVICES
+// ------------------------
+$sql_services = "SELECT service_name FROM services ORDER BY service_name ASC";
+$result_services = $conn->query($sql_services);
+
+// ------------------------
+// FETCH BLOGS
+// ------------------------
+// Get service filter from URL
 $service = isset($_GET['service']) ? $_GET['service'] : '';
 
-// Prepare SQL query with optional service filter
-$sql = "SELECT id, title, main_content, main_image, created_at FROM blogs";
+// Prepare SQL
 if (!empty($service)) {
-    $sql .= " WHERE service = ?";
-}
-$sql .= " ORDER BY created_at DESC";
-
-// Initialize statement
-$stmt = $conn->prepare($sql);
-
-// Bind parameters if service is set
-if (!empty($service)) {
+    $stmt = $conn->prepare("SELECT id, title, main_content, main_image, created_at FROM blogs WHERE service = ? ORDER BY created_at DESC");
     $stmt->bind_param("s", $service);
+    $stmt->execute();
+    $result = $stmt->get_result();
+} else {
+    $result = $conn->query("SELECT id, title, main_content, main_image, created_at FROM blogs ORDER BY created_at DESC");
 }
 
-// Execute the statement
-$stmt->execute();
-
-// Get the result
-$result = $stmt->get_result();
 ?>
-
-
-
-
 
 <?php include('header.php'); ?>
 
@@ -37,7 +32,6 @@ $result = $stmt->get_result();
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
             <h1 class="ul-breadcrumb-title">Our Blog</h1>
-
             <ul class="ul-breadcrumb-nav">
                 <li><a href="index.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
@@ -47,8 +41,45 @@ $result = $stmt->get_result();
     </section>
     <!-- BREADCRUMBS SECTION END -->
 
+    <!-- OUR SERVICES LIST -->
+    <h2 class="d-flex justify-content-center mt-5">Our Services</h2>
+
+    <div class="container mt-4">
+        <div class="row g-2">
+
+            <!-- All button -->
+            <div class="col-6 col-sm-4 col-md-2">
+                <a href="blogs_ivy_dental_hospital.php?service="
+                    class="btn ul-btn <?= empty($service) ? 'btn-primary' : 'btn-outline-primary'; ?> w-100 mb-2">
+                    All
+                </a>
+            </div>
+
+            <!-- Service buttons -->
+            <?php if ($result_services && $result_services->num_rows > 0): ?>
+                <?php while ($srv = $result_services->fetch_assoc()): ?>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <a href="blogs_ivy_dental_hospital.php?service=<?= urlencode($srv['service_name']); ?>"
+                            class="btn ul-btn <?= ($service === $srv['service_name']) ? 'btn-primary' : 'btn-outline-primary'; ?> w-100 mb-2">
+                            <?= htmlspecialchars($srv['service_name']); ?>
+                        </a>
+                    </div>
+                <?php endwhile; ?>
+            <?php else: ?>
+                <div class="col-12">
+                    <p>No Services Found</p>
+                </div>
+            <?php endif; ?>
+
+        </div>
+    </div>
+
+
+
+    <!-- BREADCRUMBS SECTION END -->
+
     <!-- FILTER BUTTONS -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="filter_buttons redirect_section mt-4">
             <a href="blogs_ivy_dental_hospital.php"><button class="redirect_blog_srivice">All</button></a>
             <a href="blogs_ivy_dental_hospital.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
@@ -66,7 +97,7 @@ $result = $stmt->get_result();
             <a href="blogs_ivy_dental_hospital.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
             <a href="blogs_ivy_dental_hospital.php?service=others"><button class="redirect_blog_srivice">Other Dental Related</button></a>
         </div>
-    </div>
+    </div> -->
 
     <!-- BLOG SECTION START -->
     <!-- BLOG SECTION START -->
