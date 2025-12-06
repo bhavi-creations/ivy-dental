@@ -268,8 +268,8 @@ Teeth Whitening near me Bangalore">
                                     <nav class="ul-header-nav">
 
                                         <a href="index.php">Home</a>
-                                        <a href="about.php">About</a>
-                                        <a href="services.php">Services </a>
+                                        <a href="about_ivy_dental_hospital.php">About</a>
+                                        <a href="services_ivy_dental_hospital.php">Services </a>
                                         <!-- <div class="has-sub-menu">
                                             <a role="button">Services</a>
 
@@ -281,15 +281,15 @@ Teeth Whitening near me Bangalore">
                                                 </ul>
                                             </div>
                                         </div> -->
-                                        <a href="gallery.php">Gallery</a>
-                                        <a href="testimonials.php">Testimonials</a>
-                                        <a href="blogs.php">Blogs</a>
+                                        <a href="gallery_ivy_dental_hospital.php">Gallery</a>
+                                        <a href="testimonials_ivy_dental_hospital.php">Testimonials</a>
+                                        <a href="blogs_ivy_dental_hospital.php">Blogs</a>
 
-                                        <a href="contact.php">Contact</a>
+                                        <a href="contact_ivy_dental_hospital.php">Contact</a>
                                     </nav>
                                 </div>
                             </div>
-                            <a href="appointment.php" id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
+                            <a href="appointment_ivy_dental_hospital.php" id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
                         </div>
                         <!-- </div> -->
 

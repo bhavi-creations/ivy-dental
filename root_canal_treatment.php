@@ -1,16 +1,16 @@
-<?php include "header.php";  ?>
+<?php include 'header.php'; ?>
 
 
-<main>
+    <main>
         <!-- BREADCRUMBS SECTION START -->
         <section class="ul-breadcrumb">
             <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title">Dentures</h1>
+                <h1 class="ul-breadcrumb-title">Root canal</h1>
 
                 <ul class="ul-breadcrumb-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li>Dentures</li>
+                    <li>Root canal</li>
                 </ul>
             </div>
         </section>
@@ -23,11 +23,11 @@
                     <div class="col-lg-8 col-md-7">
                         <div>
                             <div class="ul-service-details-img">
-                                <img src="assets/img/service/dentures_service.png" alt="Image">
+                                <img src="assets/img/service/rootcanal.png" alt="Image">
                             </div>
                             <div class="ul-service-details-txt">
-                                <h2 class="ul-service-details-title">Dentures </h2>
-                                <p class="ul-service-details-descr">Dentures are removable dental appliances designed to replace missing teeth and surrounding tissues. They restore your ability to eat, speak, and smile comfortably. Available as full or partial dentures, they are custom-made to fit securely and look natural, improving both appearance and oral health.</p>
+                                <h2 class="ul-service-details-title">Root canal </h2>
+                                <p class="ul-service-details-descr">A root canal is a dental procedure that treats infection inside a tooth by removing the infected pulp, cleaning the canals, and sealing them to prevent reinfection. It helps preserve your natural tooth, restores function, and eliminates pain. Modern techniques make the treatment safe, effective, and virtually painless.</p>
                                 <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                                 <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                     <div class="ul-service-details-inner-block">
                                         <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                         <ul>
-                                            <li><span class="title">Full Dentures:</span> <span class="value">Replace all missing teeth in the upper or lower jaw.</span></li>
-                                            <li><span class="title">Partial Dentures :</span> <span class="value"> Fill gaps when some natural teeth remain.</span></li>
-                                            <li><span class="title">Natural Look :</span> <span class="value">Designed to resemble real teeth and gums.</span></li>
-                                            <li><span class="title">Comfortable Fit:</span> <span class="value"> Custom-made for a secure and easy fit.</span></li>
+                                            <li><span class="title">Painless root canal:</span> <span class="value">Advanced techniques ensure comfort</span></li>
+                                            <li><span class="title">Save natural tooth:</span> <span class="value">Retains your original tooth structure.</span></li>
+                                            <li><span class="title">Infection removal :</span> <span class="value">Eliminates bacteria and prevents spread.</span></li>
+                                            <li><span class="title">Long-lasting solution:</span> <span class="value">Restores function and prevents extraction..</span></li>
 
                                             <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                             <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                     <div class="ul-service-details-inner-block-img">
-                                        <img src="assets/img/home/dentures.png" alt="Image">
+                                        <img src="assets/img/home/root canal.png" alt="Image">
                                     </div>
                                 </div>
 
@@ -79,9 +79,9 @@
 
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                    <p>Missing teeth can affect daily life, from eating and speaking to smiling with confidence. Dentures restore function, improve appearance, and support facial structure, giving you a healthier and more youthful look.</p>
+                                    <p>Improving your lifestyle isn't just about avoiding illness — it's about living better, feeling stronger, and thinking clearer every day.</p>
                                     <div class="ul-accordion ul-service-details-faq">
-                                    <!--    <div class="ul-single-accordion-item">
+                                        <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
@@ -125,43 +125,11 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-5">
-                        <div class="ul-service-details-sidebar">
-                            <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Our Services</span>
-                                <ul class="ul-service-details-sidebar-links">
-                                    <li><a href="rootcanal.php" class="active">Root canal<i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teethfilling.php">Teeth Filling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="clearaligners.php">Clear Aligners <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_braces.php">Dental braces <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dentures.php">Dentures <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_whitening.php">Teeth Whitening <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_implants.php" >Dental Implants <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_scaling.php">Teeth Scaling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="smile_makeover.php">Smile Makeover <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="crowns_bridges.php">Crowns & Bridges <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="tooth_extraction.php">Tooth Extraction <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="full_mouth_restoration.php">Full Mouth Restoration <i class="flaticon-arrow-up-right"></i></a></li></div>
-                                </ul>
-                            </div>
-
-                            <!-- call to action card -->
-                            <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
-                                <span class="ul-service-details-sidebar-widget-title">Need more info?</span>
-                                <div class="ul-service-details-sidebar-cta-content">
-                                    <p class="contact-info">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
-                                    <span class="contact-info number"><a href="tel:+1890123456">+91 7760605222</a></span>
-                                    <p class="contact-info"><a href="mailto:support@example.com">support@example.com</a></p>
-                                    <a href="contact.php" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php include "sub_service.php"; ?>
                 </div>
             </div>
         </section>
         <!-- SERVICE DETAILS SECTION END -->
     </main>
 
-
-<?php include "footer.php" ; ?>
+    <?php include "footer.php";?>

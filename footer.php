@@ -16,12 +16,12 @@
 
                         <div class="ul-footer-widget-links">
                             <a href="index.php">Home</a>
-                            <a href="about.php">About</a>
-                            <a href="services.php">Services</a>
-                            <a href="testimonials.php">Testimonials</a>
-                            <a href="gallery.php">Gallery</a>
-                            <a href="blogs.php">Blogs</a>
-                            <a href="contact.php">Contact</a>
+                            <a href="about_ivy_dental_hospital.php">About</a>
+                            <a href="services_ivy_dental_hospital.php">Services</a>
+                            <a href="testimonials_ivy_dental_hospital.php">Testimonials</a>
+                            <a href="gallery_ivy_dental_hospital.php">Gallery</a>
+                            <a href="blogs_ivy_dental_hospital.php">Blogs</a>
+                            <a href="contact_ivy_dental_hospital.php">Contact</a>
 
                         </div>
                     </div>
@@ -29,12 +29,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="rootcanal.php" class="active">Root canal </a>
-                            <a href="teethfilling.php">Teeth Filling </a>
-                            <a href="clearaligners.php">Clear Aligners </a>
-                            <a href="dental_braces.php">Dental braces </a>
-                            <a href="dentures.php">Dentures </a>
-                            <a href="teeth_whitening.php">Teeth Whitening </a>
+                            <a href="root_canal_treatment.php" class="active">Root canal </a>
+                            <a href="teeth_filling_treatment.php">Teeth Filling </a>
+                            <a href="clear_aligners_treatment.php">Clear Aligners </a>
+                            <a href="dental_braces_treatment.php">Dental braces </a>
+                            <a href="dentures_treatment.php">Dentures </a>
+                            <a href="teeth_whitening_treatment.php">Teeth Whitening </a>
 
                         </div>
                     </div>
@@ -44,12 +44,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="dental_implants.php">Dental Implants </a>
-                            <a href="teeth_scaling.php">Teeth Scaling </a>
-                            <a href="smile_makeover.php">Smile Makeover </a>
-                            <a href="crowns_bridges.php">Crowns & Bridges </a>
-                            <a href="tooth_extraction.php">Tooth Extraction </a>
-                            <a href="full_mouth_restoration.php">Full Mouth Restoration </a>
+                            <a href="dental_implants_treatment.php">Dental Implants </a>
+                            <a href="teeth_scaling_treatment.php">Teeth Scaling </a>
+                            <a href="smile_makeover_treatment.php">Smile Makeover </a>
+                            <a href="crowns_bridges_treatment.php">Crowns & Bridges </a>
+                            <a href="tooth_extraction_treatment.php">Tooth Extraction </a>
+                            <a href="full_mouth_restoration_treatment.php">Full Mouth Restoration </a>
                         </div>
                     </div>
 

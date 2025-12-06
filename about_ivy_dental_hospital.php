@@ -110,7 +110,7 @@
                             </div>
                         </div>
 
-                        <a href="appointment.php" class="ul-btn">APPOINMENT NOW <i class="flaticon-arrow-up-right"></i></a>
+                        <a href="appointment_ivy_dental_hospital.php" class="ul-btn">APPOINMENT NOW <i class="flaticon-arrow-up-right"></i></a>
                     </div>
                 </div>
             </div>

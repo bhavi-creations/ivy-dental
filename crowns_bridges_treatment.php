@@ -1,15 +1,16 @@
-<?php include 'header.php'; ?>
+<?php include "header.php";  ?>
+
 
 <main>
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Tooth filling</h1>
+            <h1 class="ul-breadcrumb-title">Crowns & bridges</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Tooth filling</li>
+                <li>Crowns & bridges</li>
             </ul>
         </div>
     </section>
@@ -22,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/teeth_filling.png" alt="Image">
+                            <img src="assets/img/service/crowns.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title">Tooth filling </h2>
-                            <p class="ul-service-details-descr">Tooth filling is a simple and effective procedure to repair cavities or minor tooth damage. The decayed portion of the tooth is removed and replaced with a durable filling material that restores its natural shape and function. It prevents further decay, strengthens the tooth, and helps you maintain a healthy smile.</p>
+                            <h2 class="ul-service-details-title"> Crowns & bridges</h2>
+                            <p class="ul-service-details-descr">Crowns and bridges are fixed dental restorations used to strengthen damaged teeth or replace missing ones. A crown covers and protects a weakened tooth, while a bridge fills the gap of one or more missing teeth by anchoring to the surrounding teeth. They improve chewing, speaking, and restore a natural-looking smile.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -35,11 +36,12 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Cavity treatment :</span> <span class="value">Repairs decayed areas.</span></li>
-                                        <li><span class="title">Durable fillings :</span> <span class="value">Materials like composite, silver, or ceramic.</span></li>
-                                        <li><span class="title">Pain-free procedure :</span> <span class="value">Quick and comfortable.</span></li>
-                                        <li><span class="title">Prevents tooth damage :</span> <span class="value">Stops decay from spreading.</span></li>
+                                        <li><span class="title">Dental Crown :</span> <span class="value">A protective cap placed over a weak or damaged tooth.</span></li>
+                                        <li><span class="title">Dental Bridge :</span> <span class="value">A fixed solution to replace one or more missing teeth.</span></li>
+                                        <li><span class="title">Strong & Durable :</span> <span class="value"> Made from ceramic, porcelain, or metal for long life.</span></li>
+                                        <li><span class="title">Natural Appearance:</span> <span class="value">Matches the shape and color of real teeth.</span></li>
 
+                                        <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
                                     </ul>
                                 </div>
@@ -60,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/teeth filling.png" alt="Image">
+                                    <img src="assets/img/home/dental crown and bridge.png" alt="Image">
                                 </div>
                             </div>
 
@@ -77,9 +79,9 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Ignoring cavities can lead to severe pain, infection, or even tooth loss. A dental filling not only stops decay but also restores the tooth’s normal function and appearance, ensuring long-term oral health and a confident smil</p>
+                                <p>Broken or missing teeth not only affect your smile but also your oral health and daily functions. Crowns and bridges provide a reliable, long-lasting solution to restore strength, function, and appearance, keeping your smile healthy and complete.</p>
                                 <div class="ul-accordion ul-service-details-faq">
-                                    <!--  <div class="ul-single-accordion-item">
+                                    <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
@@ -92,7 +94,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="ul-single-accordion-item open">
+                                         <div class="ul-single-accordion-item open">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Why Join Us as a Volunteer?</h3>
@@ -123,43 +125,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-5">
-                   
-                        <div class="ul-service-details-sidebar">
-                            <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Our Services</span>
-                                <ul class="ul-service-details-sidebar-links">
-                                    <li><a href="rootcanal.php" class="active">Root canal<i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teethfilling.php">Teeth Filling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="clearaligners.php">Clear Aligners <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_braces.php">Dental braces <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dentures.php">Dentures <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_whitening.php">Teeth Whitening <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_implants.php">Dental Implants <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_scaling.php">Teeth Scaling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="smile_makeover.php">Smile Makeover <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="crowns_bridges.php">Crowns & Bridges <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="tooth_extraction.php">Tooth Extraction <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="full_mouth_restoration.php">Full Mouth Restoration <i class="flaticon-arrow-up-right"></i></a></li>
-                            </div>
-                            </ul>
-                        </div>
-
-                        <!-- call to action card -->
-                        <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
-                            <span class="ul-service-details-sidebar-widget-title">Need more info?</span>
-                            <div class="ul-service-details-sidebar-cta-content">
-                                <p class="contact-info">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
-                                <span class="contact-info number"><a href="tel:+1890123456">+91 7760605222</a></span>
-                                <p class="contact-info"><a href="mailto:support@example.com">support@example.com</a></p>
-                                <a href="contact.html" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php include "sub_service.php"; ?>
             </div>
+        </div>
         </div>
     </section>
     <!-- SERVICE DETAILS SECTION END -->
 </main>
-<?php include 'footer.php'; ?>
+
+
+<?php include "footer.php"; ?>

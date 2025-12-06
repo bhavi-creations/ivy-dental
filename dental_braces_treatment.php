@@ -5,12 +5,12 @@
         <!-- BREADCRUMBS SECTION START -->
         <section class="ul-breadcrumb">
             <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title"> Teeth Whitening</h1>
+                <h1 class="ul-breadcrumb-title">Dental braces</h1>
 
                 <ul class="ul-breadcrumb-nav">
                     <li><a href="index.php">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li> Teeth Whitening</li>
+                    <li>Dental braces</li>
                 </ul>
             </div>
         </section>
@@ -23,11 +23,11 @@
                     <div class="col-lg-8 col-md-7">
                         <div>
                             <div class="ul-service-details-img">
-                                <img src="assets/img/service/teeth_whitening.png" alt="Image">
+                                <img src="assets/img/service/dental_braces.png" alt="Image">
                             </div>
                             <div class="ul-service-details-txt">
-                                <h2 class="ul-service-details-title">   Teeth Whitening </h2>
-                                <p class="ul-service-details-descr">Teeth whitening is a cosmetic dental treatment that lightens stained or discolored teeth. Using advanced bleaching techniques, it safely removes surface stains caused by food, drinks, smoking, or aging. The result is a whiter, healthier-looking smile that boosts your confidence.</p>
+                                <h2 class="ul-service-details-title">Dental braces </h2>
+                                <p class="ul-service-details-descr">Dental braces are orthodontic devices used to correct misaligned teeth and jaw issues. They apply gentle, continuous pressure to gradually shift teeth into the right position. Available in metal, ceramic, or lingual types, braces improve both appearance and oral health by creating a balanced, confident smile.</p>
                                 <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                                 <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                     <div class="ul-service-details-inner-block">
                                         <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                         <ul>
-                                            <li><span class="title">Professional Whitening</span> <span class="value">Safe and effective treatment by a dentist.</span></li>
-                                            <li><span class="title">Removes Stains :</span> <span class="value">Targets discoloration from coffee, tea, or smoking.</span></li>
-                                            <li><span class="title">Instant Results :</span> <span class="value"> Noticeably whiter teeth in just one session.</span></li>
-                                            <li><span class="title">Confidence Boost:</span> <span class="value"> Enhances your smile and self-esteem.</span></li>
+                                            <li><span class="title">Teeth Alignment:</span> <span class="value">Corrects crooked or crowded teeth.</span></li>
+                                            <li><span class="title">Bite Correction :</span> <span class="value"> Fixes overbite, underbite, and crossbite.</span></li>
+                                            <li><span class="title">Different Types :</span> <span class="value"> Options include metal, ceramic, and lingual braces.</span></li>
+                                            <li><span class="title">Long-Term Results:</span> <span class="value"> Provides lasting improvements in smile and function.</span></li>
 
                                             <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                             <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                     <div class="ul-service-details-inner-block-img">
-                                        <img src="assets/img/home//teeth whitening.png" alt="Image">
+                                        <img src="assets/img/home/braces.png" alt="Image">
                                     </div>
                                 </div>
 
@@ -79,7 +79,7 @@
 
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                    <p>A bright smile not only makes a strong first impression but also reflects good oral hygiene and health. Teeth whitening is a simple, quick, and safe way to enhance your appearance and feel more confident every day.</p>
+                                    <p>Misaligned teeth can cause chewing difficulties, speech issues, and self-consciousness. Dental braces not only straighten teeth but also improve oral function, hygiene, and overall confidence.</p>
                                     <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
@@ -125,37 +125,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-5">
-                        <div class="ul-service-details-sidebar">
-                            <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Our Services</span>
-                                <ul class="ul-service-details-sidebar-links">
-                                    <li><a href="rootcanal.php" class="active">Root canal<i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teethfilling.php">Teeth Filling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="clearaligners.php">Clear Aligners <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_braces.php">Dental braces <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dentures.php">Dentures <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_whitening.php">Teeth Whitening <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="dental_implants.php" >Dental Implants <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="teeth_scaling.php">Teeth Scaling <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="smile_makeover.php">Smile Makeover <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="crowns_bridges.php">Crowns & Bridges <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="tooth_extraction.php">Tooth Extraction <i class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="full_mouth_restoration.php">Full Mouth Restoration <i class="flaticon-arrow-up-right"></i></a></li></div>
-                                </ul>
-                            </div>
-
-                            <!-- call to action card -->
-                            <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
-                                <span class="ul-service-details-sidebar-widget-title">Need more info?</span>
-                                <div class="ul-service-details-sidebar-cta-content">
-                                    <p class="contact-info">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
-                                    <span class="contact-info number"><a href="tel:+1890123456">+91 7760605222</a></span>
-                                    <p class="contact-info"><a href="mailto:dr.chiranjeevi@gmail.com">dr.chiranjeevi@gmail.com</a></p>
-                                    <a href="contact.php" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    <?php include "sub_service.php"; ?>
                     </div>
                 </div>
             </div>
