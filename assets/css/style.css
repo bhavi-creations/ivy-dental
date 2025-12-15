@@ -6450,50 +6450,47 @@ button {
 }
 
 @media (max-width:768px) {
-  
-  .index_page_socialmedia{
+
+  .index_page_socialmedia {
     display: none !important;
   }
 }
 
-@media (max-width:992px){
-.indes_secong_section{
-  display: flex;
-  justify-content: start;
-}
-}
-
-@media (min-width:992px) and (max-width:1600px){
-  .indes_secong_section{
+@media (max-width:992px) {
+  .indes_secong_section {
     display: flex;
-    justify-content: center
-    
-    
-    ;
+    justify-content: start;
   }
+}
+
+@media (min-width:992px) and (max-width:1600px) {
+  .indes_secong_section {
+    display: flex;
+    justify-content: center;
   }
+}
 
-  /* whats app stylings  */
-  .whatsapp-link {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-    background-color: #25d366;
-    color: #fff;
-    /* padding: 5px; */
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 35px;
-    text-align: center;
-    z-index: 9999999999!important;
-  }
+/* whats app stylings  */
+.whatsapp-link {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  /* padding: 5px; */
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+  z-index: 9999999999 !important;
+}
 
 
-  /* service details page  */
+/* service details page  */
 
-  
+
 
 .card {
   background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9);
@@ -6745,7 +6742,7 @@ button {
   /* background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important; */
   /* background: #f8f9fa; */
 
-  color:'';
+  color: '';
 
   /* light gray */
   padding: 10px;
@@ -6989,12 +6986,12 @@ margin-top: 100px !important;
     /* same width as image */
     margin-top: 15px;
   }
-  
+
 }
 
 .ul-service-details-title,
 .ul-service-details-full-content,
-.ul-service-details-descr{
+.ul-service-details-descr {
   font-family: "Roboto", sans-serif !important;
   /* font-size: 18px !important; */
 }
@@ -7036,12 +7033,29 @@ margin-top: 100px !important;
 
 /* Shake animation */
 @keyframes shake {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  20% { transform: translate(-3px, 0) rotate(-2deg); }
-  40% { transform: translate(3px, 0) rotate(2deg); }
-  60% { transform: translate(-3px, 0) rotate(-2deg); }
-  80% { transform: translate(3px, 0) rotate(2deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0) rotate(-2deg);
+  }
+
+  40% {
+    transform: translate(3px, 0) rotate(2deg);
+  }
+
+  60% {
+    transform: translate(-3px, 0) rotate(-2deg);
+  }
+
+  80% {
+    transform: translate(3px, 0) rotate(2deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
 
 /* Hover effect */
@@ -7050,4 +7064,57 @@ margin-top: 100px !important;
 }
 
 
-/* blogs code  */.
+/* blogs code  */
+.
+/* blogs auto slide  */
+@media (max-width:768px) {
+  .blog-swiper {
+    margin-bottom: 800px !important;
+  }
+
+}
+
+
+
+/* telugu english   */
+
+.lang-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.english-btn {
+  background: #ffc107;
+  color: #000;
+}
+
+.telugu-btn {
+  background: #28a745 !important;
+  color: #fff !important;
+}
+
+.telugu-btn:hover,
+.english-btn:hover {
+  /* background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%) !important; */
+  background-color: #1c482d !important;
+  color: #fff !important;
+}
+
+
+
+
+/* Smooth Hover Animation */
+.lang-btn:hover {
+  transform: scale(1.08);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+  opacity: 0.9;
+}
+
+/* Active Click Animation */
+.lang-btn:active {
+  transform: scale(0.95);
+}

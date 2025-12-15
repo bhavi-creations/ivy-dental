@@ -87,10 +87,10 @@
                     <div class="col order-2 order-lg-3">
 
 
-                        <p class="copyright-txt">&copy; <span class="colored">Bhavi creations Pvt Ltd</span>
+                        <p class="copyright-txt">&copy; <span class="colored"> <a href="https://bhavicreations.com/">  Bhavi creations Pvt Ltd</a> </span>
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script>. All Rights Reserved.
+                            </script>
                         </p>
                     </div>
                 </div>
