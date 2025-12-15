@@ -153,7 +153,7 @@ $conn->close();
     <div class="container">
         <div class="blogs_side my-5">
             <div class="side-bar">
-                <h1 class="d-flex justify-content-center my-3">LATEST BLOGS</h1>
+                <h1 class="d-flex justify-content-center my-3 " style="color:#3d7553; font-weight: 500;">LATEST BLOGS</h1>
                 <div class="swiper blog-swiper">
                     <div class="swiper-wrapper">
                         <?php
@@ -173,7 +173,7 @@ $conn->close();
 
                                 echo "
                             <div class='swiper-slide d-flex justify-content-center'>
-                                <div class='custom-card background_sidebar text-center' 
+                                <div class='custom-card background_sidebar_ivy text-center' 
                                     style='width:100%; max-width:400px; height:350px; display:flex; flex-direction:column; justify-content:flex-start; align-items:center; padding:10px; border-radius:8px; box-shadow:0px 2px 10px rgba(0,0,0,0.1);'>
                                     <div style='flex:1; display:flex; align-items:center; justify-content:center; width:100%; overflow:hidden;'>
                                         <img src='{$sidebar_image_path}' class='img-fluid' style='width:100%; height:100%; object-fit:cover;' alt='Blog Image'>

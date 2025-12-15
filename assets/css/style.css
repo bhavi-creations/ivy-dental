@@ -6359,6 +6359,11 @@ button {
   background-color: #94beeb;
 }
 
+.background_sidebar_ivy{
+  background-color:  #3d7553 !important;
+}
+
+
 .redirect_section {
   text-align: center;
   margin-top: 30px;
@@ -7118,3 +7123,4 @@ margin-top: 100px !important;
 .lang-btn:active {
   transform: scale(0.95);
 }
+
