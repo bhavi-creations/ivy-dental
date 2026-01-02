@@ -144,6 +144,10 @@ Teeth Whitening near me Bangalore">
 </head>
 
 <body>
+
+
+
+<?php include 'view_count.php' ; ?>
     <div class="preloader" id="preloader">
         <!-- <div class="loader"></div> -->
         <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;"></a>
