@@ -30,8 +30,7 @@ $totalCount = $totalRes->fetch_assoc()['total'] ?? 0;
 <body>  
     
 
-<!-- <a href="visitor-analytics.php" id="visitor-eye"> -->
-<a href="#" id="visitor-eye">
+<a href="visitor-analytics.php" id="visitor-eye">
     <!-- 👁 -->
     <img src="./assets/img/eye.png" class="img-fluid" alt="" style="width: 30px; height: 30px;">
     <div class="visitor-tooltip">
