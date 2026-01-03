@@ -10,6 +10,8 @@
         <meta name="author" content="">
 
         <title> IVY Dental</title>
+
+        <link rel="icon" type="image/x-icon" href="admin\public\img\favicon.png">
         <link href="img\Oncology logo.png" rel="icon">
 
         <!-- Custom fonts for this template-->
