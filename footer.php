@@ -29,12 +29,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="root_canal_treatment.php" class="active">Root canal </a>
-                            <a href="teeth_filling_treatment.php">Teeth Filling </a>
-                            <a href="clear_aligners_treatment.php">Clear Aligners </a>
-                            <a href="dental_braces_treatment.php">Dental braces </a>
-                            <a href="dentures_treatment.php">Dentures </a>
-                            <a href="teeth_whitening_treatment.php">Teeth Whitening </a>
+                            <a href="root_canal_treatment_in_bengaluru.php" class="active">Root canal </a>
+                            <a href="teeth_filling_treatment_in_bengaluru.php">Teeth Filling </a>
+                            <a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php">Clear Aligners </a>
+                            <a href="dentaldental_braces_treatment_in_bengaluru.php">Dental braces </a>
+                            <a href="dentures_treatment_in_bengaluru.php">Dentures </a>
+                            <a href="teeth_whitening_treatment_in_bengaluru.php">Teeth Whitening </a>
 
                         </div>
                     </div>
@@ -44,12 +44,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="dental_implants_treatment.php">Dental Implants </a>
-                            <a href="teeth_scaling_treatment.php">Teeth Scaling </a>
-                            <a href="smile_makeover_treatment.php">Smile Makeover </a>
-                            <a href="crowns_bridges_treatment.php">Crowns & Bridges </a>
-                            <a href="tooth_extraction_treatment.php">Tooth Extraction </a>
-                            <a href="full_mouth_restoration_treatment.php">Full Mouth Restoration </a>
+                            <a href="dental_implants_treatment_in_bengaluru.php">Dental Implants </a>
+                            <a href="teeth_scaling_treatment_in_bengaluru.php">Teeth Scaling </a>
+                            <a href="smile_makeover_treatment_in_bengaluru.php">Smile Makeover </a>
+                            <a href="dentalcrown_bridge_treatment_in_bengaluru.php">Crowns & Bridges </a>
+                            <a href="tooth_extraction_treatment_in_bengaluru.php">Tooth Extraction </a>
+                            <a href="full_mouth_restoration_treatment_in_bengaluru.php">Full Mouth Restoration </a>
                         </div>
                     </div>
 

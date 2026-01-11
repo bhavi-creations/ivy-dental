@@ -3,18 +3,18 @@
                         <div class="ul-service-details-sidebar-widget">
                             <span class="ul-service-details-sidebar-widget-title">Our Services</span>
                             <ul class="ul-service-details-sidebar-links">
-                                <li><a href="root_canal_treatment.php" class="active">Root canal<i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="teeth_filling_treatment.php">Teeth Filling <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="clear_aligners_treatment.php">Clear Aligners <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="dental_braces_treatment.php">Dental braces <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="dentures_treatment.php">Dentures <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="teeth_whitening_treatment.php">Teeth Whitening <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="dental_implants_treatment.php">Dental Implants <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="teeth_scaling_treatment.php">Teeth Scaling <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="smile_makeover_treatment.php">Smile Makeover <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="crowns_bridges_treatment.php">Crowns & Bridges <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="tooth_extraction_treatment.php">Tooth Extraction <i class="flaticon-arrow-up-right"></i></a></li>
-                                <li><a href="full_mouth_restoration_treatment.php">Full Mouth Restoration <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="root_canal_treatment_in_bengaluru.php" class="active">Root canal<i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="teeth_filling_treatment_in_bengaluru.php">Teeth Filling <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php">Clear Aligners <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="dental_braces_treatment_in_bengaluru.php">Dental braces <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="dentaldentures_treatment_in_bengaluru.php">Dentures <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="teeth_whitening_treatment_in_bengaluru.php">Teeth Whitening <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="dental_implants_treatment_in_bengaluru.php">Dental Implants <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="teeth_scaling_treatment_in_bengaluru.php">Teeth Scaling <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="smile_makeover_treatment_in_bengaluru.php">Smile Makeover <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="dentalcrown_bridge_treatment_in_bengaluru.php">Crowns & Bridges <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="tooth_extraction_treatment_in_bengaluru.php">Tooth Extraction <i class="flaticon-arrow-up-right"></i></a></li>
+                                <li><a href="full_mouth_restoration_treatment_in_bengaluru.php">Full Mouth Restoration <i class="flaticon-arrow-up-right"></i></a></li>
                         </div>
                         </ul>
                     </div>

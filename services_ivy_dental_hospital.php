@@ -33,12 +33,12 @@
                                     <img src="assets/img/root-canal-icon.png" alt="">
                                 </div>
 
-                                <a href="root_canal_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="root_canal_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="root_canal_treatment.php">Root canal</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="root_canal_treatment_in_bengaluru.php">Root canal</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Relieve pain and save your natural tooth with advanced root
                                 canal treatment </p>
                         </div>
@@ -56,12 +56,12 @@
 
                                 </div>
 
-                                <a href="teeth_filling_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="teeth_filling_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_filling_treatment.php">Teeth Filling</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_filling_treatment_in_bengaluru.php">Teeth Filling</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Restore your tooth’s strength and function with safe and
                                 lasting dental fillings.</p>
                         </div>
@@ -85,12 +85,12 @@
 
                                 </div>
 
-                                <a href="dental_implants_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="dental_implants_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_implants_treatment.php">Dental Implants</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_implants_treatment_in_bengaluru.php">Dental Implants</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Replace missing teeth with strong, permanent dental
                                 implants.</p>
                         </div>
@@ -110,12 +110,12 @@
 
                                 </div>
 
-                                <a href="teeth_scaling_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="teeth_scaling_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_scaling_treatment.php">Teeth Scaling</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_scaling_treatment_in_bengaluru.php">Teeth Scaling</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Keep your gums healthy with professional teeth scaling and
                                 cleaning.</p>
                         </div>
@@ -135,12 +135,12 @@
 
                                 </div>
 
-                                <a href="clear_aligners_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="clear_aligners_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="clear_aligners_treatment.php">Clear Aligners</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="clear_aligners_treatment_in_bengaluru.php">Clear Aligners</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Straighten your teeth discreetly with advanced clear
                                 aligners.</p>
                         </div>
@@ -158,12 +158,12 @@
 
                                 </div>
 
-                                <a href="dental_braces_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="dental_braces_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_braces_treatment.php"> Dental braces</a>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dental_braces_treatment_in_bengaluru.php"> Dental braces</a>
                             </h3>
                             <p class="ul-service-descr" id="ul_service_title">Achieve a perfect smile with advanced dental braces</p>
                         </div>
@@ -183,12 +183,12 @@
 
                                 </div>
 
-                                <a href="smile_makeover_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="smile_makeover_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="smile_makeover_treatment.php">Smile Makeover</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="smile_makeover_treatment_in_bengaluru.php">Smile Makeover</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Transform your smile with a customized smile makeover.</p>
                         </div>
                     </div>
@@ -207,35 +207,17 @@
 
                                 </div>
 
-                                <a href="teeth_whitening_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="teeth_whitening_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_whitening_treatment.php">Teeth Whitening</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="teeth_whitening_treatment_in_bengaluru.php">Teeth Whitening</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Brighten your smile with safe and effective teeth whitening.
                             </p>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -251,12 +233,12 @@
 
                                 </div>
 
-                                <a href="crowns_bridges_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="crowns_bridges_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="crowns_bridges_treatment.php">Crowns & Bridges</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="crowns_bridges_treatment_in_bengaluru.php">Crowns & Bridges</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Restore damaged or missing teeth with durable crowns and bridges.</p>
                         </div>
                     </div>
@@ -282,12 +264,12 @@
 
                                 </div>
 
-                                <a href="tooth_extraction_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="tooth_extraction_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="tooth_extraction_treatment.php">Tooth Extraction</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="tooth_extraction_treatment_in_bengaluru.php">Tooth Extraction</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Safe and gentle tooth extraction for a healthier smile.</p>
                         </div>
                     </div>
@@ -304,12 +286,12 @@
 
                                 </div>
 
-                                <a href="full_mouth_restoration_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="full_mouth_restoration_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="full_mouth_restoration_treatment.php">Full Mouth Restoration</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="full_mouth_restoration_treatment_in_bengaluru.php">Full Mouth Restoration</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Rebuild your smile and oral health with full mouth restoration.</p>
                         </div>
                     </div>
@@ -326,12 +308,12 @@
 
                                 </div>
 
-                                <a href="dentures_treatment.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="dentures_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures_treatment.php">Dentures</a>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures_treatment_in_bengaluru.php">Dentures</a>
                             </h3>
                             <p class="ul-service-descr" id="ul_service_title">Restore your smile and confidence with natural-looking
                                 dentures.</p>

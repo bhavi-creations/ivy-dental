@@ -57,7 +57,7 @@ if ($isFiltered) {
 <html>
 
 <head>
-    <title>Apple Dental Hospital Kakinada</title>
+    <title>Ivy Dental Hospital Kakinada</title>
     <style>
         body {
             font-family: Arial;
@@ -147,6 +147,7 @@ if ($isFiltered) {
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
 
 
 
@@ -156,7 +157,7 @@ if ($isFiltered) {
 
         <!-- TOTAL VISITORS -->
         <div class="va-box">
-            <h3>👥 Total Website Visitors</h3>
+            <h3>👥 Total pages Visitors</h3>
             <div class="va-total"><?php echo $totalCount; ?></div>
             <?php if ($isFiltered) { ?>
                 <small><?php echo $from; ?> → <?php echo $to; ?></small>
