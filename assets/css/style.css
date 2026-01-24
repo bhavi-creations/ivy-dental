@@ -7231,3 +7231,34 @@ table {
     overflow-wrap: break-word;
 }
 }
+
+
+/* add holiday section   */
+ .holiday-btn {
+        width: 100%;
+        background: linear-gradient(135deg, #1c482d, #1e5d36);
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    .holiday-btn:hover {
+        /* background: linear-gradient(135deg, green, ); */
+            background: linear-gradient(135deg, #23a62da5, #215625a5);
+    }
+
+
+
+
+    .appointment-btn{
+      background-color: rgb(255, 255, 255);
+      font-weight: 600;
+    }
+
+ 
+    .appointment-btn:hover{
+      background-color: rgb(255, 255, 255);
+      font-weight: 600;
+    }

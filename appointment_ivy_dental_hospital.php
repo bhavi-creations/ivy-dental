@@ -1,128 +1,138 @@
-<?php include('header.php'); ?>
+ <?php
+    include './db.connection/db_connection.php';
+
+
+    $selected_date = date('Y-m-d');
+    $slots = [
+
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "01:00 PM - 02:00 PM",
+        "02:00 PM - 03:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM",
+        "07:00 PM - 08:00 PM"
+    ];
+    ?>
+ <?php include('header.php'); ?>
 
 
 
-<main>
-    <!-- BREADCRUMBS SECTION START -->
-    <section class="ul-breadcrumb">
-        <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Appointment</h1>
+ <main>
+     <!-- BREADCRUMBS SECTION START -->
+     <section class="ul-breadcrumb">
+         <div class="ul-2-container">
+             <h1 class="ul-breadcrumb-title">Appointment</h1>
 
-            <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
-                <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Appointment</li>
-            </ul>
-        </div>
-    </section>
-    <!-- BREADCRUMBS SECTION END -->
-
-
-    <!-- APPOINTMENT SECTION START -->
-    <section class="ul-inner-appointment ul-section-spacing">
-        <div class="ul-inner-appointment-container">
-            <h2 class="ul-inner-appointment-title appointment_section">Apply For Appointment</h2>
-            <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
-                data-aos-delay="100">
-                <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
-                    <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-name">Your Name</label>
-                            <input type="text" name="name" id="ul-appointment-name" placeholder="Full Name">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-email">Your Email</label>
-                            <input type="email" name="email" id="ul-appointment-email" placeholder="Email Address">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-phone">Your Phone</label>
-                            <input type="tel" name="phone" id="ul-appointment-phone" placeholder="Your Number">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-date">Selct Date</label>
-                            <input type="date" name="date" id="ul-appointment-date">
-                        </div>
-                    </div>
-
-                    <!-- <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-doctor">Select Doctor</label>
-                            <select name="Doctor" id="ul-appointment-doctor">
-                                <option value="none" data-placeholder="true">Select Doctor</option>
-                                <option value="Doctor 1">Doctor 1</option>
-                                <option value="Doctor 2">Doctor 2</option>
-                                <option value="Doctor 3">Doctor 3</option>
-                            </select>
-                            <div id="ul-appointment-doctor-select-wrapper" class="position-relative"></div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-sm-12 col-12 col">
-                        <div class="form-group select-wrapper">
-                            <label for="ul-appointment-treatment">Select Treatment</label>
-                            <select name="treatment" id="ul-appointment-treatment">
-                                <option value="none" data-placeholder="true">Select Treatment</option>
-                                <option value="treatment 1">Root canal</option>
-                                <option value="treatment 2">Teeth Filling</option>
-                                <option value="treatment 3">Clear Aligners</option>
-                                <option value="treatment 4">Dental braces</option>
-                                <option value="treatment 5">Dentures</option>
-                                <option value="treatment 6">Teeth Whitening</option>
-                                <option value="treatment 7">Dental Implants</option>
-                                <option value="treatment 8">Teeth Scaling</option>
-                                <option value="treatment 9">Smile Makeover</option>
-                                <option value="treatment 10">Crowns & Bridges</option>
-                                <option value="treatment 11">Tooth Extraction</option>
-                                <option value="treatment 12">Full Mouth Restoration</option>
-
-                            </select>
-                            <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
-                        </div> -->
-
-                    <div class="col">
-                        <div class="form-group select-wrapper">
-                            <label for="ul-appointment-treatment">Select Treatment</label>
-                            <select name="treatment" id="ul-appointment-treatment">
-                                <option value="none" data-placeholder="true">Select Treatment</option>
-                                <option value="Root canal">Root canal</option>
-                                <option value="Teeth Filling">Teeth Filling</option>
-                                <option value="Clear Aligners">Clear Aligners</option>
-                                <option value="Dental braces">Dental braces</option>
-                                <option value="Dentures">Dentures</option>
-                                <option value="Teeth Whitening">Teeth Whitening</option>
-                                <option value="Dental Implants">Dental Implants</option>
-                                <option value="Teeth Scaling ">Teeth Scaling</option>
-                                <option value="Smile Makeover">Smile Makeover</option>
-                                <option value="Crowns & Bridges">Crowns & Bridges</option>
-                                <option value="Tooth Extraction">Tooth Extraction</option>
-                                <option value="Full Mouth Restoration">Full Mouth Restoration</option>
-
-                            </select>
-                            <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
-                        </div>
-                    </div>
+             <ul class="ul-breadcrumb-nav">
+                 <li><a href="index.php">Home</a></li>
+                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
+                 <li>Appointment</li>
+             </ul>
+         </div>
+     </section>
+     <!-- BREADCRUMBS SECTION END -->
 
 
+     <!-- APPOINTMENT SECTION START -->
+     <section class="ul-inner-appointment ul-section-spacing">
+         <div class="ul-inner-appointment-container">
+             <h2 class="ul-inner-appointment-title appointment_section">Apply For Appointment</h2>
+             <form id="appointmentForm"
+                 method="POST"
+                 action="save_appointment.php"
+                 class="row appointment-form mx-auto">
 
+                 <div class="col-md-6 mb-4">
+                     <label>Name</label>
+                     <input type="text" name="name" class="form-control" required placeholder="Enter Your Name">
+                 </div>
 
-                    <div class="col-12">
-                        <div class="form-group">
-                            <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- APPOINTMENT SECTION END -->
-</main>
+                 <div class="col-md-6 mb-4">
+                     <label>Email</label>
+                     <input type="email" name="email" class="form-control" required placeholder="Email">
+                 </div>
 
-<?php include('footer.php'); ?>
+                 <div class="col-md-6 mb-4">
+                     <label>Contact Number</label>
+                     <input type="text" name="phone" class="form-control" required placeholder="Number">
+                 </div>
+
+                 <div class="col-md-6 mb-4">
+                     <label>Select Date</label>
+                     <input type="date"
+                         id="appointment_date"
+                         name="appointment_date"
+                         min="<?= date('Y-m-d') ?>"
+                         class="form-control"
+                         required>
+                 </div>
+
+                 <div id="slotContainer" class="col-md-12 mb-4">
+                     <label>Select Time Slot</label>
+                     <select id="time_slot" name="time_slot" class="form-control" required>
+                         <option value="">-- First Select Date --</option>
+                     </select>
+                 </div>
+
+                 <div class="col-md-12 mb-4">
+                     <label>Message</label>
+                     <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                 </div>
+
+                 <div class="col-md-12">
+                     <button type="submit" class="btn appointment-btn btn-lg w-100">
+                         Book Appointment
+                     </button>
+                 
+                 </div>
+
+             </form>
+         </div>
+     </section>
+     <!-- APPOINTMENT SECTION END -->
+ </main>
+
+ <script>
+     document.getElementById('appointment_date').addEventListener('change', function() {
+         const date = this.value;
+         const slotSelect = document.getElementById('time_slot');
+         slotSelect.innerHTML = '<option>Loading...</option>';
+
+         fetch('get_slots.php?date=' + date)
+             .then(r => r.json())
+             .then(data => {
+
+                 if (data.isHoliday && data.type == 'fullday') {
+                     alert("Holiday: " + data.reason);
+                     slotSelect.innerHTML = '<option>No Slots Available</option>';
+                     return;
+                 }
+
+                 if (data.isHoliday) {
+                     alert("Note: " + data.reason);
+                 }
+
+                 let html = '<option value="">--Select Slot--</option>';
+
+                 data.slots.forEach(s => {
+                     let dis = s.available <= 0 ? 'disabled' : '';
+                     let text = s.available <= 0 ?
+                         `${s.time} (FULL)` :
+                         `${s.time} (${s.available} Slots Available)`;
+
+                     html += `<option ${dis} value="${s.time}">${text}</option>`;
+                 });
+
+                 slotSelect.innerHTML = html;
+             })
+             .catch(() => {
+                 slotSelect.innerHTML = '<option>Error loading slots</option>';
+             });
+     });
+ </script>
+
+ <?php include('footer.php'); ?>
