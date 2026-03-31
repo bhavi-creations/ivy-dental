@@ -140,7 +140,7 @@
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="clear_aligners_treatment_in_bengaluru.php">Clear Aligners</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php">Clear Aligners</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Straighten your teeth discreetly with advanced clear
                                 aligners.</p>
                         </div>
@@ -238,7 +238,7 @@
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="crowns_bridges_treatment_in_bengaluru.php">Crowns & Bridges</a></h3>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentalcrown_bridge_treatment_in_bengaluru.php">Crowns & Bridges</a></h3>
                             <p class="ul-service-descr" id="ul_service_title">Restore damaged or missing teeth with durable crowns and bridges.</p>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                             </div>
                         </div>
                         <div class="ul-inner-service-2-txt">
-                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentures_treatment_in_bengaluru.php">Dentures</a>
+                            <h3 class="ul-service-title" id="ul_service_title"><a href="dentaldentures_treatment_in_bengaluru.php">Dentures</a>
                             </h3>
                             <p class="ul-service-descr" id="ul_service_title">Restore your smile and confidence with natural-looking
                                 dentures.</p>
