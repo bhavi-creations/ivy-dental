@@ -1,146 +1,168 @@
 <?php
 include './db.connection/db_connection.php';
 
-// ------------------------
-// FETCH SERVICES
-// ------------------------
-$sql_services = "SELECT service_name FROM services ORDER BY service_name ASC";
-$result_services = $conn->query($sql_services);
-
-// ------------------------
-// FETCH BLOGS
-// ------------------------
-// Get service filter from URL
+// Service filter
 $service = isset($_GET['service']) ? $_GET['service'] : '';
 
-// Prepare SQL
+// Query
+$sql = "SELECT id, slug, title, main_content, main_image, created_at FROM blogs";
 if (!empty($service)) {
-    $stmt = $conn->prepare("SELECT id, title, main_content, main_image, created_at FROM blogs WHERE service = ? ORDER BY created_at DESC");
+    $sql .= " WHERE service = ?";
+}
+$sql .= " ORDER BY created_at DESC";
+
+$stmt = $conn->prepare($sql);
+
+if (!empty($service)) {
     $stmt->bind_param("s", $service);
-    $stmt->execute();
-    $result = $stmt->get_result();
-} else {
-    $result = $conn->query("SELECT id, title, main_content, main_image, created_at FROM blogs ORDER BY created_at DESC");
 }
 
+$stmt->execute();
+$result = $stmt->get_result();
 ?>
 
-<?php include('header.php'); ?>
+<?php include 'header.php'; ?>
 
-<main>
-    <!-- BREADCRUMBS SECTION START -->
-    <section class="ul-breadcrumb">
-        <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Our Blog</h1>
-            <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
-                <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Our Blog</li>
-            </ul>
-        </div>
-    </section>
-    <!-- BREADCRUMBS SECTION END -->
+<style>
+    .post-box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-    <!-- OUR SERVICES LIST -->
-    <h2 class="d-flex justify-content-center mt-5">Our Services</h2>
+    .box-content {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
 
-    <div class="container mt-4">
-        <div class="row g-2">
+    .post-desc {
+        flex-grow: 1;
+    }
+    .box-title{
+        color: #1c482d !important ;
+    }
+    
+   .box-title :hover{
+        color: #1c482d !important ;
+    }
 
-            <!-- All button -->
-            <div class="col-6 col-sm-4 col-md-2">
-                <a href="blogs_ivy_dental_hospital.php?service="
-                    class="btn ul-btn <?= empty($service) ? 'btn-primary' : 'btn-outline-primary'; ?> w-100 mb-2">
-                    All
-                </a>
-            </div>
 
-            <!-- Service buttons -->
-            <?php if ($result_services && $result_services->num_rows > 0): ?>
-                <?php while ($srv = $result_services->fetch_assoc()): ?>
-                    <div class="col-6 col-sm-4 col-md-2">
-                        <a href="blogs_ivy_dental_hospital.php?service=<?= urlencode($srv['service_name']); ?>"
-                            class="btn ul-btn <?= ($service === $srv['service_name']) ? 'btn-primary' : 'btn-outline-primary'; ?> w-100 mb-2">
-                            <?= htmlspecialchars($srv['service_name']); ?>
-                        </a>
-                    </div>
-                <?php endwhile; ?>
-            <?php else: ?>
-                <div class="col-12">
-                    <p>No Services Found</p>
+    .blog_main_btn{
+        background-color: #1c482d;
+        color: white;
+    }
+
+    .blog-date {
+        margin-top: 10px;
+        font-size: 13px;
+        /* background: #000; */
+        background-color: #1c482d;
+        color: #fff;
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+
+    .blog_section {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+</style>
+
+<main class="blog_section_stylings">
+    <div class="blog_section">
+        <h1 style="color:#1c482d; font-weight: 600;">Blogs</h1>
+    </div>
+    <!-- <div class="container">
+    
+    <div class="filter_buttons redirect_section mt-4">
+      <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
+      <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
+      <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
+      <a href="blogs.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a>
+      <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
+      <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
+      <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
+      <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
+      <a href="blogs.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
+      <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
+      <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
+      <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
+      <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
+      <a href="blogs.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
+    </div>
+  </div> -->
+
+    <div class="container blog-sidebar-list" style="padding-top: 20px; padding-bottom: 20px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="grid row">
+
+                    <?php
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+
+                            // ✅ Image path
+                            $image_path = !empty($row['main_image'])
+                                ? "admin/uploads/photos/" . htmlspecialchars($row['main_image'])
+                                : "default_image.png";
+
+                            // ✅ SEO URL (slug)
+                            $blog_link_val = !empty($row['slug']) ? urlencode($row['slug']) : $row['id'];
+                            $final_url = "fullblog.php?id=" . $blog_link_val;
+
+                            // ✅ Date format
+                            $formatted_date = date("d M Y, h:i A", strtotime($row['created_at']));
+
+                            // ✅ Safe preview (Quill content → text)
+                            $preview = substr(strip_tags(html_entity_decode($row['main_content'])), 0, 100);
+
+                            echo "
+              <div class='grid-item col-sm-12 col-lg-4 mb-5'>
+                  <div class='post-box card_bg_div_box'>
+                      <figure>
+                          <a href='{$final_url}'>
+                              <img src='{$image_path}' alt='Blog Image' class='img-fluid blog_box_image'>
+                          </a>
+                      </figure>
+
+                      <div class='box-content'>
+                          <h5 class='box-title'>
+                              <a class='box-title' href='{$final_url}'>" . htmlspecialchars($row['title']) . "</a>
+                          </h5>
+
+                          <p class='post-desc mt-3' style='text-align: justify;'>
+                              {$preview}...
+                          </p>
+
+                          <a href='{$final_url}'>
+                              <button class='blog_main_btn'>Read More..</button>
+                          </a>
+
+                          <!-- ✅ FIXED DATE ICON -->
+                          <p class='blog-date'>🕒 {$formatted_date}</p>
+                      </div>
+                  </div>
+              </div>";
+                        }
+                    } else {
+                        echo "<p>No blog posts found.</p>";
+                    }
+                    ?>
+
                 </div>
-            <?php endif; ?>
-
+            </div>
         </div>
     </div>
-
-
-
-    <!-- BREADCRUMBS SECTION END -->
-
-    <!-- FILTER BUTTONS -->
-    <!-- <div class="container">
-        <div class="filter_buttons redirect_section mt-4">
-            <a href="blogs_ivy_dental_hospital.php"><button class="redirect_blog_srivice">All</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
-            <a href="blogs_ivy_dental_hospital.php?service=others"><button class="redirect_blog_srivice">Other Dental Related</button></a>
-        </div>
-    </div> -->
-
-    <!-- BLOG SECTION START -->
-    <!-- BLOG SECTION START -->
-    <section class="ul-blogs ul-section-spacing">
-        <div class="ul-container">
-            <div class="row ul-bs-row row-cols-1 row-cols-sm-2 row-cols-lg-3 ul-blogs-row">
-                <?php
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        $image_path = !empty($row['main_image']) ? "admin/uploads/photos/{$row['main_image']}" : "default_image.png";
-
-                        echo "
-                    <div class='col mb-4'>
-                        <div class='ul-blog'>
-                            <div class='ul-blog-img'>
-                                <a href='fullblog.php?id={$row['id']}'>
-                                    <img src='{$image_path}' alt='Blog Image'>
-                                </a>
-                            </div>
-                            <div class='ul-blog-txt'>
-                                <a href='fullblog.php?id={$row['id']}' class='ul-blog-title'>" . htmlspecialchars($row['title']) . "</a>
-                                <div class='ul-blog-infos'>
-                                    <div class='ul-blog-info'>
-                                        <span class='icon'><i class='flaticon-calendar'></i></span>
-                                        <span class='text'>" . date("d M Y", strtotime($row['created_at'])) . "</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <a href='fullblog.php?id={$row['id']}' class='ul-blog-btn'>Read More <i class='flaticon-up-right-arrow'></i></a>
-                        </div>
-                    </div>";
-                    }
-                } else {
-                    echo "<p>No blog posts found.</p>";
-                }
-                ?>
-            </div>
-        </div>
-    </section>
-    <!-- BLOG SECTION END -->
-
-    <!-- BLOG SECTION END -->
 </main>
 
-<?php include('footer.php'); ?>
+<?php include('./footer.php'); ?>
+
+<?php
+$stmt->close();
+$conn->close();
+?>
