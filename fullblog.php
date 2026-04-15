@@ -91,16 +91,16 @@ $count_stmt->close();
 
 
         .badge_service_name {
-            background-color: gold;
-            color: black;
+            background-color: #1c482d;
+            color: white;
             font-weight: bold;
             border-radius: 5px;
         }
 
         .lang-btn.active {
-            background: gold !important;
-            color: black !important;
-            border: 2px solid gold !important;
+            background: #1c482d !important;
+            color: white !important;
+            /* border: 2px solid gold !important; */
         }
 
         .custom-card {
@@ -110,7 +110,7 @@ $count_stmt->close();
         }
 
         .custom-card:hover {
-            border-color: gold;
+            border-color: #1c482d !important;
         }
 
         .blog-card-text {
@@ -168,6 +168,11 @@ $count_stmt->close();
 
         .fullblogs_section_1 {
             background-color: white !important;
+        }
+        .btn-outline-warning{
+            color: #1c482d !important;
+            border: 2px solid #1c482d !important;
+            
         }
     </style>
 </head>
