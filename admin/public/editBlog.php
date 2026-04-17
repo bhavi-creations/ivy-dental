@@ -11,162 +11,251 @@ if ($blog_id <= 0) {
 }
 
 // ---------------------------------------------
-// FETCH BLOG DATA (Updated with Hashtags & Keypoints)
+// FETCH BLOG DATA (UPDATED - ALL FIELDS)
 // ---------------------------------------------
 $stmt = $conn->prepare("
     SELECT 
-        title, main_content, full_content, service,
+        title, slug, main_content, full_content,
+        service,
         telugu_title, telugu_main_content, telugu_full_content,
-        video, main_image, section1_image, hashtags, keypoints
+        hashtags, keypoints,
+        title_image, main_image, video,
+        section1_content, section1_image
     FROM blogs
     WHERE id = ?
 ");
+
 $stmt->bind_param("i", $blog_id);
 $stmt->execute();
 $stmt->bind_result(
-    $title, $main_content, $full_content, $service,
-    $telugu_title, $telugu_main_content, $telugu_full_content,
-    $video, $main_image, $section1_image, $hashtags, $keypoints
+    $title,
+    $slug,
+    $main_content,
+    $full_content,
+    $service,
+    $telugu_title,
+    $telugu_main_content,
+    $telugu_full_content,
+    $hashtags,
+    $keypoints,
+    $title_image,
+    $main_image,
+    $video,
+    $section1_content,
+    $section1_image
 );
 $stmt->fetch();
 $stmt->close();
 
-// Fetch services for dropdown
+// ---------------------------------------------
+// JSON → STRING
+// ---------------------------------------------
+$hashtags_array = json_decode($hashtags, true) ?? [];
+$keypoints_array = json_decode($keypoints, true) ?? [];
+
+$hashtags_string = implode(',', $hashtags_array);
+$keypoints_string = implode(',', $keypoints_array);
+
+// ---------------------------------------------
+// FETCH SERVICES
+// ---------------------------------------------
 $services = [];
 $service_result = $conn->query("SELECT service_name FROM services ORDER BY service_name ASC");
-if ($service_result) {
-    while ($row = $service_result->fetch_assoc()) { $services[] = $row['service_name']; }
+
+if ($service_result && $service_result->num_rows > 0) {
+    while ($row = $service_result->fetch_assoc()) {
+        $services[] = $row['service_name'];
+    }
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Edit Blog</title>
+
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
+
     <div id="wrapper">
         <?php include 'sidebar.php'; ?>
+
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
                 <?php include 'navbar.php'; ?>
+
                 <div class="container-fluid">
+
                     <h1 class="h3 mb-4 text-gray-800">Edit Blog</h1>
+
                     <div class="card shadow mb-4">
                         <div class="card-body">
+
                             <form id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
-                                <input type="hidden" name="id" value="<?= $blog_id ?>">
-                                
+
+                                <!-- TITLE -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Title (English)</label>
+                                    <label>Title (English)</label>
                                     <input type="text" name="title" class="form-control" value="<?= htmlspecialchars($title) ?>" required>
                                 </div>
+
+                                <!-- SLUG -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Title (Telugu)</label>
-                                    <input type="text" name="telugu_title" class="form-control" value="<?= htmlspecialchars($telugu_title) ?>">
+                                    <label>Slug</label>
+                                    <input type="text" name="slug" class="form-control" value="<?= htmlspecialchars($slug) ?>" required>
                                 </div>
 
+                                <!-- SERVICE -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Service</label>
+                                    <label>Service</label>
                                     <select name="service" class="form-control" required>
-                                        <option value="">-- Select Service --</option>
+                                        <option value="">Select Service</option>
                                         <?php foreach ($services as $s) { ?>
-                                            <option value="<?= htmlspecialchars($s) ?>" <?= ($service == $s) ? 'selected' : '' ?>><?= htmlspecialchars($s) ?></option>
+                                            <option value="<?= $s ?>" <?= ($service == $s) ? 'selected' : '' ?>><?= $s ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
 
+                                <!-- MAIN CONTENT -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Main Content (EN)</label>
+                                    <label>Main Content (English)</label>
                                     <div id="mainEditor" style="height:200px"></div>
                                     <input type="hidden" name="main_content" id="mainContentData">
                                 </div>
+
+                                <!-- FULL CONTENT -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Main Content (TE)</label>
-                                    <div id="teluguMainEditor" style="height:200px"></div>
-                                    <input type="hidden" name="telugu_main_content" id="teluguMainContentData">
-                                </div>
-                                <div class="mb-3">
-                                    <label class="text-primary">Full Content (EN)</label>
+                                    <label>Full Content (English)</label>
                                     <div id="fullEditor" style="height:300px"></div>
                                     <input type="hidden" name="full_content" id="fullContentData">
                                 </div>
+
+                                <!-- TELUGU -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Full Content (TE)</label>
+                                    <label>Telugu Title</label>
+                                    <input type="text" name="telugu_title" class="form-control" value="<?= htmlspecialchars($telugu_title) ?>">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label>Telugu Main Content</label>
+                                    <div id="teluguMainEditor" style="height:200px"></div>
+                                    <input type="hidden" name="telugu_main_content" id="teluguMainContentData">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label>Telugu Full Content</label>
                                     <div id="teluguFullEditor" style="height:300px"></div>
                                     <input type="hidden" name="telugu_full_content" id="teluguFullContentData">
                                 </div>
 
+                                <!-- HASHTAGS -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Hashtags</label>
-                                    <input type="text" name="hashtags" class="form-control" value="<?= htmlspecialchars($hashtags) ?>" placeholder="#dental, #health">
-                                </div>
-                                <div class="mb-3">
-                                    <label class="text-primary">Key Points</label>
-                                    <input type="text" name="keypoints" class="form-control" value="<?= htmlspecialchars($keypoints) ?>" placeholder="Point 1, Point 2">
+                                    <label>Hashtags</label>
+                                    <input type="text" name="hashtags" class="form-control" value="<?= htmlspecialchars($hashtags_string) ?>">
                                 </div>
 
+                                <!-- KEYPOINTS -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Main Image</label>
+                                    <label>Keypoints</label>
+                                    <input type="text" name="keypoints" class="form-control" value="<?= htmlspecialchars($keypoints_string) ?>">
+                                </div>
+
+                                <!-- TITLE IMAGE -->
+                                <div class="mb-3">
+                                    <label>Title Image</label>
+                                    <input type="file" name="title_image" class="form-control">
+                                    <?php if ($title_image) { ?>
+                                        <img src="../../uploads/photos/<?= $title_image ?>" style="max-width:150px;">
+                                    <?php } ?>
+                                </div>
+
+                                <!-- MAIN IMAGE -->
+                                <div class="mb-3">
+                                    <label>Main Image</label>
                                     <input type="file" name="main_image" class="form-control">
-                                    <input type="hidden" name="old_main_image" value="<?= $main_image ?>">
-                                    <?php if($main_image): ?> <small>Current: <?= $main_image ?></small> <?php endif; ?>
+                                    <?php if ($main_image) { ?>
+                                        <img src="../../uploads/photos/<?= $main_image ?>" style="max-width:200px;">
+                                    <?php } ?>
                                 </div>
 
+                                <!-- VIDEO -->
                                 <div class="mb-3">
-                                    <label class="text-primary">Section 1 Image</label>
-                                    <input type="file" name="section1_image" class="form-control">
-                                    <input type="hidden" name="old_section1_image" value="<?= $section1_image ?>">
-                                    <?php if ($section1_image): ?>
-                                        <div class="mt-2"><img src="../../uploads/photos/<?= $section1_image ?>" style="max-width:150px;"></div>
-                                    <?php endif; ?>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="text-primary">Video</label>
+                                    <label>Video</label>
                                     <input type="file" name="video" class="form-control">
-                                    <input type="hidden" name="old_video" value="<?= $video ?>">
-                                    <?php if($video): ?> <small>Current: <a href="../../uploads/videos/<?= $video ?>" target="_blank">View</a></small> <?php endif; ?>
+                                    <?php if ($video) { ?>
+                                        <a href="../../uploads/videos/<?= $video ?>" target="_blank">View Current Video</a>
+                                    <?php } ?>
                                 </div>
 
-                                <div class="row mt-4">
-                                    <div class="col-md-8"></div>
-                                    <button type="submit" class="btn btn-success col-md-4">Update Blog</button>
+                                <!-- SECTION 1 -->
+                                <div class="mb-3">
+                                    <label>Section 1 Content</label>
+                                    <textarea name="section1_content" class="form-control"><?= htmlspecialchars($section1_content) ?></textarea>
                                 </div>
+
+                                <div class="mb-3">
+                                    <label>Section 1 Image</label>
+                                    <input type="file" name="section1_image" class="form-control">
+                                    <?php if ($section1_image) { ?>
+                                        <img src="../../uploads/photos/<?= $section1_image ?>" style="max-width:200px;">
+                                    <?php } ?>
+                                </div>
+
+                                <!-- HIDDEN -->
+                                <input type="hidden" name="id" value="<?= $blog_id ?>">
+                                <input type="hidden" name="old_title_image" value="<?= $title_image ?>">
+                                <input type="hidden" name="old_main_image" value="<?= $main_image ?>">
+                                <input type="hidden" name="old_section1_image" value="<?= $section1_image ?>">
+
+                                <button type="submit" class="btn btn-success">Update</button>
+
                             </form>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
-    <script>
-        const quillMain = new Quill('#mainEditor', { theme: 'snow' });
-        const quillTeluguMain = new Quill('#teluguMainEditor', { theme: 'snow' });
-        const quillFull = new Quill('#fullEditor', { theme: 'snow' });
-        const quillTeluguFull = new Quill('#teluguFullEditor', { theme: 'snow' });
 
-        // Load Content
+    <script>
+        const quillMain = new Quill('#mainEditor', {
+            theme: 'snow'
+        });
+        const quillFull = new Quill('#fullEditor', {
+            theme: 'snow'
+        });
+        const tqMain = new Quill('#teluguMainEditor', {
+            theme: 'snow'
+        });
+        const tqFull = new Quill('#teluguFullEditor', {
+            theme: 'snow'
+        });
+
+        // LOAD DATA
         quillMain.root.innerHTML = <?= json_encode($main_content) ?>;
-        quillTeluguMain.root.innerHTML = <?= json_encode($telugu_main_content) ?>;
         quillFull.root.innerHTML = <?= json_encode($full_content) ?>;
-        quillTeluguFull.root.innerHTML = <?= json_encode($telugu_full_content) ?>;
+        tqMain.root.innerHTML = <?= json_encode($telugu_main_content) ?>;
+        tqFull.root.innerHTML = <?= json_encode($telugu_full_content) ?>;
 
         document.getElementById('editblogform').onsubmit = function() {
             document.getElementById('mainContentData').value = quillMain.root.innerHTML;
-            document.getElementById('teluguMainContentData').value = quillTeluguMain.root.innerHTML;
             document.getElementById('fullContentData').value = quillFull.root.innerHTML;
-            document.getElementById('teluguFullContentData').value = quillTeluguFull.root.innerHTML;
+            document.getElementById('teluguMainContentData').value = tqMain.root.innerHTML;
+            document.getElementById('teluguFullContentData').value = tqFull.root.innerHTML;
         };
     </script>
-</body>
-</html>
 
+</body>
+
+</html>
 <!-- $services = ["Root Canal", "Wisdom Tooth Removal", "Bad Breath Treatment", "Gum Treatment", "Teeth Cleaning", "Orthodontic Treatment", "Dental Crown & Bridge", "Invisible Aligners", "Dental Veneers", "Smile Makeover", "Teeth Whitening", "Dental Implants", "Dentures", "Smile Designing", "Full Mouth Rehabilitation Treatment"]; -->
