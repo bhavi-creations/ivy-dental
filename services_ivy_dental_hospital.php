@@ -135,7 +135,7 @@
 
                                 </div>
 
-                                <a href="clear_aligners_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>
