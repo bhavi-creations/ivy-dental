@@ -42,11 +42,17 @@
                 <div class=" col-md-6 ">
                     <div class="ul-2-banner-txt">
                         <span class="ul-2-banner-sub-title ul-section-sub-title ul-2-section-sub-title">ORAL HEALTH TO OVERALL HEALTH</span>
-                        <h1 class="ul-2-banner-title">Your Trusted Partner in Complete Dental Care.</h1>
-                        <p class="ul-2-banner-descr ">Our Dental Hospital places your smile at the heart of everything we do.
+                        <h1 style="font-size: 40px;" class="ul-2-banner-title">Best Dental Clinic in Vidyaranyapura, Bangalore</h1>
+                        <!-- <p class="ul-2-banner-descr ">Our Dental Hospital places your smile at the heart of everything we do.
                             With advanced technology and gentle care, we deliver complete dental solutions.
                             From preventive check-ups to cosmetic and restorative treatments, we cover it all.
-                            Our expert team ensures safe, comfortable, and long-lasting results every time.</p>
+                            Our expert team ensures safe, comfortable, and long-lasting results every time.</p> -->
+
+                        <p class="ul-2-banner-descr ">At Ivy (Ivory) Dental, we believe every smile deserves expert care, comfort, and confidence. Located in Vidyaranyapura, Bangalore, our dental clinic offers advanced treatments for tooth pain, missing teeth, smile correction, gum problems, teeth whitening, dental implants, root canal treatment, braces, and clear aligners — all under one roof.</p>
+                        <p class="ul-2-banner-descr ">With experienced dental specialists, modern technology, and patient-friendly care, we help children, adults, and senior patients achieve healthy and confident smiles with safe and comfortable treatment.</p>
+                        <p class="ul-2-banner-descr " > Whether you need a routine dental check-up or complete smile makeover, our team is committed to delivering personalized care with long-lasting results.</p>
+
+
                         <!-- <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p> -->
                         <a href="about_ivy_dental_hospital.php" class="ul-btn">Discover More <i class="flaticon-arrow-up-right"></i></a>
                     </div>
@@ -58,7 +64,7 @@
                 </div>
 
                 <!-- banner image -->
-                <div class="col-md-6 ">
+                <div class="col-md-6 " >
                     <div class="ul-2-banner-imgs indes_secong_section">
                         <img src="assets/img/banner-2-img-11.jpg" alt="Image" class="img-1 d-none d-md-block">
                         <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
@@ -168,8 +174,10 @@
                 <div class="col">
                     <div class="ul-2-about-txt">
                         <span class="ul-2-about-sub-title ul-section-sub-title ul-2-section-sub-title">About us</span>
-                        <h2 class="ul-section-title">Committed to Your Oral Health</h2>
-                        <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p>
+                        <!-- <h2 class="ul-section-title">Committed to Your Oral Health</h2> -->
+                        <h2 class="ul-section-title">Trusted Dental Care for Families in Vidyaranyapura</h2>
+                        <!-- <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p> -->
+                        <p class="ul-2-about-descr">Ivory Dental is one of the trusted dental clinics in Vidyaranyapura, Bangalore, known for providing high-quality and ethical dental care. Our experienced dentists focus on preventive, restorative, cosmetic, and advanced dental treatments using modern equipment and painless techniques.</p>
                         <ul class="ul-2-about-list">
                             <li><i class="flaticon-right-arrow"></i>Highly Skilled Dental Specialists</li>
                             <li><i class="flaticon-right-arrow"></i>Cutting-Edge Dental Technology</li>
