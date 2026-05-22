@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IVY Dental</title>
+    <title>Ivy Dental Bangalore | Advanced Dental Care, Braces & Implants</title>
 
     <!-- libraries CSS -->
     <link rel="stylesheet" href="assets/icon/flaticon_err.css">
@@ -31,7 +31,7 @@
 
     <meta name="title" content=" Top-Rated Dental Clinic in Bangalore | Ivy Dental">
 
-    <meta name="description" content="Ivy Dental offers a complete range of dental services in Bangalore, from routine check-ups to advanced treatments like dental implants and smile makeovers. Our experienced dentists provide personalized care to ensure a healthy and beautiful smile. Book your appointment today!" />
+    <meta name="description" content="Ivy Dental Bangalore offers advanced dental treatments including braces, clear aligners, implants, smile makeovers, root canals, and family dental care with expert dentists" />
     <link rel="canonical" href="https://www.ivydentalbangalore.com/"   />
 
 

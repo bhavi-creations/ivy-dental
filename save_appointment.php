@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
         $mailDoctor->Username   = 'manimalladi05@gmail.com';
-        $mailDoctor->Password   = 'uajvznmirtkywvqu';
+        $mailDoctor->Password   = 'cvarqcchfjpawxvo';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
@@ -148,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
         $mailPatient->Username   = 'manimalladi05@gmail.com';
-        $mailPatient->Password   = 'uajvznmirtkywvqu';
+        $mailPatient->Password   = 'cvarqcchfjpawxvo';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 
@@ -181,8 +181,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->send();
 
         echo "<script>
-            alert('Appointment booked successfully');
-            window.location='index.php';
+          
+            window.location='thankyou.php';
         </script>";
 
     } catch (Exception $e) {

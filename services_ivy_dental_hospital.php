@@ -233,7 +233,7 @@
 
                                 </div>
 
-                                <a href="crowns_bridges_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="dentalcrown_bridge_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>

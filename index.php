@@ -5,11 +5,6 @@
 
 <main>
 
-
-
-
-
-
     <section autoplay muted loop controls class="only_first">
         <video id="myVideo" width="100%" height="auto" autoplay muted loop>
             <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
@@ -31,7 +26,6 @@
             });
         });
     </script>
-
 
 
     <!-- BANNER SECTION START -->
@@ -154,7 +148,6 @@
     </div>
     <!-- TICKER TEXT AREA END -->
 
-
     <!-- ABOUT SECTION START -->
     <section class="ul-2-about ul-section-spacing">
         <div class="ul-2-container">
@@ -198,7 +191,6 @@
         </div>
     </section>
     <!-- ABOUT SECTION END -->
-
 
     <!-- SERVICE SECTION START -->
     <section class="ul-2-services ul-section-spacing pb-lg-0">
@@ -867,13 +859,6 @@
     </section>
     <!-- FEEDBACK SECTION END -->
 
-
-
-
-
-
-
-
     <!-- BLOG SECTION START -->
     <!-- <section class="ul-2-blogs ul-section-spacing">
         <div class="ul-2-container">
@@ -1095,11 +1080,6 @@
         </div>
     </section>
 
-
-
-
-
-
     <!-- BLOG SECTION END -->
 
 
@@ -1233,8 +1213,6 @@
     </section>
     <!-- APPOINTMENT SECTION END -->
 </main>
-
-
 
 
 

@@ -32,8 +32,8 @@
                             <a href="root_canal_treatment_in_bengaluru.php" class="active">Root canal </a>
                             <a href="teeth_filling_treatment_in_bengaluru.php">Teeth Filling </a>
                             <a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php">Clear Aligners </a>
-                            <a href="dentaldental_braces_treatment_in_bengaluru.php">Dental braces </a>
-                            <a href="dentures_treatment_in_bengaluru.php">Dentures </a>
+                            <a href="dental_braces_treatment_in_bengaluru.php">Dental braces </a>
+                            <a href="dentaldentures_treatment_in_bengaluru.php">Dentures </a>
                             <a href="teeth_whitening_treatment_in_bengaluru.php">Teeth Whitening </a>
 
                         </div>

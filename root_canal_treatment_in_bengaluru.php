@@ -8,7 +8,7 @@
                 <h1 class="ul-breadcrumb-title">Root canal</h1>
 
                 <ul class="ul-breadcrumb-nav">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
                     <li>Root canal</li>
                 </ul>
