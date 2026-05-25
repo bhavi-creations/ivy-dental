@@ -104,7 +104,7 @@
     .btn-home {
         /* background: linear-gradient(135deg, var(--teal), var(--blue)); */
         /* background: linear-gradient(135deg, black 0%, grey 100%); */
-         background: #ffffff40;
+         background: #ffffff40; 
         color: var(--white);
         border: none;
         border-radius: 50px;
