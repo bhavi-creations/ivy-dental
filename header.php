@@ -24,7 +24,7 @@
 
 
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    
+
     <!-- image slider  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
@@ -141,14 +141,27 @@ Teeth Whitening near me Bangalore">
         }
     </script>
 
-    <meta name="google-site-verification" content="-ILZHAqnO8KYvK1EiNh4V3NQsfeY_5-cUy-tVX2Fu58" />
+    <meta name="google-site-verification" content="-ILZHAqnO8KYvK1EiNh4V3NQsfeY_5-cUy-tVX2Fu58"   />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18194137355"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18194137355');
+    </script>
 </head>
 
 <body>
 
 
 
-<?php include 'view_count.php' ; ?>
+    <?php include 'view_count.php'; ?>
     <div class="preloader" id="preloader">
         <!-- <div class="loader"></div> -->
         <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;"></a>
