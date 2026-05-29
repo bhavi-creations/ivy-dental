@@ -6780,7 +6780,7 @@ button {
 
 /* Blog title */
 .blog-title {
-  font-size: 14px;
+  font-size: 30px;
   color: #222;
   transition: color 0.3s ease;
 }

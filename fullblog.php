@@ -163,7 +163,7 @@ $count_stmt->close();
         } */
         .blogs_color {
             color: black !important;
-            margin-bottom: -150px !important;
+           
         }
 
         .fullblogs_section_1 {
@@ -183,10 +183,7 @@ $count_stmt->close();
 
     <main class="fullblogs_section " >
         <div class="container py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <button id="english-btn" class="lang-btn active btn btn-outline-warning">English</button>
-                <button id="telugu-btn" class="lang-btn ms-3 btn btn-outline-warning">తెలుగు</button>
-            </div>
+            
 
             <?php if (!empty($service)): ?>
                 <div class="text-center mb-4">
