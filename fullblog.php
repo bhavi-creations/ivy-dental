@@ -213,7 +213,7 @@ $count_stmt->close();
                         <div id="main-te" style="display:none;"><?= $telugu_main_content ?></div>
                     </div>
 
-                    <div class="full-content mt-4">
+                    <div class="full-content mt-4 fs-5">
                         <div id="full-en"><?= $full_content ?></div>
                         <div id="full-te" style="display:none;"><?= $telugu_full_content ?></div>
                     </div>
