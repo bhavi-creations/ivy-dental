@@ -7262,3 +7262,13 @@ table {
       background-color: rgb(255, 255, 255);
       font-weight: 600;
     }
+
+/* Performance: let the browser skip painting off-screen content until needed. */
+@supports (content-visibility: auto) {
+  main > section:not(:first-child),
+  main > div:not(:first-child),
+  .ul-footer {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 900px;
+  }
+}

@@ -5,30 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivy Dental Bangalore | Advanced Dental Care, Braces & Implants</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
     <!-- libraries CSS -->
     <link rel="stylesheet" href="assets/icon/flaticon_err.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/splide/splide.min.css">
     <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/vendor/animate-wow/animate.min.css">
-    <link rel="stylesheet" href="assets/vendor/slim-select/slimselect.css">
+    <link rel="stylesheet" href="assets/vendor/animate-wow/animate.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/vendor/slim-select/slimselect.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/vendor/animate-wow/animate.min.css">
+        <link rel="stylesheet" href="assets/vendor/slim-select/slimselect.css">
+    </noscript>
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
 
     <!-- boostrap icons  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </noscript>
 
 
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-
-    <!-- image slider  -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
-
     <meta name="title" content=" Top-Rated Dental Clinic in Bangalore | Ivy Dental">
 
     <meta name="description" content="Ivy Dental Bangalore offers advanced dental treatments including braces, clear aligners, implants, smile makeovers, root canals, and family dental care with expert dentists" />
@@ -164,7 +170,7 @@ Teeth Whitening near me Bangalore">
     <?php include 'view_count.php'; ?>
     <div class="preloader" id="preloader">
         <!-- <div class="loader"></div> -->
-        <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;"></a>
+        <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;" fetchpriority="high" decoding="async"></a>
     </div>
 
     <!-- SIDEBAR SECTION START -->
@@ -173,7 +179,7 @@ Teeth Whitening near me Bangalore">
         <div class="ul-sidebar-header">
             <div class="ul-sidebar-header-logo">
                 <a href="index.php">
-                    <img src="assets/img/ivy logo.png" alt="logo" class="logo">
+                    <img src="assets/img/ivy logo.png" alt="logo" class="logo" fetchpriority="high" decoding="async">
                 </a>
             </div>
             <!-- sidebar closer -->
@@ -229,7 +235,7 @@ Teeth Whitening near me Bangalore">
         <div class="row just_adjust">
             <div class="col-8 col-lg-2 ul-2-header-bottom-logo-container  header_need_space">
 
-                <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
+                <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo" fetchpriority="high" decoding="async"></a>
 
             </div>
             <div class=" col-2  col-lg-10 header_need_space_2">
@@ -274,7 +280,7 @@ Teeth Whitening near me Bangalore">
                         <!-- header bottom left -->
                         <!-- <div class="col-2"> -->
                         <!-- <div class="ul-2-header-bottom-logo-container">
-                            <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo"></a>
+                            <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo" fetchpriority="high" decoding="async"></a>
                         </div> -->
                         <!-- </div> -->
 

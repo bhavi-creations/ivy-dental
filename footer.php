@@ -5,7 +5,7 @@
             <div class="ul-footer-top ul-section-spacing">
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about ul-2-footer-about">
-                        <a href="index.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo"></a>
+                        <a href="index.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo" loading="lazy" decoding="async"></a>
                         <p class="ul-footer-about-txt">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 7760605222</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 9740805222</p>
@@ -98,7 +98,7 @@
         </div>
 
         <div class="ul-2-footer-vectors">
-            <img src="assets/img/footer-2-vector.svg" alt="vector" class="vector-1">
+            <img src="assets/img/footer-2-vector.svg" alt="vector" class="vector-1" loading="lazy" decoding="async">
         </div>
     </footer>
 
