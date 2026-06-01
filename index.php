@@ -949,7 +949,9 @@
         <div class="container">
             <div class="row">
 
-                <?php
+                <?php /*
+                Old hidden blog query preserved, but disabled because PHP still executes inside HTML comments
+                and was slowing the first page response.
                 include './db.connection/db_connection.php';
 
                 // Fetch latest 3 blogs with video
@@ -1004,7 +1006,7 @@
                 }
 
                 $conn->close();
-                ?>
+                */ ?>
 
 
 
@@ -1038,58 +1040,35 @@
             </div>
 
             <div class="ul-2-blog-grid">
-                <div class="row row-cols-sm-2 row-cols-1 g-lg-4 g-3">
-                    <?php
-                    include './db.connection/db_connection.php';
-
-                    // Fetch latest 2 blogs
-                    $sql = "SELECT id, title, main_content, main_image, video, created_at 
-        FROM blogs ORDER BY created_at DESC LIMIT 2";
-                    $result = $conn->query($sql);
-
-                    if ($result->num_rows > 0) {
-                        while ($row = $result->fetch_assoc()) {
-                            $blog_id = $row['id'];
-                            $title = $row['title'];
-                            $main_content = $row['main_content'];
-                            $main_image = $row['main_image'];
-                            $created_at = date("d M Y", strtotime($row['created_at']));
-
-                            echo "<div class='col'>
-                <div class='ul-2-blog'>
-                    <div class='ul-2-blog-img'>";
-
-                            // Always show image (ignore video)
-                            if (!empty($main_image)) {
-                                $main_image_path = "./admin/uploads/photos/{$main_image}";
-                                echo "<img src='{$main_image_path}' alt='Blog Image'>";
-                            } else {
-                                echo "<img src='assets/img/default_blog.jpg' alt='Blog Image'>";
-                            }
-
-                            echo "        
-                           
-                    </div>
-                    <div class='ul-2-blog-txt'>
-                        <div class='ul-2-blog-infos'>
-                            <span>By Admin</span>
-                            <span>{$created_at}</span>
-                        </div>
-                        <h3 class='ul-2-blog-title'>
-                            <a href='fullblog.php?id={$blog_id}'>" . htmlspecialchars($title) . "</a>
-                        </h3>
-                    </div>
+                <div class="row row-cols-sm-2 row-cols-1 g-lg-4 g-3" id="home-latest-blogs">
+                    <p>Latest blogs are loading...</p>
                 </div>
-              </div>";
+                <script>
+                    window.addEventListener('load', function() {
+                        var loadBlogs = function() {
+                            var target = document.getElementById('home-latest-blogs');
+                            if (!target) return;
+
+                            fetch('home_blogs.php', {
+                                cache: 'no-store',
+                                credentials: 'same-origin'
+                            })
+                                .then(function(response) { return response.ok ? response.text() : ''; })
+                                .then(function(html) {
+                                    if (html.trim()) {
+                                        target.innerHTML = html;
+                                    }
+                                })
+                                .catch(function() {});
+                        };
+
+                        if ('requestIdleCallback' in window) {
+                            requestIdleCallback(loadBlogs, { timeout: 2500 });
+                        } else {
+                            setTimeout(loadBlogs, 1200);
                         }
-                    } else {
-                        echo "<p>No blog posts found.</p>";
-                    }
-
-                    $conn->close();
-                    ?>
-
-                </div>
+                    });
+                </script>
             </div>
         </div>
 
