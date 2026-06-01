@@ -5,9 +5,9 @@
 
 <main>
 
-    <section autoplay muted loop controls class="only_first">
-        <video id="myVideo" width="100%" height="auto" autoplay muted loop>
-            <source src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
+    <section class="only_first">
+        <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
+            <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
@@ -17,13 +17,31 @@
         document.addEventListener('DOMContentLoaded', () => {
             const video = document.getElementById('myVideo');
             const unmuteButton = document.getElementById('unmuteButton');
+            const loadHomeVideo = () => {
+                if (!video || video.dataset.loaded === 'true') return;
+                video.querySelectorAll('source[data-src]').forEach((source) => {
+                    source.src = source.dataset.src;
+                });
+                video.dataset.loaded = 'true';
+                video.load();
+                video.play().catch(() => {});
+            };
+
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(loadHomeVideo, { timeout: 1800 });
+            } else {
+                window.addEventListener('load', loadHomeVideo, { once: true });
+            }
 
             // Function to unmute and play the video
-            unmuteButton.addEventListener('click', () => {
-                video.muted = false; // Unmute the video
-                video.play(); // Play the video
-                unmuteButton.style.display = 'none'; // Hide the unmute button
-            });
+            if (unmuteButton) {
+                unmuteButton.addEventListener('click', () => {
+                    loadHomeVideo();
+                    video.muted = false; // Unmute the video
+                    video.play(); // Play the video
+                    unmuteButton.style.display = 'none'; // Hide the unmute button
+                });
+            }
         });
     </script>
 
@@ -1217,38 +1235,42 @@
 
 
 <script>
-    var swiper = new Swiper(".custom-slide-content", {
-        slidesPerView: 4,
-        spaceBetween: 25,
-        loop: true,
-        centerslide: 'true',
-        fade: 'true',
-        grabCursor: 'true',
-        pagination: {
-            el: ".custom-swiper-pagination",
-            clickable: true,
-            dynamicBullets: true,
-        },
-        autoplay: {
-            delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
-            disableOnInteraction: false, // Keeps autoplay active even after manual swiping
-        },
-        navigation: {
-            nextEl: ".swiper-button-next.custom-swiper-navBtn",
-            prevEl: ".swiper-button-prev.custom-swiper-navBtn",
-        },
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof Swiper === 'undefined' || !document.querySelector('.custom-slide-content')) return;
 
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
+        var swiper = new Swiper(".custom-slide-content", {
+            slidesPerView: 4,
+            spaceBetween: 25,
+            loop: true,
+            centerslide: 'true',
+            fade: 'true',
+            grabCursor: 'true',
+            pagination: {
+                el: ".custom-swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
             },
-            520: {
-                slidesPerView: 2,
+            autoplay: {
+                delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                disableOnInteraction: false, // Keeps autoplay active even after manual swiping
             },
-            950: {
-                slidesPerView: 3,
+            navigation: {
+                nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                prevEl: ".swiper-button-prev.custom-swiper-navBtn",
             },
-        },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
     });
 </script>
 

@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preload" as="image" href="assets/img/ivy logo.png" fetchpriority="high">
 
     <!-- libraries CSS -->
     <link rel="stylesheet" href="assets/icon/flaticon_err.css">
@@ -33,6 +35,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </noscript>
 
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    </noscript>
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <meta name="title" content=" Top-Rated Dental Clinic in Bangalore | Ivy Dental">
@@ -157,9 +165,10 @@ Teeth Whitening near me Bangalore">
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-18194137355');
+        window.addEventListener('load', function() {
+            gtag('js', new Date());
+            gtag('config', 'AW-18194137355');
+        });
     </script>
 </head>
 

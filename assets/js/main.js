@@ -1,7 +1,27 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelectorAll("img").forEach((img) => {
+        if (!img.hasAttribute("decoding")) {
+            img.setAttribute("decoding", "async");
+        }
+
+        const isBelowInitialView = img.getBoundingClientRect().top > window.innerHeight * 1.25;
+        if (isBelowInitialView && !img.hasAttribute("loading") && img.getAttribute("fetchpriority") !== "high") {
+            img.setAttribute("loading", "lazy");
+        }
+    });
+
+    document.querySelectorAll("video:not(#myVideo)").forEach((video) => {
+        if (!video.hasAttribute("preload")) {
+            video.setAttribute("preload", "metadata");
+        }
+        video.setAttribute("playsinline", "");
+    });
+
     // preloader
     const preloader = document.getElementById('preloader');
-    preloader.style.display = 'none';
+    if (preloader) {
+        preloader.style.display = 'none';
+    }
     document.body.style.position = 'static';
 
     // HEADER NAV IN MOBILE
@@ -25,8 +45,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         updateMenuPosition("running.........................");
 
+        let resizeTimer;
         window.addEventListener("resize", () => {
-            updateMenuPosition("on resixe");
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                updateMenuPosition("on resixe");
+            }, 120);
         });
 
         ulSidebarOpener.addEventListener("click", () => {
@@ -69,13 +93,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // sticky header
     const ulHeader = document.querySelector(".to-be-sticky");
     if (ulHeader) {
+        let ticking = false;
         window.addEventListener("scroll", () => {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => {
             if (window.scrollY > 80) {
                 ulHeader.classList.add("sticky");
             } else {
                 ulHeader.classList.remove("sticky");
             }
-        });
+                ticking = false;
+            });
+        }, { passive: true });
     }
 
     // wow js - animation on scroll

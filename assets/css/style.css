@@ -7272,3 +7272,22 @@ table {
     contain-intrinsic-size: 1px 900px;
   }
 }
+
+.only_first {
+  background-color: #fffdee;
+  overflow: hidden;
+}
+
+.only_first video {
+  aspect-ratio: 16 / 9;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .only_first video {
+    min-height: 260px;
+  }
+}
