@@ -19,7 +19,7 @@ function ivy_visitor_widget_markup(): void
     <script>
     window.addEventListener('load', function() {
         var runVisitorCount = function() {
-            var page = location.pathname.split('/').pop() || 'index.php';
+            var page = location.pathname.split('/').pop() || 'home.php';
             fetch('view_count.php?ajax=1&page=' + encodeURIComponent(page), {
                 cache: 'no-store',
                 credentials: 'same-origin'
@@ -52,7 +52,7 @@ if (empty($_GET['ajax'])) {
 
 header('Content-Type: application/json');
 
-$page = basename($_GET['page'] ?? ($_SERVER['HTTP_REFERER'] ?? 'index.php'));
+$page = basename($_GET['page'] ?? ($_SERVER['HTTP_REFERER'] ?? 'home.php'));
 $ip = $_SERVER['REMOTE_ADDR'] ?? '';
 $today = date('Y-m-d');
 

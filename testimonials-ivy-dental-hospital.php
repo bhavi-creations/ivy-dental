@@ -9,7 +9,7 @@
             <h1 class="ul-breadcrumb-title">Testimonials</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
                 <li>Testimonials</li>
             </ul>

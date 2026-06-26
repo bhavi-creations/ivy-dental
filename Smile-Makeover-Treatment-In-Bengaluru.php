@@ -5,12 +5,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title"> Dental Implants</h1>
+            <h1 class="ul-breadcrumb-title"> Smile Makeover</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li> Dental Implants</li>
+                <li>Smile Makeover</li>
             </ul>
         </div>
     </section>
@@ -23,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/dental_implants.png" alt="Image">
+                            <img src="assets/img/service/8.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title"> Dental Implants</h2>
-                            <p class="ul-service-details-descr">Dental implants are artificial tooth roots made of biocompatible titanium that are surgically placed into the jawbone. They provide a strong foundation for fixed or removable replacement teeth that look, feel, and function like natural ones. Implants help restore chewing ability, improve speech, and enhance confidence with a long-lasting solution.</p>
+                            <h2 class="ul-service-details-title"> Smile Makeover</h2>
+                            <p class="ul-service-details-descr">A smile makeover is a combination of cosmetic dental treatments designed to enhance the appearance of your teeth and gums. It may include whitening, veneers, bonding, braces, or implants depending on your needs. The goal is to create a balanced, beautiful, and confident smile tailored just for you.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Permanent Solution :</span> <span class="value">Long-lasting replacement for missing teeth.</span></li>
-                                        <li><span class="title">Natural Look & Feel :</span> <span class="value">Restores the look and function of real teeth.</span></li>
-                                        <li><span class="title">Strong Foundation :</span> <span class="value"> Titanium implant integrates with the jawbone.</span></li>
-                                        <li><span class="title">Preserves Bone Health:</span> <span class="value"> Prevents bone loss and maintains facial structure.</span></li>
+                                        <li><span class="title">Customized Treatment :</span> <span class="value">Designed to match your unique smile goals.</span></li>
+                                        <li><span class="title">Whitening & Veneers :</span> <span class="value">Brightens and reshapes your teeth.</span></li>
+                                        <li><span class="title">Alignment Correction :</span> <span class="value"> Straightens crooked or uneven teeth.</span></li>
+                                        <li><span class="title">Gum Contouring:</span> <span class="value">Balances the gum line for a perfect look.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/dental implants.png" alt="Image">
+                                    <img src="assets/img/home/smile makeover.png" alt="Image">
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Missing teeth can affect chewing, speaking, appearance, and jawbone health. Dental implants not only restore full function but also protect oral health and provide a natural, confident smile for years to come.</p>
+                                <p>Your smile is one of the first things people notice. A smile makeover not only improves aesthetics but also boosts confidence, leaving a lasting impression in personal and professional interactions.</p>
                                 <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">

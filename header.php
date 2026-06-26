@@ -187,7 +187,7 @@ Teeth Whitening near me Bangalore">
         <!-- header -->
         <div class="ul-sidebar-header">
             <div class="ul-sidebar-header-logo">
-                <a href="index.php">
+                <a href="home.php">
                     <img src="assets/img/ivy logo.png" alt="logo" class="logo" fetchpriority="high" decoding="async">
                 </a>
             </div>
@@ -244,7 +244,7 @@ Teeth Whitening near me Bangalore">
         <div class="row just_adjust">
             <div class="col-8 col-lg-2 ul-2-header-bottom-logo-container  header_need_space">
 
-                <a href="index.php"><img src="assets/img/ivy logo.png" alt="logo" fetchpriority="high" decoding="async"></a>
+                <a href="home.php"><img src="assets/img/ivy logo.png" alt="logo" fetchpriority="high" decoding="async"></a>
 
             </div>
             <div class=" col-2  col-lg-10 header_need_space_2">
@@ -300,9 +300,9 @@ Teeth Whitening near me Bangalore">
                                 <div class="to-go-to-sidebar-in-mobile">
                                     <nav class="ul-header-nav">
 
-                                        <a href="index.php">Home</a>
-                                        <a href="about_ivy_dental_hospital.php">About</a>
-                                        <a href="services_ivy_dental_hospital.php">Services </a>
+                                        <a href="home.php">Home</a>
+                                        <a href="about-ivy-dental-hospital.php">About</a>
+                                        <a href="services-ivy-dental-hospital.php">Services </a>
                                         <!-- <div class="has-sub-menu">
                                             <a role="button">Services</a>
 
@@ -314,15 +314,15 @@ Teeth Whitening near me Bangalore">
                                                 </ul>
                                             </div>
                                         </div> -->
-                                        <a href="gallery_ivy_dental_hospital.php">Gallery</a>
-                                        <a href="testimonials_ivy_dental_hospital.php">Testimonials</a>
-                                        <a href="blogs_ivy_dental_hospital.php">Blogs</a>
+                                        <a href="gallery-ivy-dental-hospital.php">Gallery</a>
+                                        <a href="testimonials-ivy-dental-hospital.php">Testimonials</a>
+                                        <a href="blogs-ivy-dental-hospital.php">Blogs</a>
 
-                                        <a href="contact_ivy_dental_hospital.php">Contact</a>
+                                        <a href="contact-ivy-dental-hospital.php">Contact</a>
                                     </nav>
                                 </div>
                             </div>
-                            <a href="appointment_ivy_dental_hospital.php" id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
+                            <a href="appointment-ivy-dental-hospital.php" id="header_btn_bg" class="ul-btn d-sm-inline-flex d-none">BOOK A APPOINTMENT <i class="flaticon-arrow-up-right"></i></a>
                         </div>
                         <!-- </div> -->
 

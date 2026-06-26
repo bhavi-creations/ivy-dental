@@ -5,12 +5,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title"> Teeth scaling</h1>
+            <h1 class="ul-breadcrumb-title"> Tooth Extraction</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Teeth scaling</li>
+                <li>Tooth Extraction</li>
             </ul>
         </div>
     </section>
@@ -23,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/teeth_scaling.png" alt="Image">
+                            <img src="assets/img/service/tooth_extraction.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title"> Teeth scaling</h2>
-                            <p class="ul-service-details-descr">Teeth scaling is a preventive dental procedure that removes plaque, tartar, and bacteria buildup from the tooth surface and gumline. It helps prevent gum disease, bad breath, and tooth decay while keeping your mouth clean and fresh. Regular scaling ensures healthier gums and a brighter smile.</p>
+                            <h2 class="ul-service-details-title">Tooth Extraction</h2>
+                            <p class="ul-service-details-descr">Tooth extraction is a dental procedure where a damaged, decayed, or problematic tooth is carefully removed. It may be needed for severely decayed teeth, impacted wisdom teeth, or to make space for orthodontic treatment. With modern techniques and anesthesia, the process is quick, safe, and virtually painless.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Plaque Removal :</span> <span class="value">Eliminates soft bacterial deposits from teeth.</span></li>
-                                        <li><span class="title">Tartar Control :</span> <span class="value">Cleans hardened deposits that brushing can’t remove.</span></li>
-                                        <li><span class="title">Gum Health :</span> <span class="value"> Prevents gingivitis and periodontal disease.</span></li>
-                                        <li><span class="title">Fresh Breath:</span> <span class="value"> Reduces bad odor caused by bacteria.</span></li>
+                                        <li><span class="title">Simple Extraction :</span> <span class="value">Removal of visible and loose teeth.</span></li>
+                                        <li><span class="title">Surgical Extraction :</span> <span class="value">For impacted or broken teeth below the gumline.</span></li>
+                                        <li><span class="title">Wisdom Tooth Removal :</span> <span class="value"> Prevents pain, infection, and crowding.</span></li>
+                                        <li><span class="title">Pain-Free Procedure:</span> <span class="value">Performed with local anesthesia for comfort.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/teeth scaling.png" alt="Image">
+                                    <img src="assets/img/home/tooth extraction.png" alt="Image">
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Missing teeth can affect chewing, speaking, appearance, and jawbone health. Dental implants not only restore full function but also protect oral health and provide a natural, confident smile for years to come.</p>
+                                <p>Leaving infected or impacted teeth untreated can cause pain, infection, and damage to surrounding teeth. Tooth extraction eliminates the problem, prevents further complications, and helps maintain overall oral health.</p>
                                 <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">

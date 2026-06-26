@@ -5,12 +5,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title"> Smile Makeover</h1>
+            <h1 class="ul-breadcrumb-title"> Teeth Whitening</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Smile Makeover</li>
+                <li> Teeth Whitening</li>
             </ul>
         </div>
     </section>
@@ -23,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/8.png" alt="Image">
+                            <img src="assets/img/service/teeth_whitening.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title"> Smile Makeover</h2>
-                            <p class="ul-service-details-descr">A smile makeover is a combination of cosmetic dental treatments designed to enhance the appearance of your teeth and gums. It may include whitening, veneers, bonding, braces, or implants depending on your needs. The goal is to create a balanced, beautiful, and confident smile tailored just for you.</p>
+                            <h2 class="ul-service-details-title"> Teeth Whitening </h2>
+                            <p class="ul-service-details-descr">Teeth whitening is a cosmetic dental treatment that lightens stained or discolored teeth. Using advanced bleaching techniques, it safely removes surface stains caused by food, drinks, smoking, or aging. The result is a whiter, healthier-looking smile that boosts your confidence.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Customized Treatment :</span> <span class="value">Designed to match your unique smile goals.</span></li>
-                                        <li><span class="title">Whitening & Veneers :</span> <span class="value">Brightens and reshapes your teeth.</span></li>
-                                        <li><span class="title">Alignment Correction :</span> <span class="value"> Straightens crooked or uneven teeth.</span></li>
-                                        <li><span class="title">Gum Contouring:</span> <span class="value">Balances the gum line for a perfect look.</span></li>
+                                        <li><span class="title">Professional Whitening</span> <span class="value">Safe and effective treatment by a dentist.</span></li>
+                                        <li><span class="title">Removes Stains :</span> <span class="value">Targets discoloration from coffee, tea, or smoking.</span></li>
+                                        <li><span class="title">Instant Results :</span> <span class="value"> Noticeably whiter teeth in just one session.</span></li>
+                                        <li><span class="title">Confidence Boost:</span> <span class="value"> Enhances your smile and self-esteem.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/smile makeover.png" alt="Image">
+                                    <img src="assets/img/home//teeth whitening.png" alt="Image">
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Your smile is one of the first things people notice. A smile makeover not only improves aesthetics but also boosts confidence, leaving a lasting impression in personal and professional interactions.</p>
+                                <p>A bright smile not only makes a strong first impression but also reflects good oral hygiene and health. Teeth whitening is a simple, quick, and safe way to enhance your appearance and feel more confident every day.</p>
                                 <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">

@@ -5,12 +5,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title"> Teeth Whitening</h1>
+            <h1 class="ul-breadcrumb-title"> Dental Implants</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li> Teeth Whitening</li>
+                <li> Dental Implants</li>
             </ul>
         </div>
     </section>
@@ -23,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/teeth_whitening.png" alt="Image">
+                            <img src="assets/img/service/dental_implants.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title"> Teeth Whitening </h2>
-                            <p class="ul-service-details-descr">Teeth whitening is a cosmetic dental treatment that lightens stained or discolored teeth. Using advanced bleaching techniques, it safely removes surface stains caused by food, drinks, smoking, or aging. The result is a whiter, healthier-looking smile that boosts your confidence.</p>
+                            <h2 class="ul-service-details-title"> Dental Implants</h2>
+                            <p class="ul-service-details-descr">Dental implants are artificial tooth roots made of biocompatible titanium that are surgically placed into the jawbone. They provide a strong foundation for fixed or removable replacement teeth that look, feel, and function like natural ones. Implants help restore chewing ability, improve speech, and enhance confidence with a long-lasting solution.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Professional Whitening</span> <span class="value">Safe and effective treatment by a dentist.</span></li>
-                                        <li><span class="title">Removes Stains :</span> <span class="value">Targets discoloration from coffee, tea, or smoking.</span></li>
-                                        <li><span class="title">Instant Results :</span> <span class="value"> Noticeably whiter teeth in just one session.</span></li>
-                                        <li><span class="title">Confidence Boost:</span> <span class="value"> Enhances your smile and self-esteem.</span></li>
+                                        <li><span class="title">Permanent Solution :</span> <span class="value">Long-lasting replacement for missing teeth.</span></li>
+                                        <li><span class="title">Natural Look & Feel :</span> <span class="value">Restores the look and function of real teeth.</span></li>
+                                        <li><span class="title">Strong Foundation :</span> <span class="value"> Titanium implant integrates with the jawbone.</span></li>
+                                        <li><span class="title">Preserves Bone Health:</span> <span class="value"> Prevents bone loss and maintains facial structure.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home//teeth whitening.png" alt="Image">
+                                    <img src="assets/img/home/dental implants.png" alt="Image">
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>A bright smile not only makes a strong first impression but also reflects good oral hygiene and health. Teeth whitening is a simple, quick, and safe way to enhance your appearance and feel more confident every day.</p>
+                                <p>Missing teeth can affect chewing, speaking, appearance, and jawbone health. Dental implants not only restore full function but also protect oral health and provide a natural, confident smile for years to come.</p>
                                 <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">

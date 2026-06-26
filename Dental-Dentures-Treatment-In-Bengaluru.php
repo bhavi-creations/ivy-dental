@@ -1,15 +1,16 @@
-<?php include 'header.php'; ?>
+<?php include "header.php";  ?>
+
 
 <main>
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Clear aligners</h1>
+            <h1 class="ul-breadcrumb-title">Dentures</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Clear aligners</li>
+                <li>Dentures</li>
             </ul>
         </div>
     </section>
@@ -22,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/clear_aligners.png" alt="Image">
+                            <img src="assets/img/service/dentures_service.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title">Clear aligners </h2>
-                            <p class="ul-service-details-descr">Clear aligners are transparent, removable trays designed to gradually move your teeth into proper alignment. Unlike traditional braces, they are nearly invisible and comfortable to wear, making them a popular choice for adults and teens. They allow you to eat, brush, and floss without restrictions while improving your smile .</p>
+                            <h2 class="ul-service-details-title">Dentures </h2>
+                            <p class="ul-service-details-descr">Dentures are removable dental appliances designed to replace missing teeth and surrounding tissues. They restore your ability to eat, speak, and smile comfortably. Available as full or partial dentures, they are custom-made to fit securely and look natural, improving both appearance and oral health.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -35,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Invisible Braces :</span> <span class="value">Nearly invisible alternative to metal braces.</span></li>
-                                        <li><span class="title">Comfort & Convenience :</span> <span class="value">Smooth, removable, and easy to wear.</span></li>
-                                        <li><span class="title">Gradual Correction :</span> <span class="value">Aligns teeth step by step with trays.</span></li>
-                                        <li><span class="title">Oral Hygiene Friendly:</span> <span class="value">Easy to brush and floss without hassle.</span></li>
+                                        <li><span class="title">Full Dentures:</span> <span class="value">Replace all missing teeth in the upper or lower jaw.</span></li>
+                                        <li><span class="title">Partial Dentures :</span> <span class="value"> Fill gaps when some natural teeth remain.</span></li>
+                                        <li><span class="title">Natural Look :</span> <span class="value">Designed to resemble real teeth and gums.</span></li>
+                                        <li><span class="title">Comfortable Fit:</span> <span class="value"> Custom-made for a secure and easy fit.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -61,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/clear aligners.png" alt="Image">
+                                    <img src="assets/img/home/dentures.png" alt="Image">
                                 </div>
                             </div>
 
@@ -78,9 +79,9 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Crooked or misaligned teeth affect not only your smile but also your oral health. Clear aligners provide a modern, comfortable, and effective way to achieve a perfectly aligned smile without the hassle of traditional braces.</p>
+                                <p>Missing teeth can affect daily life, from eating and speaking to smiling with confidence. Dentures restore function, improve appearance, and support facial structure, giving you a healthier and more youthful look.</p>
                                 <div class="ul-accordion ul-service-details-faq">
-                                    <!--   <div class="ul-single-accordion-item">
+                                    <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
@@ -93,7 +94,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="ul-single-accordion-item open">
+                                         <div class="ul-single-accordion-item open">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Why Join Us as a Volunteer?</h3>
@@ -127,7 +128,10 @@
                 <?php include "sub_service.php"; ?>
             </div>
         </div>
+        </div>
     </section>
     <!-- SERVICE DETAILS SECTION END -->
 </main>
-<?php include  'footer.php'; ?>
+
+
+<?php include "footer.php"; ?>

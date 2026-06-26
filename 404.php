@@ -8,7 +8,7 @@
                 <h1 class="ul-breadcrumb-title">404</h1>
 
                 <ul class="ul-breadcrumb-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="home.php">Home</a></li>
                     <li class="separator"><i class="flaticon-right-arrow"></i></li>
                     <li>404</li>
                 </ul>
@@ -97,7 +97,7 @@
                 <div class="ul-404-txt">
                     <h2 class="ul-404-title">Opps ! Page not found.</h2>
                     <p class="ul-404-descr">Sorry, we couldn't find the page you are looking for !</p>
-                    <a href="index.php" class="ul-btn">Go Back Home <i class="flaticon-arrow-up-right"></i></a>
+                    <a href="home.php" class="ul-btn">Go Back Home <i class="flaticon-arrow-up-right"></i></a>
                 </div>
             </div>
         </section>

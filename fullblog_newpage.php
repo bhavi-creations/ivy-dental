@@ -450,12 +450,12 @@ function getLimitWords($text, $limit = 15)
             <img src="assets/img/ivy logo.png" style="height:150px" alt="Logo">
 
             <nav class="custom-menu">
-                <a href="index.php">Home</a>
-                <a href="about_ivy_dental_hospital.php">About</a>
-                <a href="services_ivy_dental_hospital.php">Services</a>
-                <a href="gallery_ivy_dental_hospital.php">Gallery</a>
-                <a href="blogs_ivy_dental_hospital.php">Blogs</a>
-                <a href="contact_ivy_dental_hospital.php">Contact</a>
+                <a href="home.php">Home</a>
+                <a href="about-ivy-dental-hospital.php">About</a>
+                <a href="services-ivy-dental-hospital.php">Services</a>
+                <a href="gallery-ivy-dental-hospital.php">Gallery</a>
+                <a href="blogs-ivy-dental-hospital.php">Blogs</a>
+                <a href="contact-ivy-dental-hospital.php">Contact</a>
                 <!-- <a href="appointment_srinivasa_dental_hospital.php">Appointment</a> -->
             </nav>
 
@@ -571,52 +571,52 @@ function getLimitWords($text, $limit = 15)
 
                     <div class="mt-3 custom-scroll-container" style="max-height: 320px; overflow-y: auto; padding-right: 5px;">
 
-                        <a href="root_canal_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Root-Canal-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Root canal
                         </a>
 
-                        <a href="teeth_filling_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Teeth-Filling-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Teeth Filling
                         </a>
 
-                        <a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Invisalign-Aligners-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Clear aligners
                         </a>
 
-                        <a href="dental_braces_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Dental-Braces-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Dental braces
                         </a>
 
-                        <a href="dentaldentures_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Dental-Dentures-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Dentures
                         </a>
 
-                        <a href="teeth_whitening_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                        <a href="Teeth-Whitening-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                             <i class="fas fa-check-circle me-2 text-warning"></i> Teeth Whitening
                                 </a>
 
-                                <a href="dental_implants_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Dental-Implants-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Dental Implants
                                 </a>
 
-                                <a href="teeth_scaling_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Teeth-Scaling-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Teeth scaling
                                 </a>
 
 
-                                <a href="smile_makeover_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Smile-Makeover-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Smile Makeover
                                 </a>
 
 
-                                <a href="dentalcrown_bridge_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Dental-Crown-Bridge-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Crowns & bridges
                                 </a>
 
-                                <a href="tooth_extraction_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Tooth-Extraction-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i>Tooth Extraction
                                 </a>
-                                <a href="full_mouth_restoration_treatment_in_bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
+                                <a href="Full-Mouth-Restoration-Treatment-In-Bengaluru.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Full mouth restoration
                                 </a>
                                 

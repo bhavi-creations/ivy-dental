@@ -9,7 +9,7 @@
             <h1 class="ul-breadcrumb-title">About Us</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
                 <li>About Us</li>
             </ul>
@@ -110,7 +110,7 @@
                             </div>
                         </div>
 
-                        <a href="appointment_ivy_dental_hospital.php" class="ul-btn">APPOINMENT NOW <i class="flaticon-arrow-up-right"></i></a>
+                        <a href="appointment-ivy-dental-hospital.php" class="ul-btn">APPOINMENT NOW <i class="flaticon-arrow-up-right"></i></a>
                     </div>
                 </div>
             </div>

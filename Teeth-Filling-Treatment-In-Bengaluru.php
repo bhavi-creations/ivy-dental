@@ -1,55 +1,53 @@
 <?php include 'header.php'; ?>
 
+<main>
+    <!-- BREADCRUMBS SECTION START -->
+    <section class="ul-breadcrumb">
+        <div class="ul-2-container">
+            <h1 class="ul-breadcrumb-title">Tooth filling</h1>
 
-    <main>
-        <!-- BREADCRUMBS SECTION START -->
-        <section class="ul-breadcrumb">
-            <div class="ul-2-container">
-                <h1 class="ul-breadcrumb-title">Root canal</h1>
+            <ul class="ul-breadcrumb-nav">
+                <li><a href="home.php">Home</a></li>
+                <li class="separator"><i class="flaticon-right-arrow"></i></li>
+                <li>Tooth filling</li>
+            </ul>
+        </div>
+    </section>
+    <!-- BREADCRUMBS SECTION END -->
 
-                <ul class="ul-breadcrumb-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                    <li>Root canal</li>
-                </ul>
-            </div>
-        </section>
-        <!-- BREADCRUMBS SECTION END -->
-
-        <!-- SERVICE DETAILS SECTION START -->
-        <section class="ul-service-details ul-section-spacing">
-            <div class="ul-container">
-                <div class="row g-xl-5 g-4">
-                    <div class="col-lg-8 col-md-7">
-                        <div>
-                            <div class="ul-service-details-img">
-                                <img src="assets/img/service/rootcanal.png" alt="Image">
-                            </div>
-                            <div class="ul-service-details-txt">
-                                <h2 class="ul-service-details-title">Root canal </h2>
-                                <p class="ul-service-details-descr">A root canal is a dental procedure that treats infection inside a tooth by removing the infected pulp, cleaning the canals, and sealing them to prevent reinfection. It helps preserve your natural tooth, restores function, and eliminates pain. Modern techniques make the treatment safe, effective, and virtually painless.</p>
-                                <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
-                                <div class="ul-service-details-inner-block inner-block-1">
-
+    <!-- SERVICE DETAILS SECTION START -->
+    <section class="ul-service-details ul-section-spacing">
+        <div class="ul-container">
+            <div class="row g-xl-5 g-4">
+                <div class="col-lg-8 col-md-7">
+                    <div>
+                        <div class="ul-service-details-img">
+                            <img src="assets/img/service/teeth_filling.png" alt="Image">
+                        </div>
+                        <div class="ul-service-details-txt">
+                            <h2 class="ul-service-details-title">Tooth filling </h2>
+                            <p class="ul-service-details-descr">Tooth filling is a simple and effective procedure to repair cavities or minor tooth damage. The decayed portion of the tooth is removed and replaced with a durable filling material that restores its natural shape and function. It prevents further decay, strengthens the tooth, and helps you maintain a healthy smile.</p>
+                            <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
+                            <div class="ul-service-details-inner-block inner-block-1">
 
 
-                                    <div class="ul-service-details-inner-block">
-                                        <h3 class="ul-service-details-inner-title">Key Features:</h3>
-                                        <ul>
-                                            <li><span class="title">Painless root canal:</span> <span class="value">Advanced techniques ensure comfort</span></li>
-                                            <li><span class="title">Save natural tooth:</span> <span class="value">Retains your original tooth structure.</span></li>
-                                            <li><span class="title">Infection removal :</span> <span class="value">Eliminates bacteria and prevents spread.</span></li>
-                                            <li><span class="title">Long-lasting solution:</span> <span class="value">Restores function and prevents extraction..</span></li>
 
-                                            <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
-                                            <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
-                                        </ul>
-                                    </div>
+                                <div class="ul-service-details-inner-block">
+                                    <h3 class="ul-service-details-inner-title">Key Features:</h3>
+                                    <ul>
+                                        <li><span class="title">Cavity treatment :</span> <span class="value">Repairs decayed areas.</span></li>
+                                        <li><span class="title">Durable fillings :</span> <span class="value">Materials like composite, silver, or ceramic.</span></li>
+                                        <li><span class="title">Pain-free procedure :</span> <span class="value">Quick and comfortable.</span></li>
+                                        <li><span class="title">Prevents tooth damage :</span> <span class="value">Stops decay from spreading.</span></li>
+
+                                        <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
+                                    </ul>
+                                </div>
 
 
 
 
-                                    <!-- <div>
+                                <!-- <div>
                                         <h3 class="ul-service-details-inner-title">What We Offer:</h3>
                                         <ul>
                                             <li>One-on-one virtual sessions with certified counselors</li>
@@ -61,12 +59,12 @@
                                         </ul>
                                     </div> -->
 
-                                    <div class="ul-service-details-inner-block-img">
-                                        <img src="assets/img/home/root canal.png" alt="Image">
-                                    </div>
+                                <div class="ul-service-details-inner-block-img">
+                                    <img src="assets/img/home/teeth filling.png" alt="Image">
                                 </div>
+                            </div>
 
-                                <!-- <div class="ul-service-details-inner-block">
+                            <!-- <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
                                         <li><span class="title">Stress Reduction Coaching:</span> <span class="value">Learn to manage pressure burnout, and daily anxiety with proven techniques</span></li>
@@ -77,11 +75,11 @@
                                     </ul>
                                 </div> -->
 
-                                <div class="ul-service-details-inner-block">
-                                    <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                    <p>Improving your lifestyle isn't just about avoiding illness — it's about living better, feeling stronger, and thinking clearer every day.</p>
-                                    <div class="ul-accordion ul-service-details-faq">
-                                        <!--    <div class="ul-single-accordion-item">
+                            <div class="ul-service-details-inner-block">
+                                <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
+                                <p>Ignoring cavities can lead to severe pain, infection, or even tooth loss. A dental filling not only stops decay but also restores the tooth’s normal function and appearance, ensuring long-term oral health and a confident smil</p>
+                                <div class="ul-accordion ul-service-details-faq">
+                                    <!--  <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
@@ -94,7 +92,7 @@
                                             </div>
                                         </div>
 
-                                         <div class="ul-single-accordion-item open">
+                                        <div class="ul-single-accordion-item open">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Why Join Us as a Volunteer?</h3>
@@ -119,17 +117,17 @@
                                                 <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
                                             </div>
                                         </div> -->
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <?php include "sub_service.php"; ?>
                 </div>
-            </div>
-        </section>
-        <!-- SERVICE DETAILS SECTION END -->
-    </main>
 
-    <?php include "footer.php";?>
+                <?php include "sub_service.php"; ?>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- SERVICE DETAILS SECTION END -->
+</main>
+<?php include 'footer.php'; ?>

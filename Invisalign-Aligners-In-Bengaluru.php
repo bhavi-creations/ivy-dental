@@ -4,12 +4,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Tooth filling</h1>
+            <h1 class="ul-breadcrumb-title">Clear aligners</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Tooth filling</li>
+                <li>Clear aligners</li>
             </ul>
         </div>
     </section>
@@ -22,11 +22,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/teeth_filling.png" alt="Image">
+                            <img src="assets/img/service/clear_aligners.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title">Tooth filling </h2>
-                            <p class="ul-service-details-descr">Tooth filling is a simple and effective procedure to repair cavities or minor tooth damage. The decayed portion of the tooth is removed and replaced with a durable filling material that restores its natural shape and function. It prevents further decay, strengthens the tooth, and helps you maintain a healthy smile.</p>
+                            <h2 class="ul-service-details-title">Clear aligners </h2>
+                            <p class="ul-service-details-descr">Clear aligners are transparent, removable trays designed to gradually move your teeth into proper alignment. Unlike traditional braces, they are nearly invisible and comfortable to wear, making them a popular choice for adults and teens. They allow you to eat, brush, and floss without restrictions while improving your smile .</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -35,11 +35,12 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Cavity treatment :</span> <span class="value">Repairs decayed areas.</span></li>
-                                        <li><span class="title">Durable fillings :</span> <span class="value">Materials like composite, silver, or ceramic.</span></li>
-                                        <li><span class="title">Pain-free procedure :</span> <span class="value">Quick and comfortable.</span></li>
-                                        <li><span class="title">Prevents tooth damage :</span> <span class="value">Stops decay from spreading.</span></li>
+                                        <li><span class="title">Invisible Braces :</span> <span class="value">Nearly invisible alternative to metal braces.</span></li>
+                                        <li><span class="title">Comfort & Convenience :</span> <span class="value">Smooth, removable, and easy to wear.</span></li>
+                                        <li><span class="title">Gradual Correction :</span> <span class="value">Aligns teeth step by step with trays.</span></li>
+                                        <li><span class="title">Oral Hygiene Friendly:</span> <span class="value">Easy to brush and floss without hassle.</span></li>
 
+                                        <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
                                     </ul>
                                 </div>
@@ -60,7 +61,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/teeth filling.png" alt="Image">
+                                    <img src="assets/img/home/clear aligners.png" alt="Image">
                                 </div>
                             </div>
 
@@ -77,9 +78,9 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Ignoring cavities can lead to severe pain, infection, or even tooth loss. A dental filling not only stops decay but also restores the tooth’s normal function and appearance, ensuring long-term oral health and a confident smil</p>
+                                <p>Crooked or misaligned teeth affect not only your smile but also your oral health. Clear aligners provide a modern, comfortable, and effective way to achieve a perfectly aligned smile without the hassle of traditional braces.</p>
                                 <div class="ul-accordion ul-service-details-faq">
-                                    <!--  <div class="ul-single-accordion-item">
+                                    <!--   <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
                                                     <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
@@ -126,8 +127,7 @@
                 <?php include "sub_service.php"; ?>
             </div>
         </div>
-        </div>
     </section>
     <!-- SERVICE DETAILS SECTION END -->
 </main>
-<?php include 'footer.php'; ?>
+<?php include  'footer.php'; ?>

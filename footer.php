@@ -5,7 +5,7 @@
             <div class="ul-footer-top ul-section-spacing">
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about ul-2-footer-about">
-                        <a href="index.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo" loading="lazy" decoding="async"></a>
+                        <a href="home.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo" loading="lazy" decoding="async"></a>
                         <p class="ul-footer-about-txt">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 7760605222</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 9740805222</p>
@@ -15,13 +15,13 @@
                         <h3 class="ul-footer-widget-title">Helpful Link</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="index.php">Home</a>
-                            <a href="about_ivy_dental_hospital.php">About</a>
-                            <a href="services_ivy_dental_hospital.php">Services</a>
-                            <a href="testimonials_ivy_dental_hospital.php">Testimonials</a>
-                            <a href="gallery_ivy_dental_hospital.php">Gallery</a>
-                            <a href="blogs_ivy_dental_hospital.php">Blogs</a>
-                            <a href="contact_ivy_dental_hospital.php">Contact</a>
+                            <a href="home.php">Home</a>
+                            <a href="about-ivy-dental-hospital.php">About</a>
+                            <a href="services-ivy-dental-hospital.php">Services</a>
+                            <a href="testimonials-ivy-dental-hospital.php">Testimonials</a>
+                            <a href="gallery-ivy-dental-hospital.php">Gallery</a>
+                            <a href="blogs-ivy-dental-hospital.php">Blogs</a>
+                            <a href="contact-ivy-dental-hospital.php">Contact</a>
 
                         </div>
                     </div>
@@ -29,12 +29,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="root_canal_treatment_in_bengaluru.php" class="active">Root canal </a>
-                            <a href="teeth_filling_treatment_in_bengaluru.php">Teeth Filling </a>
-                            <a href="invisalignaligners_clearaligners_treatment_in_bengaluru.php">Clear Aligners </a>
-                            <a href="dental_braces_treatment_in_bengaluru.php">Dental braces </a>
-                            <a href="dentaldentures_treatment_in_bengaluru.php">Dentures </a>
-                            <a href="teeth_whitening_treatment_in_bengaluru.php">Teeth Whitening </a>
+                            <a href="Root-Canal-Treatment-In-Bengaluru.php" class="active">Root canal </a>
+                            <a href="Teeth-Filling-Treatment-In-Bengaluru.php">Teeth Filling </a>
+                            <a href="Invisalign-Aligners-In-Bengaluru.php">Clear Aligners </a>
+                            <a href="Dental-Braces-Treatment-In-Bengaluru.php">Dental braces </a>
+                            <a href="Dental-Dentures-Treatment-In-Bengaluru.php">Dentures </a>
+                            <a href="Teeth-Whitening-Treatment-In-Bengaluru.php">Teeth Whitening </a>
 
                         </div>
                     </div>
@@ -44,12 +44,12 @@
                         <h3 class="ul-footer-widget-title">Quick Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="dental_implants_treatment_in_bengaluru.php">Dental Implants </a>
-                            <a href="teeth_scaling_treatment_in_bengaluru.php">Teeth Scaling </a>
-                            <a href="smile_makeover_treatment_in_bengaluru.php">Smile Makeover </a>
-                            <a href="dentalcrown_bridge_treatment_in_bengaluru.php">Crowns & Bridges </a>
-                            <a href="tooth_extraction_treatment_in_bengaluru.php">Tooth Extraction </a>
-                            <a href="full_mouth_restoration_treatment_in_bengaluru.php">Full Mouth Restoration </a>
+                            <a href="Dental-Implants-Treatment-In-Bengaluru.php">Dental Implants </a>
+                            <a href="Teeth-Scaling-Treatment-In-Bengaluru.php">Teeth Scaling </a>
+                            <a href="Smile-Makeover-Treatment-In-Bengaluru.php">Smile Makeover </a>
+                            <a href="Dental-Crown-Bridge-Treatment-In-Bengaluru.php">Crowns & Bridges </a>
+                            <a href="Tooth-Extraction-Treatment-In-Bengaluru.php">Tooth Extraction </a>
+                            <a href="Full-Mouth-Restoration-Treatment-In-Bengaluru.php">Full Mouth Restoration </a>
                         </div>
                     </div>
 

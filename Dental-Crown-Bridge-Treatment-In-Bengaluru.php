@@ -5,12 +5,12 @@
     <!-- BREADCRUMBS SECTION START -->
     <section class="ul-breadcrumb">
         <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title">Dentures</h1>
+            <h1 class="ul-breadcrumb-title">Crowns & bridges</h1>
 
             <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Dentures</li>
+                <li>Crowns & bridges</li>
             </ul>
         </div>
     </section>
@@ -23,11 +23,11 @@
                 <div class="col-lg-8 col-md-7">
                     <div>
                         <div class="ul-service-details-img">
-                            <img src="assets/img/service/dentures_service.png" alt="Image">
+                            <img src="assets/img/service/crowns.png" alt="Image">
                         </div>
                         <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title">Dentures </h2>
-                            <p class="ul-service-details-descr">Dentures are removable dental appliances designed to replace missing teeth and surrounding tissues. They restore your ability to eat, speak, and smile comfortably. Available as full or partial dentures, they are custom-made to fit securely and look natural, improving both appearance and oral health.</p>
+                            <h2 class="ul-service-details-title"> Crowns & bridges</h2>
+                            <p class="ul-service-details-descr">Crowns and bridges are fixed dental restorations used to strengthen damaged teeth or replace missing ones. A crown covers and protects a weakened tooth, while a bridge fills the gap of one or more missing teeth by anchoring to the surrounding teeth. They improve chewing, speaking, and restore a natural-looking smile.</p>
                             <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
@@ -36,10 +36,10 @@
                                 <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
-                                        <li><span class="title">Full Dentures:</span> <span class="value">Replace all missing teeth in the upper or lower jaw.</span></li>
-                                        <li><span class="title">Partial Dentures :</span> <span class="value"> Fill gaps when some natural teeth remain.</span></li>
-                                        <li><span class="title">Natural Look :</span> <span class="value">Designed to resemble real teeth and gums.</span></li>
-                                        <li><span class="title">Comfortable Fit:</span> <span class="value"> Custom-made for a secure and easy fit.</span></li>
+                                        <li><span class="title">Dental Crown :</span> <span class="value">A protective cap placed over a weak or damaged tooth.</span></li>
+                                        <li><span class="title">Dental Bridge :</span> <span class="value">A fixed solution to replace one or more missing teeth.</span></li>
+                                        <li><span class="title">Strong & Durable :</span> <span class="value"> Made from ceramic, porcelain, or metal for long life.</span></li>
+                                        <li><span class="title">Natural Appearance:</span> <span class="value">Matches the shape and color of real teeth.</span></li>
 
                                         <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
                                         <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
@@ -62,7 +62,7 @@
                                     </div> -->
 
                                 <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img/home/dentures.png" alt="Image">
+                                    <img src="assets/img/home/dental crown and bridge.png" alt="Image">
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Missing teeth can affect daily life, from eating and speaking to smiling with confidence. Dentures restore function, improve appearance, and support facial structure, giving you a healthier and more youthful look.</p>
+                                <p>Broken or missing teeth not only affect your smile but also your oral health and daily functions. Crowns and bridges provide a reliable, long-lasting solution to restore strength, function, and appearance, keeping your smile healthy and complete.</p>
                                 <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">

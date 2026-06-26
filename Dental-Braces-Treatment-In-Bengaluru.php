@@ -2,54 +2,53 @@
 
 
 <main>
-    <!-- BREADCRUMBS SECTION START -->
-    <section class="ul-breadcrumb">
-        <div class="ul-2-container">
-            <h1 class="ul-breadcrumb-title"> Full mouth restoration</h1>
+        <!-- BREADCRUMBS SECTION START -->
+        <section class="ul-breadcrumb">
+            <div class="ul-2-container">
+                <h1 class="ul-breadcrumb-title">Dental braces</h1>
 
-            <ul class="ul-breadcrumb-nav">
-                <li><a href="index.php">Home</a></li>
-                <li class="separator"><i class="flaticon-right-arrow"></i></li>
-                <li>Full mouth restoration</li>
-            </ul>
-        </div>
-    </section>
-    <!-- BREADCRUMBS SECTION END -->
-
-    <!-- SERVICE DETAILS SECTION START -->
-    <section class="ul-service-details ul-section-spacing">
-        <div class="ul-container">
-            <div class="row g-xl-5 g-4">
-                <div class="col-lg-8 col-md-7">
-                    <div>
-                        <div class="ul-service-details-img">
-                            <img src="assets/img/service/full_mouth.png" alt="Image">
-                        </div>
-                        <div class="ul-service-details-txt">
-                            <h2 class="ul-service-details-title">Full mouth restoration</h2>
-                            <p class="ul-service-details-descr">Full mouth restoration is a comprehensive dental treatment plan that repairs and replaces multiple teeth to restore function, health, and appearance. It may combine procedures such as crowns, bridges, implants, veneers, and bite correction. This approach not only improves chewing and speech but also transforms your smile and confidence.</p>
-                            <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
-                            <div class="ul-service-details-inner-block inner-block-1">
-
-
-
-                                <div class="ul-service-details-inner-block">
-                                    <h3 class="ul-service-details-inner-title">Key Features:</h3>
-                                    <ul>
-                                        <li><span class="title">Comprehensive Care :</span> <span class="value">Treats multiple dental problems in one plan.</span></li>
-                                        <li><span class="title">Crowns & Bridges :</span> <span class="value">Restore strength and replace missing teeth.</span></li>
-                                        <li><span class="title">Dental Implants :</span> <span class="value"> Permanent solution for lost teeth..</span></li>
-                                        <li><span class="title">Bite Correction:</span> <span class="value">Improves chewing, alignment, and comfort.</span></li>
-
-                                        <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
-                                        <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
-                                    </ul>
-                                </div>
+                <ul class="ul-breadcrumb-nav">
+                    <li><a href="home.php">Home</a></li>
+                    <li class="separator"><i class="flaticon-right-arrow"></i></li>
+                    <li>Dental braces</li>
+                </ul>
+            </div>
+        </section>
+        <!-- BREADCRUMBS SECTION END -->                                                                                                                                                                                                                                                     
+        <!-- SERVICE DETAILS SECTION START -->
+        <section class="ul-service-details ul-section-spacing">
+            <div class="ul-container">
+                <div class="row g-xl-5 g-4">
+                    <div class="col-lg-8 col-md-7">
+                        <div>
+                            <div class="ul-service-details-img">
+                                <img src="assets/img/service/dental_braces.png" alt="Image">
+                            </div>
+                            <div class="ul-service-details-txt">
+                                <h2 class="ul-service-details-title">Dental braces </h2>
+                                <p class="ul-service-details-descr">Dental braces are orthodontic devices used to correct misaligned teeth and jaw issues. They apply gentle, continuous pressure to gradually shift teeth into the right position. Available in metal, ceramic, or lingual types, braces improve both appearance and oral health by creating a balanced, confident smile.</p>
+                                <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
+                                <div class="ul-service-details-inner-block inner-block-1">
 
 
 
+                                    <div class="ul-service-details-inner-block">
+                                        <h3 class="ul-service-details-inner-title">Key Features:</h3>
+                                        <ul>
+                                            <li><span class="title">Teeth Alignment:</span> <span class="value">Corrects crooked or crowded teeth.</span></li>
+                                            <li><span class="title">Bite Correction :</span> <span class="value"> Fixes overbite, underbite, and crossbite.</span></li>
+                                            <li><span class="title">Different Types :</span> <span class="value"> Options include metal, ceramic, and lingual braces.</span></li>
+                                            <li><span class="title">Long-Term Results:</span> <span class="value"> Provides lasting improvements in smile and function.</span></li>
 
-                                <!-- <div>
+                                            <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
+                                            <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
+                                        </ul>
+                                    </div>
+
+
+
+
+                                    <!-- <div>
                                         <h3 class="ul-service-details-inner-title">What We Offer:</h3>
                                         <ul>
                                             <li>One-on-one virtual sessions with certified counselors</li>
@@ -61,12 +60,12 @@
                                         </ul>
                                     </div> -->
 
-                                <div class="ul-service-details-inner-block-img">
-                                    <img src="assets/img//home/full mouth restoration.png" alt="Image">
+                                    <div class="ul-service-details-inner-block-img">
+                                        <img src="assets/img/home/braces.png" alt="Image">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <!-- <div class="ul-service-details-inner-block">
+                                <!-- <div class="ul-service-details-inner-block">
                                     <h3 class="ul-service-details-inner-title">Key Features:</h3>
                                     <ul>
                                         <li><span class="title">Stress Reduction Coaching:</span> <span class="value">Learn to manage pressure burnout, and daily anxiety with proven techniques</span></li>
@@ -77,10 +76,10 @@
                                     </ul>
                                 </div> -->
 
-                            <div class="ul-service-details-inner-block">
-                                <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
-                                <p>Severely damaged or missing teeth affect oral health, daily functions, and self-esteem. Full mouth restoration provides a customized, long-lasting solution to rebuild your teeth, restore proper function, and give you a beautiful, confident smile.</p>
-                                <div class="ul-accordion ul-service-details-faq">
+                                <div class="ul-service-details-inner-block">
+                                    <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
+                                    <p>Misaligned teeth can cause chewing difficulties, speech issues, and self-consciousness. Dental braces not only straighten teeth but also improve oral function, hygiene, and overall confidence.</p>
+                                    <div class="ul-accordion ul-service-details-faq">
                                     <!--    <div class="ul-single-accordion-item">
                                             <div class="ul-single-accordion-item__header">
                                                 <div class="left">
@@ -119,19 +118,19 @@
                                                 <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
                                             </div>
                                         </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <?php include "sub_service.php"; ?>
+                    </div>
                 </div>
-
-                <?php include "sub_service.php"; ?>
             </div>
-        </div>
-        </div>
-    </section>
-    <!-- SERVICE DETAILS SECTION END -->
-</main>
+        </section>
+        <!-- SERVICE DETAILS SECTION END -->
+    </main>
 
 
-<?php include "footer.php"; ?>
+<?php include "footer.php" ; ?>
