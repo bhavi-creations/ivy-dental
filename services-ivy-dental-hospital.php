@@ -308,7 +308,7 @@
 
                                 </div>
 
-                                <a href="dentures_treatment_in_bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
+                                <a href="Dental-Dentures-Treatment-In-Bengaluru.php" class="ul-inner-service-2-btn ul-btn"><span>Read
                                         More</span> <i class="flaticon-arrow-up-right"></i></a>
                             </div>
                         </div>

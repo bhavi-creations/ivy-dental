@@ -17,8 +17,8 @@ if (!empty($service)) {
     $stmt->bind_param("s", $service);
 }
 
-// $stmt->execute();
-// $result = $stmt->get_result();
+$stmt->execute();
+$result = $stmt->get_result();
 
 ?>
 

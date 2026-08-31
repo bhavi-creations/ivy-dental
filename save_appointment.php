@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
         $mailDoctor->Username   = 'manimalladi05@gmail.com';
-        $mailDoctor->Password   = 'cvarqcchfjpawxvo';
+        $mailDoctor->Password   = 'nsmgbxkyqxqrwfjh';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
@@ -148,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
         $mailPatient->Username   = 'manimalladi05@gmail.com';
-        $mailPatient->Password   = 'cvarqcchfjpawxvo';
+        $mailPatient->Password   = 'nsmgbxkyqxqrwfjh';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 

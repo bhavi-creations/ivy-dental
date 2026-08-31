@@ -25,20 +25,20 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g1.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g1.png" alt="Case Study Image">
                         </div>
                          
                     </div>
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g2.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g2.png" alt="Case Study Image">
                         </div>
                          
                     </div>
                      <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g9.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g3.png" alt="Case Study Image">
                         </div>
                          
                     </div>
@@ -48,7 +48,7 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g3.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g4.png" alt="Case Study Image">
                         </div>
                         
                     </div>
@@ -56,7 +56,7 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g4.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g5.png" alt="Case Study Image">
                         </div>
                          
                     </div>
@@ -66,7 +66,7 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g5.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g6.png" alt="Case Study Image">
                         </div>
                          
                     </div>
@@ -76,7 +76,7 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g6.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g7.png" alt="Case Study Image">
                         </div>
                          
                     </div>
@@ -86,7 +86,7 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g7.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g8.png" alt="Case Study Image">
                         </div>
                         
                     </div>
@@ -100,7 +100,7 @@
                  
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g10.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g13.png" alt="Case Study Image">
                         </div>
                          
                     </div>
@@ -112,14 +112,14 @@
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g11.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g10.png" alt="Case Study Image">
                         </div>
                          
                     </div>
                     <!-- single case-study -->
                     <div class="ul-case-study">
                         <div class="ul-case-study-img">
-                            <img src="assets/img/g12.jpeg" alt="Case Study Image">
+                            <img src="assets/img/g11.png" alt="Case Study Image">
                         </div>
                          
                     </div>

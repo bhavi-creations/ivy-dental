@@ -106,7 +106,7 @@ Teeth Whitening near me Bangalore">
             "priceRange": "₹₹",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "461, HMT Layout 3rd Block, Vidyaranyapura",
+                "streetAddress": "1st floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097",
                 "addressLocality": "Bengaluru",
                 "addressRegion": "Karnataka",
                 "postalCode": "560097",
@@ -206,7 +206,7 @@ Teeth Whitening near me Bangalore">
 
             <div class="ul-sidebar-txt-block">
                 <span class="title ul-sidebar-footer-title">Location</span>
-                <p class="descr"><i class="flaticon-pin"></i><span> 461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</span></p>
+                <p class="descr"><i class="flaticon-pin"></i><span> 1st floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097</span></p>
             </div>
 
             <div class="ul-sidebar-txt-block">

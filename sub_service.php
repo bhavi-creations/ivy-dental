@@ -23,7 +23,7 @@
                     <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
                         <span class="ul-service-details-sidebar-widget-title">Need more info?</span>
                         <div class="ul-service-details-sidebar-cta-content">
-                            <p class="contact-info">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
+                            <p class="contact-info">1st floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                             <span class="contact-info number"><a href="tel:+1890123456">+91 7760605222</a></span>
                             <p class="contact-info"><a href="mailto:dr.chiranjeevi@gmail.com">dr.chiranjeevi@gmail.com</a></p>
                             <a href="contact-ivy-dental-hospital.php" class="ul-btn">Contact Us <i class="flaticon-arrow-up-right"></i></a>

@@ -25,7 +25,7 @@
                     <div class="col">
                         <div class="ul-inner-contact-info">
                             <div class="icon"><i class="flaticon-pin"></i></div>
-                            <p class="descr"> 461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
+                            <p class="descr"> 1st floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                         </div>
                     </div>
                     <!-- single contact info -->

@@ -6,7 +6,7 @@
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about ul-2-footer-about">
                         <a href="home.php" class="logo-wrapper img-fluid;"><img src="assets/img/footer logo.png" alt="logo" loading="lazy" decoding="async"></a>
-                        <p class="ul-footer-about-txt">461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
+                        <p class="ul-footer-about-txt">1st floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 7760605222</p>
                         <p class="ul-footer-about-txt"><i class="flaticon-call"></i> 9740805222</p>
                     </div>
