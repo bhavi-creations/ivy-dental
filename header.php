@@ -222,14 +222,13 @@ Teeth Whitening near me Bangalore">
             <div class="ul-sidebar-footer-social">
 
 
-                <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
-
-                <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
-                <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
-
-                <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"><i class="bi bi-quora"></i></a>
-                <a href="https://www.linkedin.com/company/108682925/admin/dashboard/"><i class="bi bi-linkedin"></i></a>
-                <a href="https://pin.it/5Vy53ZenZ"><i class="bi bi-pinterest"></i></a>
+                <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
+                <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
+                <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
+                <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+                <!-- <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a> -->
+                <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
             </div>
         </div>
     </div>

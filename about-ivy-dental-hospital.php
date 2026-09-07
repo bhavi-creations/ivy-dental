@@ -26,8 +26,8 @@
                 <div class="col">
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
-                            <img src="assets/img/about-2-img-1.jpg" alt="Image">
-                            <span class="txt"><span class="number">24+</span> Y E A R S E X P E R I E N C E</span>
+                            <img src="assets/img/g13.png" alt="Image">
+                            <span class="txt"><span class="number">25+</span> Y E A R S E X P E R I E N C E</span>
                         </div>
                         <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
                     </div>
@@ -61,6 +61,7 @@
     <!-- ABOUT SECTION END -->
 
 
+   
     <!-- WHY CHOOSE US SECTION START -->
     <section class="ul-why-choose-us ul-section-spacing">
         <div class="ul-2-container">
@@ -69,10 +70,10 @@
                 <div class="col">
                     <div class="ul-why-choose-us-imgs">
                         <div class="ul-why-choose-us-img">
-                            <img src="assets/img/why-choose-img-1.jpg" alt="Image" class="img-1">
+                            <img src="assets/img/g8.png" alt="Image" class="img-1">
                         </div>
                         <div class="ul-why-choose-us-img ul-why-choose-us-video-cover">
-                            <img src="assets/img/why-choose-img-2.jpg" alt="Image" class="img-2">
+                            <img src="assets/img/g1.png" alt="Image" class="img-2">
                         </div>
                         <img src="assets/img/why-choose-img-vector.svg" alt="vector" class="ul-why-choose-us-imgs-vector">
                     </div>

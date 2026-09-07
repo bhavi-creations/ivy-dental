@@ -8,6 +8,7 @@
     <section class="only_first">
         <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
             <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
+            <!-- <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4"> -->
             Your browser does not support the video tag.
         </video>
 
@@ -28,9 +29,13 @@
             };
 
             if ('requestIdleCallback' in window) {
-                requestIdleCallback(loadHomeVideo, { timeout: 1800 });
+                requestIdleCallback(loadHomeVideo, {
+                    timeout: 1800
+                });
             } else {
-                window.addEventListener('load', loadHomeVideo, { once: true });
+                window.addEventListener('load', loadHomeVideo, {
+                    once: true
+                });
             }
 
             // Function to unmute and play the video
@@ -62,7 +67,7 @@
 
                         <p class="ul-2-banner-descr ">At Ivy (Ivory) Dental, we believe every smile deserves expert care, comfort, and confidence. Located in Vidyaranyapura, Bangalore, our dental clinic offers advanced treatments for tooth pain, missing teeth, smile correction, gum problems, teeth whitening, dental implants, root canal treatment, braces, and clear aligners — all under one roof.</p>
                         <p class="ul-2-banner-descr ">With experienced dental specialists, modern technology, and patient-friendly care, we help children, adults, and senior patients achieve healthy and confident smiles with safe and comfortable treatment.</p>
-                        <p class="ul-2-banner-descr " > Whether you need a routine dental check-up or complete smile makeover, our team is committed to delivering personalized care with long-lasting results.</p>
+                        <p class="ul-2-banner-descr "> Whether you need a routine dental check-up or complete smile makeover, our team is committed to delivering personalized care with long-lasting results.</p>
 
 
                         <!-- <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p> -->
@@ -76,9 +81,9 @@
                 </div>
 
                 <!-- banner image -->
-                <div class="col-md-6 " >
+                <div class="col-md-6 ">
                     <div class="ul-2-banner-imgs indes_secong_section">
-                        <img src="assets/img/banner-2-img-11.jpg" alt="Image" class="img-1 d-none d-md-block">
+                        <img src="assets/img/g7.png" alt="Image" class="img-1 d-none d-md-block">
                         <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
 
 
@@ -100,15 +105,25 @@
             <img src="assets/img/banner-2-vector-5.svg" alt="vector" class="vector-5">
         </div>
 
+        
+
+        
+
+        
+
+        
+
+       
+
         <!-- banner socials -->
         <div class="ul-2-banner-socials ul-banner-socials index_page_socialmedia">
-            <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
+            <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
             <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
-            <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
-            <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
-            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a>
+            <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
+            <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+            <!-- <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a> -->
             <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://pin.it/5Vy53ZenZ" target="_blank"><i class="bi bi-pinterest"></i></a>
+            <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
 
         </div>
     </section>
@@ -174,8 +189,8 @@
                 <div class="col">
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
-                            <img src="assets/img/about-2-img-1.jpg" alt="Image">
-                            <span class="txt"><span class="number">24+</span> Y E A R S E X P E R I E N C E</span>
+                            <img src="assets/img/g13.png" alt="Image">
+                            <span class="txt"><span class="number">25+</span> Y E A R S E X P E R I E N C E</span>
                         </div>
                         <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
                     </div>
@@ -533,10 +548,10 @@
                 <div class="col">
                     <div class="ul-why-choose-us-imgs">
                         <div class="ul-why-choose-us-img">
-                            <img src="assets/img/why-choose-img-1.jpg" alt="Image" class="img-1">
+                            <img src="assets/img/g8.png" alt="Image" class="img-1">
                         </div>
                         <div class="ul-why-choose-us-img ul-why-choose-us-video-cover">
-                            <img src="assets/img/why-choose-img-2.jpg" alt="Image" class="img-2">
+                            <img src="assets/img/g1.png" alt="Image" class="img-2">
                         </div>
                         <img src="assets/img/why-choose-img-vector.svg" alt="vector" class="ul-why-choose-us-imgs-vector">
                     </div>
@@ -1050,10 +1065,12 @@
                             if (!target) return;
 
                             fetch('home_blogs.php', {
-                                cache: 'no-store',
-                                credentials: 'same-origin'
-                            })
-                                .then(function(response) { return response.ok ? response.text() : ''; })
+                                    cache: 'no-store',
+                                    credentials: 'same-origin'
+                                })
+                                .then(function(response) {
+                                    return response.ok ? response.text() : '';
+                                })
                                 .then(function(html) {
                                     if (html.trim()) {
                                         target.innerHTML = html;
@@ -1063,7 +1080,9 @@
                         };
 
                         if ('requestIdleCallback' in window) {
-                            requestIdleCallback(loadBlogs, { timeout: 2500 });
+                            requestIdleCallback(loadBlogs, {
+                                timeout: 2500
+                            });
                         } else {
                             setTimeout(loadBlogs, 1200);
                         }

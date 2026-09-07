@@ -7279,7 +7279,7 @@ table {
 }
 
 .only_first video {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 6;
   display: block;
   height: auto;
   object-fit: cover;

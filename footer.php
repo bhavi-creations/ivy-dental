@@ -73,13 +73,13 @@
 
                     <div class="col-lg col-md-12  order-3 order-lg-2">
                         <div class="ul-footer-socials justify-content-center mt-0">
-                            <a href="https://www.facebook.com/ivorydentalbengaluru" target="_blank"><i class="flaticon-facebook"></i></a>
+                            <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
                             <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
-                            <a href=" https://www.instagram.com/ivory.dental.bengaluru" target="_blank"><i class="flaticon-instagram"></i></a>
-                            <a href=" https://www.youtube.com/@IvoryDentalBengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
-                            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS"  target="_blank"><i class="bi bi-quora"></i></a>
-                            <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin" ></i></a>
-                            <a href="https://pin.it/5Vy53ZenZ"  target="_blank"><i class="bi bi-pinterest"></i></a>
+                            <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
+                            <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+                            <!-- <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a> -->
+                            <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@
                     <div class="col order-2 order-lg-3">
 
 
-                        <p class="copyright-txt">&copy; <span class="colored"> <a href="https://bhavicreations.com/">  Bhavi creations Pvt Ltd</a> </span>
+                        <p class="copyright-txt">&copy; <span class="colored"> <a href="https://bhavicreations.com/"> Bhavi creations Pvt Ltd</a> </span>
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>
