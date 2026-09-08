@@ -73,7 +73,7 @@
                             <img src="assets/img/g8.png" alt="Image" class="img-1">
                         </div>
                         <div class="ul-why-choose-us-img ul-why-choose-us-video-cover">
-                            <img src="assets/img/g1.png" alt="Image" class="img-2">
+                            <img src="assets/img//why-choose-img-2.jpg" alt="Image" class="img-2">
                         </div>
                         <img src="assets/img/why-choose-img-vector.svg" alt="vector" class="ul-why-choose-us-imgs-vector">
                     </div>

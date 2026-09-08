@@ -8,11 +8,47 @@
     <section class="only_first">
         <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
             <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
-            <!-- <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4"> -->
+            <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
     </section>
+
+    <!-- <section class="only_first" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
+        <iframe
+            style="position: absolute; top: 50%; left: 50%; width: 100vw; height: 100vh; transform: translate(-50%, -50%) scale(1.3); pointer-events: none;"
+            src="https://www.youtube.com/embed/9cQ8rPChIC4?si=QD6VQJCB_u-Uius-"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </section> -->
+
+
+    <!-- <section class="only_first">
+        <iframe
+            width="100%"
+            height="500"
+            src="https://www.youtube.com/embed/dbrG6vuC7t0?si=wiqlldAa0Wp7bkYJ1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </section> -->
+
+    <!-- <section class="only_first" style="position: relative; width: 100%; height: 500px; overflow: hidden;">
+        <iframe
+            style="position: absolute; top: -60px; left: 0; width: 100%; height: calc(100% + 60px); border: none;"
+            src="https://www.youtube.com/embed/dbrG6vuC7t0?si=wiqlldAa0Wp7bkYJ1"
+            title="YouTube video player"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </section> -->
+
+
+
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -105,15 +141,15 @@
             <img src="assets/img/banner-2-vector-5.svg" alt="vector" class="vector-5">
         </div>
 
-        
 
-        
 
-        
 
-        
 
-       
+
+
+
+
+
 
         <!-- banner socials -->
         <div class="ul-2-banner-socials ul-banner-socials index_page_socialmedia">
@@ -551,7 +587,7 @@
                             <img src="assets/img/g8.png" alt="Image" class="img-1">
                         </div>
                         <div class="ul-why-choose-us-img ul-why-choose-us-video-cover">
-                            <img src="assets/img/g1.png" alt="Image" class="img-2">
+                            <img src="assets/img/why-choose-img-2.jpg" alt="Image" class="img-2">
                         </div>
                         <img src="assets/img/why-choose-img-vector.svg" alt="vector" class="ul-why-choose-us-imgs-vector">
                     </div>
@@ -1110,9 +1146,10 @@
 
 
 
-                    <img src="assets/img/home/appointment _animated_1.png" class="img-fluid" alt="">
+                    <!-- <img src="assets/img/home/appointment _animated_1.png" class="img-fluid" alt=""> -->
+                    <img src="assets/img/g10.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 d-flex flex-direction-column justify-content-center">
                     <div class="ul-2-appointment-form-wrapper">
                         <!-- heading -->
                         <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Appointment</span> -->
