@@ -3,8 +3,276 @@
 
 
 <main>
+    <img src="./assets/img/bg/about_bg.png" alt="" class="img-fluid">
+
+<!-- new section  -->
+   <section class="about_new_section">
+        <div class="about-mobile" aria-hidden="false">
+            <div class="about-mobile-orbit"></div>
+
+            <div class="about-mobile-glass">
+                <span>
+                    A<br>
+                    Healthier<br>
+                    Smile<br>
+                    A Brighter<br>
+                    You
+                </span>
+            </div>
+
+            <div class="about-mobile-trusted">
+                Trusted<br>
+                Dental Care<br>
+                For Brighter<br>
+                Tomorrows
+            </div>
+
+            <svg class="about-mobile-tooth" viewBox="0 0 220 270" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs>
+                    <linearGradient id="mobileToothFill" x1="46" y1="35" x2="170" y2="220" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#ffffff" />
+                        <stop offset="0.38" stop-color="#f8f8f3" />
+                        <stop offset="0.78" stop-color="#e8ece5" />
+                        <stop offset="1" stop-color="#fdfdf9" />
+                    </linearGradient>
+                    <filter id="mobileToothShadow" x="-30%" y="-30%" width="160%" height="170%">
+                        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#788378" flood-opacity=".22" />
+                    </filter>
+                </defs>
+                <path filter="url(#mobileToothShadow)"
+                    d="M59 20C39 30 29 51 33 76C37 101 50 118 57 138C67 166 66 213 82 232C91 243 99 231 102 211L109 168C111 156 121 156 124 168L132 211C135 232 143 243 152 232C168 213 168 166 178 138C185 118 198 101 202 76C206 51 196 30 176 20C157 11 141 19 125 27C116 31 106 31 97 27C81 19 78 11 59 20Z"
+                    fill="url(#mobileToothFill)" stroke="#eef1eb" stroke-width="2.2" />
+                <path d="M52 45C67 29 84 36 101 43C112 47 121 46 133 40C149 32 168 28 184 44"
+                    stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".85" />
+                <path d="M75 79C86 58 103 55 116 64C128 52 146 58 153 78"
+                    stroke="#f3f5ef" stroke-width="6" stroke-linecap="round" opacity=".75" />
+            </svg>
+
+            <div class="about-mobile-center">
+                <div class="about-mobile-kicker">Who We Are</div>
+
+                <h1 class="about-mobile-title">About Us</h1>
+
+                <div class="about-mobile-divider">
+                    <span></span>
+                    <svg class="about-mobile-mini-tooth" viewBox="0 0 64 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 7C9 12 7 22 10 32C13 42 18 48 20 57C23 68 26 72 30 62L33 49C34 44 38 44 39 49L42 62C46 72 49 68 52 57C54 48 59 42 62 32C65 22 63 12 54 7C46 3 40 7 34 10C30 12 27 12 23 10C17 7 26 3 18 7Z"
+                            stroke="currentColor" stroke-width="5" stroke-linejoin="round" />
+                    </svg>
+                    <span></span>
+                </div>
+
+                <div class="about-mobile-words">
+                    <span>People</span><i></i>
+                    <span>Care</span><i></i>
+                    <span>Smiles</span><i></i>
+                    <span>Always</span>
+                </div>
+            </div>
+
+            <div class="about-mobile-sage"></div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <svg class="about-svg" viewBox="0 0 1600 533" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About Us banner">
+                <defs>
+                    <!-- background -->
+                    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="533" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#E8EFE4" />
+                        <stop offset="0.32" stop-color="#F8F8F1" />
+                        <stop offset="0.62" stop-color="#FBFAF2" />
+                        <stop offset="1" stop-color="#E6EEE4" />
+                    </linearGradient>
+                    <radialGradient id="creamGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(831 196) rotate(90) scale(315 727)">
+                        <stop stop-color="#FFFDF6" />
+                        <stop offset="0.55" stop-color="#F8F8F0" stop-opacity="0.98" />
+                        <stop offset="1" stop-color="#EAF0E5" stop-opacity="0.82" />
+                    </radialGradient>
+                    <radialGradient id="leftDark" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(92 41) rotate(44) scale(324 238)">
+                        <stop stop-color="#154F3B" />
+                        <stop offset="0.55" stop-color="#0B4333" />
+                        <stop offset="1" stop-color="#053425" />
+                    </radialGradient>
+                    <linearGradient id="sageWave" x1="0" y1="0" x2="1600" y2="0">
+                        <stop stop-color="#C9D5C6" stop-opacity="0.22" />
+                        <stop offset="0.35" stop-color="#AFC1AF" stop-opacity="0.38" />
+                        <stop offset="0.65" stop-color="#C6D3C3" stop-opacity="0.32" />
+                        <stop offset="1" stop-color="#ADC1AF" stop-opacity="0.28" />
+                    </linearGradient>
+                    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+                        <stop stop-color="#9D6D1D" />
+                        <stop offset="0.48" stop-color="#D8B86E" />
+                        <stop offset="1" stop-color="#A36F1E" />
+                    </linearGradient>
+                    <linearGradient id="titleGrad" x1="546" y1="0" x2="1065" y2="0" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#0A4C35" />
+                        <stop offset="0.60" stop-color="#0A4C35" />
+                        <stop offset="0.72" stop-color="#C7A255" />
+                        <stop offset="1" stop-color="#A16D22" />
+                    </linearGradient>
+                    <linearGradient id="glass" x1="85" y1="130" x2="275" y2="320" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFFFFF" stop-opacity="0.33" />
+                        <stop offset="1" stop-color="#E7EEDF" stop-opacity="0.18" />
+                    </linearGradient>
+                    <radialGradient id="bubble" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1445 118) rotate(155) scale(240 150)">
+                        <stop stop-color="#FFFFFF" stop-opacity="0.30" />
+                        <stop offset="1" stop-color="#C8D8CA" stop-opacity="0.13" />
+                    </radialGradient>
+                    <!-- tooth -->
+                    <linearGradient id="toothFill" x1="1194" y1="77" x2="1336" y2="273" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFFFFF" />
+                        <stop offset="0.35" stop-color="#FBFBF5" />
+                        <stop offset="0.74" stop-color="#E7ECE4" />
+                        <stop offset="1" stop-color="#FBFBF7" />
+                    </linearGradient>
+                    <linearGradient id="toothEdge" x1="1202" y1="83" x2="1335" y2="263" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFFFFF" stop-opacity="0.95" />
+                        <stop offset="1" stop-color="#CCD4CB" stop-opacity="0.65" />
+                    </linearGradient>
+                    <radialGradient id="toothHighlight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1233 104) rotate(43) scale(62 93)">
+                        <stop stop-color="#FFFFFF" stop-opacity="0.95" />
+                        <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+                    </radialGradient>
+                    <!-- filters -->
+                    <filter id="blur12" x="-30%" y="-30%" width="160%" height="160%">
+                        <feGaussianBlur stdDeviation="12" />
+                    </filter>
+                    <filter id="blur4" x="-30%" y="-30%" width="160%" height="160%">
+                        <feGaussianBlur stdDeviation="4" />
+                    </filter>
+                    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+                        <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#456151" flood-opacity="0.16" />
+                    </filter>
+                    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="160%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#536A5D" flood-opacity="0.12" />
+                    </filter>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="4" result="b" />
+                        <feMerge>
+                            <feMergeNode in="b" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+
+                <!-- BASE -->
+                <rect width="1600" height="533" fill="url(#bg)" />
+
+                <!-- LEFT layered dark green shapes -->
+                <path d="M0 0H354C310 34 272 78 245 126C216 177 196 214 158 254C113 301 61 317 0 321V0Z" fill="url(#leftDark)" />
+                <path d="M0 0H167C149 72 113 122 55 165C34 180 18 193 0 208V0Z" fill="#0A4936" fill-opacity="0.46" />
+                <path d="M0 0H86C78 59 47 113 0 150V0Z" fill="#245E4A" fill-opacity="0.35" />
+                <path d="M0 0H143C145 37 138 71 119 100C96 135 61 163 0 194V0Z" fill="#1E5A45" fill-opacity="0.32" />
+
+                <!-- MAIN LARGE CREAM ELLIPTICAL BODY -->
+                <ellipse cx="875" cy="113" rx="793" ry="412" fill="url(#creamGlow)" stroke="#FFFFFF" stroke-opacity="0.44" />
+
+                <!-- RIGHT transparent bubble -->
+                <ellipse cx="1497" cy="63" rx="299" ry="199" fill="url(#bubble)" stroke="#FFFFFF" stroke-opacity="0.42" />
+                <ellipse cx="1514" cy="44" rx="216" ry="141" fill="#F7F8F2" fill-opacity="0.16" />
+
+                <!-- subtle foreground glow -->
+                <ellipse cx="680" cy="314" rx="604" ry="199" fill="#FFFFFF" fill-opacity="0.12" filter="url(#blur12)" />
+
+                <!-- gold orbital line -->
+                <ellipse cx="711" cy="122" rx="625" ry="406" transform="rotate(-8 711 122)" fill="none" stroke="#B78631" stroke-opacity="0.76" stroke-width="1.6" />
+
+                <!-- orbit light points -->
+                <circle cx="111" cy="177" r="4.5" fill="#FFFBE0" filter="url(#glow)" />
+                <circle cx="111" cy="177" r="10" fill="#E7C871" fill-opacity="0.20" filter="url(#blur4)" />
+                <circle cx="1361" cy="214" r="4.2" fill="#FFFBE2" filter="url(#glow)" />
+                <circle cx="1361" cy="214" r="10" fill="#E7C871" fill-opacity="0.20" filter="url(#blur4)" />
+
+                <!-- LEFT GLASS CIRCLE -->
+                <circle cx="174" cy="228" r="96" fill="url(#glass)" stroke="#388148" stroke-opacity="0.70" />
+                <circle cx="174" cy="228" r="97" fill="none" stroke="#0c0c0c" stroke-opacity="0.32" />
+                <circle cx="174" cy="228" r="85" fill="#FFFFFF" fill-opacity="0.035" />
+
+                <!-- left text -->
+                <text x="174" y="177" text-anchor="middle" fill="#1E4E3B" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="4.3">
+                    <tspan x="174" dy="0">A</tspan>
+                    <tspan x="174" dy="23">HEALTHIER</tspan>
+                    <tspan x="174" dy="23">SMILE</tspan>
+                    <tspan x="174" dy="23">A BRIGHTER</tspan>
+                    <tspan x="174" dy="23">YOU</tspan>
+                </text>
+                <line x1="151" y1="286" x2="197" y2="286" stroke="#B68736" stroke-width="1.2" />
+
+                <!-- TOP CENTER KICKER -->
+                <line x1="620" y1="128" x2="688" y2="128" stroke="#B98731" stroke-width="1.8" />
+                <text x="810" y="134" text-anchor="middle" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="9">WHO WE ARE</text>
+                <line x1="934" y1="128" x2="1000" y2="128" stroke="#B98731" stroke-width="1.8" />
+
+                <!-- ABOUT US title -->
+                <text x="804" y="263" text-anchor="middle" fill="url(#titleGrad)" filter="url(#textShadow)" font-family="Cormorant Garamond, Georgia, serif" font-size="142" font-weight="700" letter-spacing="-7">About Us</text>
+
+                <!-- title divider -->
+                <line x1="650" y1="307" x2="778" y2="307" stroke="#B98B3F" stroke-width="1.3" />
+                <line x1="836" y1="307" x2="965" y2="307" stroke="#B98B3F" stroke-width="1.3" />
+
+                <!-- small tooth under title -->
+                <g transform="translate(787 289) scale(.32)">
+                    <path d="M46 7C30 15 26 34 31 54C37 75 47 88 52 105C57 125 64 139 72 112L79 82C81 72 89 72 91 82L98 112C106 139 113 125 118 105C123 88 133 75 139 54C144 34 140 15 124 7C109 -1 98 7 87 13C80 17 74 17 67 13C56 7 61 -1 46 7Z" fill="none" stroke="#B98B3F" stroke-width="8" stroke-linejoin="round" />
+                </g>
+
+                <!-- bottom words -->
+                <text x="561" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">PEOPLE</text>
+                <line x1="671" y1="343" x2="671" y2="362" stroke="#A9864F" stroke-width="1" />
+                <text x="701" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">CARE</text>
+                <line x1="792" y1="343" x2="792" y2="362" stroke="#A9864F" stroke-width="1" />
+                <text x="826" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">SMILES</text>
+                <line x1="935" y1="343" x2="935" y2="362" stroke="#A9864F" stroke-width="1" />
+                <text x="971" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">ALWAYS</text>
+
+                <!-- RIGHT TEXT -->
+                <text x="1427" y="79" fill="#31493F" font-family="Montserrat, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="4.5">
+                    <tspan x="1427" dy="0">TRUSTED</tspan>
+                    <tspan x="1427" dy="22">DENTAL CARE</tspan>
+                    <tspan x="1427" dy="22">FOR BRIGHTER</tspan>
+                    <tspan x="1427" dy="22">TOMORROWS</tspan>
+                </text>
+                <line x1="1429" y1="163" x2="1479" y2="163" stroke="#B7893B" stroke-width="1.2" />
+
+                <!-- TOOTH -->
+                <g filter="url(#shadow)">
+                    <path d="M1217 85C1196 97 1186 120 1191 149C1196 177 1212 195 1221 217C1234 249 1234 286 1248 301C1258 312 1267 297 1271 277L1279 239C1281 227 1291 227 1294 239L1303 278C1307 298 1317 312 1327 300C1340 284 1341 249 1353 217C1362 195 1378 177 1383 149C1388 120 1378 97 1357 85C1337 74 1319 83 1303 91C1292 96 1281 96 1270 91C1254 83 1237 74 1217 85Z" fill="url(#toothFill)" stroke="url(#toothEdge)" stroke-width="2.2" />
+                    <path d="M1210 114C1226 95 1243 100 1261 109C1273 115 1287 116 1301 108C1319 98 1337 96 1356 114" fill="none" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="8" stroke-linecap="round" />
+                    <path d="M1238 150C1247 130 1264 123 1277 134C1290 120 1311 126 1318 147" fill="none" stroke="#F3F5EF" stroke-opacity="0.76" stroke-width="6" stroke-linecap="round" />
+                    <ellipse cx="1245" cy="115" rx="55" ry="43" fill="url(#toothHighlight)" />
+                </g>
+
+                <!-- lower sage wave -->
+                <path d="M106 472C312 447 492 443 679 462C852 479 1009 495 1198 466C1322 447 1454 427 1600 408V533H0V495C34 489 69 480 106 472Z" fill="url(#sageWave)" />
+
+                <!-- white foreground wave -->
+                <path d="M0 456C192 459 363 477 535 481C752 486 960 487 1164 472C1337 459 1474 425 1600 389V533H0V456Z" fill="#FFFEF9" stroke="#FFFFFF" stroke-width="3" />
+
+                <!-- bottom subtle white rim -->
+                <path d="M0 458C192 462 362 479 536 483C757 488 962 488 1166 474C1339 461 1475 428 1600 392" fill="none" stroke="#F8FAF4" stroke-width="5" stroke-opacity=".8" />
+            </svg>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- BREADCRUMBS SECTION START -->
-    <section class="ul-breadcrumb">
+    <!-- <section class="ul-breadcrumb">
         <div class="ul-2-container">
             <h1 class="ul-breadcrumb-title">About Us</h1>
 
@@ -14,7 +282,7 @@
                 <li>About Us</li>
             </ul>
         </div>
-    </section>
+    </section> -->
     <!-- BREADCRUMBS SECTION END -->
 
 
@@ -61,7 +329,7 @@
     <!-- ABOUT SECTION END -->
 
 
-   
+
     <!-- WHY CHOOSE US SECTION START -->
     <section class="ul-why-choose-us ul-section-spacing">
         <div class="ul-2-container">
@@ -127,16 +395,16 @@
 
     <section class="ul-team ul-inner-team ul-section-spacing">
         <div class="ul-2-container">
-            <div class="ul-team-details-top">
-                <div class="row row-cols-lg-2 row-cols-1 g-xl-5 g-4 align-items-center">
-                    <!-- img -->
+            <!--  <div class="ul-team-details-top">
+                 <div class="row row-cols-lg-2 row-cols-1 g-xl-5 g-4 align-items-center">
+                    
                     <div class="col">
                         <div class="ul-team-details-img">
                             <img src="assets/img/00.png" alt="team member">
                         </div>
                     </div>
 
-                    <!-- txt -->
+                    
                     <div class="col">
                         <div class="ul-team-details-txt">
                             <h2 class="ul-team-details-name">Dr. (Prof) Chiranjeevi Reddy</h2>
@@ -151,7 +419,7 @@
 
 
                             <div class="ul-team-details-infos">
-                                <!-- single info -->
+                               
                                 <div class="ul-team-details-info">
                                     <div class="ul-team-details-info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                                     <div class="ul-team-details-info-txt">
@@ -160,7 +428,7 @@
                                     </div>
                                 </div>
 
-                                <!-- single info -->
+                                
                                 <div class="ul-team-details-info">
                                     <div class="ul-team-details-info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                                     <div class="ul-team-details-info-txt">
@@ -169,7 +437,7 @@
                                     </div>
                                 </div>
 
-                                <!-- single info -->
+                               
                                 <div class="ul-team-details-info">
                                     <div class="ul-team-details-info-icon"><i class="flaticon-first-aid-kit"></i></div>
                                     <div class="ul-team-details-info-txt">
@@ -184,7 +452,411 @@
                     </div>
                 </div>
 
-            </div>
+
+                
+
+            </div> -->
+
+
+
+
+            <section class="about_new_docotr_section">
+                <div class="about_new_docotr_blur-left"></div>
+                <div class="about_new_docotr_blur-right"></div>
+                <div class="about_new_docotr_leaf-blur"></div>
+                <div class="about_new_docotr_tools-blur"></div>
+
+                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
+                    <div class="row g-4 about_new_docotr_row">
+
+                        <!-- LEFT IMAGE CARD -->
+                        <div class="col-12 col-xl-6 about_new_docotr_left">
+                            <div class="about_new_docotr_left_card">
+
+                                <div class="about_new_docotr_sidepanel">
+                                    <div>
+                                        <div class="about_new_docotr_side_script">Healthy<br>Smiles<br>Brighter<br>Futures"</div>
+                                        <div class="about_new_docotr_side_divider"></div>
+                                    </div>
+
+                                    <div class="about_new_docotr_badges">
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-tooth"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Experience<br>You Can Trust
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-users"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Care For<br>All Ages
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-heart"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Committed<br>To Better Smiles
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_photo_wrap">
+                                    <img src="assets/img/00.png" alt="Dr. Chiranjeevi Reddy" class="about_new_docotr_photo">
+                                </div>
+                            </div>
+
+                            <div class="about_new_docotr_dotgrid"></div>
+                        </div>
+
+                        <!-- RIGHT CONTENT -->
+                        <div class="col-12 col-xl-6 about_new_docotr_right">
+                            <div class="about_new_docotr_kicker">Our Doctor</div>
+
+                            <h2 class="about_new_docotr_title">
+                                Dr. (Prof) Chiranjeevi<br>Reddy
+                            </h2>
+
+                            <div class="about_new_docotr_subtitle">Prosthodontist and Implantologist</div>
+                            <div class="about_new_docotr_subtitle_line"></div>
+
+                            <div class="about_new_docotr_tooth_outline">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Worked as professor and post graduate guide at Rajiv Gandhi University of Health Sciences, Bangalore.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Dr Reddy graduated from KLE Society’s Institute of Dental Sciences, Bangalore in 2001.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He completed his masters from JSS Dental College Mysore in 2007.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He loves to serve the community through his expertise and experience.
+                            </div>
+
+                            <div class="about_new_docotr_text mb-0">
+                                Dr Reddy believes every individual is special and gets their concerns addressed with utmost care.
+                            </div>
+
+                            <!-- <div class="about_new_docotr_quote">
+          More Than Dentistry<br>A Healthier<br>You"
+        </div> -->
+
+                            <div class="about_new_docotr_stats">
+                                <div class="about_new_docotr_stats_top">
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Graduation</p>
+                                            <p class="about_new_docotr_stat_value">2001</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Post Graduate</p>
+                                            <p class="about_new_docotr_stat_value">2003</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_stats_bottom">
+                                    <div class="about_new_docotr_exp">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Experience</p>
+                                            <p class="about_new_docotr_stat_value">24 years</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_dedicated">
+                                        <div class="about_new_docotr_dedicated_icon"><i class="fa-solid fa-tooth"></i></div>
+                                        <div class="about_new_docotr_dedicated_text">
+                                            Dedicated To<br>Lifelong Oral Health
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about_new_docotr_section">
+                <div class="about_new_docotr_blur-left"></div>
+                <div class="about_new_docotr_blur-right"></div>
+                <div class="about_new_docotr_leaf-blur"></div>
+                <div class="about_new_docotr_tools-blur"></div>
+
+                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
+                    <div class="row g-4 about_new_docotr_row">
+
+                        <!-- LEFT IMAGE CARD -->
+                        <div class="col-12 col-xl-6 about_new_docotr_left">
+                            <div class="about_new_docotr_left_card">
+
+                                <div class="about_new_docotr_sidepanel">
+                                    <div>
+                                        <div class="about_new_docotr_side_script">Healthy<br>Smiles<br>Brighter<br>Futures"</div>
+                                        <div class="about_new_docotr_side_divider"></div>
+                                    </div>
+
+                                    <div class="about_new_docotr_badges">
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-tooth"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Experience<br>You Can Trust
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-users"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Care For<br>All Ages
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-heart"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Committed<br>To Better Smiles
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_photo_wrap">
+                                    <img src="assets/img/00.png" alt="Dr. Chiranjeevi Reddy" class="about_new_docotr_photo">
+                                </div>
+                            </div>
+
+                            <div class="about_new_docotr_dotgrid"></div>
+                        </div>
+
+                        <!-- RIGHT CONTENT -->
+                        <div class="col-12 col-xl-6 about_new_docotr_right">
+                            <div class="about_new_docotr_kicker">Our Doctor</div>
+
+                            <h2 class="about_new_docotr_title">
+                                Dr. (Prof) Chiranjeevi<br>Reddy
+                            </h2>
+
+                            <div class="about_new_docotr_subtitle">Prosthodontist and Implantologist</div>
+                            <div class="about_new_docotr_subtitle_line"></div>
+
+                            <div class="about_new_docotr_tooth_outline">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Worked as professor and post graduate guide at Rajiv Gandhi University of Health Sciences, Bangalore.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Dr Reddy graduated from KLE Society’s Institute of Dental Sciences, Bangalore in 2001.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He completed his masters from JSS Dental College Mysore in 2007.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He loves to serve the community through his expertise and experience.
+                            </div>
+
+                            <div class="about_new_docotr_text mb-0">
+                                Dr Reddy believes every individual is special and gets their concerns addressed with utmost care.
+                            </div>
+
+                            <!-- <div class="about_new_docotr_quote">
+          More Than Dentistry<br>A Healthier<br>You"
+        </div> -->
+
+                            <div class="about_new_docotr_stats">
+                                <div class="about_new_docotr_stats_top">
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Graduation</p>
+                                            <p class="about_new_docotr_stat_value">2001</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Post Graduate</p>
+                                            <p class="about_new_docotr_stat_value">2003</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_stats_bottom">
+                                    <div class="about_new_docotr_exp">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Experience</p>
+                                            <p class="about_new_docotr_stat_value">24 years</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_dedicated">
+                                        <div class="about_new_docotr_dedicated_icon"><i class="fa-solid fa-tooth"></i></div>
+                                        <div class="about_new_docotr_dedicated_text">
+                                            Dedicated To<br>Lifelong Oral Health
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about_new_docotr_section">
+                <div class="about_new_docotr_blur-left"></div>
+                <div class="about_new_docotr_blur-right"></div>
+                <div class="about_new_docotr_leaf-blur"></div>
+                <div class="about_new_docotr_tools-blur"></div>
+
+                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
+                    <div class="row g-4 about_new_docotr_row">
+
+                        <!-- LEFT IMAGE CARD -->
+                        <div class="col-12 col-xl-6 about_new_docotr_left">
+                            <div class="about_new_docotr_left_card">
+
+                                <div class="about_new_docotr_sidepanel">
+                                    <div>
+                                        <div class="about_new_docotr_side_script">Healthy<br>Smiles<br>Brighter<br>Futures"</div>
+                                        <div class="about_new_docotr_side_divider"></div>
+                                    </div>
+
+                                    <div class="about_new_docotr_badges">
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-tooth"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Experience<br>You Can Trust
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-users"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Care For<br>All Ages
+                                            </div>
+                                        </div>
+
+                                        <div class="about_new_docotr_badge">
+                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-heart"></i></div>
+                                            <div class="about_new_docotr_badge_text">
+                                                Committed<br>To Better Smiles
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_photo_wrap">
+                                    <img src="assets/img/00.png" alt="Dr. Chiranjeevi Reddy" class="about_new_docotr_photo">
+                                </div>
+                            </div>
+
+                            <div class="about_new_docotr_dotgrid"></div>
+                        </div>
+
+                        <!-- RIGHT CONTENT -->
+                        <div class="col-12 col-xl-6 about_new_docotr_right">
+                            <div class="about_new_docotr_kicker">Our Doctor</div>
+
+                            <h2 class="about_new_docotr_title">
+                                Dr. (Prof) Chiranjeevi<br>Reddy
+                            </h2>
+
+                            <div class="about_new_docotr_subtitle">Prosthodontist and Implantologist</div>
+                            <div class="about_new_docotr_subtitle_line"></div>
+
+                            <div class="about_new_docotr_tooth_outline">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Worked as professor and post graduate guide at Rajiv Gandhi University of Health Sciences, Bangalore.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                Dr Reddy graduated from KLE Society’s Institute of Dental Sciences, Bangalore in 2001.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He completed his masters from JSS Dental College Mysore in 2007.
+                            </div>
+
+                            <div class="about_new_docotr_text">
+                                He loves to serve the community through his expertise and experience.
+                            </div>
+
+                            <div class="about_new_docotr_text mb-0">
+                                Dr Reddy believes every individual is special and gets their concerns addressed with utmost care.
+                            </div>
+
+                            <!-- <div class="about_new_docotr_quote">
+          More Than Dentistry<br>A Healthier<br>You"
+        </div> -->
+
+                            <div class="about_new_docotr_stats">
+                                <div class="about_new_docotr_stats_top">
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Graduation</p>
+                                            <p class="about_new_docotr_stat_value">2001</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_stat_top_item">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Post Graduate</p>
+                                            <p class="about_new_docotr_stat_value">2003</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about_new_docotr_stats_bottom">
+                                    <div class="about_new_docotr_exp">
+                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+                                        <div>
+                                            <p class="about_new_docotr_stat_label">Experience</p>
+                                            <p class="about_new_docotr_stat_value">24 years</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="about_new_docotr_dedicated">
+                                        <div class="about_new_docotr_dedicated_icon"><i class="fa-solid fa-tooth"></i></div>
+                                        <div class="about_new_docotr_dedicated_text">
+                                            Dedicated To<br>Lifelong Oral Health
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <div class="ul-team-details-top">

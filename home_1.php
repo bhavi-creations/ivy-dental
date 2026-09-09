@@ -88,25 +88,25 @@
 
 
     <!-- BANNER SECTION START -->
-    <!-- <section class="ul-2-banner">
+    <section class="ul-2-banner">
         <div class="ul-2-banner-container">
             <div class="row align-items-end">
-                banner txt
+                <!-- banner txt -->
                 <div class=" col-md-6 ">
                     <div class="ul-2-banner-txt">
                         <span class="ul-2-banner-sub-title ul-section-sub-title ul-2-section-sub-title">ORAL HEALTH TO OVERALL HEALTH</span>
                         <h1 style="font-size: 40px;" class="ul-2-banner-title">Best Dental Clinic in Vidyaranyapura, Bangalore</h1>
-                        <p class="ul-2-banner-descr ">Our Dental Hospital places your smile at the heart of everything we do.
+                        <!-- <p class="ul-2-banner-descr ">Our Dental Hospital places your smile at the heart of everything we do.
                             With advanced technology and gentle care, we deliver complete dental solutions.
                             From preventive check-ups to cosmetic and restorative treatments, we cover it all.
-                            Our expert team ensures safe, comfortable, and long-lasting results every time.</p>
+                            Our expert team ensures safe, comfortable, and long-lasting results every time.</p> -->
 
                         <p class="ul-2-banner-descr ">At Ivy (Ivory) Dental, we believe every smile deserves expert care, comfort, and confidence. Located in Vidyaranyapura, Bangalore, our dental clinic offers advanced treatments for tooth pain, missing teeth, smile correction, gum problems, teeth whitening, dental implants, root canal treatment, braces, and clear aligners — all under one roof.</p>
                         <p class="ul-2-banner-descr ">With experienced dental specialists, modern technology, and patient-friendly care, we help children, adults, and senior patients achieve healthy and confident smiles with safe and comfortable treatment.</p>
                         <p class="ul-2-banner-descr "> Whether you need a routine dental check-up or complete smile makeover, our team is committed to delivering personalized care with long-lasting results.</p>
 
 
-                        <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p>
+                        <!-- <p class="ul-2-banner-descr">We connect you with experienced dentists and oral health professionals who care about your smile as much as you do. From routine check-ups and cleanings to advanced cosmetic and restorative treatments, we make dental care easy, comfortable, and reliable.</p> -->
                         <a href="about-ivy-dental-hospital.php" class="ul-btn">Discover More <i class="flaticon-arrow-up-right"></i></a>
                     </div>
 
@@ -116,11 +116,11 @@
 
                 </div>
 
-                banner image
+                <!-- banner image -->
                 <div class="col-md-6 ">
                     <div class="ul-2-banner-imgs indes_secong_section">
                         <img src="assets/img/g7.png" alt="Image" class="img-1 d-none d-md-block">
-                        <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2">
+                        <!-- <img src="assets/img/banner-2-img-2.png" alt="Image" class="img-2"> -->
 
 
 
@@ -132,7 +132,7 @@
         </div>
 
 
-        banner vectors
+        <!-- banner vectors -->
         <div class="ul-2-banner-vectors  ">
             <img src="assets/img/banner-2-vector-1.svg" alt="vector" class="vector-1">
             <img src="assets/img/banner-2-vector-2.svg" alt="vector" class="vector-2">
@@ -151,409 +151,19 @@
 
 
 
-        banner socials
+        <!-- banner socials -->
         <div class="ul-2-banner-socials ul-banner-socials index_page_socialmedia">
             <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
-            <a href="#"><i class="flaticon-twitter"></i></a>
+            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
             <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
             <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
-            <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a>
+            <!-- <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a> -->
             <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
             <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
 
         </div>
     </section>
-    BANNER SECTION END -->
-
-
-    
-    <!-- ==========================================================
-         INDEX FIRST SECTION START new stylings
-    =========================================================== -->
-
-    <section class="index_first_section">
-
-        <!-- Premium Background Decorations -->
-        <div class="index-first-shade index-first-shade-left"></div>
-        <div class="index-first-shade index-first-shade-center"></div>
-        <div class="index-first-curve-decoration index-first-curve-left"></div>
-        <div class="index-first-curve-decoration index-first-curve-right"></div>
-        <div class="index-first-soft-arc"></div>
-        <div class="index-first-top-pill"></div>
-
-
-        <div class="index-first-container">
-
-
-            <!-- ================= TOP HEADER ================= -->
-
-            <div class="index-first-top">
-
-                <a href="index.php" class="index-first-logo">
-
-                    <div class="index-first-logo-icon">
-                        <i class="bi bi-heart-pulse"></i>
-                    </div>
-
-                    <div class="index-first-logo-content">
-
-                        <h2 class="index-first-logo-title">
-                            IVY DENTAL
-                        </h2>
-
-                        <span class="index-first-logo-subtitle">
-                            Healthier Smiles Brighter Tomorrows
-                        </span>
-
-                    </div>
-
-                </a>
-
-
-                <div class="index-first-top-right">
-
-                    <span>Care</span>
-
-                    <i></i>
-
-                    <span>Comfort</span>
-
-                    <i></i>
-
-                    <span>Confidence</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- ================= HERO ================= -->
-
-            <div class="index-first-main">
-
-                <div class="container-fluid p-0">
-
-                    <div class="row align-items-center g-lg-5">
-
-
-                        <!-- ==================================================
-                             LEFT CONTENT
-                        =================================================== -->
-
-                        <div class="col-lg-7">
-
-                            <div class="index-first-content">
-
-
-                                <!-- EYEBROW -->
-
-                                <div class="index-first-eyebrow">
-
-                                    <span>
-                                        Oral Health To Overall Health
-                                    </span>
-
-                                    <div class="index-first-eyebrow-line"></div>
-
-                                </div>
-
-
-                                <!-- HEADING -->
-
-                                <h1 class="index-first-heading">
-
-                                    Best Dental Clinic in
-
-                                    <br>
-
-                                    <span class="gold-text">
-                                        Vidyaranyapura, Bangalore
-                                    </span>
-
-                                </h1>
-
-
-                                <!-- DESCRIPTION -->
-
-                                <p class="index-first-description">
-
-                                    At Ivy (Ivory) Dental, we believe every smile
-                                    deserves expert care, comfort, and confidence.
-                                    Located in Vidyaranyapura, Bangalore, we offer
-                                    advanced treatments for tooth pain, missing teeth,
-                                    smile correction, gum problems, teeth whitening,
-                                    dental implants, root canal treatment, braces,
-                                    and clear aligners — all under one roof.
-
-                                </p>
-
-
-                                <div class="index-first-small-line"></div>
-
-
-                                <!-- ======================================
-                                     FEATURES
-                                ======================================= -->
-
-                                <div class="index-first-features">
-
-
-                                    <!-- Feature 1 -->
-
-                                    <div class="index-first-feature">
-
-                                        <div class="index-first-feature-icon">
-
-                                            <i class="bi bi-people"></i>
-
-                                        </div>
-
-                                        <h4 class="index-first-feature-title">
-                                            For All Ages
-                                        </h4>
-
-                                        <p class="index-first-feature-subtitle">
-                                            Children To Seniors
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Feature 2 -->
-
-                                    <div class="index-first-feature">
-
-                                        <div class="index-first-feature-icon">
-
-                                            <i class="bi bi-shield-plus"></i>
-
-                                        </div>
-
-                                        <h4 class="index-first-feature-title">
-                                            Advanced Care
-                                        </h4>
-
-                                        <p class="index-first-feature-subtitle">
-                                            Modern Technology
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Feature 3 -->
-
-                                    <div class="index-first-feature">
-
-                                        <div class="index-first-feature-icon">
-
-                                            <i class="bi bi-shield-check"></i>
-
-                                        </div>
-
-                                        <h4 class="index-first-feature-title">
-                                            Safe & Comfortable
-                                        </h4>
-
-                                        <p class="index-first-feature-subtitle">
-                                            Patient-First Approach
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Feature 4 -->
-
-                                    <div class="index-first-feature">
-
-                                        <div class="index-first-feature-icon">
-
-                                            <i class="bi bi-feather"></i>
-
-                                        </div>
-
-                                        <h4 class="index-first-feature-title">
-                                            Long-Lasting Results
-                                        </h4>
-
-                                        <p class="index-first-feature-subtitle">
-                                            Healthier, Brighter Smiles
-                                        </p>
-
-                                    </div>
-
-
-                                </div>
-
-
-                                <!-- ======================================
-                                     BOTTOM CTA
-                                ======================================= -->
-
-                                <div class="index-first-bottom">
-
-                                    <a href="appointment.php"
-                                        class="index-first-appointment">
-
-                                        <span>
-                                            Book Your Appointment
-                                        </span>
-
-                                        <span class="index-first-btn-circle">
-
-                                            <i class="bi bi-chevron-right"></i>
-
-                                        </span>
-
-                                    </a>
-
-
-                                    <div class="index-first-bottom-caption">
-
-                                        A Healthier Smile
-
-                                        <br>
-
-                                        A Brighter You
-
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- ==================================================
-                             RIGHT IMAGE
-                        =================================================== -->
-
-                        <div class="col-lg-5">
-
-                            <div class="index-first-visual">
-
-
-                                <!-- Large faded tooth icon exactly as a background symbol -->
-
-                                <div class="index-first-tooth-outline" aria-hidden="true">
-
-                                    <i class="fa-solid fa-tooth"></i>
-
-                                </div>
-
-
-                                <!-- IMAGE FRAME -->
-
-                                <div class="index-first-image-frame">
-
-
-                                    <div class="index-first-image-holder">
-
-                                        <!--
-                                          Replace with your actual Ivy Dental image
-                                        --> <img src="assets/img/g7.png" alt="Image" class="img-1 d-none d-md-block">
-
-                                        <!-- <img src="assets/img/ivy-dental-clinic.jpg"
-                                            alt="Ivy Dental Clinic"> -->
-
-                                    </div>
-
-
-                                    <!-- Circular Badge -->
-
-                                    <div class="index-first-image-badge">
-
-                                        <div class="index-first-badge-content">
-
-                                            Expert
-
-                                            <br>
-
-                                            Care For
-
-                                            <br>
-
-                                            Brighter
-
-                                            <br>
-
-                                            Tomorrows
-
-                                            <div class="index-first-badge-line"></div>
-
-                                        </div>
-
-                                    </div>
-
-
-</div>
-
-</div>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- ==========================================================
-             RIGHT SIDE PANEL - REFERENCE STYLE
-        =========================================================== -->
-        <aside class="index-first-side-panel" aria-label="Ivy Dental social links">
-
-            <div class="index-first-quote">
-                More
-                <br>
-                Than
-                <br>
-                Just Smiles
-            </div>
-
-            <div class="index-first-socials">
-
-                <a href="#" aria-label="Facebook">
-                    <i class="bi bi-facebook"></i>
-                </a>
-
-                <a href="#" aria-label="Instagram">
-                    <i class="bi bi-instagram"></i>
-                </a>
-
-                <a href="#" aria-label="YouTube">
-                    <i class="bi bi-youtube"></i>
-                </a>
-
-                <a href="#" aria-label="LinkedIn">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-
-                <a href="#" aria-label="Pinterest">
-                    <i class="bi bi-pinterest"></i>
-                </a>
-
-            </div>
-
-            <div class="index-first-purpose">
-                Your
-                <br>
-                Smile
-                <br>
-                Our Purpose
-            </div>
-
-        </aside>
-
-    </section>
-
-    <!-- ==========================================================
-         INDEX FIRST SECTION END
-    =========================================================== -->
+    <!-- BANNER SECTION END -->
 
 
     <!-- TICKER TEXT AREA START -->
@@ -608,10 +218,10 @@
     <!-- TICKER TEXT AREA END -->
 
     <!-- ABOUT SECTION START -->
-    <!-- <section class="ul-2-about ul-section-spacing">
+    <section class="ul-2-about ul-section-spacing">
         <div class="ul-2-container">
             <div class="row row-cols-lg-2 row-cols-1 gy-4">
-                img
+                <!-- img -->
                 <div class="col">
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
@@ -622,13 +232,13 @@
                     </div>
                 </div>
 
-                txt
+                <!-- txt -->
                 <div class="col">
                     <div class="ul-2-about-txt">
                         <span class="ul-2-about-sub-title ul-section-sub-title ul-2-section-sub-title">About us</span>
-                        <h2 class="ul-section-title">Committed to Your Oral Health</h2>
+                        <!-- <h2 class="ul-section-title">Committed to Your Oral Health</h2> -->
                         <h2 class="ul-section-title">Trusted Dental Care for Families in Vidyaranyapura</h2>
-                        <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p>
+                        <!-- <p class="ul-2-about-descr">At Ivory Dental, Vidyaranyapura, our team of expert dentists and caring support staff is dedicated to delivering compassionate and high-quality dental care that prioritizes your comfort and confidence.</p> -->
                         <p class="ul-2-about-descr">Ivory Dental is one of the trusted dental clinics in Vidyaranyapura, Bangalore, known for providing high-quality and ethical dental care. Our experienced dentists focus on preventive, restorative, cosmetic, and advanced dental treatments using modern equipment and painless techniques.</p>
                         <ul class="ul-2-about-list">
                             <li><i class="flaticon-right-arrow"></i>Highly Skilled Dental Specialists</li>
@@ -649,154 +259,12 @@
             <img src="assets/img/about-2-vector.svg" alt="vector" class="vector-1">
         </div>
     </section>
-    ABOUT SECTION END -->
-
-    <!-- ==========================================================
-         INDEX SECOND SECTION START new stylings
-    =========================================================== -->
-    <section class="index_second_section" id="about-us">
-
-        <!-- Decorative details matching the reference -->
-        <div class="index-second-faded-tooth" aria-hidden="true"></div>
-        <div class="index-second-ghost-mark" aria-hidden="true">
-            <span></span><span></span><span></span>
-        </div>
-
-        <div class="index-second-top-note">
-            Quality Care<br>
-            For Brighter<br>
-            Tomorrows
-        </div>
-
-        <div class="index-second-bottom-note">
-            <span>
-                Exceptional Care<br>
-                For Every Smile
-            </span>
-        </div>
-
-        <div class="index-second-container">
-            <div class="container-fluid p-0">
-                <div class="row align-items-center g-0 index-second-row">
-
-                    <!-- LEFT VISUAL -->
-                    <div class="col-lg-5">
-                        <div class="index-second-visual-wrap">
-                            <div class="index-second-visual-glow"></div>
-
-                            <div class="index-second-visual">
-                                                        <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
-                            </div>
-
-                            <div class="index-second-dots" aria-hidden="true">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- RIGHT CONTENT -->
-                    <div class="col-lg-7">
-                        <div class="index-second-content">
-
-                            <div class="index-second-eyebrow">
-                                <span class="index-second-eyebrow-line"></span>
-                                <span>About Us</span>
-                            </div>
-
-                            <h2 class="index-second-heading">
-                                Trusted Dental Care for<br>
-                                <span class="gold-text">Families in Vidyaranyapura</span>
-                            </h2>
-
-                            <p class="index-second-description">
-                                Ivory Dental is one of the trusted dental clinics in Vidyaranyapura, Bangalore,
-                                known for providing high-quality and ethical dental care. Our experienced
-                                dentists focus on preventive, restorative, cosmetic, and advanced dental
-                                treatments using modern equipment and painless techniques.
-                            </p>
-
-                            <div class="index-second-feature-grid">
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="fa-solid fa-user-doctor"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Highly Skilled<br>Dental Specialists
-                                    </p>
-                                </div>
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="bi bi-gear"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Cutting-Edge<br>Dental Technology
-                                    </p>
-                                </div>
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="fa-solid fa-tooth"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Hygienic, Comfortable<br>Environment
-                                    </p>
-                                </div>
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="bi bi-clock"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Convenient Clinic Hours
-                                    </p>
-                                </div>
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="bi bi-heart"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Patient-Centered,<br>Gentle Care
-                                    </p>
-                                </div>
-
-                                <div class="index-second-feature">
-                                    <div class="index-second-feature-icon">
-                                        <i class="bi bi-file-earmark-text"></i>
-                                    </div>
-                                    <p class="index-second-feature-text">
-                                        Affordable &amp; Transparent<br>Treatment Plans
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div class="index-second-more-wrap">
-                                <a href="about.php" class="index-second-more-btn">
-                                    <span>More About</span>
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==========================================================
-         INDEX SECOND SECTION END
-    =========================================================== -->
+    <!-- ABOUT SECTION END -->
 
     <!-- SERVICE SECTION START -->
-    <!-- <section class="ul-2-services ul-section-spacing pb-lg-0">
+    <section class="ul-2-services ul-section-spacing pb-lg-0">
         <div class="ul-2-container">
-            section heading
+            <!-- section heading -->
             <div class="ul-section-heading text-center justify-content-center">
                 <div class="left">
                     <span class="ul-section-sub-title ul-2-section-sub-title">What We Do Best</span>
@@ -1105,193 +573,14 @@
         </div>
 
     </section>
-    SERVICE SECTION END -->
-
-    <!-- ==========================================================
-         INDEX THIRD SECTION START
-    =========================================================== -->
-    <section class="index_third_section">
-
-        <div class="index-third-orb" aria-hidden="true"></div>
-        <div class="index-third-orb-right" aria-hidden="true"></div>
-        <div class="index-third-faded-tooth" aria-hidden="true">
-            <i class="fa-solid fa-tooth"></i>
-        </div>
-
-        <div class="index-third-container">
-
-            <div class="index-third-left-note">
-                Expert<br>
-                Care<br>
-                Beautiful<br>
-                Smiles
-            </div>
-
-            <div class="index-third-right-note">
-                Your<br>
-                Smile<br>
-                Our<br>
-                Priority
-            </div>
-
-            <!-- <div class="index-third-topbar">
-                <a href="index.php" class="index-third-logo">
-                    <span class="index-third-logo-icon"><i class="fa-solid fa-tooth"></i></span>
-                    <span>
-                        <span class="index-third-logo-title">IVY DENTAL</span>
-                        <span class="index-third-logo-subtitle">Healthier Smiles Brighter Tomorrows</span>
-                    </span>
-                </a>
-
-                <div class="index-third-top-right">
-                    <span>Care</span>
-                    <i></i>
-                    <span>Comfort</span>
-                    <i></i>
-                    <span>Confidence</span>
-                </div>
-            </div> -->
-
-            <div class="index-third-header-center">
-                <div class="index-third-eyebrow">
-                    <span class="index-third-eyebrow-line"></span>
-                    <span>What We Do Best</span>
-                    <span class="index-third-eyebrow-line"></span>
-                </div>
-
-                <h2 class="index-third-heading">
-                    Comprehensive Dental Care for <span class="gold-text">Every Smile</span>
-                </h2>
-
-                <div class="index-third-subheading">
-                    Healthier Smiles &nbsp;&bull;&nbsp; Brighter Tomorrows
-                </div>
-            </div>
-
-            <div class="index-third-cards-row">
-
-                <article class="index-third-card">
-                    <div class="index-third-card-image">
-                        <!-- <img src="assets/img/teeth-filling.jpg" alt="Teeth filling treatment"> -->
-                        <img src="assets/img/service/teeth filling.png" alt="Service Image">
-                    </div>
-                    <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-tooth"></i></div>
-                        <h3 class="index-third-card-title">Teeth Filling</h3>
-                        <p class="index-third-card-text">
-                            Restore damaged teeth with natural-looking, long-lasting fillings that bring
-                            back your smile.
-                        </p>
-                        <a href="Teeth-Filling-Treatment-In-Bengaluru.php" class="index-third-card-link">
-                            <span>Learn More</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="index-third-card">
-                    <div class="index-third-card-image">
-                        <!-- <img src="assets/img/clear-aligners.jpg" alt="Clear aligners treatment"> -->
-                        <img src="assets/img/service/clear aligners.png" alt="">
-                    
-                    </div>
-                    <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-teeth"></i></div>
-                        <h3 class="index-third-card-title">Clear Aligners</h3>
-                        <p class="index-third-card-text">
-                            Discreet, comfortable, and effective aligners to straighten your teeth
-                            and boost your confidence.
-                        </p>
-                        <a href="Invisalign-Aligners-In-Bengaluru.php" class="index-third-card-link">
-                            <span>Learn More</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="index-third-card">
-                    <div class="index-third-card-image">
-                        <!-- <img src="assets/img/dental-braces.jpg" alt="Dental braces treatment"> -->
-                         <img src="assets/img/service/Dental braces.png" alt="Service Image">
-                    </div>
-                    <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-link"></i></div>
-                        <h3 class="index-third-card-title">Dental Braces</h3>
-                        <p class="index-third-card-text">
-                            Proven orthodontic solutions for healthier, well-aligned smiles
-                            at any age.
-                        </p>
-                        <a href="Dental-Braces-Treatment-In-Bengaluru.php" class="index-third-card-link">
-                            <span>Learn More</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-                   <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
-                          <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
-
-                  </div>
-
-            </div>
-
-            <div class="index-third-strip">
-                <div class="index-third-strip-row">
-
-                    <div class="index-third-strip-item">
-                        <div class="index-third-strip-icon"><i class="bi bi-people"></i></div>
-                        <div>
-                            <p class="index-third-strip-title">Families We Care For</p>
-                            <p class="index-third-strip-subtitle">All Ages Welcome</p>
-                        </div>
-                    </div>
-
-                    <div class="index-third-strip-item">
-                        <div class="index-third-strip-icon"><i class="fa-solid fa-tooth"></i></div>
-                        <div>
-                            <p class="index-third-strip-title">Modern Dental Care</p>
-                            <p class="index-third-strip-subtitle">Advanced Technology</p>
-                        </div>
-                    </div>
-
-                    <div class="index-third-strip-item">
-                        <div class="index-third-strip-icon"><i class="bi bi-shield-check"></i></div>
-                        <div>
-                            <p class="index-third-strip-title">A Healthier Tomorrow</p>
-                            <p class="index-third-strip-subtitle">Brighter Smiles Ahead</p>
-                        </div>
-                    </div>
-
-                    <div class="index-third-strip-item">
-                        <div class="index-third-strip-icon"><i class="bi bi-person-check"></i></div>
-                        <div>
-                            <p class="index-third-strip-title">Trusted Experts</p>
-                            <p class="index-third-strip-subtitle">Compassionate &amp; Experienced</p>
-                        </div>
-                    </div>
-
-                    <a href="index.php" class="index-third-strip-logo">
-                        <i class="fa-solid fa-tooth"></i>
-                        <span>
-                            <span class="index-third-strip-logo-title">IVY DENTAL</span>
-                            <span class="index-third-strip-logo-subtitle">Healthier Smiles Brighter Tomorrows</span>
-                        </span>
-                    </a>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- ==========================================================
-         INDEX THIRD SECTION END
-    =========================================================== -->
+    <!-- SERVICE SECTION END -->
 
 
     <!-- WHY CHOOSE US SECTION START -->
-    <!-- <section class="ul-why-choose-us ul-section-spacing">
+    <section class="ul-why-choose-us ul-section-spacing">
         <div class="ul-2-container">
             <div class="row row-cols-lg-2 row-cols-1 gy-4 align-items-center">
-                img
+                <!-- img -->
                 <div class="col">
                     <div class="ul-why-choose-us-imgs">
                         <div class="ul-why-choose-us-img">
@@ -1304,30 +593,30 @@
                     </div>
                 </div>
 
-                txt
+                <!-- txt -->
                 <div class="col">
                     <div class="ul-why-choose-us-txt">
                         <span class="ul-section-sub-title  choose_us ul-2-section-sub-title" id="choose_us">Why Choose Us</span>
-                        <span class="ul-section-sub-title ul-2-section-sub-title">Why Choose Us</span>
+                        <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Why Choose Us</span> -->
                         <h2 class="ul-section-title text-white">Where Compassion Meets Excellence in Dental Care</h2>
                         <p class="ul-why-choose-us-descr">At Ivory Dental, Vidyaranyapura, we are committed to delivering top-quality dental care with compassion, innovation, and integrity — putting your smile and comfort first.</p>
 
                         <div class="ul-why-choose-us-points">
-                            single point
+                            <!-- single point -->
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Personalized Dental Care</h3>
                                     <p class="ul-why-choose-us-point-descr">Every patient is unique. We listen carefully and create customized treatment plans to suit your needs.</p>
                                 </div>
                             </div>
-                            single point
+                            <!-- single point -->
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Experienced Dental Specialists </h3>
                                     <p class="ul-why-choose-us-point-descr">Our team of skilled dentists and oral health professionals bring years of expertise across all dental specialties.</p>
                                 </div>
                             </div>
-                            single point
+                            <!-- single point -->
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Advanced Technology & Modern Facilities</h3>
@@ -1347,152 +636,8 @@
             <img src="assets/img/why-choose-vector-2.svg" alt="vector" class="vector-2">
         </div>
     </section>
-    WHY CHOOSE US SECTION END -->
+    <!-- WHY CHOOSE US SECTION END -->
 
-
-<!-- ==========================================================
-         INDEX FOURTH SECTION START
-    =========================================================== -->
-    <section class="index_fourth_section">
-
-        <!-- premium background lighting curves -->
-        <div class="index-fourth-curve index-fourth-curve-left-a"></div>
-        <div class="index-fourth-curve index-fourth-curve-left-b"></div>
-        <div class="index-fourth-curve index-fourth-curve-left-c"></div>
-        <div class="index-fourth-curve index-fourth-curve-bottom"></div>
-        <div class="index-fourth-left-shade"></div>
-        <div class="index-fourth-vertical-panel"></div>
-
-        <!-- faded dental symbol -->
-        <div class="index-fourth-faded-tooth" aria-hidden="true">
-            <i class="fa-solid fa-tooth"></i>
-        </div>
-
-        <div class="index-fourth-container">
-
-            <!-- left vertical note -->
-            <div class="index-fourth-left-note">
-                Care<br>
-                Expertise<br>
-                Technology<br>
-                Your Smile<br>
-                Our Priority
-            </div>
-
-            <!-- top right note -->
-            <div class="index-fourth-top-note">
-                A Healthier<br>
-                Brighter You
-            </div>
-
-            <div class="row index-fourth-row g-lg-5">
-
-                <!-- LEFT VISUAL -->
-                <div class="col-lg-6">
-                    <div class="index-fourth-visual-wrap">
-                        <div class="index-fourth-visual">
-                            <!-- <img src="assets/img/why-choose-visual.png"
-                                alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
-                                loading="lazy" decoding="async"> -->
-                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="col-lg-6">
-                    <div class="index-fourth-content">
-
-                        <div class="index-fourth-eyebrow">
-                            <span class="index-fourth-eyebrow-line"></span>
-                            <span>Why Choose Us</span>
-                            <span class="index-fourth-eyebrow-line"></span>
-                        </div>
-
-                        <h2 class="index-fourth-heading">
-                            Where Compassion Meets<br>
-                            <span class="gold-text">Excellence in Dental Care</span>
-                        </h2>
-
-                        <p class="index-fourth-description">
-                            At Ivory Dental, Vidyaranyapura, we are committed to delivering top-quality dental care
-                            with compassion, innovation, and integrity — putting your smile and comfort first.
-                        </p>
-
-                        <div class="index-fourth-reasons">
-
-                            <div class="index-fourth-reason">
-                                <div class="index-fourth-number">01</div>
-                                <div class="index-fourth-reason-icon">
-                                    <i class="bi bi-person-check"></i>
-                                </div>
-                                <div>
-                                    <h3 class="index-fourth-reason-title">Personalized Dental Care</h3>
-                                    <p class="index-fourth-reason-text">
-                                        Every patient is unique. We listen carefully and create customized
-                                        treatment plans to suit your needs.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="index-fourth-reason">
-                                <div class="index-fourth-number">02</div>
-                                <div class="index-fourth-reason-icon">
-                                    <i class="fa-solid fa-tooth"></i>
-                                </div>
-                                <div>
-                                    <h3 class="index-fourth-reason-title">Experienced Dental Specialists</h3>
-                                    <p class="index-fourth-reason-text">
-                                        Our team of skilled dentists and oral health professionals bring years of
-                                        expertise across all dental specialties.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="index-fourth-reason">
-                                <div class="index-fourth-number">03</div>
-                                <div class="index-fourth-reason-icon">
-                                    <i class="bi bi-gear"></i>
-                                </div>
-                                <div>
-                                    <h3 class="index-fourth-reason-title">Advanced Technology &amp; Modern Facilities</h3>
-                                    <p class="index-fourth-reason-text">
-                                        From digital X-rays to painless treatments, we use the latest equipment
-                                        to ensure safe, precise, and comfortable care.
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <a href="appointment-ivy-dental-hospital.php" class="index-fourth-appointment">
-                            <span>Appointment Now</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="index-fourth-bottom-left">
-                <span>Gentle Care</span>
-                <span class="dot"></span>
-                <span>Modern Dentistry</span>
-                <span class="dot"></span>
-                <span>Brighter Tomorrows</span>
-            </div>
-
-            <div class="index-fourth-script-note">
-                Smile<br>with Confidence
-            </div>
-
-        </div>
-    </section>
-    <!-- ==========================================================
-         INDEX FOURTH SECTION END
-    =========================================================== -->
 
     <!-- TEAM SECTION START -->
     <section class="ul-team ul-section-spacing">

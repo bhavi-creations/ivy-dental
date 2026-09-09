@@ -2,7 +2,7 @@
 
 <main>
     <!-- BREADCRUMBS SECTION START -->
-    <section class="ul-breadcrumb">
+    <!-- <section class="ul-breadcrumb">
         <div class="ul-2-container">
             <h1 class="ul-breadcrumb-title">Clear aligners</h1>
 
@@ -12,7 +12,8 @@
                 <li>Clear aligners</li>
             </ul>
         </div>
-    </section>
+    </section> -->
+     <img src="./assets/img/bg/clear_aligners_bg.png" alt="" class="img-fluid">
     <!-- BREADCRUMBS SECTION END -->
 
     <!-- SERVICE DETAILS SECTION START -->

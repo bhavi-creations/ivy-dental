@@ -23,7 +23,7 @@
 
  <main>
      <!-- BREADCRUMBS SECTION START -->
-     <section class="ul-breadcrumb">
+     <!-- <section class="ul-breadcrumb">
          <div class="ul-2-container">
              <h1 class="ul-breadcrumb-title">Appointment</h1>
 
@@ -33,8 +33,10 @@
                  <li>Appointment</li>
              </ul>
          </div>
-     </section>
+     </section> -->
+    c
      <!-- BREADCRUMBS SECTION END -->
+      <img src="./assets/img/bg/appointment_bg.png" alt="" class="img-fluid">
 
 
      <!-- APPOINTMENT SECTION START -->

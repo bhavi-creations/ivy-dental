@@ -75,9 +75,11 @@ $result = $stmt->get_result();
 </style>
 
 <main class="blog_section_stylings">
-    <div class="blog_section">
+    <!-- <div class="blog_section">
         <h1 style="color:#1c482d; font-weight: 600;">Blogs</h1>
-    </div>
+    </div> -->
+
+     <img src="./assets/img/bg/blogs_bg.png" alt="" class="img-fluid">
     <!-- <div class="container">
     
     <div class="filter_buttons redirect_section mt-4">

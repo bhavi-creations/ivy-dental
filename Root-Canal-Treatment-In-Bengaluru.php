@@ -3,7 +3,7 @@
 
     <main>
         <!-- BREADCRUMBS SECTION START -->
-        <section class="ul-breadcrumb">
+        <!-- <section class="ul-breadcrumb">
             <div class="ul-2-container">
                 <h1 class="ul-breadcrumb-title">Root canal</h1>
 
@@ -13,7 +13,8 @@
                     <li>Root canal</li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+         <img src="./assets/img/bg/root_canal_bg.png" alt="" class="img-fluid">
         <!-- BREADCRUMBS SECTION END -->
 
         <!-- SERVICE DETAILS SECTION START -->

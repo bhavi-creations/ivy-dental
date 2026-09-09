@@ -1,7 +1,7 @@
     <!-- FOOTER SECTION START -->
-    <footer class="ul-footer ul-2-footer">
+    <!-- <footer class="ul-footer ul-2-footer">
         <div class="ul-2-container">
-            <!-- footer top -->
+            
             <div class="ul-footer-top ul-section-spacing">
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about ul-2-footer-about">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <!-- footer bottom -->
+            
             <div class="ul-footer-bottom">
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 align-items-center gy-4">
                     <div class="col order-1">
@@ -74,16 +74,15 @@
                     <div class="col-lg col-md-12  order-3 order-lg-2">
                         <div class="ul-footer-socials justify-content-center mt-0">
                             <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
-                            <!-- <a href="#"><i class="flaticon-twitter"></i></a> -->
                             <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
                             <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
-                            <!-- <a href="https://www.quora.com/profile/Dr-Chiranjeevi-Reddy-MDS" target="_blank"><i class="bi bi-quora"></i></a> -->
+                        
                             <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
                             <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
                         </div>
                     </div>
 
-                    <!-- links -->
+                    
                     <div class="col order-2 order-lg-3">
 
 
@@ -100,7 +99,167 @@
         <div class="ul-2-footer-vectors">
             <img src="assets/img/footer-2-vector.svg" alt="vector" class="vector-1" loading="lazy" decoding="async">
         </div>
+    </footer> -->
+
+
+
+
+
+    <footer class="footer_new_section">
+        <div class="footer_new_bg_right"></div>
+        <div class="footer_new_line_one"></div>
+        <div class="footer_new_line_two"></div>
+
+        <div class="container-fluid px-3 px-md-4 px-xl-5 footer_new_container">
+
+            <div class="footer_new_partner">
+                Your<br>
+                Family's<br>
+                Dental<br>
+                Partner
+            </div>
+
+            <div class="row g-4 footer_new_main">
+
+                <!-- BRAND / CONTACT -->
+                <div class="col-12 col-lg-4 col-xl-4 footer_new_brand position-relative">
+
+                    <div class="footer_new_logo_card">
+                        <img src="assets/img/ivy logo.png" alt="Ivy Dental Bangalore">
+                    </div>
+
+                    <div class="footer_new_contact">
+                        <div class="footer_new_contact_item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                461, HMT Layout 3rd Block,<br>
+                                Vidyaranyapura, Bengaluru,<br>
+                                Karnataka 560097
+                            </div>
+                        </div>
+
+                        <div class="footer_new_contact_item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>7760605222</div>
+                        </div>
+
+                        <div class="footer_new_contact_item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>9740805222</div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="footer_new_script">
+                        Healthy<br>
+                        Smiles<br>
+                        Brighter<br>
+                        Tomorrows
+                    </div> -->
+
+                    <div class="footer_new_tooth">
+                        <img src="footer-tooth.png" alt="">
+                    </div>
+
+                </div>
+
+                <!-- HELPFUL LINK -->
+                <div class="col-6 col-md-4 col-lg-2 col-xl-2 footer_new_link_col">
+                    <h3 class="footer_new_heading">Helpful Link</h3>
+
+                    <ul class="footer_new_links">
+                        <li><a href="home.php"><i class="fa-solid fa-chevron-right"></i>Home</a></li>
+                        <li><a href="about-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>About</a></li>
+                        <li><a href="services-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>Services</a></li>
+                        <li><a href="testimonials-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>Testimonials</a></li>
+                        <li><a href="gallery-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>Gallery</a></li>
+                        <li><a href="blogs-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>Blog</a></li>
+                        <li><a href="contact-ivy-dental-hospital.php"><i class="fa-solid fa-chevron-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- QUICK LINKS 1 -->
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2 footer_new_link_col">
+                    <h3 class="footer_new_heading">Quick Links</h3>
+
+                    <ul class="footer_new_links">
+                        <li><a href="Root-Canal-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Root canal</a></li>
+                        <li><a href="Teeth-Filling-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Teeth Filling</a></li>
+                        <li><a href="Dental-Implants-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Dental Implants</a></li>
+                        <li><a href="Teeth-Scaling-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Teeth Scaling</a></li>
+                        <li><a href="Invisalign-Aligners-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Clear Aligners</a></li>
+                        <li><a href="Dental-Braces-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Dental braces</a></li>
+                        <!-- <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Privacy Policy</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- QUICK LINKS 2 -->
+                <div class="col-12 col-md-4 col-lg-3 col-xl-3 footer_new_link_col">
+                    <h3 class="footer_new_heading">Quick Links</h3>
+
+                    <ul class="footer_new_links">
+                        <li><a href="Smile-Makeover-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Smile Makeover</a></li>
+                        <li><a href="Teeth-Whitening-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Teeth Whitening</a></li>
+                        <li><a href="Dental-Crown-Bridge-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Crowns & Bridges</a></li>
+                        <li><a href="Tooth-Extraction-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Tooth Extraction</a></li>
+                        <li><a href="Full-Mouth-Restoration-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Full Mouth Restoration</a></li>
+                        <li><a href="Dental-Dentures-Treatment-In-Bengaluru.php"><i class="fa-solid fa-chevron-right"></i>Dentures</a></li>
+                        <!-- <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Pediatric Dental Care</a></li> -->
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer_new_right_words">
+                Care<br>
+                Comfort<br>
+                Confidence
+            </div>
+
+            <div class="footer_new_glass_tag">
+                A<br>
+                Healthier<br>
+                Smile<br>
+                A Brighter<br>
+                You
+            </div>
+
+            <!-- BOTTOM BAR -->
+            <div class="footer_new_bottom">
+                <div class="footer_new_bottom_inner">
+
+                    <div class="footer_new_legal">
+                        <a href="#">Terms &amp; Conditions</a>
+                        <span class="footer_new_separator"></span>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+
+                    <div class="footer_new_social">
+                        <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
+                        <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
+                        <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
+
+                        <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
+                    </div>
+
+                    <div class="footer_new_copy">
+                        © Ivy Dental Bangalore. All Rights Reserved 2025
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </footer>
+
+<?php include 'chatbot.php'; ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
 
 
     <!-- FOOTER SECTION END -->

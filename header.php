@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
     <link rel="preload" as="image" href="assets/img/ivy logo.png" fetchpriority="high">
 
+    <link rel="stylesheet" href="./assets/css/new_style.css">
+
     <!-- libraries CSS -->
     <link rel="stylesheet" href="assets/icon/flaticon_err.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
