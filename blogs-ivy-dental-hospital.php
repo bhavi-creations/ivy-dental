@@ -41,16 +41,17 @@ $result = $stmt->get_result();
     .post-desc {
         flex-grow: 1;
     }
-    .box-title{
-        color: #1c482d !important ;
+
+    .box-title {
+        color: #1c482d !important;
     }
-    
-   .box-title :hover{
-        color: #1c482d !important ;
+
+    .box-title :hover {
+        color: #1c482d !important;
     }
 
 
-    .blog_main_btn{
+    .blog_main_btn {
         background-color: #1c482d;
         color: white;
     }
@@ -72,6 +73,15 @@ $result = $stmt->get_result();
         justify-content: center;
         margin: 20px 0px;
     }
+
+    .blog_section_stylings {
+        background-color: #e9f0e2;
+        /* border:2px solid green; */
+    }
+    .card_bg_div_box{
+        border:2px solid #1c482d;
+        border-radius: 10px;
+    }
 </style>
 
 <main class="blog_section_stylings">
@@ -79,7 +89,7 @@ $result = $stmt->get_result();
         <h1 style="color:#1c482d; font-weight: 600;">Blogs</h1>
     </div> -->
 
-     <img src="./assets/img/bg/blogs_bg.png" alt="" class="img-fluid">
+    <img src="./assets/img/bg/blogs_bg.png" alt="" class="img-fluid">
     <!-- <div class="container">
     
     <div class="filter_buttons redirect_section mt-4">

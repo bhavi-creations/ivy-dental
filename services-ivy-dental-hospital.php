@@ -458,7 +458,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                         02
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -501,7 +502,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                         03
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -544,7 +546,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="bi bi-stars"></i>
+                        <!-- <i class="bi bi-stars"></i> -->
+                         04
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -587,7 +590,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-teeth"></i>
+                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                         05
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -630,7 +634,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-link"></i>
+                        <!-- <i class="fa-solid fa-link"></i> -->
+                         06
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -673,7 +678,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="bi bi-emoji-smile"></i>
+                        <!-- <i class="bi bi-emoji-smile"></i> -->
+                         07
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -716,7 +722,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="bi bi-stars"></i>
+                        <!-- <i class="bi bi-stars"></i> -->
+                         08
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -759,7 +766,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-crown"></i>
+                        <!-- <i class="fa-solid fa-crown"></i> -->
+                         09
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -802,7 +810,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-tooth"></i>
+                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                         10
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -845,7 +854,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-teeth-open"></i>
+                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                         11
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -888,7 +898,8 @@
                 <div class="index-third-card-content">
 
                     <div class="index-third-card-icon">
-                        <i class="fa-solid fa-teeth"></i>
+                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                         12
                     </div>
 
                     <h3 class="index-third-card-title">

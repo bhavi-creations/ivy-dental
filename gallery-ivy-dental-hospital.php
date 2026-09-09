@@ -16,6 +16,11 @@
     </section> -->
      <img src="./assets/img/bg/gallery_bg.png" alt="" class="img-fluid">
     <!-- BREADCRUMBS SECTION END -->
+     <style>
+        .ul-case-studies{
+            background-color:#d4dbcd;
+        }
+     </style>
 
 
     <!-- CASE STUDIES SECTION START -->

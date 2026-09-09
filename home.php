@@ -32,12 +32,26 @@
     <style>
         .only_first {
             width: 100%;
-            min-height: 100vh;
+            /* min-height: 100vh; */
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
             background: #000;
+        }
+
+        @media (min-width:768px) {
+            .only_first {
+                /* width: 100%; */
+                min-height: 50vh;
+            }
+        }
+
+        @media (max-width:768px) {
+            .only_first {
+                /* width: 100%; */
+                min-height: 25vh;
+            }
         }
 
         .video-container {
@@ -230,7 +244,7 @@
 
             <!-- ================= TOP HEADER ================= -->
 
-            <div class="index-first-top">
+            <!-- <div class="index-first-top">
 
                 <a href="index.php" class="index-first-logo">
 
@@ -267,7 +281,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
 
             <!-- ================= HERO ================= -->
@@ -819,7 +833,7 @@
                             </div>
 
                             <div class="index-second-more-wrap">
-                                <a href="about.php" class="index-second-more-btn">
+                                <a href="about-ivy-dental-hospital.php" class="index-second-more-btn">
                                     <span>More About</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
@@ -1270,10 +1284,11 @@
                         </a>
                     </div>
                 </article>
-                <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
-                    <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
 
-                </div>
+
+            </div>
+            <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
+                <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
 
             </div>
 
@@ -1519,13 +1534,13 @@
 
             </div>
 
-            <div class="index-fourth-bottom-left">
+            <!-- <div class="index-fourth-bottom-left">
                 <span>Gentle Care</span>
                 <span class="dot"></span>
                 <span>Modern Dentistry</span>
                 <span class="dot"></span>
                 <span>Brighter Tomorrows</span>
-            </div>
+            </div> -->
 
             <div class="index-fourth-script-note">
                 Smile<br>with Confidence
@@ -1538,9 +1553,9 @@
     =========================================================== -->
 
     <!-- TEAM SECTION START -->
-    <section class="ul-team ul-section-spacing">
+    <!-- <section class="ul-team ul-section-spacing">
         <div class="ul-2-container">
-            <!-- section heading -->
+        
             <div class="ul-section-heading text-center justify-content-center">
                 <div class="left">
                     <span class="ul-section-sub-title ul-2-section-sub-title">OUR CARE TEAM</span>
@@ -1550,7 +1565,7 @@
 
 
             <div class="row row-cols-md-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center gy-4">
-                <!-- single team member -->
+               
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
@@ -1559,19 +1574,19 @@
                         <div class="ul-team-member-txt mt-2">
                             <span class="ul-team-member-name"> <a href="about-ivy-dental-hospital.php">Dr. (Prof)Chiranjeevi Reddy BDS.MDS</a></span>
                             <span class="ul-team-member-role">Prosthodontist and Implantologist</span>
-                            <!--  <div class="ul-team-member-socials">
+                             <div class="ul-team-member-socials">
 
 
                                  <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
                                 <a href="#"><i class="flaticon-twitter"></i></a> 
-                            </div>-->
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- single team member -->
+               
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
@@ -1580,17 +1595,17 @@
                         <div class="ul-team-member-txt mt-2">
                             <span class="ul-team-member-name"><a href="about-ivy-dental-hospital.php">Dr (Prof)Divya Reddy. BDS.MDS</a></span>
                             <span class="ul-team-member-role">Paediatric Dentist</span>
-                            <!-- <div class="ul-team-member-socials">
+                            <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
                                 <a href="#"><i class="flaticon-twitter"></i></a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- single team member -->
+                single team member
                 <div class="col">
                     <div class="ul-team-member">
                         <div class="">
@@ -1599,12 +1614,12 @@
                         <div class="ul-team-member-txt mt-2">
                             <span class="ul-team-member-name"><a href="about-ivy-dental-hospital.php">Dr .Sridevi </a></span>
                             <span class="ul-team-member-role">Resident Senior Dentist</span>
-                            <!-- <div class="ul-team-member-socials">
+                            <div class="ul-team-member-socials">
                                 <a href="#"><i class="flaticon-facebook"></i></a>
                                 <a href="#"><i class="flaticon-instagram"></i></a>
                                 <a href="#"><i class="flaticon-youtube"></i></a>
                                 <a href="#"><i class="flaticon-twitter"></i></a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1615,15 +1630,15 @@
             <img src="assets/img/team-vector.svg" alt="Vector" class="vector-1">
             <img src="assets/img/team-vector-2.svg" alt="Vector" class="vector-2">
         </div>
-    </section>
+    </section> -->
     <!-- TEAM SECTION END -->
 
 
     <!-- FEEDBACK SECTION START -->
-    <section class="ul-2-feedbacks ul-section-spacing">
+    <!-- <section class="ul-2-feedbacks ul-section-spacing">
         <div class="ul-2-container">
             <div class="row row-cols-lg-2 gy-3">
-                <!-- heading -->
+              
                 <div class="col-lg col-md-5">
                     <div class="ul-2-feedbacks-heading">
                         <div>
@@ -1640,10 +1655,10 @@
                 </div>
 
                 <div class="col-lg col-md-7">
-                    <!-- feedbacks slider -->
+                 
                     <div class="swiper ul-2-feedbacks-slider">
                         <div class="swiper-wrapper">
-                            <!-- single slide -->
+                           
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1655,13 +1670,13 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Shailaja.R gowda</h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- single slide -->
+                          
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1673,7 +1688,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Vasu R </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -1685,7 +1700,7 @@
 
 
 
-                            <!-- single slide -->
+                        
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1699,7 +1714,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Saiesh Arun kumar</h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -1709,7 +1724,7 @@
 
 
 
-                            <!-- single slide -->
+                          
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1721,7 +1736,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Johnson Bellary </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -1732,7 +1747,7 @@
 
 
 
-                            <!-- single slide -->
+                          
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1744,7 +1759,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Balakrishna.S </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -1753,7 +1768,7 @@
 
 
 
-                            <!-- single slide -->
+                       
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1765,7 +1780,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Somesh </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                          
                                         </div>
                                     </div>
                                 </div>
@@ -1774,7 +1789,7 @@
 
 
 
-                            <!-- single slide -->
+                         
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1787,7 +1802,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Anuragg </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -1795,7 +1810,7 @@
 
 
 
-                            <!-- single slide -->
+                          
                             <div class="swiper-slide">
                                 <div class="ul-2-feedback">
                                     <span class="ul-2-feedback-icon"><i class="flaticon-quotation"></i></span>
@@ -1807,7 +1822,7 @@
 
                                         <div class="ul-2-feedback-reviewer-info">
                                             <h3 class="ul-2-feedback-reviewer-name">Piyush Vinayaraj </h3>
-                                            <!-- <h4 class="ul-2-feedback-reviewer-location">Medical Assistant</h4> -->
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -1818,12 +1833,12 @@
             </div>
         </div>
 
-        <!-- vectors -->
+       
         <div class="ul-2-feedbacks-vectors">
             <img src="assets/img/feedback-2-vector-1.svg" alt="Vector" class="vector-1">
             <img src="assets/img/feedback-2-vector-2.svg" alt="Vector" class="vector-2">
         </div>
-    </section>
+    </section> -->
     <!-- FEEDBACK SECTION END -->
 
     <!-- BLOG SECTION START -->
@@ -1977,6 +1992,184 @@
 
     </section> -->
 
+    <!-- ==========================================================
+     TOP TEAM SECTION
+     ========================================================== -->
+    <section class="index_fifth_section">
+        <div class="ifs-clinic-blur"></div>
+
+        <div class="container-fluid px-3 px-md-4 px-xl-5 ifs-container">
+
+            <div class="ifs-left-copy">
+                Experts<br>
+                In Every<br>
+                Smile
+            </div>
+
+            <div class="ifs-heading-wrap">
+                <div class="ifs-kicker">
+                    <i class="fa-solid fa-heart"></i>
+                    Our Care Team
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <h2 class="ifs-title">
+                    The Heart Behind <span class="gold">Every Smile</span>
+                </h2>
+
+                <div class="ifs-subtitle">
+                    Skilled Hands &nbsp; • &nbsp; Caring Hearts &nbsp; • &nbsp; Healthier Tomorrows
+                </div>
+            </div>
+
+            <!-- <div class="ifs-script">
+                Same<br>
+                Care<br>
+                Brighter<br>
+                Smiles
+            </div> -->
+
+            <div class="row g-4 ifs-team-row mt-5 pt-5">
+
+                <div class="col-12 col-lg-4">
+                    <div class="ifs-card">
+                        <div class="ifs-photo">
+                            <img src="assets/img/service/chiranjeevi.png" alt="Dr. Chiranjeevi Reddy">
+                        </div>
+
+                        <h3 class="ifs-name mt-3">Dr. (Prof) Chiranjeevi Reddy BDS.MDS</h3>
+                        <p class="ifs-role">Prosthodontist and Implantologist</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="ifs-card">
+                        <div class="ifs-photo">
+                            <img src="assets/img/service/divya.png" alt="Dr. Divya Reddy">
+                        </div>
+
+                        <h3 class="ifs-name mt-3">Dr (Prof) Divya Reddy, BDS.MDS</h3>
+                        <p class="ifs-role">Paediatric Dentist</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="ifs-card">
+                        <div class="ifs-photo">
+                            <img src="assets/img/service/sridevi.png" alt="Dr. Sridevi">
+                        </div>
+
+                        <h3 class="ifs-name mt-3">Dr. Sridevi</h3>
+                        <p class="ifs-role">Resident Senior Dentist</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================================
+     BOTTOM PATIENT STORY SECTION
+     ========================================================== -->
+    <section class="index_sixth_section">
+        <div class="container-fluid px-3 px-md-4 px-xl-5 iss-container">
+            <div class="row g-4 align-items-center">
+
+                <div class="col-12 col-lg-5 iss-left">
+                    <div class="iss-kicker">
+                        <i class="fa-solid fa-heart"></i>
+                        Patient Stories
+                    </div>
+
+                    <h2 class="iss-title">
+                        Doctor’s <span class="gold">Note:</span>
+                    </h2>
+
+                    <p class="iss-copy">
+                        “At Ivy Dental, our patients are at the center of everything we do.
+                        Every smile we restore, every treatment we provide, and every patient
+                        we comfort inspires us to keep raising the standard of dental care.
+                        Seeing our patients leave with brighter smiles and renewed confidence
+                        is the greatest reward for our team.”
+                    </p>
+
+                    <div class="iss-arrows">
+                        <a href="#" class="iss-arrow" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></a>
+                        <span class="iss-arrow-line"></span>
+                        <a href="#" class="iss-arrow" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="iss-meta">
+                        <span>Real Patients</span><i></i>
+                        <span>Real Smiles</span><i></i>
+                        <span>Real Confidence</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 offset-lg-0">
+                    <div class="iss-testimonial">
+                        <div class="iss-quote">“</div>
+
+                        <div class="iss-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="iss-review">
+                            Very professional and experienced doctor. Treatments and recommendations
+                            are specific and personalized. Courteous Staff.
+                        </p>
+
+                        <div class="iss-divider"></div>
+
+                        <div class="iss-user">
+                            <div class="iss-user-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="iss-user-name">Anurag</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="iss-side-copy">
+                Healthy<br>
+                Smiles<br>
+                Happier<br>
+                Lives
+            </div>
+
+            <div class="iss-tooth">
+                <img src="testimonial-tooth.jpg" alt="">
+            </div>
+
+            <div class="iss-bottom-note">
+                Care Beyond Treatment
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="ul-2-blogs ul-section-spacing">
         <div class="ul-2-container">
@@ -2034,23 +2227,22 @@
 
 
     <!-- APPOINTMENT SECTION START -->
-    <section class="ul-appointment ul-2-appointment ul-section-spacing">
+    <!-- <section class="ul-appointment ul-2-appointment ul-section-spacing">
         <div class="ul-2-container">
             <div class="row g-4 g-xl-5">
-                <!-- appointment form -->
+              
 
 
                 <div class="col-md-5">
 
 
 
-                    <!-- <img src="assets/img/home/appointment _animated_1.png" class="img-fluid" alt=""> -->
+                   
                     <img src="assets/img/g10.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 d-flex flex-direction-column justify-content-center">
                     <div class="ul-2-appointment-form-wrapper">
-                        <!-- heading -->
-                        <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Appointment</span> -->
+                      
                         <h2 class="ul-section-title index_appointment ">Apply for Appointment</h2>
 
                         <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
@@ -2084,39 +2276,7 @@
                                     </div>
                                 </div>
 
-                                <!-- <div class="col">
-                        <div class="form-group">
-                            <label for="ul-appointment-doctor">Select Doctor</label>
-                            <select name="Doctor" id="ul-appointment-doctor">
-                                <option value="none" data-placeholder="true">Select Doctor</option>
-                                <option value="Doctor 1">Doctor 1</option>
-                                <option value="Doctor 2">Doctor 2</option>
-                                <option value="Doctor 3">Doctor 3</option>
-                            </select>
-                            <div id="ul-appointment-doctor-select-wrapper" class="position-relative"></div>
-                        </div>
-                    </div> -->
-                                <!-- <div class="col-sm-12 col-12 col">
-                        <div class="form-group select-wrapper">
-                            <label for="ul-appointment-treatment">Select Treatment</label>
-                            <select name="treatment" id="ul-appointment-treatment">
-                                <option value="none" data-placeholder="true">Select Treatment</option>
-                                <option value="treatment 1">Root canal</option>
-                                <option value="treatment 2">Teeth Filling</option>
-                                <option value="treatment 3">Clear Aligners</option>
-                                <option value="treatment 4">Dental braces</option>
-                                <option value="treatment 5">Dentures</option>
-                                <option value="treatment 6">Teeth Whitening</option>
-                                <option value="treatment 7">Dental Implants</option>
-                                <option value="treatment 8">Teeth Scaling</option>
-                                <option value="treatment 9">Smile Makeover</option>
-                                <option value="treatment 10">Crowns & Bridges</option>
-                                <option value="treatment 11">Tooth Extraction</option>
-                                <option value="treatment 12">Full Mouth Restoration</option>
-
-                            </select>
-                            <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
-                        </div> -->
+                              
 
                                 <div class="col">
                                     <div class="form-group select-wrapper">
@@ -2154,14 +2314,165 @@
                     </div>
                 </div>
 
-                <!-- contact info -->
+             
 
             </div>
         </div>
 
 
 
+    </section> -->
+
+
+
+
+    <section class="index_last_section">
+        <div class="ils-line-1"></div>
+        <div class="ils-line-2"></div>
+        <div class="ils-line-3"></div>
+
+        <div class="container-fluid px-3 px-md-4 px-xl-5 index_last_container">
+            <div class="row g-4 align-items-stretch">
+
+                <div class="col-12 col-lg-6">
+                    <div class="ils-left-card h-60">
+                        <img src="assets/img/g10.png" alt="Ivy Dental reception">
+
+                        <div class="ils-left-note">
+                            <div class="big">A Healthier Smile</div>
+                            <div class="small">Starts Here</div>
+                        </div>
+
+                        <div class="ils-benefits">
+                            <div class="ils-benefit">
+                                <div class="ils-benefit-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                                <div class="ils-benefit-text">Easy<br>Booking</div>
+                            </div>
+
+                            <div class="ils-benefit">
+                                <div class="ils-benefit-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                <div class="ils-benefit-text">Confidential<br>&amp; Secure</div>
+                            </div>
+
+                            <div class="ils-benefit">
+                                <div class="ils-benefit-icon"><i class="fa-regular fa-clock"></i></div>
+                                <div class="ils-benefit-text">Quick<br>Response</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ils-bottom-words">
+                        <span>Care</span><i></i>
+                        <span>Comfort</span><i></i>
+                        <span>Confidence</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="ils-form-card h-100">
+
+                        <div class="ils-priority">Your Smile Our Priority</div>
+
+                        <h2 class="ils-title">
+                            Apply for<br>
+                            <span class="gold">Appointment</span>
+                        </h2>
+
+                        <div class="ils-side-copy">
+                            Expert<br>
+                            Care For A<br>
+                            Brighter<br>
+                            Tomorrow
+                        </div>
+
+                        <div class="ils-tooth-watermark">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+
+                        <form action="#" method="post" class="position-relative z-2">
+                            <div class="row g-3">
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Name</label>
+                                    <div class="ils-field">
+                                        <i class="fa-regular fa-user icon-left"></i>
+                                        <input type="text" name="name" class="form-control" placeholder="Full Name">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Email</label>
+                                    <div class="ils-field">
+                                        <i class="fa-regular fa-envelope icon-left"></i>
+                                        <input type="email" name="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Your Phone</label>
+                                    <div class="ils-field">
+                                        <i class="fa-solid fa-phone icon-left"></i>
+                                        <input type="tel" name="phone" class="form-control" placeholder="Your Number">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label">Select Date</label>
+                                    <div class="ils-field">
+                                        <i class="fa-regular fa-calendar-days icon-left"></i>
+                                        <input type="text" name="date" class="form-control" placeholder="dd-mm-yyyy">
+                                        <i class="fa-regular fa-calendar icon-right"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-8">
+                                    <label class="form-label">Select Treatment</label>
+                                    <div class="ils-field">
+                                        <i class="fa-solid fa-tooth icon-left"></i>
+                                        <select class="form-select" name="treatment">
+                                            <option selected>Select Treatment</option>
+                                            <option>Root Canal</option>
+                                            <option>Dental Implants</option>
+                                            <option>Clear Aligners</option>
+                                            <option>Dental Braces</option>
+                                            <option>Teeth Whitening</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <button class="ils-submit" type="submit">
+                                        Appointment
+                                        <!-- Appointment Now -->
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="ils-footer-note">
+                            A Healthier Smile<br>
+                            A Brighter You
+                        </div>
+
+                        <div class="ils-tooth-art">
+                            <img src="appointment-tooth.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
+
+
+
+
+
+
+
+
     <!-- APPOINTMENT SECTION END -->
 </main>
 
