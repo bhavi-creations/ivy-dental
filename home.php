@@ -5,14 +5,57 @@
 
 <main>
 
-    <section class="only_first">
+    <!-- <section class="only_first">
         <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
             <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
             <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
+    </section> -->
+
+
+    <section class="only_first">
+        <div class="video-container">
+            <iframe
+                src="https://www.youtube.com/embed/MyAXveo6es0?si=JvWvVjdBmsizUEMl"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </div>
     </section>
+
+
+    <style>
+        .only_first {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 2000px;
+            aspect-ratio: 16 / 9;
+            position: relative;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+
 
     <!-- <section class="only_first" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
         <iframe
@@ -166,7 +209,7 @@
     BANNER SECTION END -->
 
 
-    
+
     <!-- ==========================================================
          INDEX FIRST SECTION START new stylings
     =========================================================== -->
@@ -487,9 +530,9 @@
                                     </div>
 
 
-</div>
+                                </div>
 
-</div>
+                            </div>
 
                         </div>
 
@@ -685,7 +728,7 @@
                             <div class="index-second-visual-glow"></div>
 
                             <div class="index-second-visual">
-                                                        <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
+                                <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
                             </div>
 
                             <div class="index-second-dots" aria-hidden="true">
@@ -1193,7 +1236,7 @@
                     <div class="index-third-card-image">
                         <!-- <img src="assets/img/clear-aligners.jpg" alt="Clear aligners treatment"> -->
                         <img src="assets/img/service/clear aligners.png" alt="">
-                    
+
                     </div>
                     <div class="index-third-card-content">
                         <div class="index-third-card-icon"><i class="fa-solid fa-teeth"></i></div>
@@ -1212,7 +1255,7 @@
                 <article class="index-third-card">
                     <div class="index-third-card-image">
                         <!-- <img src="assets/img/dental-braces.jpg" alt="Dental braces treatment"> -->
-                         <img src="assets/img/service/Dental braces.png" alt="Service Image">
+                        <img src="assets/img/service/Dental braces.png" alt="Service Image">
                     </div>
                     <div class="index-third-card-content">
                         <div class="index-third-card-icon"><i class="fa-solid fa-link"></i></div>
@@ -1227,10 +1270,10 @@
                         </a>
                     </div>
                 </article>
-                   <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
-                          <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
+                <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
+                    <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
 
-                  </div>
+                </div>
 
             </div>
 
@@ -1350,7 +1393,7 @@
     WHY CHOOSE US SECTION END -->
 
 
-<!-- ==========================================================
+    <!-- ==========================================================
          INDEX FOURTH SECTION START
     =========================================================== -->
     <section class="index_fourth_section">
@@ -1394,7 +1437,7 @@
                             <!-- <img src="assets/img/why-choose-visual.png"
                                 alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
                                 loading="lazy" decoding="async"> -->
-                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
+                            <img src="assets/img/g8.png" alt="Image" class="img-1">
 
                         </div>
                     </div>
