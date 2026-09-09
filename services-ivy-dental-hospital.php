@@ -415,7 +415,9 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-tooth"></i> -->
-                         01
+                         <img src="./assets/img/root-canal.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -459,7 +461,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-tooth"></i> -->
-                         02
+                        <img src="./assets/img/tooth-filling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -503,7 +508,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-tooth"></i> -->
-                         03
+                        <img src="./assets/img/dental_implants1.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -547,7 +555,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="bi bi-stars"></i> -->
-                         04
+                        <img src="./assets/img/scaling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -591,7 +602,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-teeth"></i> -->
-                         05
+                        <img src="./assets/img/aligners-icon.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -635,7 +649,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-link"></i> -->
-                         06
+                        <img src="./assets/img/braces.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -679,7 +696,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="bi bi-emoji-smile"></i> -->
-                         07
+                        <img src="./assets/img/Smile-Makeover.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -723,7 +743,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="bi bi-stars"></i> -->
-                         08
+                        <img src="./assets/img/teeth_whitening.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -767,7 +790,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-crown"></i> -->
-                         09
+                        <img src="./assets/img/dental-bridge.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -811,7 +837,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-tooth"></i> -->
-                         10
+                        <img src="./assets/img/tooth-extraction.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -855,7 +884,8 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-teeth-open"></i> -->
-                         11
+                        <img src="./assets/img/FULL_MOUTH_RESTORATION.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">
@@ -899,7 +929,10 @@
 
                     <div class="index-third-card-icon">
                         <!-- <i class="fa-solid fa-teeth"></i> -->
-                         12
+                        <img src="./assets/img/denture.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
                     </div>
 
                     <h3 class="index-third-card-title">

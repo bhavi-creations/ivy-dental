@@ -1233,7 +1233,9 @@
                         <img src="assets/img/service/teeth filling.png" alt="Service Image">
                     </div>
                     <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-tooth"></i></div>
+                        <div class="index-third-card-icon"><img src="./assets/img/tooth-filling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
                         <h3 class="index-third-card-title">Teeth Filling</h3>
                         <p class="index-third-card-text">
                             Restore damaged teeth with natural-looking, long-lasting fillings that bring
@@ -1253,7 +1255,9 @@
 
                     </div>
                     <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-teeth"></i></div>
+                        <div class="index-third-card-icon"><img src="./assets/img/aligners-icon.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
                         <h3 class="index-third-card-title">Clear Aligners</h3>
                         <p class="index-third-card-text">
                             Discreet, comfortable, and effective aligners to straighten your teeth
@@ -1272,7 +1276,9 @@
                         <img src="assets/img/service/Dental braces.png" alt="Service Image">
                     </div>
                     <div class="index-third-card-content">
-                        <div class="index-third-card-icon"><i class="fa-solid fa-link"></i></div>
+                        <div class="index-third-card-icon"><img src="./assets/img/braces.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
                         <h3 class="index-third-card-title">Dental Braces</h3>
                         <p class="index-third-card-text">
                             Proven orthodontic solutions for healthier, well-aligned smiles
