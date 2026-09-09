@@ -14,11 +14,11 @@
             </ul>
         </div>
     </section> -->
-     <img src="./assets/img/bg/teeth_whitening_bg.png" alt="" class="img-fluid">
+    <img src="./assets/img/bg/teeth_whitening_bg.png" alt="" class="img-fluid">
     <!-- BREADCRUMBS SECTION END -->
 
     <!-- SERVICE DETAILS SECTION START -->
-    <section class="ul-service-details ul-section-spacing">
+    <!-- <section class="ul-service-details ul-section-spacing">
         <div class="ul-container">
             <div class="row g-xl-5 g-4">
                 <div class="col-lg-8 col-md-7">
@@ -29,7 +29,6 @@
                         <div class="ul-service-details-txt">
                             <h2 class="ul-service-details-title"> Teeth Whitening </h2>
                             <p class="ul-service-details-descr">Teeth whitening is a cosmetic dental treatment that lightens stained or discolored teeth. Using advanced bleaching techniques, it safely removes surface stains caused by food, drinks, smoking, or aging. The result is a whiter, healthier-looking smile that boosts your confidence.</p>
-                            <!-- <blockquote>This blog post hits the mark perfectly for our target audience — busy professionals who care about their health but struggle with time. <span class="name"> — John Doe</span></blockquote> -->
                             <div class="ul-service-details-inner-block inner-block-1">
 
 
@@ -42,96 +41,139 @@
                                         <li><span class="title">Instant Results :</span> <span class="value"> Noticeably whiter teeth in just one session.</span></li>
                                         <li><span class="title">Confidence Boost:</span> <span class="value"> Enhances your smile and self-esteem.</span></li>
 
-                                        <!-- <li><span class="title">Long-lasting solutionRestores function and prevents extraction</span></li> -->
-                                        <!-- <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li> -->
                                     </ul>
                                 </div>
 
 
 
 
-                                <!-- <div>
-                                        <h3 class="ul-service-details-inner-title">What We Offer:</h3>
-                                        <ul>
-                                            <li>One-on-one virtual sessions with certified counselors</li>
-                                            <li>Stress and anxiety management techniques</li>
-                                            <li>Sleep improvement & energy-boosting strategies</li>
-                                            <li>Personalized nutrition and wellness plans</li>
-                                            <li>Habit-building for a healthier, more balanced life</li>
-                                            <li>Confidential, judgment-free care</li>
-                                        </ul>
-                                    </div> -->
+                               
 
                                 <div class="ul-service-details-inner-block-img">
                                     <img src="assets/img/home//teeth whitening.png" alt="Image">
                                 </div>
                             </div>
 
-                            <!-- <div class="ul-service-details-inner-block">
-                                    <h3 class="ul-service-details-inner-title">Key Features:</h3>
-                                    <ul>
-                                        <li><span class="title">Stress Reduction Coaching:</span> <span class="value">Learn to manage pressure burnout, and daily anxiety with proven techniques</span></li>
-                                        <li><span class="title">Personalized Nutrition & Wellness Plans:</span> <span class="value">Build healthier routines that support productivity and rest.</span></li>
-                                        <li><span class="title">Lifestyle Planning:</span> <span class="value">Create sustainable habits for nutrition, exercise, and sleep.</span></li>
-                                        <li><span class="title">One-on-One Counseling:</span> <span class="value">Talk to licensed professionals in a private, secure online setting.</span></li>
-                                        <li><span class="title">Mental Wellness Support:</span> <span class="value">Gain tools to improve focus, mood, and overall life satisfaction.</span></li>
-                                    </ul>
-                                </div> -->
+                          
 
                             <div class="ul-service-details-inner-block">
                                 <h3 class="ul-service-details-inner-title">Why It Matters:</h3>
                                 <p>A bright smile not only makes a strong first impression but also reflects good oral hygiene and health. Teeth whitening is a simple, quick, and safe way to enhance your appearance and feel more confident every day.</p>
                                 <div class="ul-accordion ul-service-details-faq">
-                                    <!--    <div class="ul-single-accordion-item">
-                                            <div class="ul-single-accordion-item__header">
-                                                <div class="left">
-                                                    <h3 class="ul-single-accordion-item__title">Do I need a diagnosis to book a session?</h3>
-                                                </div>
-                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
-                                            </div>
-
-                                            <div class="ul-single-accordion-item__body">
-                                                <p>Untreated tooth infections can spread, cause severe pain, and even lead to tooth loss or health complications. Root canal treatment not only saves your tooth but also protects your overall oral health, allowing you to eat, speak, and smile confidently without discomfort.</p>
-                                            </div>
-                                        </div>
-
-                                         <div class="ul-single-accordion-item open">
-                                            <div class="ul-single-accordion-item__header">
-                                                <div class="left">
-                                                    <h3 class="ul-single-accordion-item__title">Why Join Us as a Volunteer?</h3>
-                                                </div>
-                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
-                                            </div>
-
-                                            <div class="ul-single-accordion-item__body">
-                                                <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="ul-single-accordion-item">
-                                            <div class="ul-single-accordion-item__header">
-                                                <div class="left">
-                                                    <h3 class="ul-single-accordion-item__title">Be Part of a Community</h3>
-                                                </div>
-                                                <span class="icon"><i class="flaticon-arrow-up-right"></i></span>
-                                            </div>
-
-                                            <div class="ul-single-accordion-item__body">
-                                                <p>Aonsectetur adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget congue velit in cursus leo sodales the turpis euismod quis sapien euismod quis sapien the. E-learning is suitable for students, professionals, and anyone interested.</p>
-                                            </div>
-                                        </div> -->
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <?php include "sub_service.php"; ?>
+               
+            </div>
+        </div>
+        </div>
+    </section> -->
+    <!-- SERVICE DETAILS SECTION END -->
+
+
+    <section class="root_canal_section">
+        <div class="dot-grid"></div>
+
+        <div class="container-fluid px-3 px-md-4 px-xl-5 root_canal_container">
+            <div class="row g-4 align-items-start">
+
+                <!-- LEFT + CENTER CONTENT -->
+                <div class="col-12 col-xl-8">
+                    <div class="row g-4">
+
+                        <!-- INTRO -->
+                        <div class="col-12 col-lg-5">
+                            <div class="service-kicker">Our Services</div>
+                            <h1 class="root-title">Teeth Whitening</h1>
+                            <!-- <h2 class="root-subtitle">Relieve Pain, Save Your Smile</h2> -->
+
+                            <p class="root-copy">
+                                Teeth whitening is a cosmetic dental treatment that lightens stained or discolored teeth. Using advanced bleaching techniques, it safely removes surface stains caused by food, drinks, smoking, or aging. The result is a whiter, healthier-looking smile that boosts your confidence.
+                            </p>
+                        </div>
+
+                        <!-- HERO IMAGE -->
+                        <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
+                            <div class="hero-wrap ">
+                                <img src="assets/img/service/rootcanal.png" class="hero-img img-fluid"
+                                    alt="Root canal treatment">
+
+                            </div>
+                        </div>
+
+                        <!-- FEATURES -->
+                        <div class="col-12 col-lg-7">
+                            <div class="section-heading">Key Features:</div>
+
+                            <div class="feature-grid">
+                                <div class="feature-card">
+                                    <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
+                                    <div>
+                                        <p class="feature-title">Professional Whitening : </p>
+                                        <p class="feature-text"> Safe and effective treatment by a dentist.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-card">
+                                    <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                    <div>
+                                        <p class="feature-title">Removes Stains : </p>
+                                        <p class="feature-text"> Targets discoloration from coffee, tea, or smoking.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-card">
+                                    <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
+                                    <div>
+                                        <p class="feature-title">Instant Results : </p>
+                                        <p class="feature-text"> Noticeably whiter teeth in just one session.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-card">
+                                    <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
+                                    <div>
+                                        <p class="feature-title"> Confidence Boost:</p>
+                                        <p class="feature-text"> Enhances your smile and self-esteem.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="why-block">
+                                <div class="why-title">Why It Matters?</div>
+                                <p class="why-copy">
+
+                                    A bright smile not only makes a strong first impression but also reflects good oral hygiene and health. Teeth whitening is a simple, quick, and safe way to enhance your appearance and feel more confident every day.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- TOOTH ILLUSTRATION -->
+                        <div class="col-12 col-lg-5">
+                            <div class="tooth-card">
+                                <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
+                                <img src="assets/img/home//teeth whitening.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDEBAR -->
+                <div class="col-12 col-xl-4">
+                    <?php include 'sub_service.php'; ?>
+                </div>
+
+
             </div>
         </div>
         </div>
     </section>
-    <!-- SERVICE DETAILS SECTION END -->
 </main>
 
 
