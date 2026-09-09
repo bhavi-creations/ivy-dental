@@ -287,10 +287,10 @@
 
 
     <!-- ABOUT SECTION START -->
-    <section class="ul-2-about ul-section-spacing">
+    <!-- <section class="ul-2-about ul-section-spacing">
         <div class="ul-2-container">
             <div class="row row-cols-lg-2 row-cols-1 gy-4">
-                <!-- img -->
+                img
                 <div class="col">
                     <div class="ul-2-about-imgs">
                         <div class="img-1-wrapper">
@@ -301,7 +301,7 @@
                     </div>
                 </div>
 
-                <!-- txt -->
+                txt
                 <div class="col">
                     <div class="ul-2-about-txt">
                         <span class="ul-2-about-sub-title ul-section-sub-title ul-2-section-sub-title">About us</span>
@@ -316,7 +316,7 @@
                             <li><i class="flaticon-right-arrow"></i> Affordable & Transparent Treatment Plans</li>
                         </ul>
 
-                        <!-- <a href="about.php" class="ul-btn">More About <i class="flaticon-arrow-up-right"></i></a>         -->
+                        <a href="about.php" class="ul-btn">More About <i class="flaticon-arrow-up-right"></i></a>        
                     </div>
                 </div>
             </div>
@@ -326,15 +326,157 @@
             <img src="assets/img/about-2-vector.svg" alt="vector" class="vector-1">
         </div>
     </section>
-    <!-- ABOUT SECTION END -->
+    ABOUT SECTION END -->
+
+    <!-- ==========================================================
+         INDEX SECOND SECTION START new stylings
+    =========================================================== -->
+    <section class="index_second_section" id="about-us">
+
+        <!-- Decorative details matching the reference -->
+        <div class="index-second-faded-tooth" aria-hidden="true"></div>
+        <div class="index-second-ghost-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="index-second-top-note">
+            Quality Care<br>
+            For Brighter<br>
+            Tomorrows
+        </div>
+
+        <div class="index-second-bottom-note">
+            <span>
+                Exceptional Care<br>
+                For Every Smile
+            </span>
+        </div>
+
+        <div class="index-second-container">
+            <div class="container-fluid p-0">
+                <div class="row align-items-center g-0 index-second-row">
+
+                    <!-- LEFT VISUAL -->
+                    <div class="col-lg-5">
+                        <div class="index-second-visual-wrap">
+                            <div class="index-second-visual-glow"></div>
+
+                            <div class="index-second-visual">
+                                                        <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
+                            </div>
+
+                            <div class="index-second-dots" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT CONTENT -->
+                    <div class="col-lg-7">
+                        <div class="index-second-content">
+
+                            <div class="index-second-eyebrow">
+                                <span class="index-second-eyebrow-line"></span>
+                                <span>About Us</span>
+                            </div>
+
+                            <h2 class="index-second-heading">
+                                Trusted Dental Care for<br>
+                                <span class="gold-text">Families in Vidyaranyapura</span>
+                            </h2>
+
+                            <p class="index-second-description">
+                                Ivory Dental is one of the trusted dental clinics in Vidyaranyapura, Bangalore,
+                                known for providing high-quality and ethical dental care. Our experienced
+                                dentists focus on preventive, restorative, cosmetic, and advanced dental
+                                treatments using modern equipment and painless techniques.
+                            </p>
+
+                            <div class="index-second-feature-grid">
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="fa-solid fa-user-doctor"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Highly Skilled<br>Dental Specialists
+                                    </p>
+                                </div>
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="bi bi-gear"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Cutting-Edge<br>Dental Technology
+                                    </p>
+                                </div>
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="fa-solid fa-tooth"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Hygienic, Comfortable<br>Environment
+                                    </p>
+                                </div>
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="bi bi-clock"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Convenient Clinic Hours
+                                    </p>
+                                </div>
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Patient-Centered,<br>Gentle Care
+                                    </p>
+                                </div>
+
+                                <div class="index-second-feature">
+                                    <div class="index-second-feature-icon">
+                                        <i class="bi bi-file-earmark-text"></i>
+                                    </div>
+                                    <p class="index-second-feature-text">
+                                        Affordable &amp; Transparent<br>Treatment Plans
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="index-second-more-wrap">
+                                <a href="about.php" class="index-second-more-btn">
+                                    <span>More About</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================================================
+         INDEX SECOND SECTION END
+    =========================================================== -->
 
 
 
     <!-- WHY CHOOSE US SECTION START -->
-    <section class="ul-why-choose-us ul-section-spacing">
+    <!-- <section class="ul-why-choose-us ul-section-spacing">
         <div class="ul-2-container">
             <div class="row row-cols-lg-2 row-cols-1 gy-4 align-items-center">
-                <!-- img -->
+                img
                 <div class="col">
                     <div class="ul-why-choose-us-imgs">
                         <div class="ul-why-choose-us-img">
@@ -347,30 +489,30 @@
                     </div>
                 </div>
 
-                <!-- txt -->
+                txt
                 <div class="col">
                     <div class="ul-why-choose-us-txt">
                         <span class="ul-section-sub-title  choose_us ul-2-section-sub-title" id="choose_us">Why Choose Us</span>
-                        <!-- <span class="ul-section-sub-title ul-2-section-sub-title">Why Choose Us</span> -->
+                        <span class="ul-section-sub-title ul-2-section-sub-title">Why Choose Us</span>
                         <h2 class="ul-section-title text-white">Where Compassion Meets Excellence in Dental Care</h2>
                         <p class="ul-why-choose-us-descr">At Ivory Dental, Vidyaranyapura, we are committed to delivering top-quality dental care with compassion, innovation, and integrity — putting your smile and comfort first.</p>
 
                         <div class="ul-why-choose-us-points">
-                            <!-- single point -->
+                            single point
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Personalized Dental Care</h3>
                                     <p class="ul-why-choose-us-point-descr">Every patient is unique. We listen carefully and create customized treatment plans to suit your needs.</p>
                                 </div>
                             </div>
-                            <!-- single point -->
+                            single point
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Experienced Dental Specialists </h3>
                                     <p class="ul-why-choose-us-point-descr">Our team of skilled dentists and oral health professionals bring years of expertise across all dental specialties.</p>
                                 </div>
                             </div>
-                            <!-- single point -->
+                            single point
                             <div class="ul-why-choose-us-point">
                                 <div>
                                     <h3 class="ul-why-choose-us-point-title">Advanced Technology & Modern Facilities</h3>
@@ -390,8 +532,152 @@
             <img src="assets/img/why-choose-vector-2.svg" alt="vector" class="vector-2">
         </div>
     </section>
-    <!-- WHY CHOOSE US SECTION END -->
+    WHY CHOOSE US SECTION END -->
 
+
+    <!-- ==========================================================
+         INDEX FOURTH SECTION START
+    =========================================================== -->
+    <section class="index_fourth_section">
+
+        <!-- premium background lighting curves -->
+        <div class="index-fourth-curve index-fourth-curve-left-a"></div>
+        <div class="index-fourth-curve index-fourth-curve-left-b"></div>
+        <div class="index-fourth-curve index-fourth-curve-left-c"></div>
+        <div class="index-fourth-curve index-fourth-curve-bottom"></div>
+        <div class="index-fourth-left-shade"></div>
+        <div class="index-fourth-vertical-panel"></div>
+
+        <!-- faded dental symbol -->
+        <div class="index-fourth-faded-tooth" aria-hidden="true">
+            <i class="fa-solid fa-tooth"></i>
+        </div>
+
+        <div class="index-fourth-container">
+
+            <!-- left vertical note -->
+            <div class="index-fourth-left-note">
+                Care<br>
+                Expertise<br>
+                Technology<br>
+                Your Smile<br>
+                Our Priority
+            </div>
+
+            <!-- top right note -->
+            <div class="index-fourth-top-note">
+                A Healthier<br>
+                Brighter You
+            </div>
+
+            <div class="row index-fourth-row g-lg-5">
+
+                <!-- LEFT VISUAL -->
+                <div class="col-lg-6">
+                    <div class="index-fourth-visual-wrap">
+                        <div class="index-fourth-visual">
+                            <!-- <img src="assets/img/why-choose-visual.png"
+                                alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
+                                loading="lazy" decoding="async"> -->
+                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="col-lg-6">
+                    <div class="index-fourth-content">
+
+                        <div class="index-fourth-eyebrow">
+                            <span class="index-fourth-eyebrow-line"></span>
+                            <span>Why Choose Us</span>
+                            <span class="index-fourth-eyebrow-line"></span>
+                        </div>
+
+                        <h2 class="index-fourth-heading">
+                            Where Compassion Meets<br>
+                            <span class="gold-text">Excellence in Dental Care</span>
+                        </h2>
+
+                        <p class="index-fourth-description">
+                            At Ivory Dental, Vidyaranyapura, we are committed to delivering top-quality dental care
+                            with compassion, innovation, and integrity — putting your smile and comfort first.
+                        </p>
+
+                        <div class="index-fourth-reasons">
+
+                            <div class="index-fourth-reason">
+                                <div class="index-fourth-number">01</div>
+                                <div class="index-fourth-reason-icon">
+                                    <i class="bi bi-person-check"></i>
+                                </div>
+                                <div>
+                                    <h3 class="index-fourth-reason-title">Personalized Dental Care</h3>
+                                    <p class="index-fourth-reason-text">
+                                        Every patient is unique. We listen carefully and create customized
+                                        treatment plans to suit your needs.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="index-fourth-reason">
+                                <div class="index-fourth-number">02</div>
+                                <div class="index-fourth-reason-icon">
+                                    <i class="fa-solid fa-tooth"></i>
+                                </div>
+                                <div>
+                                    <h3 class="index-fourth-reason-title">Experienced Dental Specialists</h3>
+                                    <p class="index-fourth-reason-text">
+                                        Our team of skilled dentists and oral health professionals bring years of
+                                        expertise across all dental specialties.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="index-fourth-reason">
+                                <div class="index-fourth-number">03</div>
+                                <div class="index-fourth-reason-icon">
+                                    <i class="bi bi-gear"></i>
+                                </div>
+                                <div>
+                                    <h3 class="index-fourth-reason-title">Advanced Technology &amp; Modern Facilities</h3>
+                                    <p class="index-fourth-reason-text">
+                                        From digital X-rays to painless treatments, we use the latest equipment
+                                        to ensure safe, precise, and comfortable care.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="appointment-ivy-dental-hospital.php" class="index-fourth-appointment">
+                            <span>Appointment Now</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="index-fourth-bottom-left">
+                <span>Gentle Care</span>
+                <span class="dot"></span>
+                <span>Modern Dentistry</span>
+                <span class="dot"></span>
+                <span>Brighter Tomorrows</span>
+            </div>
+
+            <div class="index-fourth-script-note">
+                Smile<br>with Confidence
+            </div>
+
+        </div>
+    </section>
+    <!-- ==========================================================
+         INDEX FOURTH SECTION END
+    =========================================================== -->
 
     <section class="ul-team ul-inner-team ul-section-spacing">
         <div class="ul-2-container">
@@ -594,136 +880,344 @@
 
 
             <section class="about_new_docotr_section">
-                <div class="about_new_docotr_blur-left"></div>
-                <div class="about_new_docotr_blur-right"></div>
-                <div class="about_new_docotr_leaf-blur"></div>
-                <div class="about_new_docotr_tools-blur"></div>
 
-                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
-                    <div class="row g-4 about_new_docotr_row">
+    <div class="about_new_docotr_blur-left"></div>
+    <div class="about_new_docotr_blur-right"></div>
+    <div class="about_new_docotr_leaf-blur"></div>
+    <div class="about_new_docotr_tools-blur"></div>
 
-                        <!-- LEFT IMAGE CARD -->
-                        <div class="col-12 col-xl-6 about_new_docotr_left">
-                            <div class="about_new_docotr_left_card">
 
-                                <div class="about_new_docotr_sidepanel">
-                                    <div>
-                                        <div class="about_new_docotr_side_script">Healthy<br>Smiles<br>Brighter<br>Futures"</div>
-                                        <div class="about_new_docotr_side_divider"></div>
-                                    </div>
+    <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
 
-                                    <div class="about_new_docotr_badges">
-                                        <div class="about_new_docotr_badge">
-                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-tooth"></i></div>
-                                            <div class="about_new_docotr_badge_text">
-                                                Experience<br>You Can Trust
-                                            </div>
-                                        </div>
+        <div class="row g-4 about_new_docotr_row">
 
-                                        <div class="about_new_docotr_badge">
-                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-users"></i></div>
-                                            <div class="about_new_docotr_badge_text">
-                                                Care For<br>All Ages
-                                            </div>
-                                        </div>
 
-                                        <div class="about_new_docotr_badge">
-                                            <div class="about_new_docotr_badge_icon"><i class="fa-solid fa-heart"></i></div>
-                                            <div class="about_new_docotr_badge_text">
-                                                Committed<br>To Better Smiles
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <!-- =====================================================
+                 LEFT CONTENT
+            ====================================================== -->
 
-                                <div class="about_new_docotr_photo_wrap">
-                                    <img src="assets/img/00.png" alt="Dr. Chiranjeevi Reddy" class="about_new_docotr_photo">
-                                </div>
-                            </div>
+            <div class="col-12 col-xl-6 about_new_docotr_right">
 
-                            <div class="about_new_docotr_dotgrid"></div>
-                        </div>
-
-                        <!-- RIGHT CONTENT -->
-                        <div class="col-12 col-xl-6 about_new_docotr_right">
-                            <div class="about_new_docotr_kicker">Our Doctor</div>
-
-                            <h2 class="about_new_docotr_title">
-                                Dr. (Prof) Chiranjeevi<br>Reddy
-                            </h2>
-
-                            <div class="about_new_docotr_subtitle">Prosthodontist and Implantologist</div>
-                            <div class="about_new_docotr_subtitle_line"></div>
-
-                            <div class="about_new_docotr_tooth_outline">
-                                <i class="fa-solid fa-tooth"></i>
-                            </div>
-
-                            <div class="about_new_docotr_text">
-                                Worked as professor and post graduate guide at Rajiv Gandhi University of Health Sciences, Bangalore.
-                            </div>
-
-                            <div class="about_new_docotr_text">
-                                Dr Reddy graduated from KLE Society’s Institute of Dental Sciences, Bangalore in 2001.
-                            </div>
-
-                            <div class="about_new_docotr_text">
-                                He completed his masters from JSS Dental College Mysore in 2007.
-                            </div>
-
-                            <div class="about_new_docotr_text">
-                                He loves to serve the community through his expertise and experience.
-                            </div>
-
-                            <div class="about_new_docotr_text mb-0">
-                                Dr Reddy believes every individual is special and gets their concerns addressed with utmost care.
-                            </div>
-
-                            <!-- <div class="about_new_docotr_quote">
-          More Than Dentistry<br>A Healthier<br>You"
-        </div> -->
-
-                            <div class="about_new_docotr_stats">
-                                <div class="about_new_docotr_stats_top">
-                                    <div class="about_new_docotr_stat_top_item">
-                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                                        <div>
-                                            <p class="about_new_docotr_stat_label">Graduation</p>
-                                            <p class="about_new_docotr_stat_value">2001</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="about_new_docotr_stat_top_item">
-                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                                        <div>
-                                            <p class="about_new_docotr_stat_label">Post Graduate</p>
-                                            <p class="about_new_docotr_stat_value">2003</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="about_new_docotr_stats_bottom">
-                                    <div class="about_new_docotr_exp">
-                                        <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-briefcase-medical"></i></div>
-                                        <div>
-                                            <p class="about_new_docotr_stat_label">Experience</p>
-                                            <p class="about_new_docotr_stat_value">24 years</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="about_new_docotr_dedicated">
-                                        <div class="about_new_docotr_dedicated_icon"><i class="fa-solid fa-tooth"></i></div>
-                                        <div class="about_new_docotr_dedicated_text">
-                                            Dedicated To<br>Lifelong Oral Health
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="about_new_docotr_kicker">
+                    Our Doctor
                 </div>
-            </section>
+
+
+                <h2 class="about_new_docotr_title">
+                    Dr. (Prof) Chiranjeevi<br>
+                    Reddy
+                </h2>
+
+
+                <div class="about_new_docotr_subtitle">
+                    Prosthodontist and Implantologist
+                </div>
+
+
+                <div class="about_new_docotr_subtitle_line"></div>
+
+
+                <!-- Faded Tooth Background -->
+                <div class="about_new_docotr_tooth_outline">
+                    <i class="fa-solid fa-tooth"></i>
+                </div>
+
+
+                <div class="about_new_docotr_text">
+                    Worked as professor and post graduate guide at
+                    Rajiv Gandhi University of Health Sciences, Bangalore.
+                </div>
+
+
+                <div class="about_new_docotr_text">
+                    Dr Reddy graduated from KLE Society’s Institute
+                    of Dental Sciences, Bangalore in 2001.
+                </div>
+
+
+                <div class="about_new_docotr_text">
+                    He completed his masters from JSS Dental College
+                    Mysore in 2007.
+                </div>
+
+
+                <div class="about_new_docotr_text">
+                    He loves to serve the community through his
+                    expertise and experience.
+                </div>
+
+
+                <div class="about_new_docotr_text mb-0">
+                    Dr Reddy believes every individual is special and
+                    gets their concerns addressed with utmost care.
+                </div>
+
+
+
+                <!-- =================================================
+                     STATS
+                ================================================== -->
+
+                <div class="about_new_docotr_stats">
+
+
+                    <!-- TOP STATS -->
+
+                    <div class="about_new_docotr_stats_top">
+
+
+                        <!-- Graduation -->
+
+                        <div class="about_new_docotr_stat_top_item">
+
+                            <div class="about_new_docotr_stat_icon">
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="about_new_docotr_stat_label">
+                                    Graduation
+                                </p>
+
+                                <p class="about_new_docotr_stat_value">
+                                    2001
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Post Graduate -->
+
+                        <div class="about_new_docotr_stat_top_item">
+
+                            <div class="about_new_docotr_stat_icon">
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="about_new_docotr_stat_label">
+                                    Post Graduate
+                                </p>
+
+                                <p class="about_new_docotr_stat_value">
+                                    2003
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- BOTTOM STATS -->
+
+                    <div class="about_new_docotr_stats_bottom">
+
+
+                        <!-- Experience -->
+
+                        <div class="about_new_docotr_exp">
+
+                            <div class="about_new_docotr_stat_icon">
+
+                                <i class="fa-solid fa-briefcase-medical"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <p class="about_new_docotr_stat_label">
+                                    Experience
+                                </p>
+
+                                <p class="about_new_docotr_stat_value">
+                                    24 years
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Dedicated -->
+
+                        <div class="about_new_docotr_dedicated">
+
+                            <div class="about_new_docotr_dedicated_icon">
+
+                                <i class="fa-solid fa-tooth"></i>
+
+                            </div>
+
+
+                            <div class="about_new_docotr_dedicated_text">
+
+                                Dedicated To<br>
+                                Lifelong Oral Health
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =====================================================
+                 RIGHT IMAGE CARD
+            ====================================================== -->
+
+            <div class="col-12 col-xl-6 about_new_docotr_left">
+
+                <div class="about_new_docotr_left_card">
+
+
+                    <!-- SIDE GREEN PANEL -->
+
+                    <div class="about_new_docotr_sidepanel">
+
+
+                        <div>
+
+                            <div class="about_new_docotr_side_script">
+
+                                Healthy<br>
+                                Smiles<br>
+                                Brighter<br>
+                                Futures
+
+                            </div>
+
+
+                            <div class="about_new_docotr_side_divider"></div>
+
+                        </div>
+
+
+
+                        <!-- BADGES -->
+
+                        <div class="about_new_docotr_badges">
+
+
+                            <!-- Experience -->
+
+                            <div class="about_new_docotr_badge">
+
+                                <div class="about_new_docotr_badge_icon">
+
+                                    <i class="fa-solid fa-tooth"></i>
+
+                                </div>
+
+
+                                <div class="about_new_docotr_badge_text">
+
+                                    Experience<br>
+                                    You Can Trust
+
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- All Ages -->
+
+                            <div class="about_new_docotr_badge">
+
+                                <div class="about_new_docotr_badge_icon">
+
+                                    <i class="fa-solid fa-users"></i>
+
+                                </div>
+
+
+                                <div class="about_new_docotr_badge_text">
+
+                                    Care For<br>
+                                    All Ages
+
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- Better Smiles -->
+
+                            <div class="about_new_docotr_badge">
+
+                                <div class="about_new_docotr_badge_icon">
+
+                                    <i class="fa-solid fa-heart"></i>
+
+                                </div>
+
+
+                                <div class="about_new_docotr_badge_text">
+
+                                    Committed<br>
+                                    To Better Smiles
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DOCTOR IMAGE -->
+
+                    <div class="about_new_docotr_photo_wrap">
+
+                        <img
+                            src="assets/img/00.png"
+                            alt="Dr. Chiranjeevi Reddy"
+                            class="about_new_docotr_photo"
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="about_new_docotr_dotgrid"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
 
 
             <section class="about_new_docotr_section">
