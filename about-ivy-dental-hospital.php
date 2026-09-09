@@ -6,7 +6,7 @@
     <img src="./assets/img/bg/about_bg.png" alt="" class="img-fluid">
 
 <!-- new section  -->
-   <section class="about_new_section">
+   <!-- <section class="about_new_section">
         <div class="about-mobile" aria-hidden="false">
             <div class="about-mobile-orbit"></div>
 
@@ -76,7 +76,7 @@
         <div class="container-fluid p-0">
             <svg class="about-svg" viewBox="0 0 1600 533" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About Us banner">
                 <defs>
-                    <!-- background -->
+                    
                     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="533" gradientUnits="userSpaceOnUse">
                         <stop offset="0" stop-color="#E8EFE4" />
                         <stop offset="0.32" stop-color="#F8F8F1" />
@@ -118,7 +118,7 @@
                         <stop stop-color="#FFFFFF" stop-opacity="0.30" />
                         <stop offset="1" stop-color="#C8D8CA" stop-opacity="0.13" />
                     </radialGradient>
-                    <!-- tooth -->
+                  
                     <linearGradient id="toothFill" x1="1194" y1="77" x2="1336" y2="273" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#FFFFFF" />
                         <stop offset="0.35" stop-color="#FBFBF5" />
@@ -133,7 +133,7 @@
                         <stop stop-color="#FFFFFF" stop-opacity="0.95" />
                         <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
                     </radialGradient>
-                    <!-- filters -->
+                  
                     <filter id="blur12" x="-30%" y="-30%" width="160%" height="160%">
                         <feGaussianBlur stdDeviation="12" />
                     </filter>
@@ -155,40 +155,40 @@
                     </filter>
                 </defs>
 
-                <!-- BASE -->
+               
                 <rect width="1600" height="533" fill="url(#bg)" />
 
-                <!-- LEFT layered dark green shapes -->
+               
                 <path d="M0 0H354C310 34 272 78 245 126C216 177 196 214 158 254C113 301 61 317 0 321V0Z" fill="url(#leftDark)" />
                 <path d="M0 0H167C149 72 113 122 55 165C34 180 18 193 0 208V0Z" fill="#0A4936" fill-opacity="0.46" />
                 <path d="M0 0H86C78 59 47 113 0 150V0Z" fill="#245E4A" fill-opacity="0.35" />
                 <path d="M0 0H143C145 37 138 71 119 100C96 135 61 163 0 194V0Z" fill="#1E5A45" fill-opacity="0.32" />
 
-                <!-- MAIN LARGE CREAM ELLIPTICAL BODY -->
+                
                 <ellipse cx="875" cy="113" rx="793" ry="412" fill="url(#creamGlow)" stroke="#FFFFFF" stroke-opacity="0.44" />
 
-                <!-- RIGHT transparent bubble -->
+                
                 <ellipse cx="1497" cy="63" rx="299" ry="199" fill="url(#bubble)" stroke="#FFFFFF" stroke-opacity="0.42" />
                 <ellipse cx="1514" cy="44" rx="216" ry="141" fill="#F7F8F2" fill-opacity="0.16" />
 
-                <!-- subtle foreground glow -->
+               
                 <ellipse cx="680" cy="314" rx="604" ry="199" fill="#FFFFFF" fill-opacity="0.12" filter="url(#blur12)" />
 
-                <!-- gold orbital line -->
+                
                 <ellipse cx="711" cy="122" rx="625" ry="406" transform="rotate(-8 711 122)" fill="none" stroke="#B78631" stroke-opacity="0.76" stroke-width="1.6" />
 
-                <!-- orbit light points -->
+               
                 <circle cx="111" cy="177" r="4.5" fill="#FFFBE0" filter="url(#glow)" />
                 <circle cx="111" cy="177" r="10" fill="#E7C871" fill-opacity="0.20" filter="url(#blur4)" />
                 <circle cx="1361" cy="214" r="4.2" fill="#FFFBE2" filter="url(#glow)" />
                 <circle cx="1361" cy="214" r="10" fill="#E7C871" fill-opacity="0.20" filter="url(#blur4)" />
 
-                <!-- LEFT GLASS CIRCLE -->
+               
                 <circle cx="174" cy="228" r="96" fill="url(#glass)" stroke="#388148" stroke-opacity="0.70" />
                 <circle cx="174" cy="228" r="97" fill="none" stroke="#0c0c0c" stroke-opacity="0.32" />
                 <circle cx="174" cy="228" r="85" fill="#FFFFFF" fill-opacity="0.035" />
 
-                <!-- left text -->
+              
                 <text x="174" y="177" text-anchor="middle" fill="#1E4E3B" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="4.3">
                     <tspan x="174" dy="0">A</tspan>
                     <tspan x="174" dy="23">HEALTHIER</tspan>
@@ -198,24 +198,24 @@
                 </text>
                 <line x1="151" y1="286" x2="197" y2="286" stroke="#B68736" stroke-width="1.2" />
 
-                <!-- TOP CENTER KICKER -->
+               
                 <line x1="620" y1="128" x2="688" y2="128" stroke="#B98731" stroke-width="1.8" />
                 <text x="810" y="134" text-anchor="middle" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="9">WHO WE ARE</text>
                 <line x1="934" y1="128" x2="1000" y2="128" stroke="#B98731" stroke-width="1.8" />
 
-                <!-- ABOUT US title -->
+                
                 <text x="804" y="263" text-anchor="middle" fill="url(#titleGrad)" filter="url(#textShadow)" font-family="Cormorant Garamond, Georgia, serif" font-size="142" font-weight="700" letter-spacing="-7">About Us</text>
 
-                <!-- title divider -->
+                
                 <line x1="650" y1="307" x2="778" y2="307" stroke="#B98B3F" stroke-width="1.3" />
                 <line x1="836" y1="307" x2="965" y2="307" stroke="#B98B3F" stroke-width="1.3" />
 
-                <!-- small tooth under title -->
+               
                 <g transform="translate(787 289) scale(.32)">
                     <path d="M46 7C30 15 26 34 31 54C37 75 47 88 52 105C57 125 64 139 72 112L79 82C81 72 89 72 91 82L98 112C106 139 113 125 118 105C123 88 133 75 139 54C144 34 140 15 124 7C109 -1 98 7 87 13C80 17 74 17 67 13C56 7 61 -1 46 7Z" fill="none" stroke="#B98B3F" stroke-width="8" stroke-linejoin="round" />
                 </g>
 
-                <!-- bottom words -->
+                
                 <text x="561" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">PEOPLE</text>
                 <line x1="671" y1="343" x2="671" y2="362" stroke="#A9864F" stroke-width="1" />
                 <text x="701" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">CARE</text>
@@ -224,7 +224,7 @@
                 <line x1="935" y1="343" x2="935" y2="362" stroke="#A9864F" stroke-width="1" />
                 <text x="971" y="357" fill="#174A39" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">ALWAYS</text>
 
-                <!-- RIGHT TEXT -->
+             
                 <text x="1427" y="79" fill="#31493F" font-family="Montserrat, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="4.5">
                     <tspan x="1427" dy="0">TRUSTED</tspan>
                     <tspan x="1427" dy="22">DENTAL CARE</tspan>
@@ -233,7 +233,7 @@
                 </text>
                 <line x1="1429" y1="163" x2="1479" y2="163" stroke="#B7893B" stroke-width="1.2" />
 
-                <!-- TOOTH -->
+                
                 <g filter="url(#shadow)">
                     <path d="M1217 85C1196 97 1186 120 1191 149C1196 177 1212 195 1221 217C1234 249 1234 286 1248 301C1258 312 1267 297 1271 277L1279 239C1281 227 1291 227 1294 239L1303 278C1307 298 1317 312 1327 300C1340 284 1341 249 1353 217C1362 195 1378 177 1383 149C1388 120 1378 97 1357 85C1337 74 1319 83 1303 91C1292 96 1281 96 1270 91C1254 83 1237 74 1217 85Z" fill="url(#toothFill)" stroke="url(#toothEdge)" stroke-width="2.2" />
                     <path d="M1210 114C1226 95 1243 100 1261 109C1273 115 1287 116 1301 108C1319 98 1337 96 1356 114" fill="none" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="8" stroke-linecap="round" />
@@ -241,17 +241,17 @@
                     <ellipse cx="1245" cy="115" rx="55" ry="43" fill="url(#toothHighlight)" />
                 </g>
 
-                <!-- lower sage wave -->
+                
                 <path d="M106 472C312 447 492 443 679 462C852 479 1009 495 1198 466C1322 447 1454 427 1600 408V533H0V495C34 489 69 480 106 472Z" fill="url(#sageWave)" />
 
-                <!-- white foreground wave -->
+               
                 <path d="M0 456C192 459 363 477 535 481C752 486 960 487 1164 472C1337 459 1474 425 1600 389V533H0V456Z" fill="#FFFEF9" stroke="#FFFFFF" stroke-width="3" />
 
-                <!-- bottom subtle white rim -->
+                
                 <path d="M0 458C192 462 362 479 536 483C757 488 962 488 1166 474C1339 461 1475 428 1600 392" fill="none" stroke="#F8FAF4" stroke-width="5" stroke-opacity=".8" />
             </svg>
         </div>
-    </section>
+    </section> -->
 
 
 
