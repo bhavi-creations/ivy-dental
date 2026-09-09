@@ -99,8 +99,8 @@
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                <img src="assets/img/service/rootcanal.png" class="hero-img img-fluid"
-                                    alt="Root canal treatment">
+                                                                <img src="assets/img/service/dental_braces.png" alt="Image">
+
 
                             </div>
                         </div>
@@ -155,7 +155,8 @@
                         <div class="col-12 col-lg-5">
                             <div class="tooth-card">
                                 <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
-                                <img src="assets/img/home/root canal.png" alt="Image">
+                                                                        <img src="assets/img/home/braces.png" alt="Image">
+
                             </div>
                         </div>
                     </div>
