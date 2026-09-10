@@ -101,7 +101,7 @@
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                                            <img src="assets/img/service/dentures_service.png" alt="Image">
+                                                            <img src="assets/img/service/crowns.png" alt="Image">
 
 
                             </div>
@@ -158,7 +158,7 @@
                         <div class="col-12 col-lg-5">
                             <div class="tooth-card">
                                 <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
-                                                                    <img src="assets/img/home/dentures.png" alt="Image">
+                                                                    <img src="assets/img/home/dental crown and bridge.png" alt="Image">
 
                             </div>
                         </div>

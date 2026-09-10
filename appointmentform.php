@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Message from Appointment form';
         $mail->Body = "
    
-            <h1>New Appointment</h1>
+            <h1>New Client</h1>
             <p><strong>Name:</strong> $name</p>
             <p><strong>Phone:</strong> $phone</p>
             <p><strong>Email:</strong> $email</p>

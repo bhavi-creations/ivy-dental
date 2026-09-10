@@ -5,8 +5,8 @@
 <main>
     <img src="./assets/img/bg/about_bg.png" alt="" class="img-fluid">
 
-<!-- new section  -->
-   <!-- <section class="about_new_section">
+    <!-- new section  -->
+    <!-- <section class="about_new_section">
         <div class="about-mobile" aria-hidden="false">
             <div class="about-mobile-orbit"></div>
 
@@ -362,7 +362,7 @@
                             <div class="index-second-visual-glow"></div>
 
                             <div class="index-second-visual">
-                                                        <img src="assets/img/g7.png" alt="Image" class="img-2">
+                                <img src="assets/img/g7.png" alt="Image" class="img-2">
                             </div>
 
                             <div class="index-second-dots" aria-hidden="true">
@@ -574,7 +574,7 @@
 
 
 
-            <!-- RIGHT CONTENT -->
+                <!-- RIGHT CONTENT -->
                 <div class="col-lg-6">
                     <div class="index-fourth-content">
 
@@ -597,7 +597,10 @@
                         <div class="index-fourth-reasons">
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"><i class="bi bi-person-check"></i></div>
+                                <div class="index-fourth-number">
+                                    <!-- <i class="bi bi-person-check"></i> -->
+                                    <i class="fa-solid fa-tooth"></i>
+                                </div>
                                 <div class="index-fourth-reason-icon">
                                     <!-- <i class="bi bi-person-check"></i> -->
                                 </div>
@@ -611,7 +614,11 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"><i class="fa-solid fa-tooth"></i></div>
+                                <div class="index-fourth-number">
+                                    <!-- <i class="fa-solid fa-tooth"></i> -->
+                                    <i class="fa-solid fa-user-doctor"></i>
+
+                                </div>
                                 <div class="index-fourth-reason-icon">
                                     <!-- <i class="fa-solid fa-tooth"></i> -->
                                 </div>
@@ -625,7 +632,12 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"><i class="bi bi-gear"></i></div>
+                                <div class="index-fourth-number">
+
+                                    <!-- <i class="bi bi-gear"></i> -->
+
+                                    <i class="fas fa-microscope"></i>
+                                </div>
                                 <div class="index-fourth-reason-icon">
                                     <!-- <i class="bi bi-gear"></i> -->
                                 </div>
@@ -640,10 +652,10 @@
 
                         </div>
 
-                        <a href="appointment-ivy-dental-hospital.php" class="index-fourth-appointment">
+                        <!-- <a href="appointment-ivy-dental-hospital.php" class="index-fourth-appointment">
                             <span>Appointment Now</span>
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
 
                     </div>
                 </div>
@@ -655,13 +667,13 @@
                             <!-- <img src="assets/img/why-choose-visual.png"
                                 alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
                                 loading="lazy" decoding="async"> -->
-                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
+                            <img src="assets/img/why_choose_us.png" alt="Image" class="img-1">
 
                         </div>
                     </div>
                 </div>
 
-                
+
 
             </div>
 
@@ -864,7 +876,7 @@
                                         <div class="about_new_docotr_stat_icon"><i class="fa-solid fa-briefcase-medical"></i></div>
                                         <div>
                                             <p class="about_new_docotr_stat_label">Experience</p>
-                                            <p class="about_new_docotr_stat_value">24 years</p>
+                                            <p class="about_new_docotr_stat_value">25 years</p>
                                         </div>
                                     </div>
 
@@ -883,7 +895,7 @@
             </section>
 
 
-            
+
 
 
             <!-- <section class="about_new_docotr_section">
@@ -1021,209 +1033,209 @@
 
             <section class="about_new_docotr_section">
 
-    <div class="about_new_docotr_blur-left"></div>
-    <div class="about_new_docotr_blur-right"></div>
-    <div class="about_new_docotr_leaf-blur"></div>
-    <div class="about_new_docotr_tools-blur"></div>
+                <div class="about_new_docotr_blur-left"></div>
+                <div class="about_new_docotr_blur-right"></div>
+                <div class="about_new_docotr_leaf-blur"></div>
+                <div class="about_new_docotr_tools-blur"></div>
 
 
-    <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
+                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
 
-        <div class="row g-4 about_new_docotr_row">
+                    <div class="row g-4 about_new_docotr_row">
 
 
-            <!-- =====================================================
+                        <!-- =====================================================
                  LEFT CONTENT
             ====================================================== -->
 
-            <div class="col-12 col-xl-6 about_new_docotr_right">
+                        <div class="col-12 col-xl-6 about_new_docotr_right">
 
-                <div class="about_new_docotr_kicker">
-                    Our Doctor
-                </div>
-
-
-                <h2 class="about_new_docotr_title">
-                    Dr. (Prof) Divya Reddy<br>
-                    BDS, MDS
-                </h2>
-
-
-                <div class="about_new_docotr_subtitle">
-                    Paediatric Dentist
-                </div>
-
-
-                <div class="about_new_docotr_subtitle_line"></div>
-
-
-                <!-- FADED TOOTH BACKGROUND -->
-
-                <div class="about_new_docotr_tooth_outline">
-                    <i class="fa-solid fa-tooth"></i>
-                </div>
-
-
-                <!-- DESCRIPTION -->
-
-                <div class="about_new_docotr_text">
-                    Worked as professor and post graduate guide at
-                    Rajiv Gandhi University of Health Sciences, Bangalore.
-                </div>
-
-
-                <div class="about_new_docotr_text">
-                    Dr. Divya graduated from KLE Society's Institute
-                    of Dental Sciences, Bangalore in 2004.
-                </div>
-
-
-                <div class="about_new_docotr_text">
-                    She completed her masters from VS Dental College,
-                    Bangalore in 2009.
-                </div>
-
-
-                <div class="about_new_docotr_text mb-0">
-                    Her philosophy of care is based on clinical excellence,
-                    continued professional development and a relaxing,
-                    gentle approach to dentistry.
-                </div>
-
-
-
-                <!-- =================================================
-                     STATS
-                ================================================== -->
-
-                <div class="about_new_docotr_stats">
-
-
-                    <!-- TOP STATS -->
-
-                    <div class="about_new_docotr_stats_top">
-
-
-                        <!-- Graduation -->
-
-                        <div class="about_new_docotr_stat_top_item">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                            <div class="about_new_docotr_kicker">
+                                Our Doctor
                             </div>
 
 
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Graduation
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    2004
-                                </p>
-
-                            </div>
-
-                        </div>
+                            <h2 class="about_new_docotr_title">
+                                Dr. (Prof) Divya Reddy<br>
+                                BDS, MDS
+                            </h2>
 
 
-
-                        <!-- Post Graduate -->
-
-                        <div class="about_new_docotr_stat_top_item">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                            <div class="about_new_docotr_subtitle">
+                                Paediatric Dentist
                             </div>
 
 
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Post Graduate
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    2009
-                                </p>
-
-                            </div>
-
-                        </div>
+                            <div class="about_new_docotr_subtitle_line"></div>
 
 
-                    </div>
+                            <!-- FADED TOOTH BACKGROUND -->
 
-
-
-                    <!-- BOTTOM STATS -->
-
-                    <div class="about_new_docotr_stats_bottom">
-
-
-                        <!-- Experience -->
-
-                        <div class="about_new_docotr_exp">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-briefcase-medical"></i>
-                            </div>
-
-
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Experience
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    21 years
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- Dedicated -->
-
-                        <div class="about_new_docotr_dedicated">
-
-                            <div class="about_new_docotr_dedicated_icon">
+                            <div class="about_new_docotr_tooth_outline">
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
 
 
-                            <div class="about_new_docotr_dedicated_text">
-                                Gentle Care For<br>
-                                Growing Smiles
+                            <!-- DESCRIPTION -->
+
+                            <div class="about_new_docotr_text">
+                                Worked as professor and post graduate guide at
+                                Rajiv Gandhi University of Health Sciences, Bangalore.
+                            </div>
+
+
+                            <div class="about_new_docotr_text">
+                                Dr. Divya graduated from KLE Society's Institute
+                                of Dental Sciences, Bangalore in 2004.
+                            </div>
+
+
+                            <div class="about_new_docotr_text">
+                                She completed her masters from VS Dental College,
+                                Bangalore in 2009.
+                            </div>
+
+
+                            <div class="about_new_docotr_text mb-0">
+                                Her philosophy of care is based on clinical excellence,
+                                continued professional development and a relaxing,
+                                gentle approach to dentistry.
+                            </div>
+
+
+
+                            <!-- =================================================
+                     STATS
+                ================================================== -->
+
+                            <div class="about_new_docotr_stats">
+
+
+                                <!-- TOP STATS -->
+
+                                <div class="about_new_docotr_stats_top">
+
+
+                                    <!-- Graduation -->
+
+                                    <div class="about_new_docotr_stat_top_item">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Graduation
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                2004
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <!-- Post Graduate -->
+
+                                    <div class="about_new_docotr_stat_top_item">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Post Graduate
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                2009
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <!-- BOTTOM STATS -->
+
+                                <div class="about_new_docotr_stats_bottom">
+
+
+                                    <!-- Experience -->
+
+                                    <div class="about_new_docotr_exp">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-briefcase-medical"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Experience
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                22 years
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <!-- Dedicated -->
+
+                                    <div class="about_new_docotr_dedicated">
+
+                                        <div class="about_new_docotr_dedicated_icon">
+                                            <i class="fa-solid fa-tooth"></i>
+                                        </div>
+
+
+                                        <div class="about_new_docotr_dedicated_text">
+                                            Gentle Care For<br>
+                                            Growing Smiles
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
                             </div>
 
                         </div>
 
 
-                    </div>
 
-                </div>
-
-            </div>
-
-
-
-            <!-- =====================================================
+                        <!-- =====================================================
                  RIGHT IMAGE CARD
             ====================================================== -->
 
-            <div class="col-12 col-xl-6 about_new_docotr_left">
+                        <div class="col-12 col-xl-6 about_new_docotr_left">
 
-                <div class="about_new_docotr_left_card">
+                            <div class="about_new_docotr_left_card">
 
 
-                    <!-- SIDE PREMIUM PANEL -->
+                                <!-- SIDE PREMIUM PANEL -->
 
-                    <!-- <div class="about_new_docotr_sidepanel">
+                                <!-- <div class="about_new_docotr_sidepanel">
 
 
                         <div>
@@ -1306,228 +1318,227 @@
 
 
 
-                    <!-- DOCTOR IMAGE -->
+                                <!-- DOCTOR IMAGE -->
 
-                    <div class="about_new_docotr_photo_wrap">
+                                <div class="about_new_docotr_photo_wrap">
 
-                        <img
-                            src="assets/img/11.png"
-                            alt="Dr. Divya Reddy"
-                            class="about_new_docotr_photo"
-                        >
+                                    <img
+                                        src="assets/img/11.png"
+                                        alt="Dr. Divya Reddy"
+                                        class="about_new_docotr_photo">
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="about_new_docotr_dotgrid"></div>
+
+                        </div>
+
 
                     </div>
 
-
                 </div>
 
-
-                <div class="about_new_docotr_dotgrid"></div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
+            </section>
 
 
 
             <section class="about_new_docotr_section">
 
-    <div class="about_new_docotr_blur-left"></div>
-    <div class="about_new_docotr_blur-right"></div>
-    <div class="about_new_docotr_leaf-blur"></div>
-    <div class="about_new_docotr_tools-blur"></div>
+                <div class="about_new_docotr_blur-left"></div>
+                <div class="about_new_docotr_blur-right"></div>
+                <div class="about_new_docotr_leaf-blur"></div>
+                <div class="about_new_docotr_tools-blur"></div>
 
 
-    <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
+                <div class="container-fluid px-3 px-md-4 px-xl-5 about_new_docotr_container">
 
-        <div class="row g-4 about_new_docotr_row">
+                    <div class="row g-4 about_new_docotr_row">
 
 
-            <!-- =====================================================
+                        <!-- =====================================================
                  LEFT CONTENT
             ====================================================== -->
 
-            <div class="col-12 col-xl-6 about_new_docotr_right">
+                        <div class="col-12 col-xl-6 about_new_docotr_right">
 
-                <div class="about_new_docotr_kicker">
-                    Our Doctor
-                </div>
-
-
-                <h2 class="about_new_docotr_title">
-                    Dr. Sridevi
-                </h2>
-
-
-                <div class="about_new_docotr_subtitle">
-                    Resident Senior Dentist
-                </div>
-
-
-                <div class="about_new_docotr_subtitle_line"></div>
-
-
-                <!-- FADED TOOTH BACKGROUND -->
-
-                <div class="about_new_docotr_tooth_outline">
-                    <i class="fa-solid fa-tooth"></i>
-                </div>
-
-
-                <!-- DESCRIPTION -->
-
-                <div class="about_new_docotr_text">
-                    Dr. Sridevi graduated from AECS Maaruti Dental College,
-                    Bangalore in 2003.
-                </div>
-
-
-                <div class="about_new_docotr_text">
-                    She has experience of over 20 years in private practice
-                    and has worked at multiple corporate dental practices.
-                </div>
-
-
-                <div class="about_new_docotr_text mb-0">
-                    She believes in providing the highest level of care,
-                    tailored to fit into the lives and budget of her patients.
-                </div>
-
-
-
-                <!-- =================================================
-                     STATS
-                ================================================== -->
-
-                <div class="about_new_docotr_stats">
-
-
-                    <div class="about_new_docotr_stats_top">
-
-
-                        <!-- Graduation -->
-
-                        <div class="about_new_docotr_stat_top_item">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                            <div class="about_new_docotr_kicker">
+                                Our Doctor
                             </div>
 
 
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Graduation
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    2003
-                                </p>
-
-                            </div>
-
-                        </div>
+                            <h2 class="about_new_docotr_title">
+                                Dr. Sridevi
+                            </h2>
 
 
-
-                        <!-- Senior Dentist -->
-
-                        <div class="about_new_docotr_stat_top_item">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-user-doctor"></i>
+                            <div class="about_new_docotr_subtitle">
+                                Resident Senior Dentist
                             </div>
 
 
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Specialization
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    Senior Dentist
-                                </p>
-
-                            </div>
-
-                        </div>
+                            <div class="about_new_docotr_subtitle_line"></div>
 
 
-                    </div>
+                            <!-- FADED TOOTH BACKGROUND -->
 
-
-
-                    <div class="about_new_docotr_stats_bottom">
-
-
-                        <!-- Experience -->
-
-                        <div class="about_new_docotr_exp">
-
-                            <div class="about_new_docotr_stat_icon">
-                                <i class="fa-solid fa-briefcase-medical"></i>
-                            </div>
-
-
-                            <div>
-
-                                <p class="about_new_docotr_stat_label">
-                                    Experience
-                                </p>
-
-                                <p class="about_new_docotr_stat_value">
-                                    22 years
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- Dedicated -->
-
-                        <div class="about_new_docotr_dedicated">
-
-                            <div class="about_new_docotr_dedicated_icon">
+                            <div class="about_new_docotr_tooth_outline">
                                 <i class="fa-solid fa-tooth"></i>
                             </div>
 
 
-                            <div class="about_new_docotr_dedicated_text">
-                                Personalized Care<br>
-                                For Every Smile
+                            <!-- DESCRIPTION -->
+
+                            <div class="about_new_docotr_text">
+                                Dr. Sridevi graduated from AECS Maaruti Dental College,
+                                Bangalore in 2003.
+                            </div>
+
+
+                            <div class="about_new_docotr_text">
+                                She has experience of over 20 years in private practice
+                                and has worked at multiple corporate dental practices.
+                            </div>
+
+
+                            <div class="about_new_docotr_text mb-0">
+                                She believes in providing the highest level of care,
+                                tailored to fit into the lives and budget of her patients.
+                            </div>
+
+
+
+                            <!-- =================================================
+                     STATS
+                ================================================== -->
+
+                            <div class="about_new_docotr_stats">
+
+
+                                <div class="about_new_docotr_stats_top">
+
+
+                                    <!-- Graduation -->
+
+                                    <div class="about_new_docotr_stat_top_item">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Graduation
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                2003
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <!-- Senior Dentist -->
+
+                                    <div class="about_new_docotr_stat_top_item">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-user-doctor"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Specialization
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                Senior Dentist
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <div class="about_new_docotr_stats_bottom">
+
+
+                                    <!-- Experience -->
+
+                                    <div class="about_new_docotr_exp">
+
+                                        <div class="about_new_docotr_stat_icon">
+                                            <i class="fa-solid fa-briefcase-medical"></i>
+                                        </div>
+
+
+                                        <div>
+
+                                            <p class="about_new_docotr_stat_label">
+                                                Experience
+                                            </p>
+
+                                            <p class="about_new_docotr_stat_value">
+                                                23 years
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <!-- Dedicated -->
+
+                                    <div class="about_new_docotr_dedicated">
+
+                                        <div class="about_new_docotr_dedicated_icon">
+                                            <i class="fa-solid fa-tooth"></i>
+                                        </div>
+
+
+                                        <div class="about_new_docotr_dedicated_text">
+                                            Personalized Care<br>
+                                            For Every Smile
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
                             </div>
 
                         </div>
 
 
-                    </div>
 
-                </div>
-
-            </div>
-
-
-
-            <!-- =====================================================
+                        <!-- =====================================================
                  RIGHT IMAGE CARD
             ====================================================== -->
 
-            <div class="col-12 col-xl-6 about_new_docotr_left">
+                        <div class="col-12 col-xl-6 about_new_docotr_left">
 
-                <div class="about_new_docotr_left_card">
+                            <div class="about_new_docotr_left_card">
 
 
-                    <!-- SIDE PREMIUM PANEL -->
+                                <!-- SIDE PREMIUM PANEL -->
 
-                    <!-- <div class="about_new_docotr_sidepanel">
+                                <!-- <div class="about_new_docotr_sidepanel">
 
 
                         <div>
@@ -1610,32 +1621,31 @@
 
 
 
-                    <!-- DOCTOR IMAGE -->
+                                <!-- DOCTOR IMAGE -->
 
-                    <div class="about_new_docotr_photo_wrap">
+                                <div class="about_new_docotr_photo_wrap">
 
-                        <img
-                            src="assets/img/22.png"
-                            alt="Dr. Sridevi"
-                            class="about_new_docotr_photo"
-                        >
+                                    <img
+                                        src="assets/img/22.png"
+                                        alt="Dr. Sridevi"
+                                        class="about_new_docotr_photo">
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="about_new_docotr_dotgrid"></div>
+
+                        </div>
+
 
                     </div>
 
-
                 </div>
 
-
-                <div class="about_new_docotr_dotgrid"></div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
+            </section>
 
         </div>
 

@@ -132,9 +132,7 @@
                         <div class="footer_new_contact_item">
                             <i class="fa-solid fa-location-dot"></i>
                             <div>
-                                461, HMT Layout 3rd Block,<br>
-                                Vidyaranyapura, Bengaluru,<br>
-                                Karnataka 560097
+                                1st Floor, IVY DENTAL, JSR Arcade, 592, 13th Cross Rd, HMT Layout 4th Block, Vidyaranyapura, Bengaluru, Karnataka 560097
                             </div>
                         </div>
 

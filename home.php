@@ -529,7 +529,7 @@
 
                                         <div class="index-first-feature-icon">
 
-                                             <i class="fas fa-smile"></i>
+                                            <i class="fas fa-smile"></i>
 
                                         </div>
 
@@ -2149,7 +2149,7 @@
                             <!-- <img src="assets/img/why-choose-visual.png"
                                 alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
                                 loading="lazy" decoding="async"> -->
-                            <img src="assets/img/g8.png" alt="Image" class="img-1">
+                            <img src="assets/img/why_choose_us.png" alt="Image" class="img-1">
 
                         </div>
                     </div>
@@ -2178,7 +2178,11 @@
                         <div class="index-fourth-reasons">
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"><i class="bi bi-person-check"></i></div>
+                                <div class="index-fourth-number">
+
+                                    <!-- <i class="bi bi-person-check"></i> -->
+                                    <i class="fa-solid fa-tooth"></i>
+                                </div>
                                 <div class="index-fourth-reason-icon">
 
                                 </div>
@@ -2192,7 +2196,12 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"><i class="fa-solid fa-tooth"></i></div>
+                                <div class="index-fourth-number">
+
+
+
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                </div>
                                 <div class="index-fourth-reason-icon">
 
                                 </div>
@@ -2206,7 +2215,10 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number"> <i class="bi bi-gear"></i></div>
+                                <div class="index-fourth-number">
+                                    <!-- <i class="bi bi-gear"></i> -->
+                                    <i class="fas fa-microscope"></i>
+                                </div>
                                 <div class="index-fourth-reason-icon">
 
                                 </div>
