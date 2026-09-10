@@ -362,7 +362,7 @@
                             <div class="index-second-visual-glow"></div>
 
                             <div class="index-second-visual">
-                                                        <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
+                                                        <img src="assets/img/g7.png" alt="Image" class="img-2">
                             </div>
 
                             <div class="index-second-dots" aria-hidden="true">
@@ -572,20 +572,9 @@
 
             <div class="row index-fourth-row g-lg-5">
 
-                <!-- LEFT VISUAL -->
-                <div class="col-lg-6">
-                    <div class="index-fourth-visual-wrap">
-                        <div class="index-fourth-visual">
-                            <!-- <img src="assets/img/why-choose-visual.png"
-                                alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
-                                loading="lazy" decoding="async"> -->
-                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
 
-                        </div>
-                    </div>
-                </div>
 
-                <!-- RIGHT CONTENT -->
+            <!-- RIGHT CONTENT -->
                 <div class="col-lg-6">
                     <div class="index-fourth-content">
 
@@ -658,6 +647,21 @@
 
                     </div>
                 </div>
+
+                <!-- LEFT VISUAL -->
+                <div class="col-lg-6">
+                    <div class="index-fourth-visual-wrap">
+                        <div class="index-fourth-visual">
+                            <!-- <img src="assets/img/why-choose-visual.png"
+                                alt="Premium Ivy Dental clinic interior with dental chair and modern dental care visual"
+                                loading="lazy" decoding="async"> -->
+                                                            <img src="assets/img/g8.png" alt="Image" class="img-1">
+
+                        </div>
+                    </div>
+                </div>
+
+                
 
             </div>
 

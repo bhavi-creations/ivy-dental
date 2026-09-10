@@ -448,7 +448,7 @@
 
                                 <div class="index-first-bottom">
 
-                                    <a href="appointment.php"
+                                    <a href="appointment-ivy-dental-hospital.php"
                                         class="index-first-appointment">
 
                                         <span>
@@ -742,7 +742,8 @@
                             <div class="index-second-visual-glow"></div>
 
                             <div class="index-second-visual">
-                                <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2">
+                                <img src="assets/img/g7.png" alt="Image" class="img-2">
+                                <!-- <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2"> -->
                             </div>
 
                             <div class="index-second-dots" aria-hidden="true">
