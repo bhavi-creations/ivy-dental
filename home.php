@@ -654,7 +654,7 @@
 
 
     <!-- TICKER TEXT AREA START -->
-    <div class="ul-ticker">
+    <!-- <div class="ul-ticker">
         <div class="splide ul-ticker-slider" aria-label="Ticker Slider">
             <div class="splide__track">
                 <ul class="splide__list">
@@ -665,15 +665,15 @@
                     <li class="splide__slide">
                         <p>Dental Braces</p>
                     </li>
-                    <!-- single slide -->
+                    single slide
                     <li class="splide__slide">
                         <p>Dental implants</p>
                     </li>
-                    <!-- single slide -->
+                    single slide
                     <li class="splide__slide">
                         <p>Crowns & Bridges</p>
                     </li>
-                    <!-- single slide -->
+                    single slide
                     <li class="splide__slide">
                         <p>Teeth Filling</p>
                     </li>
@@ -701,8 +701,75 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- TICKER TEXT AREA END -->
+     <div class="ul-ticker-wrapper">
+    <div class="ul-ticker-track">
+        
+        <!-- Original 4 Items -->
+        <div class="ticker-item">
+            <img src="./assets/img/root-canal.png" alt="root-canal">
+            <span>Root Canal</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/braces.png" alt="Braces">
+            <span>Dental Braces</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/dental_implants1.png" alt="Implants">
+            <span>Dental implants</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/dental-bridge.png" alt="">
+            <span>Crowns & Bridges</span>
+        </div>
+
+        <!-- Duplicated Items for Continuous Smooth Loop -->
+        <div class="ticker-item">
+            <img src="./assets/img/tooth-filling.png" alt="">
+            <span>Teeth Filling</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/denture.png" alt="">
+            <span>Dentures</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/scaling.png" alt="">
+            <span>Teeth Scaling</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/tooth-extraction.png" alt="">
+            <span>Tooth Extraction</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/aligners-icon.png" alt="">
+            <span>Clear Aligners</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/teeth_whitening.png" alt="">
+            <span>Teeth Whitening</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/Smile-Makeover.png" alt="">
+            <span>Smile Makeover</span>
+        </div>
+
+        <div class="ticker-item">
+            <img src="./assets/img/FULL_MOUTH_RESTORATION.png" alt="">
+            <span>Full Mouth Rehabilitation</span>
+        </div>
+
+    </div>
+</div>
 
     <!-- ABOUT SECTION START -->
     <!-- <section class="ul-2-about ul-section-spacing">
@@ -2141,11 +2208,11 @@
                         is the greatest reward for our team.”
                     </p>
 
-                    <div class="iss-arrows">
+                    <!-- <div class="iss-arrows">
                         <a href="#" class="iss-arrow" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></a>
                         <span class="iss-arrow-line"></span>
                         <a href="#" class="iss-arrow" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
+                    </div> -->
 
                     <div class="iss-meta">
                         <span>Real Patients</span><i></i>
@@ -2167,8 +2234,7 @@
                         </div>
 
                         <p class="iss-review">
-                            Very professional and experienced doctor. Treatments and recommendations
-                            are specific and personalized. Courteous Staff.
+                            I had had very good experience with ivy dental.the doctors are professional,patient and take time to explain the problem and treatment options clearly with out rushing you into any procedure.
                         </p>
 
                         <div class="iss-divider"></div>
@@ -2177,7 +2243,7 @@
                             <div class="iss-user-icon">
                                 <i class="fa-solid fa-user"></i>
                             </div>
-                            <div class="iss-user-name">Anurag</div>
+                            <div class="iss-user-name">Rekha Rekha</div>
                         </div>
                     </div>
                 </div>
@@ -2188,12 +2254,12 @@
 
             </div>
 
-            <div class="iss-side-copy">
+            <!-- <div class="iss-side-copy">
                 Healthy<br>
                 Smiles<br>
                 Happier<br>
                 Lives
-            </div>
+            </div> -->
 
             <div class="iss-tooth">
                 <img src="testimonial-tooth.jpg" alt="">

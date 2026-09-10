@@ -5137,7 +5137,8 @@ body {
     margin: 0 0 20px;
     max-width: 740px;
     font-family: "Cormorant Garamond", serif;
-    font-size: clamp(48px, 4.1vw, 68px);
+    /* font-size: clamp(48px, 4.1vw, 68px); */
+    font-size:60px;
     line-height: 0.98;
     font-weight: 500;
     letter-spacing: -1.2px;
@@ -8273,7 +8274,7 @@ body {
 
 .index_sixth_section .iss-side-copy {
     position: absolute;
-    right: 105px;
+    right: 75px;
     top: 20px;
     text-transform: uppercase;
     letter-spacing: .31em;
@@ -9676,4 +9677,82 @@ body {
         margin-top: 10px;
     }
 
+}
+
+
+
+/* Ticker Container */
+.ul-ticker-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fdfbf7; /* మీ సైట్ బ్యాక్‌గ్రౌండ్ కలర్ పెటొచ్చు */
+    padding: 15px 0;
+    display: flex;
+    white-space: nowrap;
+}
+
+/* Moving Track */
+.ul-ticker-track {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: max-content;
+    animation: smoothScroll 15s linear infinite;
+}
+
+/* Individual Item Styles */
+.ticker-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0f382c;
+    flex-shrink: 0;
+}
+
+.ticker-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.ticker-item i {
+    font-size: 24px;
+    color: #0f382c;
+}
+
+/* Continuous Scroll Animation */
+@keyframes smoothScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .ul-ticker-wrapper {
+        padding: 10px 0;
+    }
+    
+    .ul-ticker-track {
+        gap: 25px; /* మొబైల్‌లో గ్యాప్ తగ్గించడానికి */
+        animation-duration: 12s; /* మొబైల్ స్క్రీన్‌పై స్పీడ్ అడ్జస్ట్‌మెంట్ */
+    }
+
+    .ticker-item {
+        font-size: 14px;
+    }
+
+    .ticker-item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ticker-item i {
+        font-size: 18px;
+    }
 }
