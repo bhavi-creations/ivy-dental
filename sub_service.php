@@ -31,7 +31,6 @@
     </div>
 </div> -->
 
-
 <aside class="services-panel">
     <div class="services-panel-head">
         <h2 class="services-title">Our Services</h2>
@@ -39,31 +38,117 @@
     </div>
 
     <ul class="services-list">
-        <li><span class="s-icon"> <i class="fa-regular fa-tooth"></i></span><span
+        <li><a href="Root-Canal-Treatment-In-Bengaluru.php"><span class="s-icon">
+             <!-- <i class="fa-regular fa-tooth"></i> -->
+                <img src="./assets/img/root-canal.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+            </span><span
                 class="s-text">Root
-                canal</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-tooth"></i></span><span class="s-text">Teeth
-                Filling</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-teeth-open"></i></span><span
-                class="s-text">Clear Aligners</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-teeth"></i></span><span class="s-text">Dental
-                braces</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-tooth"></i></span><span
-                class="s-text">Dentures</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-regular fa-star"></i></span><span class="s-text">Teeth
-                Whitening</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span><span
-                class="s-text">Dental Implants</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-tooth"></i></span><span class="s-text">Teeth
-                Scaling</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-regular fa-face-smile"></i></span><span
-                class="s-text">Smile Makeover</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-crown"></i></span><span class="s-text">Crowns
-                &amp; Bridges</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-tooth"></i></span><span class="s-text">Tooth
-                Extraction</span><span class="s-arrow">→</span></li>
-        <li><span class="s-icon"><i class="fa-solid fa-tooth"></i></span><span class="s-text">Full
-                Mouth Restoration</span><span class="s-arrow">→</span></li>
+                canal</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Teeth-Filling-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-tooth"></i> -->
+                      <img src="./assets/img/tooth-filling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                
+        </span><span class="s-text">Teeth
+                Filling</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Invisalign-Aligners-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                  <img src="./assets/img/aligners-icon.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                
+        
+        </span><span
+                class="s-text">Clear Aligners</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Dental-Braces-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-teeth"></i> -->
+            <img src="./assets/img/braces.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                   
+      
+      
+      
+        </span><span class="s-text">Dental
+                braces</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Dental-Dentures-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-tooth"></i> -->
+                    <img src="./assets/img/denture.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+               
+        </span><span
+                class="s-text">Dentures</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Teeth-Whitening-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-regular fa-star"></i> -->
+                  <img src="./assets/img/teeth_whitening.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                   
+        
+        
+        </span><span class="s-text">Teeth
+                Whitening</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Dental-Implants-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-screwdriver-wrench"></i> -->
+        
+               <img src="./assets/img/dental_implants1.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                    
+        
+        
+        </span><span
+                class="s-text">Dental Implants</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Teeth-Scaling-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-tooth"></i> -->
+           <img src="./assets/img/scaling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                        
+        </span><span class="s-text">Teeth
+                Scaling</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Smile-Makeover-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-regular fa-face-smile"></i> -->
+        
+        
+                      <img src="./assets/img/Smile-Makeover.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                
+        
+        
+        
+        </span><span
+                class="s-text">Smile Makeover</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Dental-Crown-Bridge-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-crown"></i> -->
+                   <img src="./assets/img/dental-bridge.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                 
+        
+        </span><span class="s-text">Crowns
+                &amp; Bridges</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Tooth-Extraction-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-tooth"></i> -->
+               <img src="./assets/img/tooth-extraction.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                      
+        
+        </span><span class="s-text">Tooth
+                Extraction</span><span class="s-arrow">→</span></a></li>
+        <li><a href="Full-Mouth-Restoration-Treatment-In-Bengaluru.php"><span class="s-icon">
+            <!-- <i class="fa-solid fa-tooth"></i> -->
+
+                                    <img src="./assets/img/FULL_MOUTH_RESTORATION.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
+        </span><span class="s-text">Full
+                Mouth Restoration</span><span class="s-arrow">→</span></a></li>
     </ul>
 </aside>
 
@@ -93,3 +178,4 @@
         <span>→</span>
     </a>
 </aside>
+

@@ -67,7 +67,7 @@
                     </div>
                 </div>
 
-                <?php include "sub_service.php"; ?>
+            
             </div>
         </div>
         </div>
