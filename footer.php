@@ -112,12 +112,12 @@
 
         <div class="container-fluid px-5 px-md-4 px-xl-5 footer_new_container">
 
-            <div class="footer_new_partner">
+            <!-- <div class="footer_new_partner">
                 Your<br>
                 Family's<br>
                 Dental<br>
                 Partner
-            </div>
+            </div> -->
 
             <div class="row g-4 footer_new_main">
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivy Dental Chatbot</title>
+    <title>Ivy Dental Clinic Chatbot</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
@@ -18,7 +18,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #efa543;
+            background-color: #0b6c5e;
             color: white;
             display: flex;
             align-items: center;
@@ -45,12 +45,12 @@
             display: none;
             flex-direction: column;
             overflow: hidden;
-            border: 1px solid #efa543;
+            border: 1px solid #0b6c5e;
         }
 
         /* Chat Header */
         #chat-header {
-            background-color: #efa543;
+            background-color: #0b6c5e;
             color: white;
             padding: 10px;
             font-weight: bold;
@@ -119,7 +119,7 @@
         }
 
         .restart-btn {
-            background-color: #efa543;
+            background-color: #0b6c5e;
             color: white;
             border: none;
             padding: 8px 12px;
@@ -147,7 +147,7 @@
 
     <div id="chatbot-window">
         <div id="chat-header">
-            <span>Ivy Dental</span>
+            <span>Ivy Dental Clinic</span>
             <button type="button" style="background:none; border:none; color:white; font-size:1.2rem; cursor:pointer;" onclick="toggleChatbot()">✕</button>
         </div>
         <div id="chat-body"></div>
@@ -159,58 +159,58 @@
 
         // Hospital Contact Information
         const contactNumber = '+91 7760605222';
-        const hospitalName = 'Ivy Dental';
+        const hospitalName = 'Ivy Dental Clinic';
         const hospitalAddress = '461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097';
 
         // Updated Service Data
         const services = {
             'DentalImplants': {
                 name: 'Dental Implants',
-                content: 'At Ivy Dental, Dental Implants offer a strong, long-lasting, and natural-looking solution for replacing missing teeth and restoring confident function and appearance.',
+                content: 'At Ivy Dental Clinic, Dental Implants offer a strong, long-lasting, and natural-looking solution for replacing missing teeth and restoring confident function and appearance.',
             },
             'Aligners': {
                 name: 'Aligners',
-                content: 'At Ivy Dental, Clear Aligners provide a discreet and comfortable way to gradually straighten teeth using customized transparent trays without traditional metal braces.',
+                content: 'At Ivy Dental Clinic, Clear Aligners provide a discreet and comfortable way to gradually straighten teeth using customized transparent trays without traditional metal braces.',
             },
             'DentalVeneers': {
                 name: 'Dental Veneers',
-                content: 'At Ivy Dental, Dental Veneers are customized thin shells designed to improve the shape, shade, and overall appearance of your smile while maintaining a natural look.',
+                content: 'At Ivy Dental Clinic, Dental Veneers are customized thin shells designed to improve the shape, shade, and overall appearance of your smile while maintaining a natural look.',
             },
             'RootCanal': {
                 name: 'Root Canal Treatment',
-                content: 'At Ivy Dental, Root Canal Treatment helps preserve infected or severely decayed teeth by carefully removing the affected pulp, disinfecting the canals, and sealing the tooth securely.',
+                content: 'At Ivy Dental Clinic, Root Canal Treatment helps preserve infected or severely decayed teeth by carefully removing the affected pulp, disinfecting the canals, and sealing the tooth securely.',
             },
             'DentalBridge': {
                 name: 'Dental Bridge',
-                content: 'At Ivy Dental, Dental Bridges are customized to replace one or more missing teeth by securely using adjacent teeth or implants for support and restoring your bite and smile.',
+                content: 'At Ivy Dental Clinic, Dental Bridges are customized to replace one or more missing teeth by securely using adjacent teeth or implants for support and restoring your bite and smile.',
             },
             'PediatricDentistry': {
                 name: 'Pediatric Dentistry',
-                content: 'At Ivy Dental, Pediatric Dentistry focuses on gentle, friendly, and age-appropriate dental care for children and teenagers in a comfortable environment.',
+                content: 'At Ivy Dental Clinic, Pediatric Dentistry focuses on gentle, friendly, and age-appropriate dental care for children and teenagers in a comfortable environment.',
             },
             'PeriodontalCare': {
                 name: 'Periodontal Care',
-                content: 'At Ivy Dental, Periodontal Care focuses on maintaining healthy gums through prevention, diagnosis, and treatment of gum-related conditions that can affect long-term oral health.',
+                content: 'At Ivy Dental Clinic, Periodontal Care focuses on maintaining healthy gums through prevention, diagnosis, and treatment of gum-related conditions that can affect long-term oral health.',
             },
             'OralSurgery': {
                 name: 'Oral Surgery',
-                content: 'At Ivy Dental, Oral Surgery includes carefully planned procedures such as complex tooth extractions and other minor surgical dental treatments performed with precision and patient comfort in mind.',
+                content: 'At Ivy Dental Clinic, Oral Surgery includes carefully planned procedures such as complex tooth extractions and other minor surgical dental treatments performed with precision and patient comfort in mind.',
             },
             'TeethWhitening': {
                 name: 'Teeth Whitening',
-                content: 'At Ivy Dental, Professional Teeth Whitening is designed to safely reduce stains and discoloration, helping you achieve a brighter and fresher-looking smile.',
+                content: 'At Ivy Dental Clinic, Professional Teeth Whitening is designed to safely reduce stains and discoloration, helping you achieve a brighter and fresher-looking smile.',
             },
             'Dentures': {
                 name: 'Dentures',
-                content: 'At Ivy Dental, customized full and partial Dentures are designed to restore chewing function, comfort, and a natural-looking smile for patients with multiple missing teeth.',
+                content: 'At Ivy Dental Clinic, customized full and partial Dentures are designed to restore chewing function, comfort, and a natural-looking smile for patients with multiple missing teeth.',
             },
             'GeneralDentistry': {
                 name: 'General Dentistry',
-                content: 'At Ivy Dental, General Dentistry includes routine dental check-ups, preventive cleanings, tooth restorations, and ongoing oral healthcare for the entire family.',
+                content: 'At Ivy Dental Clinic, General Dentistry includes routine dental check-ups, preventive cleanings, tooth restorations, and ongoing oral healthcare for the entire family.',
             },
             'WisdomTeeth': {
                 name: 'Wisdom Teeth Removal',
-                content: 'At Ivy Dental, Wisdom Teeth Removal is planned carefully for impacted, painful, or problematic wisdom teeth to help prevent infection, crowding, and damage to nearby teeth.',
+                content: 'At Ivy Dental Clinic, Wisdom Teeth Removal is planned carefully for impacted, painful, or problematic wisdom teeth to help prevent infection, crowding, and damage to nearby teeth.',
             }
         };
 

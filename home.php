@@ -1485,10 +1485,10 @@
             </div>
 
             <!-- top right note -->
-            <div class="index-fourth-top-note">
+            <!-- <div class="index-fourth-top-note">
                 A Healthier<br>
                 Brighter You
-            </div>
+            </div> -->
 
             <div class="row index-fourth-row g-lg-5">
 
