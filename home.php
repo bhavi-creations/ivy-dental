@@ -617,34 +617,22 @@
         <aside class="index-first-side-panel" aria-label="Ivy Dental social links">
 
             <div class="index-first-quote">
-                More
+                <!-- More
                 <br>
                 Than
                 <br>
-                Just Smiles
+                Just Smiles -->
+                    Keep Smiling Stay Confident.
             </div>
 
             <div class="index-first-socials">
 
-                <a href="#" aria-label="Facebook">
-                    <i class="bi bi-facebook"></i>
-                </a>
+                <a href="https://www.facebook.com/Ivydentalbengaluru/" target="_blank"><i class="flaticon-facebook"></i></a>
+                <a href=" https://www.instagram.com/ivydentalclinicbangalore" target="_blank"><i class="flaticon-instagram"></i></a>
+                <a href=" https://www.youtube.com/@ivy.dental.bengaluru " target="_blank"><i class="flaticon-youtube"></i></a>
 
-                <a href="#" aria-label="Instagram">
-                    <i class="bi bi-instagram"></i>
-                </a>
-
-                <a href="#" aria-label="YouTube">
-                    <i class="bi bi-youtube"></i>
-                </a>
-
-                <a href="#" aria-label="LinkedIn">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-
-                <a href="#" aria-label="Pinterest">
-                    <i class="bi bi-pinterest"></i>
-                </a>
+                <a href="https://www.linkedin.com/company/108682925/admin/dashboard/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href=" https://in.pinterest.com/ivorydentalbangalore/" target="_blank"><i class="bi bi-pinterest"></i></a>
 
             </div>
 

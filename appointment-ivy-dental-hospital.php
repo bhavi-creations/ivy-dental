@@ -86,7 +86,7 @@ $slots = [
                      HANDWRITTEN TEXT
                 ================================================== -->
 
-                    <div class="appointment_section_script">
+                    <div class="appointment_section_script d-none d-lg-block">
 
                         Healthy<br>
                         Smiles<br>
@@ -103,7 +103,7 @@ $slots = [
                      FEATURES
                 ================================================== -->
 
-                    <div class="appointment_section_left_features">
+                    <div class="appointment_section_left_features mt-5">
 
 
                         <!-- EASY BOOKING -->
@@ -265,7 +265,7 @@ $slots = [
                      RIGHT TOP DECORATION
                 ================================================== -->
 
-                    <div class="appointment_section_expert">
+                    <div class="appointment_section_expert d-none d-md-block">
 
 
                         <div class="appointment_section_outline_tooth">
