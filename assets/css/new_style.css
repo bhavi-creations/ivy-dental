@@ -9270,7 +9270,7 @@ body {
         }
 
         .feature-card {
-            display: flex;
+            /* display: flex; */
             align-items: center;
             gap: 14px;
             min-height: 102px;
@@ -9643,3 +9643,22 @@ body {
                 font-size: 24px
             }
         }
+
+
+
+
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Wrapper container dynamically side-by-side ki break avvadiniki flex grid */
+    .services-panel, 
+    .contact-panel {
+        display: inline-block;
+        vertical-align: top;
+        width: 48% !important; /* Side-by-side view kosam width set chesa */
+        box-sizing: border-box;
+        margin-right: 3%;
+    }
+
+    .contact-panel {
+        margin-right: 0 !important;
+    }
+}

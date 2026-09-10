@@ -164,7 +164,11 @@ Severely damaged or missing teeth affect oral health, daily functions, and self-
                 </div>
 
                 <!-- RIGHT SIDEBAR -->
-                <div class="col-12 col-xl-4">
+                <div class="col-12 col-xl-12 d-block d-lg-none  d-xl-block">
+                    <?php include 'sub_service.php'; ?>
+                </div>
+
+                 <div class="col-12 col-xl-12 d-none d-lg-block  d-xl-none">
                     <?php include 'sub_service.php'; ?>
                 </div>
 

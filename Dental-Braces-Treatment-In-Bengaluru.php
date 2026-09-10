@@ -105,7 +105,19 @@
                             </div>
                         </div>
 
-                        <!-- FEATURES -->
+                      
+
+                        <!-- TOOTH ILLUSTRATION -->
+                        <div class="col-12 col-lg-5">
+                            <div class="tooth-card">
+                                <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
+                                                                        <img src="assets/img/home/braces.png" alt="Image">
+
+                            </div>
+                        </div>
+
+
+                          <!-- FEATURES -->
                         <div class="col-12 col-lg-7">
                             <div class="section-heading">Key Features:</div>
 
@@ -143,22 +155,14 @@
                                 </div>
                             </div>
 
-                            <div class="why-block">
+                           
+                        </div>
+                         <div class="why-block">
                                 <div class="why-title">Why It Matters?</div>
                                 <p class="why-copy">
                                     Misaligned teeth can cause chewing difficulties, speech issues, and self-consciousness. Dental braces not only straighten teeth but also improve oral function, hygiene, and overall confidence.
                                 </p>
                             </div>
-                        </div>
-
-                        <!-- TOOTH ILLUSTRATION -->
-                        <div class="col-12 col-lg-5">
-                            <div class="tooth-card">
-                                <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
-                                                                        <img src="assets/img/home/braces.png" alt="Image">
-
-                            </div>
-                        </div>
                     </div>
                 </div>
 
