@@ -158,7 +158,7 @@
         const chatbotWindow = document.getElementById('chatbot-window');
 
         // Hospital Contact Information
-        const contactNumber = '+91 7760605222';
+        const contactNumber = '+91 7760605222 , 9740805222';
         const hospitalName = 'Ivy Dental Clinic';
         const hospitalAddress = '461, HMT Layout 3rd Block, Vidyaranyapura, Bengaluru, Karnataka 560097';
 

@@ -173,8 +173,8 @@
         <div>ivorydental02@gmail.com</div>
     </div>
 
-    <a href="contact.php" class="contact-btn">
-        <span>CONTACT US</span>
+    <a href="appointment-ivy-dental-hospital.php" class="contact-btn">
+        <span>APPOINTMENT</span>
         <span>→</span>
     </a>
 </aside>

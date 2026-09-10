@@ -151,7 +151,7 @@
                         <div class="contact_new_info_label">Email Us</div>
 
                         <p class="contact_new_info_text">
-                            dr.chiranjeejevi@gmail.com
+                           ivorydental02@gmail.com
                         </p>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                         <div class="contact_new_info_label">Call Us</div>
 
                         <p class="contact_new_info_text">
-                            +91 77606 05222
+                            +91 77606 05222 , 9740805222
                         </p>
 
                         <div class="contact_new_tooth_outline">

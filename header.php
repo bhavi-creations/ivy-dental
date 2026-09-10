@@ -178,7 +178,7 @@ Teeth Whitening near me Bangalore">
 
 
 
-    <?php include 'view_count.php'; ?>
+  
     <div class="preloader" id="preloader">
         <!-- <div class="loader"></div> -->
         <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;" fetchpriority="high" decoding="async"></a>
@@ -213,7 +213,7 @@ Teeth Whitening near me Bangalore">
 
             <div class="ul-sidebar-txt-block">
                 <span class="title ul-sidebar-footer-title">Contact Us</span>
-                <p class="descr"><i class="flaticon-call"></i><a href="tel:77606 05222">77606 05222</a></p>
+                <p class="descr"><i class="flaticon-call"></i><a href="tel:77606 05222">77606 05222 , 9740805222</a></p>
             </div>
         </div>
 
@@ -276,7 +276,7 @@ Teeth Whitening near me Bangalore">
                                     <span class="ul-header-top-info">
                                         <i class="flaticon-call"></i>
                                         <span class="txt">
-                                            <a href="tel:77606 05222" class="value">77606 05222</a>
+                                            <a href="tel:77606 05222" class="value">77606 05222 , 9740805222</a>
                                         </span>
                                     </span>
                                 </div>

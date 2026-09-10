@@ -7264,7 +7264,7 @@ table {
     }
 
 /* Performance: let the browser skip painting off-screen content until needed. */
-@supports (content-visibility: auto) {
+/* @supports (content-visibility: auto) {
   main > section:not(:first-child),
   main > div:not(:first-child),
   .ul-footer {
@@ -7290,4 +7290,4 @@ table {
   .only_first video {
     min-height: 260px;
   }
-}
+} */

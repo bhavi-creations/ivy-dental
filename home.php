@@ -5,8 +5,9 @@
 
 <main>
 
+
     <section class="only_first">
-        <video id="myVideo" width="100%" height="auto" controls autoplay muted loop playsinline preload="none" poster="">
+        <video id="myVideo" width="100%" height="auto" controls autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
             <source data-src="./assets/img/IVY VIDEO CLIP.mp4" type="video/mp4">
             <source data-src="./assets/img/IVY VIDEO CLIP.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -14,156 +15,6 @@
 
     </section>
 
-    <!-- <section class="only_first">
-        <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
-            <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
-            <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-    </section> -->
-
-<!-- 
-    <section class="only_first">
-        <div class="video-container">
-            <iframe
-                src="https://www.youtube.com/embed/MyAXveo6es0?si=JvWvVjdBmsizUEMl"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen>
-            </iframe>
-        </div>
-    </section>
-
-
-    <style>
-        .only_first {
-            width: 100%;
-            /* min-height: 100vh; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            background: #000;
-        }
-
-        @media (min-width:768px) {
-            .only_first {
-                /* width: 100%; */
-                min-height: 50vh;
-            }
-        }
-
-        @media (max-width:768px) {
-            .only_first {
-                /* width: 100%; */
-                min-height: 25vh;
-            }
-        }
-
-        .video-container {
-            width: 100%;
-            max-width: 2000px;
-            aspect-ratio: 16 / 9;
-            position: relative;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-    </style> -->
-
-    <!-- <section class="only_first">
-    <div class="video-container">
-        <iframe
-            src="https://www.youtube.com/embed/MyAXveo6es0?autoplay=1&mute=1&si=JvWvVjdBmsizUEMl"
-            title="YouTube video player"
-            frameborder="0"
-            allow="autoplay; encrypted-media; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-        </iframe>
-    </div>
-</section>
-
-<style>
-    .only_first {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        background: #000;
-    }
-
-    @media (min-width: 768px) {
-        .only_first {
-            min-height: 50vh;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .only_first {
-            min-height: 25vh;
-        }
-    }
-
-    .video-container {
-        width: 100%;
-        max-width: 2000px;
-        aspect-ratio: 16 / 9;
-        position: relative;
-    }
-
-    .video-container iframe {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-</style> -->
-
-
-
-    <!-- <section class="only_first" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
-        <iframe
-            style="position: absolute; top: 50%; left: 50%; width: 100vw; height: 100vh; transform: translate(-50%, -50%) scale(1.3); pointer-events: none;"
-            src="https://www.youtube.com/embed/9cQ8rPChIC4?si=QD6VQJCB_u-Uius-"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
-    </section> -->
-
-
-    <!-- <section class="only_first">
-        <iframe
-            width="100%"
-            height="500"
-            src="https://www.youtube.com/embed/dbrG6vuC7t0?si=wiqlldAa0Wp7bkYJ1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
-    </section> -->
-
-    <!-- <section class="only_first" style="position: relative; width: 100%; height: 500px; overflow: hidden;">
-        <iframe
-            style="position: absolute; top: -60px; left: 0; width: 100%; height: calc(100% + 60px); border: none;"
-            src="https://www.youtube.com/embed/dbrG6vuC7t0?si=wiqlldAa0Wp7bkYJ1"
-            title="YouTube video player"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
-    </section> -->
 
 
 
@@ -545,201 +396,201 @@
                         <!-- ==================================================
      LEFT CONTENT
 =================================================== -->
-<div class="col-lg-7">
+                        <div class="col-lg-7">
 
-    <div class="index-first-content">
-
-
-        <!-- EYEBROW -->
-
-        <div class="index-first-eyebrow">
-
-            <span>
-                About Us
-            </span>
-
-            <div class="index-first-eyebrow-line"></div>
-
-        </div>
+                            <div class="index-first-content">
 
 
-        <!-- HEADING -->
+                                <!-- EYEBROW -->
 
-        <h1 class="index-first-heading">
+                                <div class="index-first-eyebrow">
 
-            Best Dental Clinic in Vidyaranyapura
+                                    <span>
+                                        About Us
+                                    </span>
 
-            <br>
+                                    <div class="index-first-eyebrow-line"></div>
 
-            <span class="gold-text">
-                For Complete Family Dental Care
-            </span>
-
-        </h1>
+                                </div>
 
 
-        <!-- DESCRIPTION -->
+                                <!-- HEADING -->
 
-        <p class="index-first-description">
+                                <h1 class="index-first-heading">
 
-            At Ivy (Ivory) Dental, Vidyaranyapura, Bangalore, we believe every
-            smile deserves expert care, comfort, and confidence. From children
-            to seniors, our experienced dental specialists provide personalized
-            preventive, restorative, cosmetic, and advanced dental care in a
-            hygienic and patient-friendly environment.
+                                    Best Dental Clinic in Vidyaranyapura
 
-            <br><br>
+                                    <br>
 
-            From tooth pain, gum problems, missing teeth and smile correction
-            to teeth whitening, root canal treatment, dental implants, braces
-            and clear aligners, we provide complete dental care under one roof
-            using modern technology, advanced equipment, and gentle techniques.
+                                    <span class="gold-text">
+                                        For Complete Family Dental Care
+                                    </span>
 
-        </p>
+                                </h1>
 
 
-        <div class="index-first-small-line"></div>
+                                <!-- DESCRIPTION -->
+
+                                <p class="index-first-description">
+
+                                    At Ivy (Ivory) Dental, Vidyaranyapura, Bangalore, we believe every
+                                    smile deserves expert care, comfort, and confidence. From children
+                                    to seniors, our experienced dental specialists provide personalized
+                                    preventive, restorative, cosmetic, and advanced dental care in a
+                                    hygienic and patient-friendly environment.
+
+                                    <br><br>
+
+                                    From tooth pain, gum problems, missing teeth and smile correction
+                                    to teeth whitening, root canal treatment, dental implants, braces
+                                    and clear aligners, we provide complete dental care under one roof
+                                    using modern technology, advanced equipment, and gentle techniques.
+
+                                </p>
 
 
-        <!-- ======================================
+                                <div class="index-first-small-line"></div>
+
+
+                                <!-- ======================================
              FEATURES
         ======================================= -->
 
-        <div class="index-first-features">
+                                <div class="index-first-features">
 
 
-            <!-- Feature 1 -->
+                                    <!-- Feature 1 -->
 
-            <div class="index-first-feature">
+                                    <div class="index-first-feature">
 
-                <div class="index-first-feature-icon">
+                                        <div class="index-first-feature-icon">
 
-                    <i class="fa-solid fa-user-doctor"></i>
+                                            <i class="fa-solid fa-user-doctor"></i>
 
-                </div>
+                                        </div>
 
-                <h4 class="index-first-feature-title">
-                    Highly Skilled
-                    Dental Specialists
-                </h4>
+                                        <h4 class="index-first-feature-title">
+                                            Highly Skilled
+                                            Dental Specialists
+                                        </h4>
 
-                <!-- <p class="index-first-feature-subtitle">
+                                        <!-- <p class="index-first-feature-subtitle">
                     Specialists • All Ages
                 </p> -->
 
-            </div>
+                                    </div>
 
 
-            <!-- Feature 2 -->
+                                    <!-- Feature 2 -->
 
-            <div class="index-first-feature">
+                                    <div class="index-first-feature">
 
-                <div class="index-first-feature-icon">
+                                        <div class="index-first-feature-icon">
 
-                    <i class="bi bi-microscope"></i>
+                                            <i class="bi bi-microscope"></i>
 
-                </div>
+                                        </div>
 
-                <h4 class="index-first-feature-title">
-                    Advanced Technology
-                </h4>
+                                        <h4 class="index-first-feature-title">
+                                            Advanced Technology
+                                        </h4>
 
-                <p class="index-first-feature-subtitle">
-                    Modern • Gentle Care
-                </p>
+                                        <p class="index-first-feature-subtitle">
+                                            Modern • Gentle Care
+                                        </p>
 
-            </div>
-
-
-            <!-- Feature 3 -->
-
-            <div class="index-first-feature">
-
-                <div class="index-first-feature-icon">
-
-                    <i class="bi bi-shield-check"></i>
-
-                </div>
-
-                <h4 class="index-first-feature-title">
-                    Safe & Transparent
-                </h4>
-
-                <p class="index-first-feature-subtitle">
-                    Hygienic • Patient-First
-                </p>
-
-            </div>
+                                    </div>
 
 
-            <!-- Feature 4 -->
+                                    <!-- Feature 3 -->
 
-            <div class="index-first-feature">
+                                    <div class="index-first-feature">
 
-                <div class="index-first-feature-icon">
+                                        <div class="index-first-feature-icon">
 
-                    <i class="bi bi-feather"></i>
+                                            <i class="bi bi-shield-check"></i>
 
-                </div>
+                                        </div>
 
-                <h4 class="index-first-feature-title">
-                    Long-Lasting Smiles
-                </h4>
+                                        <h4 class="index-first-feature-title">
+                                            Safe & Transparent
+                                        </h4>
 
-                <p class="index-first-feature-subtitle">
-                    Oral To Overall Health
-                </p>
+                                        <p class="index-first-feature-subtitle">
+                                            Hygienic • Patient-First
+                                        </p>
 
-            </div>
-
-
-        </div>
+                                    </div>
 
 
-        <!-- ======================================
+                                    <!-- Feature 4 -->
+
+                                    <div class="index-first-feature">
+
+                                        <div class="index-first-feature-icon">
+
+                                            <i class="bi bi-feather"></i>
+
+                                        </div>
+
+                                        <h4 class="index-first-feature-title">
+                                            Long-Lasting Smiles
+                                        </h4>
+
+                                        <p class="index-first-feature-subtitle">
+                                            Oral To Overall Health
+                                        </p>
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <!-- ======================================
              BOTTOM CTA
         ======================================= -->
 
-        <div class="index-first-bottom">
+                                <div class="index-first-bottom">
 
-            <a href="appointment-ivy-dental-hospital.php"
-               class="index-first-appointment">
+                                    <a href="appointment-ivy-dental-hospital.php"
+                                        class="index-first-appointment">
 
-                <span>
-                    Book Your Appointment
-                </span>
+                                        <span>
+                                            Book Your Appointment
+                                        </span>
 
-                <span class="index-first-btn-circle">
+                                        <span class="index-first-btn-circle">
 
-                    <i class="bi bi-chevron-right"></i>
+                                            <i class="bi bi-chevron-right"></i>
 
-                </span>
+                                        </span>
 
-            </a>
-
-
-            <div class="index-first-bottom-caption">
-
-                <a href="about-ivy-dental-hospital.php"
-                   style="color: inherit; text-decoration: none;">
-
-                    More About Us
-                    <i class="bi bi-arrow-right"></i>
-
-                </a>
-
-                <br>
-
-                A Healthier Smile • A Brighter You
-
-            </div>
-
-        </div>
+                                    </a>
 
 
-    </div>
+                                    <div class="index-first-bottom-caption">
 
-</div>
+                                        <a href="about-ivy-dental-hospital.php"
+                                            style="color: inherit; text-decoration: none;">
+
+                                            More About Us
+                                            <i class="bi bi-arrow-right"></i>
+
+                                        </a>
+
+                                        <br>
+
+                                        A Healthier Smile • A Brighter You
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
 
 
                         <!-- ==================================================
@@ -830,7 +681,7 @@
                 Than
                 <br>
                 Just Smiles -->
-                    Keep Smiling Stay Confident.
+                Keep Smiling Stay Confident.
             </div>
 
             <div class="index-first-socials">
@@ -911,73 +762,73 @@
         </div>
     </div> -->
     <!-- TICKER TEXT AREA END -->
-     <div class="ul-ticker-wrapper">
-    <div class="ul-ticker-track">
-        
-        <!-- Original 4 Items -->
-        <div class="ticker-item">
-            <img src="./assets/img/root-canal.png" alt="root-canal">
-            <span>Root Canal</span>
-        </div>
+    <div class="ul-ticker-wrapper">
+        <div class="ul-ticker-track">
 
-        <div class="ticker-item">
-            <img src="./assets/img/braces.png" alt="Braces">
-            <span>Dental Braces</span>
-        </div>
+            <!-- Original 4 Items -->
+            <div class="ticker-item">
+                <img src="./assets/img/root-canal.png" alt="root-canal">
+                <span>Root Canal</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/dental_implants1.png" alt="Implants">
-            <span>Dental implants</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/braces.png" alt="Braces">
+                <span>Dental Braces</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/dental-bridge.png" alt="">
-            <span>Crowns & Bridges</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/dental_implants1.png" alt="Implants">
+                <span>Dental implants</span>
+            </div>
 
-        <!-- Duplicated Items for Continuous Smooth Loop -->
-        <div class="ticker-item">
-            <img src="./assets/img/tooth-filling.png" alt="">
-            <span>Teeth Filling</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/dental-bridge.png" alt="">
+                <span>Crowns & Bridges</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/denture.png" alt="">
-            <span>Dentures</span>
-        </div>
+            <!-- Duplicated Items for Continuous Smooth Loop -->
+            <div class="ticker-item">
+                <img src="./assets/img/tooth-filling.png" alt="">
+                <span>Teeth Filling</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/scaling.png" alt="">
-            <span>Teeth Scaling</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/denture.png" alt="">
+                <span>Dentures</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/tooth-extraction.png" alt="">
-            <span>Tooth Extraction</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/scaling.png" alt="">
+                <span>Teeth Scaling</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/aligners-icon.png" alt="">
-            <span>Clear Aligners</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/tooth-extraction.png" alt="">
+                <span>Tooth Extraction</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/teeth_whitening.png" alt="">
-            <span>Teeth Whitening</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/aligners-icon.png" alt="">
+                <span>Clear Aligners</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/Smile-Makeover.png" alt="">
-            <span>Smile Makeover</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/teeth_whitening.png" alt="">
+                <span>Teeth Whitening</span>
+            </div>
 
-        <div class="ticker-item">
-            <img src="./assets/img/FULL_MOUTH_RESTORATION.png" alt="">
-            <span>Full Mouth Rehabilitation</span>
-        </div>
+            <div class="ticker-item">
+                <img src="./assets/img/Smile-Makeover.png" alt="">
+                <span>Smile Makeover</span>
+            </div>
 
+            <div class="ticker-item">
+                <img src="./assets/img/FULL_MOUTH_RESTORATION.png" alt="">
+                <span>Full Mouth Rehabilitation</span>
+            </div>
+
+        </div>
     </div>
-</div>
 
     <!-- ABOUT SECTION START -->
     <!-- <section class="ul-2-about ul-section-spacing">
@@ -1026,9 +877,9 @@
     <!-- ==========================================================
          INDEX SECOND SECTION START new stylings
     =========================================================== -->
-    <section class="index_second_section" id="about-us">
+    <!-- <section class="index_second_section" id="about-us">
 
-        <!-- Decorative details matching the reference -->
+       
         <div class="index-second-faded-tooth" aria-hidden="true"></div>
         <div class="index-second-ghost-mark" aria-hidden="true">
             <span></span><span></span><span></span>
@@ -1051,14 +902,14 @@
             <div class="container-fluid p-0">
                 <div class="row align-items-center g-0 index-second-row">
 
-                    <!-- LEFT VISUAL -->
+                    
                     <div class="col-lg-5">
                         <div class="index-second-visual-wrap">
                             <div class="index-second-visual-glow"></div>
 
                             <div class="index-second-visual">
                                 <img src="assets/img/g7.png" alt="Image" class="img-2">
-                                <!-- <img src="assets/img/about-2-img-2.jpg" alt="Image" class="img-2"> -->
+                              
                             </div>
 
                             <div class="index-second-dots" aria-hidden="true">
@@ -1069,7 +920,7 @@
                         </div>
                     </div>
 
-                    <!-- RIGHT CONTENT -->
+                
                     <div class="col-lg-7">
                         <div class="index-second-content">
 
@@ -1161,7 +1012,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ==========================================================
          INDEX SECOND SECTION END
     =========================================================== -->
@@ -1805,7 +1656,7 @@
                             <div class="index-fourth-reason">
                                 <div class="index-fourth-number"><i class="bi bi-person-check"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                    
+
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Personalized Dental Care</h3>
@@ -1819,7 +1670,7 @@
                             <div class="index-fourth-reason">
                                 <div class="index-fourth-number"><i class="fa-solid fa-tooth"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                    
+
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Experienced Dental Specialists</h3>
@@ -1831,9 +1682,9 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number">  <i class="bi bi-gear"></i></div>
+                                <div class="index-fourth-number"> <i class="bi bi-gear"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                  
+
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Advanced Technology &amp; Modern Facilities</h3>
@@ -2401,7 +2252,7 @@
                 <div class="col-12 col-lg-5 iss-left">
                     <div class="iss-kicker">
                         <i class="fa-solid fa-heart"></i>
-                        Patient Stories
+                        Ivy Dental Clinic
                     </div>
 
                     <h2 class="iss-title">
@@ -2409,11 +2260,7 @@
                     </h2>
 
                     <p class="iss-copy">
-                        “At Ivy Dental, our patients are at the center of everything we do.
-                        Every smile we restore, every treatment we provide, and every patient
-                        we comfort inspires us to keep raising the standard of dental care.
-                        Seeing our patients leave with brighter smiles and renewed confidence
-                        is the greatest reward for our team.”
+                        At Ivy Dental, every patient has a unique smile journey. From overcoming dental concerns to feeling confident about their smile again, our patients’ experiences inspire us every day. Their trust, comfort, and happiness remind us why we do what we do—and every smile we help create is a story worth celebrating.
                     </p>
 
                     <!-- <div class="iss-arrows">
@@ -2456,9 +2303,9 @@
                     </div>
                 </div>
                 <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
-                <a href="testimonials-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More<i class="flaticon-arrow-up-right"></i></a>
+                    <a href="testimonials-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More<i class="flaticon-arrow-up-right"></i></a>
 
-            </div>
+                </div>
 
             </div>
 
@@ -2775,7 +2622,7 @@
                             </div>
                         </form> -->
 
-                         <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
+                        <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
                             data-aos-delay="100">
                             <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
                                 <div class="col">
@@ -2806,7 +2653,7 @@
                                     </div>
                                 </div>
 
-                              
+
 
                                 <div class="col">
                                     <div class="form-group select-wrapper">
@@ -2842,10 +2689,19 @@
                             </div>
                         </form>
 
-                        <div class="ils-footer-note">
+                        <!-- <div class="ils-footer-note">
                             A Healthier Smile<br>
                             A Brighter You
+                        </div> -->
+
+
+                        <div class="text-center mt-3">
+                            <strong>Note :</strong>
+                            <span class="d-inline-block border rounded-pill px-3 py-2 small text-black bg-light">
+                                Please expect a minimum 30-minute wait.
+                            </span>
                         </div>
+
 
                         <div class="ils-tooth-art">
                             <img src="appointment-tooth.png" alt="">
