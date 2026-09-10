@@ -7927,7 +7927,7 @@ body {
     position: relative;
     margin: 0 auto;
     max-width: 390px;
-    min-height: 300px;
+    min-height: 250px;
     border-radius: 20px;
     background: linear-gradient(180deg, #fffef7 0%, #f5f2e6 100%);
     border: 1px solid rgba(216, 184, 113, .70);
