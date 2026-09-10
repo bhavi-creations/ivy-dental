@@ -110,7 +110,7 @@
         <div class="footer_new_line_one"></div>
         <div class="footer_new_line_two"></div>
 
-        <div class="container-fluid px-3 px-md-4 px-xl-5 footer_new_container">
+        <div class="container-fluid px-5 px-md-4 px-xl-5 footer_new_container">
 
             <div class="footer_new_partner">
                 Your<br>
