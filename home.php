@@ -14,7 +14,7 @@
 
     </section> -->
 
-
+<!-- 
     <section class="only_first">
         <div class="video-container">
             <iframe
@@ -68,7 +68,59 @@
             height: 100%;
             border: 0;
         }
-    </style>
+    </style> -->
+
+    <section class="only_first">
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/MyAXveo6es0?autoplay=1&mute=1&si=JvWvVjdBmsizUEMl"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<style>
+    .only_first {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background: #000;
+    }
+
+    @media (min-width: 768px) {
+        .only_first {
+            min-height: 50vh;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .only_first {
+            min-height: 25vh;
+        }
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 2000px;
+        aspect-ratio: 16 / 9;
+        position: relative;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+</style>
+
 
 
     <!-- <section class="only_first" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">

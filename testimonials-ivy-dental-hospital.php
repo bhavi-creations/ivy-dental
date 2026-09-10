@@ -2,7 +2,7 @@
 
 
 
-<main>
+<main style="background-color: #d4dbcd;" class=" ">
     <!-- BREADCRUMBS SECTION START -->
     <!-- <section class="ul-breadcrumb">
         <div class="ul-2-container">
@@ -15,31 +15,16 @@
             </ul>
         </div>
     </section> -->
-     <img src="./assets/img/bg/testimonials_bg.png" alt="" class="img-fluid">
+    <img src="./assets/img/bg/testimonials_bg.png" alt="" class="img-fluid">
     <!-- BREADCRUMBS SECTION END -->
 
 
-    <!-- FEEDBACK SECTION START -->
-    <section class="ul-feedbacks ul-section-spacing ">
-        <div class="ul-container">
-            <!-- heading -->
-            <div class="ul-section-heading">
-                <div>
-                    <span class="ul-section-sub-title">Client's Testimonials</span>
-                    <h2 class="ul-section-title">Clients Feedbacks</h2>
-                </div>
 
-                <div class="ul-feedbacks-slider-nav ul-slider-nav">
-                    <button class="prev"><i class="flaticon-arrow-up-right"></i></button>
-                    <button class="next"><i class="flaticon-arrow-up-right"></i></button>
-                </div>
-            </div>
-        </div>
 
-        <!-- feedbacks slider -->
-        <div class="swiper ul-feedbacks-slider">
+
+    <!-- <div class="swiper ul-feedbacks-slider">
             <div class="swiper-wrapper">
-                <!-- single slide -->
+                
                 <div class="swiper-slide">
                     <div class="ul-feedback">
                         <div class="ul-feedback-reviewer">
@@ -60,11 +45,10 @@
                         </div>
                                                             <p class="ul-2-feedback-txt">It was great experience. Procedure was neatly done by Dr Chiranjeevi and team. Treatment and follow up was taken care diligently. Thank you.</p>
 
-                        <!-- <p class="ul-feedback-txt">Excellent service provided. They actually listen to your concerns and give time to each patient. Got some filling work done, was properly briefed on any possible complications in the future regarding my situation, they were very gentle and professional in carrying out their work. Very happy with their work and will definitely be heading there again for any dental issues in the future.</p> -->
                     </div>
                 </div>
 
-                <!-- single slide -->
+                
                 <div class="swiper-slide">
                     <div class="ul-feedback">
                         <div class="ul-feedback-reviewer">
@@ -85,11 +69,10 @@
                         </div>
                         <p class="ul-feedback-txt">Successfull implant done , doctor explained the whole process and overall a great experience. Thank you Doctor and all service staff.</p>
 
-                        <!-- <p class="ul-feedback-txt">Best dental clinic in Vidyaranyapura. I had tooth ache and I was 6 months pregnant. Doctor guided me well what to do and without any pain my root canal was done.Thank you so much for the painless treatment doctor.</p> -->
                     </div>
                 </div>
 
-                <!-- single slide -->
+              
                 <div class="swiper-slide">
                     <div class="ul-feedback">
                         <div class="ul-feedback-reviewer">
@@ -111,11 +94,9 @@
                         <p class="ul-feedback-txt">Had a really good experience at Ivory Dental.
                                         Dr.Chiranjeevi and his staff were welcoming and very much professional in their work.
                                         Completely happy about the dental work they did.</p>
-                        <!-- <p class="ul-feedback-txt">Ivy Dental made my treatment painless and stress-free. The doctors are caring, and the clinic is very clean</p> -->
                     </div>
                 </div>
 
-                <!-- single slide -->
                 <div class="swiper-slide">
                     <div class="ul-feedback">
                         <div class="ul-feedback-reviewer">
@@ -136,11 +117,22 @@
                         </div>
                         <p class="ul-feedback-txt">I had root canal done at Ivory, all the doctors are extremely supportive and very good treatment. My pain is reduced significantly. Thank you</p>
 
-                        <!-- <p class="ul-feedback-txt">Got my dental implants here—excellent service, modern technology, and a friendly team. Highly satisfied!</p> -->
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+
+    <div class="div py-5">
+
+
+
+        <script src="https://elfsightcdn.com/platform.js" async>
+        </script>
+        <div class="elfsight-app-6e786399-feb6-4c06-a962-58298dcf6638" data-elfsight-app-lazy></div>
+        
+    </div>
     </section>
     <!-- FEEDBACK SECTION END -->
 

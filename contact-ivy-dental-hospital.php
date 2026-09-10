@@ -218,7 +218,7 @@
                         </p>
 
                         <div class="contact_new_form_side">
-                            <i class="fa-regular fa-tooth"></i>
+                            <!-- <i class="fa-regular fa-tooth"></i> -->
                             <span>Your</span>
                             <span>Smile</span>
                             <span>Our</span>
