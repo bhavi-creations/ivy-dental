@@ -2069,11 +2069,16 @@ body {
 .footer_new_section .footer_new_copy {
     text-transform: uppercase;
     letter-spacing: .10em;
-    font-size: 9px;
+    font-size: 12px;
     color: #edece5;
     white-space: nowrap;
 }
-
+.footer_new_copy a{
+    color:white;
+}
+.footer_new_copy a:hover{
+    color:white;
+}
 /* decorative fine lines */
 .footer_new_section .footer_new_line_one,
 .footer_new_section .footer_new_line_two {

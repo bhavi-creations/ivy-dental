@@ -2126,13 +2126,13 @@
         <div class="index-fourth-container">
 
             <!-- left vertical note -->
-            <div class="index-fourth-left-note">
+            <!-- <div class="index-fourth-left-note">
                 Care<br>
                 Expertise<br>
                 Technology<br>
                 Your Smile<br>
                 Our Priority
-            </div>
+            </div> -->
 
             <!-- top right note -->
             <!-- <div class="index-fourth-top-note">

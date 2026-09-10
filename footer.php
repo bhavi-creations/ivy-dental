@@ -225,10 +225,13 @@
             <div class="footer_new_bottom">
                 <div class="footer_new_bottom_inner">
 
-                    <div class="footer_new_legal">
+                    <!-- <div class="footer_new_legal">
                         <a href="#">Terms &amp; Conditions</a>
                         <span class="footer_new_separator"></span>
                         <a href="#">Privacy Policy</a>
+                    </div> -->
+                    <div class="footer_new_copy">
+                        © Ivy Dental Bangalore. All Rights Reserved 2025
                     </div>
 
                     <div class="footer_new_social">
@@ -241,7 +244,9 @@
                     </div>
 
                     <div class="footer_new_copy">
-                        © Ivy Dental Bangalore. All Rights Reserved 2025
+                        <a href="https://www.bhavicreations.com/" target="_blank">
+                            © Design By Bhavi Creations PvtLtd
+                        </a>
                     </div>
 
                 </div>
