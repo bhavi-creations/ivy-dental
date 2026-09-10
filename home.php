@@ -2193,6 +2193,10 @@
                         </div>
                     </div>
                 </div>
+                <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
+                <a href="testimonials-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More<i class="flaticon-arrow-up-right"></i></a>
+
+            </div>
 
             </div>
 
@@ -2448,7 +2452,7 @@
                             <i class="fa-solid fa-tooth"></i>
                         </div>
 
-                        <form action="#" method="post" class="position-relative z-2">
+                        <!-- <form action="#" method="post" class="position-relative z-2">
                             <div class="row g-3">
 
                                 <div class="col-12 col-md-6">
@@ -2502,9 +2506,76 @@
                                 <div class="col-12">
                                     <button class="ils-submit" type="submit">
                                         Appointment
-                                        <!-- Appointment Now -->
+                                        
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </button>
+                                </div>
+                            </div>
+                        </form> -->
+
+                         <form class="ul-appointment-form" action="appointmentform.php" method="post" role="form" class="php-email-form"
+                            data-aos-delay="100">
+                            <div class="row ul-bs-row row-cols-2 row-cols-xxs-1">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="ul-appointment-name">Your Name</label>
+                                        <input type="text" name="name" id="ul-appointment-name" placeholder="Full Name">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="ul-appointment-email">Your Email</label>
+                                        <input type="email" name="email" id="ul-appointment-email" placeholder="Email Address">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="ul-appointment-phone">Your Phone</label>
+                                        <input type="tel" name="phone" id="ul-appointment-phone" placeholder="Your Number">
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="ul-appointment-date">Selct Date</label>
+                                        <input type="date" name="date" id="ul-appointment-date">
+                                    </div>
+                                </div>
+
+                              
+
+                                <div class="col">
+                                    <div class="form-group select-wrapper">
+                                        <label for="ul-appointment-treatment">Select Treatment</label>
+                                        <select name="treatment" id="ul-appointment-treatment">
+                                            <option value="none" data-placeholder="true">Select Treatment</option>
+                                            <option value="Root canal">Root canal</option>
+                                            <option value="Teeth Filling">Teeth Filling</option>
+                                            <option value="Clear Aligners">Clear Aligners</option>
+                                            <option value="Dental braces">Dental braces</option>
+                                            <option value="Dentures">Dentures</option>
+                                            <option value="Teeth Whitening">Teeth Whitening</option>
+                                            <option value="Dental Implants">Dental Implants</option>
+                                            <option value="Teeth Scaling ">Teeth Scaling</option>
+                                            <option value="Smile Makeover">Smile Makeover</option>
+                                            <option value="Crowns & Bridges">Crowns & Bridges</option>
+                                            <option value="Tooth Extraction">Tooth Extraction</option>
+                                            <option value="Full Mouth Restoration">Full Mouth Restoration</option>
+
+                                        </select>
+                                        <div id="ul-appointment-treatment-select-wrapper" class="position-relative"></div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <button type="submit" class="ul-btn w-100 justify-content-center">Appointment Now </button>
+                                    </div>
                                 </div>
                             </div>
                         </form>

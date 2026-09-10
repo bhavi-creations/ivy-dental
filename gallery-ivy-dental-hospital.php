@@ -110,6 +110,12 @@
                         </div>
                          
                     </div>
+                    <div class="ul-case-study">
+                        <div class="ul-case-study-img">
+                            <img src="assets/img/g12.png" alt="Case Study Image">
+                        </div>
+                         
+                    </div>
                 </div>
 
 
