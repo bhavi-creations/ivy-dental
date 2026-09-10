@@ -74,7 +74,7 @@
     <!-- SERVICE DETAILS SECTION END -->
 
 
-    <section class="root_canal_section">
+     <section class="root_canal_section">
         <div class="dot-grid"></div>
 
         <div class="container-fluid px-3 px-md-4 px-xl-5 root_canal_container">
@@ -87,12 +87,11 @@
                         <!-- INTRO -->
                         <div class="col-12 col-lg-5">
                             <div class="service-kicker">Our Services</div>
-                            <h1 class="root-title">Crowns & bridges</h1>
+                            <h1 class="root-title">Dentures</h1>
                             <!-- <h2 class="root-subtitle">Relieve Pain, Save Your Smile</h2> -->
 
                             <p class="root-copy">
-                                Crowns and bridges are fixed dental restorations used to strengthen damaged teeth or replace missing ones. A crown covers and protects a weakened tooth, while a bridge fills the gap of one or more missing teeth by anchoring to the surrounding teeth. They improve chewing, speaking, and restore a natural-looking smile.
-                            </p>
+                                Dentures are removable dental appliances designed to replace missing teeth and surrounding tissues. They restore your ability to eat, speak, and smile comfortably. Available as full or partial dentures, they are custom-made to fit securely and look natural, improving both appearance and oral health. </p>
 
                             <!-- <div class="signature">Pain Free<br>Healthy Smiles</div> -->
                         </div>
@@ -114,32 +113,32 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Dental Crown :</p>
-                                        <p class="feature-text"> A protective cap placed over a weak or damaged tooth.</p>
+                                        <p class="feature-title">Full Dentures:</p>
+                                        <p class="feature-text"> Replace all missing teeth in the upper or lower jaw.</p>
                                     </div>
                                 </div>
 
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Dental Bridge :</p>
-                                        <p class="feature-text"> A fixed solution to replace one or more missing teeth.</p>
+                                        <p class="feature-title">Partial Dentures :</p>
+                                        <p class="feature-text"> Fill gaps when some natural teeth remain.</p>
                                     </div>
                                 </div>
 
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Strong & Durable :</p>
-                                        <p class="feature-text"> Made from ceramic, porcelain, or metal for long life..</p>
+                                        <p class="feature-title"> Natural Look :</p>
+                                        <p class="feature-text"> Designed to resemble real teeth and gums.</p>
                                     </div>
                                 </div>
 
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Natural Appearance:</p>
-                                        <p class="feature-text"> Matches the shape and color of real teeth.
+                                        <p class="feature-title">Comfortable Fit:</p>
+                                        <p class="feature-text"> Custom-made for a secure and easy fit.
                                         </p>
                                     </div>
                                 </div>
@@ -148,8 +147,7 @@
                             <div class="why-block">
                                 <div class="why-title">Why It Matters?</div>
                                 <p class="why-copy">
-                                    Broken or missing teeth not only affect your smile but also your oral health and daily functions. Crowns and bridges provide a reliable, long-lasting solution to restore strength, function, and appearance, keeping your smile healthy and complete.
-                                </p>
+                                    Missing teeth can affect daily life, from eating and speaking to smiling with confidence. Dentures restore function, improve appearance, and support facial structure, giving you a healthier and more youthful look. </p>
                             </div>
                         </div>
 
@@ -157,7 +155,9 @@
                         <div class="col-12 col-lg-5">
                             <div class="tooth-card">
                                 <!-- <img src="root-canal-illustration.png" alt="Root canal illustration" class="img-fluid"> -->
-                                                                    <img src="assets/img/home/dentures.png" alt="Image">
+                                                                    <!-- <img src="assets/img/home/dental crown and bridge.png" alt="Image"> -->
+                                    <img src="assets/img/home/dentures.png" alt="Image">
+
 
                             </div>
                         </div>

@@ -5,6 +5,15 @@
 
 <main>
 
+    <section class="only_first">
+        <video id="myVideo" width="100%" height="auto" controls autoplay muted loop playsinline preload="none" poster="">
+            <source data-src="./assets/img/IVY VIDEO CLIP.mp4" type="video/mp4">
+            <source data-src="./assets/img/IVY VIDEO CLIP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </section>
+
     <!-- <section class="only_first">
         <video id="myVideo" width="100%" height="auto" autoplay muted loop playsinline preload="none" poster="assets/img/banner-2-img-11.jpg">
             <source data-src="./assets/img/service/ivy_dental_mainvido.mp4" type="video/mp4">
@@ -70,7 +79,7 @@
         }
     </style> -->
 
-    <section class="only_first">
+    <!-- <section class="only_first">
     <div class="video-container">
         <iframe
             src="https://www.youtube.com/embed/MyAXveo6es0?autoplay=1&mute=1&si=JvWvVjdBmsizUEMl"
@@ -119,7 +128,7 @@
         height: 100%;
         border: 0;
     }
-</style>
+</style> -->
 
 
 
@@ -280,7 +289,7 @@
          INDEX FIRST SECTION START new stylings
     =========================================================== -->
 
-    <section class="index_first_section">
+    <section class="index_first_section py-5">
 
         <!-- Premium Background Decorations -->
         <div class="index-first-shade index-first-shade-left"></div>
@@ -349,12 +358,12 @@
                              LEFT CONTENT
                         =================================================== -->
 
-                        <div class="col-lg-7">
+                        <!-- <div class="col-lg-7">
 
                             <div class="index-first-content">
 
 
-                                <!-- EYEBROW -->
+                                EYEBROW
 
                                 <div class="index-first-eyebrow">
 
@@ -367,7 +376,7 @@
                                 </div>
 
 
-                                <!-- HEADING -->
+                                HEADING
 
                                 <h1 class="index-first-heading">
 
@@ -382,7 +391,7 @@
                                 </h1>
 
 
-                                <!-- DESCRIPTION -->
+                                DESCRIPTION
 
                                 <p class="index-first-description">
 
@@ -400,14 +409,14 @@
                                 <div class="index-first-small-line"></div>
 
 
-                                <!-- ======================================
-                                     FEATURES
-                                ======================================= -->
+                                
+                                FEATURES
+                                
 
                                 <div class="index-first-features">
 
 
-                                    <!-- Feature 1 -->
+                                    Feature 1
 
                                     <div class="index-first-feature">
 
@@ -428,7 +437,7 @@
                                     </div>
 
 
-                                    <!-- Feature 2 -->
+                                    Feature 2
 
                                     <div class="index-first-feature">
 
@@ -449,7 +458,7 @@
                                     </div>
 
 
-                                    <!-- Feature 3 -->
+                                    Feature 3
 
                                     <div class="index-first-feature">
 
@@ -470,7 +479,7 @@
                                     </div>
 
 
-                                    <!-- Feature 4 -->
+                                    Feature 4
 
                                     <div class="index-first-feature">
 
@@ -494,9 +503,9 @@
                                 </div>
 
 
-                                <!-- ======================================
-                                     BOTTOM CTA
-                                ======================================= -->
+                                
+                                BOTTOM CTA
+                                
 
                                 <div class="index-first-bottom">
 
@@ -531,7 +540,206 @@
 
                             </div>
 
-                        </div>
+                        </div> -->
+
+                        <!-- ==================================================
+     LEFT CONTENT
+=================================================== -->
+<div class="col-lg-7">
+
+    <div class="index-first-content">
+
+
+        <!-- EYEBROW -->
+
+        <div class="index-first-eyebrow">
+
+            <span>
+                About Us
+            </span>
+
+            <div class="index-first-eyebrow-line"></div>
+
+        </div>
+
+
+        <!-- HEADING -->
+
+        <h1 class="index-first-heading">
+
+            Best Dental Clinic in Vidyaranyapura
+
+            <br>
+
+            <span class="gold-text">
+                For Complete Family Dental Care
+            </span>
+
+        </h1>
+
+
+        <!-- DESCRIPTION -->
+
+        <p class="index-first-description">
+
+            At Ivy (Ivory) Dental, Vidyaranyapura, Bangalore, we believe every
+            smile deserves expert care, comfort, and confidence. From children
+            to seniors, our experienced dental specialists provide personalized
+            preventive, restorative, cosmetic, and advanced dental care in a
+            hygienic and patient-friendly environment.
+
+            <br><br>
+
+            From tooth pain, gum problems, missing teeth and smile correction
+            to teeth whitening, root canal treatment, dental implants, braces
+            and clear aligners, we provide complete dental care under one roof
+            using modern technology, advanced equipment, and gentle techniques.
+
+        </p>
+
+
+        <div class="index-first-small-line"></div>
+
+
+        <!-- ======================================
+             FEATURES
+        ======================================= -->
+
+        <div class="index-first-features">
+
+
+            <!-- Feature 1 -->
+
+            <div class="index-first-feature">
+
+                <div class="index-first-feature-icon">
+
+                    <i class="fa-solid fa-user-doctor"></i>
+
+                </div>
+
+                <h4 class="index-first-feature-title">
+                    Highly Skilled
+                    Dental Specialists
+                </h4>
+
+                <!-- <p class="index-first-feature-subtitle">
+                    Specialists • All Ages
+                </p> -->
+
+            </div>
+
+
+            <!-- Feature 2 -->
+
+            <div class="index-first-feature">
+
+                <div class="index-first-feature-icon">
+
+                    <i class="bi bi-microscope"></i>
+
+                </div>
+
+                <h4 class="index-first-feature-title">
+                    Advanced Technology
+                </h4>
+
+                <p class="index-first-feature-subtitle">
+                    Modern • Gentle Care
+                </p>
+
+            </div>
+
+
+            <!-- Feature 3 -->
+
+            <div class="index-first-feature">
+
+                <div class="index-first-feature-icon">
+
+                    <i class="bi bi-shield-check"></i>
+
+                </div>
+
+                <h4 class="index-first-feature-title">
+                    Safe & Transparent
+                </h4>
+
+                <p class="index-first-feature-subtitle">
+                    Hygienic • Patient-First
+                </p>
+
+            </div>
+
+
+            <!-- Feature 4 -->
+
+            <div class="index-first-feature">
+
+                <div class="index-first-feature-icon">
+
+                    <i class="bi bi-feather"></i>
+
+                </div>
+
+                <h4 class="index-first-feature-title">
+                    Long-Lasting Smiles
+                </h4>
+
+                <p class="index-first-feature-subtitle">
+                    Oral To Overall Health
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ======================================
+             BOTTOM CTA
+        ======================================= -->
+
+        <div class="index-first-bottom">
+
+            <a href="appointment-ivy-dental-hospital.php"
+               class="index-first-appointment">
+
+                <span>
+                    Book Your Appointment
+                </span>
+
+                <span class="index-first-btn-circle">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </span>
+
+            </a>
+
+
+            <div class="index-first-bottom-caption">
+
+                <a href="about-ivy-dental-hospital.php"
+                   style="color: inherit; text-decoration: none;">
+
+                    More About Us
+                    <i class="bi bi-arrow-right"></i>
+
+                </a>
+
+                <br>
+
+                A Healthier Smile • A Brighter You
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
 
 
                         <!-- ==================================================

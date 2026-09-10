@@ -165,12 +165,12 @@
 
     <div class="contact-item">
         <div class="round"><i class="fa-solid fa-phone"></i></div>
-        <div>+91 77606 05222</div>
+        <div>+91 77606 05222,97408 05222</div>
     </div>
 
     <div class="contact-item">
         <div class="round"><i class="fa-solid fa-envelope"></i></div>
-        <div>dr.chiranjeejevi@gmail.com</div>
+        <div>ivorydental02@gmail.com</div>
     </div>
 
     <a href="contact.php" class="contact-btn">
