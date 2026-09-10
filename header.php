@@ -172,13 +172,24 @@ Teeth Whitening near me Bangalore">
             gtag('config', 'AW-18194137355');
         });
     </script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+
+
+
 </head>
 
 <body>
 
 
 
-  
+
     <div class="preloader" id="preloader">
         <!-- <div class="loader"></div> -->
         <img src="assets/img/ivy logo.png" alt="logo" style="width: 500px;" fetchpriority="high" decoding="async"></a>

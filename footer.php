@@ -122,7 +122,7 @@
             <div class="row g-4 footer_new_main">
 
                 <!-- BRAND / CONTACT -->
-                <div class="col-12 col-lg-4 col-xl-4 footer_new_brand position-relative">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-4 footer_new_brand position-relative">
 
                     <div class="footer_new_logo_card">
                         <img src="assets/img/ivy logo.png" alt="Ivy Dental Bangalore">
@@ -163,7 +163,7 @@
                 </div>
 
                 <!-- HELPFUL LINK -->
-                <div class="col-6 col-md-4 col-lg-2 col-xl-2 footer_new_link_col">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 footer_new_link_col d-none d-md-block ">
                     <h3 class="footer_new_heading">Helpful Link</h3>
 
                     <ul class="footer_new_links">
@@ -178,7 +178,7 @@
                 </div>
 
                 <!-- QUICK LINKS 1 -->
-                <div class="col-6 col-md-4 col-lg-3 col-xl-2 footer_new_link_col">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2 footer_new_link_col d-none  d-md-block">
                     <h3 class="footer_new_heading">Quick Links</h3>
 
                     <ul class="footer_new_links">
@@ -193,7 +193,7 @@
                 </div>
 
                 <!-- QUICK LINKS 2 -->
-                <div class="col-12 col-md-4 col-lg-3 col-xl-3 footer_new_link_col">
+                <div class="col-12 col-md-4 col-lg-3 col-xl-3 footer_new_link_col d-none  d-lg-block">
                     <h3 class="footer_new_heading">Quick Links</h3>
 
                     <ul class="footer_new_links">
@@ -252,7 +252,7 @@
         </div>
     </footer>
 
-<?php include 'chatbot.php'; ?>
+    <?php include 'chatbot.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 

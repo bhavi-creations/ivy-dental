@@ -487,7 +487,7 @@
 
                                         <div class="index-first-feature-icon">
 
-                                            <i class="bi bi-microscope"></i>
+                                            <i class="fas fa-microscope"></i>
 
                                         </div>
 
@@ -495,9 +495,9 @@
                                             Advanced Technology
                                         </h4>
 
-                                        <p class="index-first-feature-subtitle">
+                                        <!-- <p class="index-first-feature-subtitle">
                                             Modern • Gentle Care
-                                        </p>
+                                        </p> -->
 
                                     </div>
 
@@ -516,9 +516,9 @@
                                             Safe & Transparent
                                         </h4>
 
-                                        <p class="index-first-feature-subtitle">
+                                        <!-- <p class="index-first-feature-subtitle">
                                             Hygienic • Patient-First
-                                        </p>
+                                        </p> -->
 
                                     </div>
 
@@ -529,7 +529,7 @@
 
                                         <div class="index-first-feature-icon">
 
-                                            <i class="bi bi-feather"></i>
+                                             <i class="fas fa-smile"></i>
 
                                         </div>
 
@@ -537,9 +537,9 @@
                                             Long-Lasting Smiles
                                         </h4>
 
-                                        <p class="index-first-feature-subtitle">
+                                        <!-- <p class="index-first-feature-subtitle">
                                             Oral To Overall Health
-                                        </p>
+                                        </p> -->
 
                                     </div>
 
@@ -1392,11 +1392,537 @@
                 </div>
             </div>
 
+
+
+
+            <div class="container ">
+                <div class="swiper-container team-slider"> <!-- Swiper Container -->
+                    <div class="swiper-wrapper"> <!-- Swiper Wrapper -->
+                        <!-- Team block -->
+                        <div class="swiper-slide"> <!-- Swiper Slide -->
+                            <article class="index-third-card">
+                                <div class="index-third-card-image">
+                                    <!-- <img src="assets/img/teeth-filling.jpg" alt="Teeth filling treatment"> -->
+                                    <img src="assets/img/service/teeth filling.png" alt="Service Image">
+                                </div>
+                                <div class="index-third-card-content">
+                                    <div class="index-third-card-icon"><img src="./assets/img/tooth-filling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+                                    filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+                                    -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
+                                    <h3 class="index-third-card-title">Teeth Filling</h3>
+                                    <p class="index-third-card-text">
+                                        Restore damaged teeth with natural-looking, long-lasting fillings that bring
+                                        back your smile.
+                                    </p>
+                                    <a href="Teeth-Filling-Treatment-In-Bengaluru.php" class="index-third-card-link">
+                                        <span>Learn More</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+                                <div class="index-third-card-image">
+                                    <!-- <img src="assets/img/clear-aligners.jpg" alt="Clear aligners treatment"> -->
+                                    <img src="assets/img/service/clear aligners.png" alt="">
+
+                                </div>
+                                <div class="index-third-card-content">
+                                    <div class="index-third-card-icon"><img src="./assets/img/aligners-icon.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
+                                    <h3 class="index-third-card-title">Clear Aligners</h3>
+                                    <p class="index-third-card-text">
+                                        Discreet, comfortable, and effective aligners to straighten your teeth
+                                        and boost your confidence.
+                                    </p>
+                                    <a href="Invisalign-Aligners-In-Bengaluru.php" class="index-third-card-link">
+                                        <span>Learn More</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+                                <div class="index-third-card-image">
+                                    <img src="assets/img/service/Dental braces.png" alt="Service Image">
+                                </div>
+                                <div class="index-third-card-content">
+                                    <div class="index-third-card-icon"><img src="./assets/img/braces.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;"></div>
+                                    <h3 class="index-third-card-title">Dental Braces</h3>
+                                    <p class="index-third-card-text">
+                                        Proven orthodontic solutions for healthier, well-aligned smiles
+                                        at any age.
+                                    </p>
+                                    <a href="Dental-Braces-Treatment-In-Bengaluru.php" class="index-third-card-link">
+                                        <span>Learn More</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/root canal.png"
+                                        alt="Root Canal Treatment">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                                        <img src="./assets/img/root-canal.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Root Canal
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Relieve pain and save your natural tooth with advanced root canal treatment.
+                                    </p>
+
+                                    <a href="Root-Canal-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/dental implants.png"
+                                        alt="Dental Implants">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                                        <img src="./assets/img/dental_implants1.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Dental Implants
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Replace missing teeth with strong, permanent dental implant solutions.
+                                    </p>
+
+                                    <a href="Dental-Implants-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/teeth scaling.png"
+                                        alt="Teeth Scaling">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="bi bi-stars"></i> -->
+                                        <img src="./assets/img/scaling.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Teeth Scaling
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Keep your gums healthy with professional teeth scaling and cleaning.
+                                    </p>
+
+                                    <a href="Teeth-Scaling-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+
+
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/smile makeover.png"
+                                        alt="Smile Makeover">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="bi bi-emoji-smile"></i> -->
+                                        <img src="./assets/img/Smile-Makeover.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Smile Makeover
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Transform your smile with a customized smile makeover designed for you.
+                                    </p>
+
+                                    <a href="Smile-Makeover-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/teeth whitning.jpg"
+                                        alt="Teeth Whitening">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="bi bi-stars"></i> -->
+                                        <img src="./assets/img/teeth_whitening.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Teeth Whitening
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Brighten your smile with safe and effective professional teeth whitening.
+                                    </p>
+
+                                    <a href="Teeth-Whitening-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/crown-bridg.png"
+                                        alt="Crowns and Bridges">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-crown"></i> -->
+                                        <img src="./assets/img/dental-bridge.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Crowns &amp; Bridges
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Restore damaged or missing teeth with durable crowns and bridges.
+                                    </p>
+
+                                    <a href="Dental-Crown-Bridge-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+
+
+
+
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/tooth extration.png"
+                                        alt="Tooth Extraction">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-tooth"></i> -->
+                                        <img src="./assets/img/tooth-extraction.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Tooth Extraction
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Safe and gentle tooth extraction for a healthier smile and better oral health.
+                                    </p>
+
+                                    <a href="Tooth-Extraction-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/full_mouth.png"
+                                        alt="Full Mouth Restoration">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-teeth-open"></i> -->
+                                        <img src="./assets/img/FULL_MOUTH_RESTORATION.png" class="img-fluid" alt="" style="width: 40px; height: 40px;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Full Mouth Restoration
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Rebuild your smile and oral health with complete full mouth restoration.
+                                    </p>
+
+                                    <a href="Full-Mouth-Restoration-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+
+                        <div class="swiper-slide">
+                            <article class="index-third-card">
+
+                                <div class="index-third-card-image">
+
+                                    <img src="assets/img/service/dentures.png"
+                                        alt="Dentures">
+
+                                </div>
+
+
+                                <div class="index-third-card-content">
+
+                                    <div class="index-third-card-icon">
+                                        <!-- <i class="fa-solid fa-teeth"></i> -->
+                                        <img src="./assets/img/denture.png" class="img-fluid" alt="" style="width:40px;height:40px;object-fit:contain;
+         filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;
+         -webkit-filter:brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(211%) hue-rotate(5deg) brightness(141%) contrast(85%) !important;">
+
+                                    </div>
+
+                                    <h3 class="index-third-card-title">
+                                        Dentures
+                                    </h3>
+
+                                    <p class="index-third-card-text">
+                                        Restore your smile and confidence with natural-looking dentures.
+                                    </p>
+
+                                    <a href="Dental-Dentures-Treatment-In-Bengaluru.php"
+                                        class="index-third-card-link">
+
+                                        <span>Learn More</span>
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                    </a>
+
+                                </div>
+
+                            </article>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
             <div class="index-third-cards-row">
 
-                <article class="index-third-card">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- <article class="index-third-card">
                     <div class="index-third-card-image">
-                        <!-- <img src="assets/img/teeth-filling.jpg" alt="Teeth filling treatment"> -->
                         <img src="assets/img/service/teeth filling.png" alt="Service Image">
                     </div>
                     <div class="index-third-card-content">
@@ -1413,11 +1939,10 @@
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
-                </article>
+                </article> -->
 
-                <article class="index-third-card">
+                <!-- <article class="index-third-card">
                     <div class="index-third-card-image">
-                        <!-- <img src="assets/img/clear-aligners.jpg" alt="Clear aligners treatment"> -->
                         <img src="assets/img/service/clear aligners.png" alt="">
 
                     </div>
@@ -1435,11 +1960,10 @@
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
-                </article>
+                </article> 
 
                 <article class="index-third-card">
                     <div class="index-third-card-image">
-                        <!-- <img src="assets/img/dental-braces.jpg" alt="Dental braces treatment"> -->
                         <img src="assets/img/service/Dental braces.png" alt="Service Image">
                     </div>
                     <div class="index-third-card-content">
@@ -1458,7 +1982,7 @@
                     </div>
                 </article>
 
-
+-->
             </div>
             <div class=" index_service_button text-center pb-3 text-center" style="display: flex; justify-content: center;">
                 <a href="services-ivy-dental-hospital.php" class="ul-btn flex-shrink-0 d-inline-block ">View More Services<i class="flaticon-arrow-up-right"></i></a>
@@ -2713,6 +3237,38 @@
             </div>
         </div>
     </section>
+    >
+
+
+
+
+    <script>
+        var swiper = new Swiper(".team-slider", {
+            slidesPerView: 3, // Show 3 slides at a time
+            spaceBetween: 20, // Adjust spacing between slides
+            loop: true, // Enables infinite scrolling
+            autoplay: {
+                delay: 3000, // Auto-slide every 3 seconds
+                disableOnInteraction: false,
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                0: {
+                    slidesPerView: 1
+                }
+            }
+        });
+    </script>
 
 
 

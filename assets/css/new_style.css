@@ -9756,3 +9756,50 @@ body {
         font-size: 18px;
     }
 }
+
+
+/* slider code  */
+
+
+
+.swiper-container {
+  overflow: hidden;
+  /* Prevents slide overflow */
+  width: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  transition: transform 0.3s ease-in-out;
+  width: calc((100% - 60px) / 3);
+  /* Ensures exactly 3 slides fit */
+  flex-shrink: 0;
+}
+
+
+
+.swiper-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
