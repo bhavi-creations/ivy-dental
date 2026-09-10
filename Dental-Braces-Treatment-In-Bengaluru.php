@@ -99,7 +99,7 @@
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                                                <img src="assets/img/service/dental_braces.png" alt="Image">
+                                                                <img src="assets/img/braces_1.png" alt="Image">
 
 
                             </div>

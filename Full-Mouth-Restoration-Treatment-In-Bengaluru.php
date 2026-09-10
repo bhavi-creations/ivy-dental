@@ -99,7 +99,7 @@ Full mouth restoration is a comprehensive dental treatment plan that repairs and
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                                            <img src="assets/img/service/full_mouth.png" alt="Image">
+                                                            <img src="assets/img/Full-Mouth-restoration.png" alt="Image">
 
 
                             </div>

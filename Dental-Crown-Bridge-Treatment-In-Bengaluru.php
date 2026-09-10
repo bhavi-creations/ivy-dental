@@ -101,7 +101,7 @@
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                                            <img src="assets/img/service/crowns.png" alt="Image">
+                                                            <img src="assets/img/dental-crown-bridges_1.png" alt="Image">
 
 
                             </div>

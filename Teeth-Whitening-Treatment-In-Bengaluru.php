@@ -99,7 +99,7 @@
                         <!-- HERO IMAGE -->
                         <div class="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">
                             <div class="hero-wrap ">
-                                <img src="assets/img/service/rootcanal.png" class="hero-img img-fluid"
+                                <img src="assets/img/Teet-whitening.png" class="hero-img img-fluid"
                                     alt="Root canal treatment">
 
                             </div>
