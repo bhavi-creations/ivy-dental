@@ -616,7 +616,7 @@
         =========================================================== -->
         <aside class="index-first-side-panel" aria-label="Ivy Dental social links">
 
-            <div class="index-first-quote">
+            <div class="index-first-quote d-block d-md-none">
                 <!-- More
                 <br>
                 Than
@@ -1528,9 +1528,9 @@
                         <div class="index-fourth-reasons">
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number">01</div>
+                                <div class="index-fourth-number"><i class="bi bi-person-check"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                    <i class="bi bi-person-check"></i>
+                                    
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Personalized Dental Care</h3>
@@ -1542,9 +1542,9 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number">02</div>
+                                <div class="index-fourth-number"><i class="fa-solid fa-tooth"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                    <i class="fa-solid fa-tooth"></i>
+                                    
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Experienced Dental Specialists</h3>
@@ -1556,9 +1556,9 @@
                             </div>
 
                             <div class="index-fourth-reason">
-                                <div class="index-fourth-number">03</div>
+                                <div class="index-fourth-number">  <i class="bi bi-gear"></i></div>
                                 <div class="index-fourth-reason-icon">
-                                    <i class="bi bi-gear"></i>
+                                  
                                 </div>
                                 <div>
                                     <h3 class="index-fourth-reason-title">Advanced Technology &amp; Modern Facilities</h3>
