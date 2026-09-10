@@ -138,12 +138,12 @@
 
                         <div class="footer_new_contact_item">
                             <i class="fa-solid fa-phone"></i>
-                            <div>7760605222</div>
+                            <div>7760605222 , 9740805222</div>
                         </div>
 
                         <div class="footer_new_contact_item">
-                            <i class="fa-solid fa-phone"></i>
-                            <div>9740805222</div>
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>  ivorydental02@gmail.com</div>
                         </div>
                     </div>
 
