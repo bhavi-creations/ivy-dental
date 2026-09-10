@@ -736,7 +736,8 @@ body {
     }
 
     .about_new_docotr_photo_wrap {
-        min-height: 420px;
+        /* min-height: 420px; */
+        min-height: 212px;
     }
 
     .about_new_docotr_stat_top_item,
@@ -9661,4 +9662,18 @@ body {
     .contact-panel {
         margin-right: 0 !important;
     }
+}
+
+
+        /* Mobile only - create gap between appointment button and image */
+@media (max-width: 767px) {
+
+    .index_fourth_section .index-fourth-visual::before {
+        top: -6px;
+    }
+
+    .index_fourth_section .index-fourth-visual {
+        margin-top: 10px;
+    }
+
 }

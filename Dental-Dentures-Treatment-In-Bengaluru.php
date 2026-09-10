@@ -94,7 +94,7 @@
                                 Crowns and bridges are fixed dental restorations used to strengthen damaged teeth or replace missing ones. A crown covers and protects a weakened tooth, while a bridge fills the gap of one or more missing teeth by anchoring to the surrounding teeth. They improve chewing, speaking, and restore a natural-looking smile.
                             </p>
 
-                            <div class="signature">Pain Free<br>Healthy Smiles</div>
+                            <!-- <div class="signature">Pain Free<br>Healthy Smiles</div> -->
                         </div>
 
                         <!-- HERO IMAGE -->

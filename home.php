@@ -509,7 +509,7 @@
 
                                         <!--
                                           Replace with your actual Ivy Dental image
-                                        --> <img src="assets/img/g7.png" alt="Image" class="img-1 d-none d-md-block">
+                                        --> <img src="assets/img/g7.png" alt="Image" class="img-1 d-block d-md-block">
 
                                         <!-- <img src="assets/img/ivy-dental-clinic.jpg"
                                             alt="Ivy Dental Clinic"> -->

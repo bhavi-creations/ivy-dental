@@ -97,7 +97,7 @@
                                 effective, and virtually painless.
                             </p>
 
-                            <div class="signature">Pain Free<br>Healthy Smiles</div>
+                            <!-- <div class="signature">Pain Free<br>Healthy Smiles</div> -->
                         </div>
 
                         <!-- HERO IMAGE -->
