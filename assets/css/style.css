@@ -1708,7 +1708,7 @@ button {
 .ul-2-header-bottom-center {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #fffdee;
   padding: clamp(20px, 1.16vw, 22px) clamp(16px, 1.68vw, 32px);
   flex-grow: 1;
