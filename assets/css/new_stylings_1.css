@@ -986,7 +986,7 @@
 
             .index_first_section .index-first-main {
                 padding-top: 45px;
-                padding-bottom: 80px;
+                /* padding-bottom: 80px; */
             }
 
             .index_first_section .index-first-content {
@@ -2809,9 +2809,9 @@
 
         .index_fourth_section .index-fourth-reason {
             display: grid;
-            grid-template-columns: 78px 56px 1fr;
+            grid-template-columns: 49px 50px 1fr;
             align-items: start;
-            column-gap: 14px;
+            column-gap: -4px;
         }
 
         .index_fourth_section .index-fourth-number {
@@ -2965,7 +2965,7 @@
                 font-size: 55px;
             }
             .index_fourth_section .index-fourth-reason {
-                grid-template-columns: 70px 50px 1fr;
+                grid-template-columns: 65px 16px 1fr;
             }
             .index_fourth_section .index-fourth-number {
                 width: 64px;
@@ -3048,8 +3048,8 @@
                 letter-spacing: 4px;
             }
             .index_fourth_section .index-fourth-reason {
-                grid-template-columns: 64px 46px 1fr;
-                column-gap: 10px;
+                grid-template-columns: 40px 38px 1fr;
+                column-gap: 0px;
             }
             .index_fourth_section .index-fourth-number {
                 width: 58px;
@@ -3095,8 +3095,8 @@
                 gap: 24px;
             }
             .index_fourth_section .index-fourth-reason {
-                grid-template-columns: 58px 38px 1fr;
-                column-gap: 8px;
+                grid-template-columns: 40px 38px 1fr;
+                column-gap: 0px;
             }
             .index_fourth_section .index-fourth-number {
                 width: 52px;

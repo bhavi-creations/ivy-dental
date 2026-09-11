@@ -874,7 +874,9 @@
 
                 <div class="index-third-card-image">
 
-                    <img src="assets/img/service/full_mouth.png"
+                    <!-- <img src="assets/img/service/full_mouth.png" -->
+                    <img src="assets/img/Full-Mouth-restoration.png"
+
                          alt="Full Mouth Restoration">
 
                 </div>
