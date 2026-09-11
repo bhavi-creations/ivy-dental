@@ -115,7 +115,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Dental Crown :</p>
+                                        <p class="feature-title">Dental Crown</p>
                                         <p class="feature-text"> A protective cap placed over a weak or damaged tooth.</p>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Dental Bridge :</p>
+                                        <p class="feature-title">Dental Bridge</p>
                                         <p class="feature-text"> A fixed solution to replace one or more missing teeth.</p>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Strong & Durable :</p>
+                                        <p class="feature-title">Strong & Durable</p>
                                         <p class="feature-text"> Made from ceramic, porcelain, or metal for long life..</p>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Natural Appearance:</p>
+                                        <p class="feature-title">Natural Appearance</p>
                                         <p class="feature-text"> Matches the shape and color of real teeth.
                                         </p>
                                     </div>

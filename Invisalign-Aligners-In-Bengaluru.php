@@ -109,7 +109,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Invisible Braces :</p>
+                                        <p class="feature-title">Invisible Braces</p>
                                         <p class="feature-text"> Nearly invisible alternative to metal braces.</p>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Comfort & Convenience :</p>
+                                        <p class="feature-title">Comfort & Convenience</p>
                                         <p class="feature-text"> Smooth, removable, and easy to wear.</p>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title"> Gradual Correction :</p>
+                                        <p class="feature-title"> Gradual Correction</p>
                                         <p class="feature-text"> Aligns teeth step by step with trays.</p>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Oral Hygiene Friendly: </p>
+                                        <p class="feature-title">Oral Hygiene Friendly</p>
                                         <p class="feature-text"> Easy to brush and floss without hassle.
 
                                         </p>

@@ -112,7 +112,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Permanent Solution :</p>
+                                        <p class="feature-title">Permanent Solution</p>
                                         <p class="feature-text"> Long-lasting replacement for missing teeth.</p>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Natural Look & Feel :</p>
+                                        <p class="feature-title">Natural Look & Feel</p>
                                         <p class="feature-text"> Restores the look and function of real teeth.</p>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title"> Strong Foundation :</p>
+                                        <p class="feature-title"> Strong Foundation</p>
                                         <p class="feature-text"> Titanium implant integrates with the jawbone.</p>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Preserves Bone Health: </p>
+                                        <p class="feature-title">Preserves Bone Health</p>
                                         <p class="feature-text"> Prevents bone loss and maintains facial structure.
                                         </p>
                                     </div>

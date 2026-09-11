@@ -113,7 +113,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Professional Whitening : </p>
+                                        <p class="feature-title">Professional Whitening</p>
                                         <p class="feature-text"> Safe and effective treatment by a dentist.</p>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Removes Stains : </p>
+                                        <p class="feature-title">Removes Stains</p>
                                         <p class="feature-text"> Targets discoloration from coffee, tea, or smoking.</p>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Instant Results : </p>
+                                        <p class="feature-title">Instant Results</p>
                                         <p class="feature-text"> Noticeably whiter teeth in just one session.</p>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title"> Confidence Boost:</p>
+                                        <p class="feature-title"> Confidence Boost</p>
                                         <p class="feature-text"> Enhances your smile and self-esteem.
 
                                         </p>

@@ -112,7 +112,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Customized Treatment : </p>
+                                        <p class="feature-title">Customized Treatment</p>
                                         <p class="feature-text"> Designed to match your unique smile goals.</p>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title"> Whitening & Veneers :</p>
+                                        <p class="feature-title"> Whitening & Veneers</p>
                                         <p class="feature-text"> Brightens and reshapes your teeth.</p>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title"> Alignment Correction : </p>
+                                        <p class="feature-title"> Alignment Correction</p>
                                         <p class="feature-text"> Straightens crooked or uneven teeth.</p>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Gum Contouring: </p>
+                                        <p class="feature-title">Gum Contouring</p>
                                         <p class="feature-text"> Balances the gum line for a perfect look.
 
                                         </p>

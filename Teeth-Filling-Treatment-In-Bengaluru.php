@@ -111,7 +111,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Cavity treatment : </p>
+                                        <p class="feature-title">Cavity treatment</p>
                                         <p class="feature-text"> Repairs decayed areas.</p>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title"> Durable fillings : </p>
+                                        <p class="feature-title"> Durable fillings</p>
                                         <p class="feature-text">Materials like composite, silver, or ceramic.</p>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Pain-free procedure : </p>
+                                        <p class="feature-title">Pain-free procedure</p>
                                         <p class="feature-text"> Quick and comfortable.</p>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title"> Prevents tooth damage : </p>
+                                        <p class="feature-title"> Prevents tooth damage</p>
                                         <p class="feature-text">Stops decay from spreading.
 
                                         </p>

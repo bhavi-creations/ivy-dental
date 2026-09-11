@@ -125,7 +125,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Teeth Alignment:</p>
+                                        <p class="feature-title">Teeth Alignment</p>
                                         <p class="feature-text"> Corrects crooked or crowded teeth.</p>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Bite Correction : </p>
+                                        <p class="feature-title">Bite Correction</p>
                                         <p class="feature-text">Fixes overbite, underbite, and crossbite.</p>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Different Types :</p>
+                                        <p class="feature-title">Different Types</p>
                                         <p class="feature-text"> Options include metal, ceramic, and lingual braces.</p>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Long-Term Results:</p>
+                                        <p class="feature-title">Long-Term Results</p>
                                         <p class="feature-text"> Provides lasting improvements in smile and function.</p>
                                     </div>
                                 </div>

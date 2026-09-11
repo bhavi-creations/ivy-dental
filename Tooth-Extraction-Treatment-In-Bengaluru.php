@@ -112,7 +112,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Simple Extraction : </p>
+                                        <p class="feature-title">Simple Extraction</p>
                                         <p class="feature-text"> Removal of visible and loose teeth.</p>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Surgical Extraction : </p>
+                                        <p class="feature-title">Surgical Extraction</p>
                                         <p class="feature-text"> For impacted or broken teeth below the gumline.</p>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Wisdom Tooth Removal : </p>
+                                        <p class="feature-title">Wisdom Tooth Removal</p>
                                         <p class="feature-text"> Prevents pain, infection, and crowding.</p>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title"> Pain-Free Procedure: </p>
+                                        <p class="feature-title"> Pain-Free Procedure</p>
                                         <p class="feature-text">Performed with local anesthesia for comfort.
 
                                         </p>

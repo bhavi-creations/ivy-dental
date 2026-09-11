@@ -113,7 +113,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Full Dentures:</p>
+                                        <p class="feature-title">Full Dentures</p>
                                         <p class="feature-text"> Replace all missing teeth in the upper or lower jaw.</p>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Partial Dentures :</p>
+                                        <p class="feature-title">Partial Dentures</p>
                                         <p class="feature-text"> Fill gaps when some natural teeth remain.</p>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title"> Natural Look :</p>
+                                        <p class="feature-title"> Natural Look</p>
                                         <p class="feature-text"> Designed to resemble real teeth and gums.</p>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Comfortable Fit:</p>
+                                        <p class="feature-title">Comfortable Fit</p>
                                         <p class="feature-text"> Custom-made for a secure and easy fit.
                                         </p>
                                     </div>

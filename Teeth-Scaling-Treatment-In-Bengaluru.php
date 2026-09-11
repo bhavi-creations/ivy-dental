@@ -111,7 +111,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Plaque Removal : </p>
+                                        <p class="feature-title">Plaque Removal</p>
                                         <p class="feature-text"> Eliminates soft bacterial deposits from teeth.</p>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Tartar Control : </p>
+                                        <p class="feature-title">Tartar Control</p>
                                         <p class="feature-text"> Cleans hardened deposits that brushing can’t remove.</p>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">Gum Health : </p>
+                                        <p class="feature-title">Gum Health</p>
                                         <p class="feature-text"> Prevents gingivitis and periodontal disease.</p>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title"> Fresh Breath:</p>
+                                        <p class="feature-title"> Fresh Breath</p>
                                         <p class="feature-text"> Reduces bad odor caused by bacteria.
 
                                         </p>

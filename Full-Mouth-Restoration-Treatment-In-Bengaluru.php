@@ -113,7 +113,7 @@ Full mouth restoration is a comprehensive dental treatment plan that repairs and
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-tooth"></i></div>
                                     <div>
-                                        <p class="feature-title">Comprehensive Care :</p>
+                                        <p class="feature-title">Comprehensive Care</p>
                                         <p class="feature-text"> Treats multiple dental problems in one plan.</p>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@ Full mouth restoration is a comprehensive dental treatment plan that repairs and
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                     <div>
-                                        <p class="feature-title">Crowns & Bridges :</p>
+                                        <p class="feature-title">Crowns & Bridges</p>
                                         <p class="feature-text">  Restore strength and replace missing teeth.</p>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ Full mouth restoration is a comprehensive dental treatment plan that repairs and
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-solid fa-bacteria"></i></div>
                                     <div>
-                                        <p class="feature-title">  Dental Implants :</p>
+                                        <p class="feature-title">  Dental Implants</p>
                                         <p class="feature-text"> Permanent solution for lost teeth..</p>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@ Full mouth restoration is a comprehensive dental treatment plan that repairs and
                                 <div class="feature-card">
                                     <div class="feature-icon"><i class="fa-regular fa-clock"></i></div>
                                     <div>
-                                        <p class="feature-title">Bite Correction:  </p>
+                                        <p class="feature-title">Bite Correction</p>
                                         <p class="feature-text"> Improves chewing, alignment, and comfort.
 
                                         </p>
